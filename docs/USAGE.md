@@ -1,5 +1,7 @@
 # 启动、源码运行与节点加入
 
+快速入口：[本地部署与运行启动指南](LOCAL_DEPLOYMENT_AND_STARTUP.md)；[下载文件清单](../DOWNLOADS.md)。
+
 本仓库是当前项目的公开源码与素材交付，不包含原主机的私密配置、数据库、钱包、验证者密钥或虚拟机磁盘。下列“现有安装启动”和“新环境部署”是两种不同操作。
 
 ## 1. 已经安装的三节点环境
@@ -7,8 +9,8 @@
 Windows 主机：
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\card_endfiled\Start-Game.ps1
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\card_endfiled\Status-Game.ps1
+pwsh.exe -NoProfile -ExecutionPolicy Bypass -File D:\card_endfiled\Start-Game.ps1
+pwsh.exe -NoProfile -ExecutionPolicy Bypass -File D:\card_endfiled\Status-Game.ps1
 ```
 
 浏览器打开 `http://localhost:8787`。主机启动器管理指定的两个 VMware Ubuntu、三个 Besu 节点、SSH 隧道、Windows PostgreSQL 和游戏服务。它依赖机器本地的 `game/deployment/local-host.json` 与已有目录，不能直接复制给陌生环境当通用安装器。公开参考副本在 `tools/existing-host/`，没有附带对应私密配置。

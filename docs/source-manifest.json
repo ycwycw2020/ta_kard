@@ -43,14 +43,24 @@
       "sha256": "f3c8ac4646cdae1c009d48201b93fc6cf07441cbd1e1aa1110dbe5bfbbad9f7d"
     },
     {
+      "path": "docs/LOCAL_DEPLOYMENT_AND_STARTUP.md",
+      "size": 10915,
+      "sha256": "b96bd50a56f785c860131556c98918e93f9326b30bd5f3a7e42a900f28ba2c05"
+    },
+    {
       "path": "docs/PROJECT_INTRO.md",
-      "size": 4813,
-      "sha256": "c886a438e506009ff0d172441adbc66513288a606d45a507fa9e0d118e0beb04"
+      "size": 4855,
+      "sha256": "c001cf1489f52e495d8f762ac2cc0ac4317b2b32a0694670df5fb6c192973eb9"
     },
     {
       "path": "docs/USAGE.md",
-      "size": 8203,
-      "sha256": "b95585442375974de93ee7ec014d5c70259b50f3778ce96b888560c9809c7b31"
+      "size": 8424,
+      "sha256": "22e867119a17408c5c3658128cb84ae4acf7108bb34e68d4787c97675e719a07"
+    },
+    {
+      "path": "DOWNLOADS.md",
+      "size": 4304,
+      "sha256": "2596c8e887a46c1a6987a24bd39438161557997ef5b815273d69d8178c8907d2"
     },
     {
       "path": "game/assets/cards/display/c01-s00.webp",
@@ -3729,8 +3739,8 @@
     },
     {
       "path": "LICENSE.md",
-      "size": 3296,
-      "sha256": "25a46d281f98d60516580982226872725f7aeb97af5a9885ef2fb645f4f459b3"
+      "size": 2582,
+      "sha256": "4f9aa9a82782281c432a0b8671448a6958d189551e3e5009fca3be52739ad788"
     },
     {
       "path": "LICENSES/ARTWORK_NOTICE.md",
@@ -3859,8 +3869,8 @@
     },
     {
       "path": "README.md",
-      "size": 6392,
-      "sha256": "159f7222752fd5f1b0eb85f3219dc669bda12c3abd4aa8d50c8858cb6c94e424"
+      "size": 9216,
+      "sha256": "54a14dc8f4d4214e34cf6cfd35b68041d8fc81a935e9d46f6d31f24785648eba"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

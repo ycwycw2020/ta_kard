@@ -42,9 +42,51 @@ tools/                   资源校验/导入工具；原主机启动脚本参考
 LICENSES/                非商业许可、历史 MIT、第三方通知与美术声明
 ```
 
-## 获取与启动
+## 下载与本地部署
 
-**仅克隆源码还不包含完整 4K 图片。** 游戏会检查展示图与 4K 图是否同时存在；请先从 [v1.0.0 下载页](https://github.com/ycwycw2020/ta_kard/releases/tag/v1.0.0) 下载并导入全部 `ta_kard-art-4k-*.zip`。原始图 `ta_kard-art-native-01.zip` 用于后续编辑，不是运行必需项。图片的 2160×3840 是超分辨率输出，原始分辨率保留于元数据，不能称为原生 4K。
+完整列表见 [DOWNLOADS.md](https://github.com/ycwycw2020/ta_kard/blob/main/DOWNLOADS.md)，所有附件见 [v1.0.0 下载页](https://github.com/ycwycw2020/ta_kard/releases/tag/v1.0.0)。
+
+| 下载项 | 用途 |
+|---|---|
+| `README.md`、`LOCAL_DEPLOYMENT_AND_STARTUP.md`、`DOWNLOADS.md` | 项目说明、本地部署与运行启动指南、下载清单，可分别下载 |
+| `ta_kard-v1.0.0-source-and-previews.zip` | 前后端、合约、展示图、动态纹理、文档和许可证 |
+| 全部 `ta_kard-art-4k-01.zip` 至 `05.zip` | 完整 306 张 4K 卡面与背景；运行完整游戏 API 必须全部导入 |
+| `ta_kard-art-native-01.zip` | 原始生成图，编辑可选，运行可省略 |
+| `SHA256SUMS.txt`、`release-assets.json` | 下载完整性和文件大小/摘要校验 |
+
+**源码包不是解压即用的整机安装镜像。** 它不携带原网络私钥、数据库密码、玩家数据、链数据库或 Java/Besu/PostgreSQL 二进制。已有安装直接启动；新环境需自行准备链、数据库与私密配置。4K 图为 2160×3840 超分辨率输出，原始分辨率见元数据。
+
+### 已有 Windows＋两台 Ubuntu：启动游戏
+
+原安装目录为 `D:\card_endfiled`。建议在 PowerShell 7 中执行：
+
+```powershell
+pwsh.exe -NoProfile -ExecutionPolicy Bypass -File "D:\card_endfiled\Start-Game.ps1" -NoBrowser
+pwsh.exe -NoProfile -ExecutionPolicy Bypass -File "D:\card_endfiled\Status-Game.ps1"
+```
+
+游戏入口：**http://localhost:8787**。启动器依赖原机器的 `local-host.json`、VMware 路径与可信 SSH 身份，会启动或复用三节点、Windows 数据库、API 与索引器。检查三节点 `ok: true`、同高度区块哈希一致、索引进度接近链头。
+
+Ubuntu 已有节点可单独启动：
+
+```bash
+systemctl --user start talos-besu
+systemctl --user status talos-besu --no-pager
+# 仅原配置中负责索引的那台机器：
+systemctl --user start talos-indexer
+```
+
+Ubuntu 浏览器通过已有网页转发访问同一 `http://localhost:8787`。单独启动 Linux 链节点不会自动启动 Windows 数据库或网页。
+
+Windows 正常停止：
+
+```powershell
+pwsh.exe -NoProfile -ExecutionPolicy Bypass -File "D:\card_endfiled\Stop-Game.ps1"
+```
+
+### 新电脑从源码部署
+
+准备 Node.js 20+（项目使用 Node.js 24）、pnpm 9、Python 3.10+、PostgreSQL、Java/Besu、OpenSSH，以及三节点所需的主机/虚拟机环境。克隆仓库，或解压附加源码包后进入 `ta_kard`：
 
 ```powershell
 git clone https://github.com/ycwycw2020/ta_kard.git
@@ -53,10 +95,15 @@ python tools/import-art.py --archives "D:\下载目录"
 python tools/verify-assets.py
 cd game/deployment
 corepack pnpm install --frozen-lockfile
-npm test
+npm run compile
+npm run compile:battle
 ```
 
-上面的测试不需要钱包私钥或在线链。完整运行还需要 Besu 链、PostgreSQL、独立生成的私密配置、已部署合约和索引器；**仓库不携带原网络私钥、密码、玩家存档或链数据库，不是解压后自动重建原网络的整机备份。** 详细步骤及现有设备启动方式见 [使用说明](docs/USAGE.md)。
+随后配置自己的 QBFT 链、Windows PostgreSQL、`private/config.json`、合约部署地址和 `indexer-config.json`；公开样例在 `config-templates/`，占位值不能直接运行。原网络地址不能直接用于新链，原主机启动脚本也不能直接当作通用新主机安装器。
+
+当 RPC、数据库、合约、素材与私密配置均就绪后，在 `game/deployment` 运行 `npm start`；另一个终端或配置好的 Linux 用户服务运行 `node indexer.mjs`。浏览器访问 `http://localhost:8787`。外部电脑通过同一 API 的 SSH 网页转发进入，链同步和网页入口需要分别配置。
+
+完整步骤、节点加入、服务器 IP 更换与常见问题见 **[本地部署与运行启动指南](https://github.com/ycwycw2020/ta_kard/blob/main/docs/LOCAL_DEPLOYMENT_AND_STARTUP.md)**；补充说明见 [USAGE.md](https://github.com/ycwycw2020/ta_kard/blob/main/docs/USAGE.md)。指南也可在 v1.0 附件中单独下载。
 
 ## 当前测试链的公开信息
 
