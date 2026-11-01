@@ -9,6 +9,11 @@
 | pg | 8.16.3 | MIT | PostgreSQL 客户端，通过包管理器安装 |
 | ws | 8.18.3 | MIT | Node.js 依赖，通过包管理器安装 |
 | solc-js | 0.8.30 | MIT（npm 包声明） | 编译工具，通过包管理器安装；不包含 solc 编译器运行时副本 |
+| @adraffy/ens-normalize | 1.10.1 | MIT | ethers 浏览器构建的依赖 |
+| @noble/curves | 1.2.0 | MIT | ethers 浏览器构建的依赖 |
+| @noble/hashes | 1.3.2 | MIT | ethers 浏览器构建的依赖 |
+| aes-js | 4.0.0-beta.5 | MIT | ethers 浏览器构建的依赖 |
+| tslib | 2.7.0 | 0BSD | ethers 浏览器构建的依赖 |
 
 相应包自带的许可证副本及 package-info 位于 `LICENSES/third-party/`。使用 npm/pnpm 安装时还会引入传递依赖，其许可应以各自包内文件及锁文件为准；本仓库不捆绑 node_modules。不要移除其署名或版权通知。
 

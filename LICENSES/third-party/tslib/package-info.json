@@ -1,0 +1,10 @@
+{
+  "name": "tslib",
+  "version": "2.7.0",
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/tslib.git"
+  },
+  "includedViaBrowserBundle": true
+}

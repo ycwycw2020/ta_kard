@@ -3753,9 +3753,54 @@
       "sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5"
     },
     {
+      "path": "LICENSES/third-party/@adraffy_ens-normalize/LICENSE",
+      "size": 1077,
+      "sha256": "3b458813ab3316b16bf004c4201d4a0583cf615514422dabf4d7c025988d613d"
+    },
+    {
+      "path": "LICENSES/third-party/@adraffy_ens-normalize/package-info.json",
+      "size": 235,
+      "sha256": "d594af360676a1f118f07bd92d10ffbd7ed1aa3ce19688905c4fd1ba22a06482"
+    },
+    {
+      "path": "LICENSES/third-party/@noble_curves/LICENSE",
+      "size": 1109,
+      "sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec"
+    },
+    {
+      "path": "LICENSES/third-party/@noble_curves/package-info.json",
+      "size": 219,
+      "sha256": "ffb38fa2ded826c19d9b79262f01ce9fdb39e1bf73572a3110c317dcd93d1f13"
+    },
+    {
+      "path": "LICENSES/third-party/@noble_hashes/LICENSE",
+      "size": 1109,
+      "sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec"
+    },
+    {
+      "path": "LICENSES/third-party/@noble_hashes/package-info.json",
+      "size": 219,
+      "sha256": "2f07d8ea2771b79f52e8bb447ec795022a56d9fb55b82c98a7fdc8122d5573c4"
+    },
+    {
+      "path": "LICENSES/third-party/@openzeppelin_contracts/LICENSE",
+      "size": 1090,
+      "sha256": "13cd784a6c31361f0e0c6aa3b410a1cb9a079868b7314c13e3eb8a75351746b9"
+    },
+    {
       "path": "LICENSES/third-party/@openzeppelin_contracts/package-info.json",
       "size": 240,
       "sha256": "327dbbe23fd547b2c031738018f9b8aa02cab4ecafaa68ab4e11450e62374d22"
+    },
+    {
+      "path": "LICENSES/third-party/aes-js/LICENSE.txt",
+      "size": 1081,
+      "sha256": "fca281420c800a4aae284a3b478b48b7a8d83c37285bbf2512bf52a5d597a503"
+    },
+    {
+      "path": "LICENSES/third-party/aes-js/package-info.json",
+      "size": 208,
+      "sha256": "28044000596e62a03e6cf46d924378341408bb643895cc1e5874b8bb40ba582d"
     },
     {
       "path": "LICENSES/third-party/ethers/LICENSE.md",
@@ -3788,6 +3833,21 @@
       "sha256": "bfe01d2407bf71aaa9e16b901d1ce7949685b86b7907ce7441d6ba1706e315e1"
     },
     {
+      "path": "LICENSES/third-party/tslib/CopyrightNotice.txt",
+      "size": 822,
+      "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b"
+    },
+    {
+      "path": "LICENSES/third-party/tslib/LICENSE.txt",
+      "size": 655,
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+    },
+    {
+      "path": "LICENSES/third-party/tslib/package-info.json",
+      "size": 205,
+      "sha256": "b6a52738a3e9e3901f0bb6aebd9e063f456db9a74d19ffa2b01c7c4df35f358e"
+    },
+    {
       "path": "LICENSES/third-party/ws/LICENSE",
       "size": 1183,
       "sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef"
@@ -3804,8 +3864,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "size": 1799,
-      "sha256": "b55f8fc7f890073e27ff79401264c51c122051d91d03ea53946e40092082a237"
+      "size": 2132,
+      "sha256": "7911a18972d8d013355720a4365ea8afb18503c7f1a1316ea55e8e8e98e06824"
     },
     {
       "path": "tools/existing-host/Add-Validator.ps1",
