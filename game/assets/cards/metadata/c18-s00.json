@@ -1,0 +1,31 @@
+{
+  "id": "c18-s00",
+  "characterId": 18,
+  "name": "大潘",
+  "skin": 0,
+  "tier": "normal",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/dapan.7cdb6a4e.png",
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus-anime",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840"
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c18-s00.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c18-s00.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c18-s00.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

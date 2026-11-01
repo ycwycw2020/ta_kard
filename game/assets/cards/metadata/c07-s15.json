@@ -1,0 +1,39 @@
+{
+  "id": "c07-s15",
+  "characterId": 7,
+  "name": "余烬",
+  "skin": 15,
+  "tier": "exquisite",
+  "revision": 3,
+  "expression": "unyielding protective resolve, strong level brows, lips pressed firmly, eyes looking upward toward danger",
+  "pairedExpression": "a rare soft relieved smile, lowered thoughtful gaze and relaxed brow",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/ember.6391acf9.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/ember.9364370e.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/ember.6391acf9.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 65
+  },
+  "native": {
+    "width": 940,
+    "height": 1672,
+    "path": "assets/cards/native/c07-s15.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c07-s15.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c07-s15.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

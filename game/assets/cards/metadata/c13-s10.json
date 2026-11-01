@@ -1,0 +1,39 @@
+{
+  "id": "c13-s10",
+  "characterId": 13,
+  "name": "洁尔佩塔",
+  "skin": 10,
+  "tier": "fine",
+  "revision": 3,
+  "expression": "joyful surprised delight, lifted brows, open bright smile and curious gaze",
+  "pairedExpression": "hopeful courage, gently knitted brows and a resolute closed smile, eyes looking toward the landing",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/gilberta.724f3503.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/gilberta.92aa17d4.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/gilberta.724f3503.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 66
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c13-s10.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c13-s10.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c13-s10.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

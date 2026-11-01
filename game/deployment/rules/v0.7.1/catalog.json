@@ -1,0 +1,2258 @@
+[
+  {
+    "id": 1,
+    "name": "管理员",
+    "en": "Endministrator",
+    "element": "物理",
+    "role": "近卫",
+    "cost": 4,
+    "hp": 75,
+    "atk": 5,
+    "skill": {
+      "name": "晶簇破击",
+      "apCost": 2,
+      "primaryEffect": "damage",
+      "value": 8,
+      "target": "敌方单体",
+      "text": "目标有破绽时消耗破绽，本次伤害额外+3，替代通用破绽+2。"
+    },
+    "ultimate": {
+      "name": "协议终结",
+      "apCost": 0,
+      "primaryEffect": "damage",
+      "value": 12,
+      "target": "敌方单体",
+      "text": "结算后给目标施加破绽。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "协议追击",
+      "triggerEvent": "ally_other_combo_effective_damage",
+      "triggerText": "另一名己方角色的连携对敌人造成有效伤害，且该实际目标仍存活。",
+      "effectText": "对该目标造成2点物理连携伤害，随后对存活实际目标施加破绽。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 2,
+          "element": "物理",
+          "target": "event_enemy"
+        },
+        {
+          "type": "apply_status",
+          "status": "vulnerable",
+          "target": "actual_damage_target"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Endministrator",
+        "basis": "其他干员连携造成伤害后可接续；本版将源石结晶机制简化为破绽。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_priority"
+    }
+  },
+  {
+    "id": 2,
+    "name": "陈千语",
+    "en": "Chen Qianyu",
+    "element": "物理",
+    "role": "近卫",
+    "cost": 3,
+    "hp": 73,
+    "atk": 5,
+    "skill": {
+      "name": "游刃",
+      "apCost": 2,
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方单体",
+      "text": "伤害结算后施加破绽。"
+    },
+    "ultimate": {
+      "name": "疾风连斩",
+      "apCost": 0,
+      "primaryEffect": "damage",
+      "value": 11,
+      "target": "敌方单体",
+      "text": "无额外效果。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 3,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "逐隙斩",
+      "triggerEvent": "ally_applies_new_vulnerable",
+      "triggerText": "己方使一名敌人从无破绽变为有破绽；重复刷新不算。",
+      "effectText": "对该目标造成2点物理连携伤害；保留破绽供主动攻击使用。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 2,
+          "element": "物理",
+          "target": "event_enemy"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Chen_Qianyu",
+        "basis": "敌人进入失衡相关的Vulnerable状态时触发；对应本版破绽首次施加。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_priority"
+    }
+  },
+  {
+    "id": 3,
+    "name": "佩丽卡",
+    "en": "Perlica",
+    "element": "电磁",
+    "role": "术师",
+    "cost": 4,
+    "hp": 66,
+    "atk": 4,
+    "skill": {
+      "name": "协议电弧",
+      "apCost": 2,
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方单体",
+      "text": "伤害结算后施加感电。"
+    },
+    "ultimate": {
+      "name": "连锁协议",
+      "apCost": 0,
+      "primaryEffect": "damage",
+      "value": 4,
+      "target": "敌方全体",
+      "text": "选择一名主目标，仅主目标在伤害后获得感电。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 5,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "协议接续",
+      "triggerEvent": "ally_normal_attack_effective_hit",
+      "triggerText": "己方任意角色完成一次造成有效伤害的普攻，且实际目标存活。",
+      "effectText": "对该目标造成1点电磁连携伤害，随后对存活实际目标施加感电。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "element": "电磁",
+          "target": "event_enemy"
+        },
+        {
+          "type": "apply_status",
+          "status": "electrified",
+          "target": "actual_damage_target"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Perlica",
+        "basis": "受控干员普攻终结命中后触发；本版将一次普攻视为完整普攻段。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "all_enemies"
+    }
+  },
+  {
+    "id": 4,
+    "name": "狼卫",
+    "en": "Wulfgard",
+    "element": "灼热",
+    "role": "术师",
+    "cost": 4,
+    "hp": 81,
+    "atk": 6,
+    "skill": {
+      "name": "燃烧弹",
+      "apCost": 2,
+      "primaryEffect": "damage",
+      "value": 5,
+      "target": "敌方单体",
+      "text": "伤害结算后施加燃烧。"
+    },
+    "ultimate": {
+      "name": "追猎齐射",
+      "apCost": 0,
+      "primaryEffect": "damage",
+      "value": 11,
+      "target": "敌方单体",
+      "text": "目标处于燃烧时额外+2，不消耗燃烧。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "追猎榴弹",
+      "triggerEvent": "ally_applies_new_elemental_status",
+      "triggerText": "己方对敌人新施加感电、燃烧或待生效冻结；刷新已有状态不算。",
+      "effectText": "对该目标造成1点灼热连携伤害，随后对存活实际目标施加燃烧。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "element": "灼热",
+          "target": "event_enemy"
+        },
+        {
+          "type": "apply_status",
+          "status": "burning",
+          "target": "actual_damage_target"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Wulfgard",
+        "basis": "敌人获得术法附着时触发；本版用现有三种元素状态代替附着系统。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "any_enemy"
+    }
+  },
+  {
+    "id": 5,
+    "name": "艾尔黛拉",
+    "en": "Ardelia",
+    "element": "自然",
+    "role": "辅助",
+    "cost": 4,
+    "hp": 70,
+    "atk": 4,
+    "skill": {
+      "name": "生态修复",
+      "apCost": 2,
+      "primaryEffect": "heal",
+      "value": 9,
+      "target": "友方单体",
+      "text": "治疗；允许对自身使用。"
+    },
+    "ultimate": {
+      "name": "生命回响",
+      "apCost": 0,
+      "primaryEffect": "heal",
+      "value": 5,
+      "target": "友方全体",
+      "text": "治疗友方全体；选择一名主目标，额外给予该目标3护盾。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 5,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "地脉回响",
+      "triggerEvent": "ally_normal_attack_clean_target_effective_hit",
+      "triggerText": "己方普攻对命中前没有破绽、感电、燃烧或冻结的实际目标造成有效伤害，且该目标存活。",
+      "effectText": "对该目标造成1点自然连携伤害，并治疗己方当前生命比例最低的存活角色2点。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "element": "自然",
+          "target": "event_enemy"
+        },
+        {
+          "type": "heal",
+          "value": 2,
+          "target": "lowest_hp_ratio_living_ally_at_execution"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Ardelia",
+        "basis": "对无失衡/术法附着目标打出普攻终结时触发；保留干净目标条件，效果改编为伤害与小额治疗。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "friendly",
+      "ultimateTargetRange": "friendly"
+    }
+  },
+  {
+    "id": 6,
+    "name": "昼雪",
+    "en": "Snowshine",
+    "element": "寒冷",
+    "role": "重装",
+    "cost": 4,
+    "hp": 85,
+    "atk": 4,
+    "skill": {
+      "name": "冰雪掩护",
+      "apCost": 2,
+      "primaryEffect": "shield",
+      "value": 8,
+      "target": "友方单体（可自身）",
+      "text": "为选定目标授予8点数值护盾及1层庇护，保护者为昼雪；庇护仅本回合有效。",
+      "shelterGrant": {
+        "target": "same_selected_ally",
+        "protector": "caster",
+        "allowSelf": true,
+        "charges": 1,
+        "expiresAfterRoundOffset": 0
+      }
+    },
+    "ultimate": {
+      "name": "极地壁垒",
+      "apCost": 0,
+      "primaryEffect": "shield",
+      "value": 4,
+      "target": "友方全体",
+      "text": "为全体友方授予护盾；选择一名主目标；自身治疗4。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 5,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "极地救援",
+      "triggerEvent": "ally_direct_hp_loss_below_sixty_percent",
+      "triggerText": "己方角色受到敌方直接攻击而损失生命，结算后存活且生命严格低于60%。",
+      "effectText": "治疗该受伤角色3点生命。",
+      "effects": [
+        {
+          "type": "heal",
+          "value": 3,
+          "target": "event_injured_ally"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Snowshine",
+        "basis": "受控干员受击且生命低于60%时触发救援；本版扩展为任意己方角色。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "friendly",
+      "ultimateTargetRange": "friendly"
+    }
+  },
+  {
+    "id": 7,
+    "name": "余烬",
+    "en": "Ember",
+    "element": "灼热",
+    "role": "重装",
+    "cost": 4,
+    "hp": 85,
+    "atk": 4,
+    "skill": {
+      "name": "熔火守卫",
+      "apCost": 2,
+      "primaryEffect": "damage",
+      "value": 4,
+      "target": "敌方单体＋另选友方单体（可自身）",
+      "text": "伤害后自身获得5数值护盾，并为选定友方授予1层庇护，保护者为余烬；庇护仅本回合有效。",
+      "shelterGrant": {
+        "target": "separate_required_ally_target",
+        "protector": "caster",
+        "allowSelf": true,
+        "charges": 1,
+        "expiresAfterRoundOffset": 0
+      }
+    },
+    "ultimate": {
+      "name": "壁垒反击",
+      "apCost": 0,
+      "primaryEffect": "damage",
+      "value": 9,
+      "target": "敌方单体",
+      "text": "伤害后自身获得8护盾。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "前线援护",
+      "triggerEvent": "ally_direct_hp_loss",
+      "triggerText": "己方角色受到敌方直接攻击而损失生命，且受伤角色存活。",
+      "effectText": "对存活攻击者造成1物理伤害，并治疗该受伤队友1。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "element": "物理",
+          "target": "event_attacker"
+        },
+        {
+          "type": "heal",
+          "value": 1,
+          "target": "event_injured_ally"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Ember",
+        "basis": "受控干员受击时反击并治疗；本版要求实际掉血，避免完全格挡也触发。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_priority"
+    }
+  },
+  {
+    "id": 8,
+    "name": "莱万汀",
+    "en": "Laevatain",
+    "element": "灼热",
+    "role": "突击",
+    "cost": 5,
+    "hp": 78,
+    "atk": 6,
+    "skill": {
+      "name": "灼刃",
+      "apCost": 2,
+      "primaryEffect": "damage",
+      "value": 9,
+      "target": "敌方单体",
+      "text": "目标处于燃烧时额外+2，不消耗燃烧。"
+    },
+    "ultimate": {
+      "name": "焚域",
+      "apCost": 0,
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方当前前排",
+      "text": "选择一名主目标；所有目标受到伤害后获得燃烧。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 5,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "余火迸发",
+      "triggerEvent": "ally_applies_new_burning",
+      "triggerText": "己方使一名敌人从无燃烧变为燃烧；重复刷新不算。",
+      "effectText": "对该目标造成3点灼热连携伤害，不刷新燃烧。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 3,
+          "element": "灼热",
+          "target": "event_enemy"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Laevatain",
+        "basis": "敌人受到燃烧或腐蚀时触发；本版仅保留已实现的燃烧条件。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "front_only"
+    }
+  },
+  {
+    "id": 9,
+    "name": "伊冯",
+    "en": "Yvonne",
+    "element": "寒冷",
+    "role": "突击",
+    "cost": 5,
+    "hp": 76,
+    "atk": 6,
+    "skill": {
+      "name": "低温射击",
+      "apCost": 2,
+      "primaryEffect": "damage",
+      "value": 5,
+      "target": "敌方任意单体",
+      "text": "可越过前排；伤害后施加冻结，限制下一完整回合行动，不叠加或刷新待生效/生效中的冻结。"
+    },
+    "ultimate": {
+      "name": "冰点狙击",
+      "apCost": 0,
+      "primaryEffect": "damage",
+      "value": 12,
+      "target": "敌方任意单体",
+      "text": "可越过前排；实际承受攻击的目标在本回合冻结生效时额外+2。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "冰点追射",
+      "triggerEvent": "ally_normal_attack_actively_frozen_target_effective_hit",
+      "triggerText": "己方普攻对本轮冻结生效的实际目标造成有效伤害，且目标存活；待生效冻结不算。",
+      "effectText": "对该目标造成3点寒冷连携伤害，不追加、刷新或延长冻结。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 3,
+          "element": "寒冷",
+          "target": "event_enemy"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Yvonne",
+        "basis": "对凝固目标打出普攻终结时触发；对应本版冻结，取消连携再次冻结。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "any_enemy"
+    }
+  },
+  {
+    "id": 10,
+    "name": "黎风",
+    "en": "Lifeng",
+    "element": "物理",
+    "role": "近卫",
+    "cost": 5,
+    "hp": 82,
+    "atk": 6,
+    "skill": {
+      "name": "破阵",
+      "apCost": 2,
+      "primaryEffect": "damage",
+      "value": 9,
+      "target": "敌方单体",
+      "text": "目标有破绽时消耗破绽，本次伤害额外+3，替代通用破绽+2。"
+    },
+    "ultimate": {
+      "name": "摧城",
+      "apCost": 0,
+      "primaryEffect": "damage",
+      "value": 8,
+      "target": "敌方当前前排",
+      "text": "选择一名主目标；无额外效果。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "破阵协锋",
+      "triggerEvent": "ally_normal_attack_vulnerable_target_effective_hit",
+      "triggerText": "己方普攻对命中前带破绽的实际目标造成有效伤害，且目标存活；普攻消耗破绽不影响这次判定。",
+      "effectText": "对该目标造成2点物理连携伤害，并给予己方1次协力：下次伤害型战技/终结技主目标伤害+1。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 2,
+          "element": "物理",
+          "target": "event_enemy"
+        },
+        {
+          "type": "grant_team_link",
+          "value": 1
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Lifeng",
+        "basis": "对物理脆弱/破防目标打出普攻终结后攻击并赋予Link；本版用破绽与协力对应。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_only"
+    }
+  },
+  {
+    "id": 11,
+    "name": "弧光",
+    "en": "Arclight",
+    "element": "电磁",
+    "role": "先锋",
+    "cost": 4,
+    "hp": 82,
+    "atk": 6,
+    "skill": {
+      "name": "导电斩",
+      "apCost": 2,
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方单体",
+      "text": "消耗目标感电时照常获得+2伤害。本次战技成功消费敌人的感电时回复己方1战术点，每次战技最多回复1点，上限6。",
+      "apRecovery": 1,
+      "apRecoveryCondition": {
+        "key": "consume_electric",
+        "text": "本次战技成功消费敌人的感电"
+      }
+    },
+    "ultimate": {
+      "name": "雷光突进",
+      "apCost": 0,
+      "primaryEffect": "damage",
+      "value": 11,
+      "target": "敌方单体",
+      "text": "对敌方单体造成11电磁伤害。施放后回复己方2战术点（上限6）。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "apRecovery": 2,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "雷鸣接力",
+      "triggerEvent": "ally_applies_or_consumes_electrified",
+      "triggerText": "己方对敌人新施加感电，或通过主动伤害消耗感电；刷新不算。",
+      "effectText": "对存活实际目标造成1点物理连携伤害，并恢复己方1战术点（上限6）。每名先锋各自结算，不共享回点次数。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "element": "物理",
+          "target": "event_enemy"
+        },
+        {
+          "type": "recover_team_ap",
+          "value": 1,
+          "cap": 6,
+          "scope": "per_character_per_round"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Arclight",
+        "basis": "敌人获得或失去感电时触发攻击并回SP；保留触发结构，本版每角色每回合最多一次。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0,
+      "apRecovery": 1
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_priority"
+    }
+  },
+  {
+    "id": 12,
+    "name": "秋栗",
+    "en": "Akekuri",
+    "element": "灼热",
+    "role": "先锋",
+    "cost": 3,
+    "hp": 92,
+    "atk": 5,
+    "skill": {
+      "name": "战术整备",
+      "apCost": 2,
+      "primaryEffect": "shield",
+      "value": 7,
+      "target": "友方单体",
+      "text": "为所选队友授予7数值护盾。为生命不高于50%的存活队友实际增加数值护盾时回复己方1战术点，每次战技最多回复1点，上限6。",
+      "apRecovery": 1,
+      "apRecoveryCondition": {
+        "key": "shield_ally_half_hp",
+        "text": "为生命不高于50%的存活队友实际增加数值护盾"
+      }
+    },
+    "ultimate": {
+      "name": "应急动员",
+      "apCost": 0,
+      "primaryEffect": "shield",
+      "value": 9,
+      "target": "友方单体",
+      "text": "为所选队友授予9数值护盾。施放后回复己方2战术点（上限6）。",
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "apRecovery": 2,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "突破补给",
+      "triggerEvent": "ally_direct_damage_crosses_enemy_half_hp_first_time",
+      "triggerText": "己方直接攻击使一名敌人的生命首次从高于50%降至不高于50%；每名敌人每场只产生一次该事件。",
+      "effectText": "对存活实际目标造成1点物理连携伤害，并恢复己方1战术点（上限6）。每名先锋各自结算，不共享回点次数。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "element": "物理",
+          "target": "event_enemy"
+        },
+        {
+          "type": "recover_team_ap",
+          "value": 1,
+          "cap": 6,
+          "scope": "per_character_per_round"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Akekuri",
+        "basis": "敌人失衡或到达失衡节点时触发；本版没有失衡条，改用首次半血阈值作为节奏窗口。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0,
+      "apRecovery": 1
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "friendly",
+      "ultimateTargetRange": "friendly"
+    }
+  },
+  {
+    "id": 13,
+    "name": "洁尔佩塔",
+    "en": "Gilberta",
+    "element": "自然",
+    "role": "辅助",
+    "cost": 4,
+    "hp": 83,
+    "atk": 5,
+    "skill": {
+      "name": "引力牵引",
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方单体",
+      "text": "伤害后施加破绽。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "重力场",
+      "primaryEffect": "damage",
+      "value": 5,
+      "target": "敌方当前前排",
+      "text": "选择一名主目标，伤害后仅主目标获得破绽。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 3,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "引力接续",
+      "triggerEvent": "ally_applies_new_elemental_status",
+      "triggerText": "己方新施加感电、燃烧或待生效冻结。",
+      "effectText": "对该存活实际目标造成1自然伤害，伤害后施加破绽。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活实际目标造成1自然伤害，伤害后施加破绽。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Gilberta",
+        "basis": "术法反应施加时触发；简化为现有元素状态的新施加。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_only"
+    }
+  },
+  {
+    "id": 14,
+    "name": "别礼",
+    "en": "Last Rite",
+    "element": "寒冷",
+    "role": "突击",
+    "cost": 5,
+    "hp": 77,
+    "atk": 6,
+    "skill": {
+      "name": "冰棺斩",
+      "primaryEffect": "damage",
+      "value": 9,
+      "target": "敌方单体",
+      "text": "若实际目标在本次攻击前已有本轮寒冷命中记录，伤害+1。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "终霜裁决",
+      "primaryEffect": "damage",
+      "value": 12,
+      "target": "敌方单体",
+      "text": "若实际目标本轮已有至少2次不同根动作的寒冷有效命中记录，伤害+2。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "冬噬",
+      "triggerEvent": "round_cryo_hits_reach_two",
+      "triggerText": "己方本轮对同一实际敌人造成寒冷有效命中的不同根动作数达到2。",
+      "effectText": "对该存活目标造成3寒冷伤害。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成3寒冷伤害。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Last_Rite",
+        "basis": "原作3层寒冷附着；改为两次不同根动作的寒冷命中。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "any_enemy"
+    }
+  },
+  {
+    "id": 15,
+    "name": "骏卫",
+    "en": "Pogranichnik",
+    "element": "物理",
+    "role": "先锋",
+    "cost": 4,
+    "hp": 91,
+    "atk": 5,
+    "skill": {
+      "name": "破垒号令",
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方单体",
+      "text": "对敌方单体造成7物理伤害。本次战技成功消费敌人的破绽时回复己方1战术点，每次战技最多回复1点，上限6。",
+      "apCost": 2,
+      "apRecovery": 1,
+      "apRecoveryCondition": {
+        "key": "consume_vulnerable",
+        "text": "本次战技成功消费敌人的破绽"
+      }
+    },
+    "ultimate": {
+      "name": "战线推进",
+      "primaryEffect": "damage",
+      "value": 5,
+      "target": "敌方当前前排",
+      "text": "对敌方当前前排造成5物理伤害；选择一名主目标。施放后回复己方2战术点（上限6）。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "apRecovery": 2,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "破阵军令",
+      "triggerEvent": "ally_consumes_vulnerable",
+      "triggerText": "己方主动攻击消费敌人破绽。",
+      "effectText": "对存活实际目标造成1点物理连携伤害，并恢复己方1战术点（上限6）。每名先锋各自结算，不共享回点次数。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "element": "物理",
+          "target": "event_enemy"
+        },
+        {
+          "type": "recover_team_ap",
+          "value": 1,
+          "cap": 6,
+          "scope": "per_character_per_round"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Pogranichnik",
+        "basis": "碎甲或猛击消费失衡层数时触发；映射为消费破绽。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0,
+      "apRecovery": 1
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_only"
+    }
+  },
+  {
+    "id": 16,
+    "name": "阿列什",
+    "en": "Alesh",
+    "element": "寒冷",
+    "role": "先锋",
+    "cost": 3,
+    "hp": 83,
+    "atk": 4,
+    "skill": {
+      "name": "冰钩",
+      "primaryEffect": "damage",
+      "value": 5,
+      "target": "敌方单体",
+      "text": "伤害后施加破绽。本次战技成功消费敌人的感电或破绽时回复己方1战术点，每次战技最多回复1点，上限6。",
+      "apCost": 2,
+      "apRecovery": 1,
+      "apRecoveryCondition": {
+        "key": "consume_electric_or_vulnerable",
+        "text": "本次战技成功消费敌人的感电或破绽"
+      }
+    },
+    "ultimate": {
+      "name": "收网",
+      "primaryEffect": "damage",
+      "value": 9,
+      "target": "敌方单体",
+      "text": "对敌方单体造成9寒冷伤害。施放后回复己方2战术点（上限6）。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "apRecovery": 2,
+      "requiredCasts": 3,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "冰钩回收",
+      "triggerEvent": "ally_consumes_combat_status",
+      "triggerText": "己方攻击消费敌人破绽、感电或燃烧。",
+      "effectText": "对存活实际目标造成1点物理连携伤害，并恢复己方1战术点（上限6）。每名先锋各自结算，不共享回点次数。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "element": "物理",
+          "target": "event_enemy"
+        },
+        {
+          "type": "recover_team_ap",
+          "value": 1,
+          "cap": 6,
+          "scope": "per_character_per_round"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Alesh",
+        "basis": "原作消费术法反应或源石结晶；映射到现有可消费标记，不采用随机稀有鱼。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0,
+      "apRecovery": 1
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_priority"
+    }
+  },
+  {
+    "id": 17,
+    "name": "艾维文娜",
+    "en": "Avywenna",
+    "element": "电磁",
+    "role": "突击",
+    "cost": 4,
+    "hp": 76,
+    "atk": 6,
+    "skill": {
+      "name": "雷矛",
+      "primaryEffect": "damage",
+      "value": 8,
+      "target": "敌方单体",
+      "text": "无额外效果。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "雷矛回阵",
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方当前前排",
+      "text": "选择一名主目标，伤害后仅主目标获得感电。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "落雷追矛",
+      "triggerEvent": "ally_normal_electric_marked_hit",
+      "triggerText": "己方普攻对命中前带感电的实际敌人造成有效伤害。",
+      "effectText": "对该存活目标造成3电磁伤害。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成3电磁伤害。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Avywenna",
+        "basis": "对电附着或感电目标打出普攻终结。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "front_only"
+    }
+  },
+  {
+    "id": 18,
+    "name": "大潘",
+    "en": "Da Pan",
+    "element": "物理",
+    "role": "突击",
+    "cost": 4,
+    "hp": 81,
+    "atk": 5,
+    "skill": {
+      "name": "重锅击",
+      "primaryEffect": "damage",
+      "value": 8,
+      "target": "敌方单体",
+      "text": "伤害后施加破绽。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "开席",
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方当前前排",
+      "text": "选择一名主目标；无额外效果。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "重锅翻击",
+      "triggerEvent": "round_physical_hits_reach_three",
+      "triggerText": "己方本轮对同一实际敌人造成物理有效命中的不同根动作数达到3。",
+      "effectText": "对该存活目标造成3物理伤害。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成3物理伤害。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Da_Pan",
+        "basis": "原作4层失衡；改为三次不同根动作的物理命中。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "front_only"
+    }
+  },
+  {
+    "id": 19,
+    "name": "赛希",
+    "en": "Xaihi",
+    "element": "寒冷",
+    "role": "辅助",
+    "cost": 4,
+    "hp": 78,
+    "atk": 5,
+    "skill": {
+      "name": "辅助晶体",
+      "primaryEffect": "heal",
+      "value": 10,
+      "target": "友方单体（可自身）",
+      "text": "自身建立2次治疗的辅助晶体，持续到下一轮末；重施替换次数。晶体规则见扩展规则。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "晶体共鸣",
+      "primaryEffect": "heal",
+      "value": 4,
+      "target": "友方全体",
+      "text": "治疗友方全体；选择一名主目标，主目标额外获得5数值护盾。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 5,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "晶体余响",
+      "triggerEvent": "own_crystal_spent",
+      "triggerText": "赛希的辅助晶体最后一次有效治疗结算完毕。",
+      "effectText": "为最后接受晶体治疗的存活队友增加3数值护盾。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "为最后接受晶体治疗的存活队友增加3数值护盾。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Xaihi",
+        "basis": "辅助晶体的治疗次数耗尽时触发。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "friendly",
+      "ultimateTargetRange": "friendly"
+    }
+  },
+  {
+    "id": 20,
+    "name": "安塔尔",
+    "en": "Antal",
+    "element": "电磁",
+    "role": "辅助",
+    "cost": 3,
+    "hp": 88,
+    "atk": 5,
+    "skill": {
+      "name": "电磁聚焦",
+      "primaryEffect": "damage",
+      "value": 5,
+      "target": "敌方单体",
+      "text": "伤害后给实际目标施加聚焦及感电。聚焦持续到下一轮末，每名安塔尔仅能聚焦一名目标；新目标替换旧目标。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "试验增幅",
+      "primaryEffect": "damage",
+      "value": 9,
+      "target": "敌方单体",
+      "text": "伤害后施加感电。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 3,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "聚焦放电",
+      "triggerEvent": "own_focused_enemy_new_status",
+      "triggerText": "己方对安塔尔已聚焦的敌人新施加破绽、感电、燃烧或待生效冻结。",
+      "effectText": "对该存活目标造成1电磁伤害，伤害后施加感电。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成1电磁伤害，伤害后施加感电。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Antal",
+        "basis": "聚焦目标受到物理异常或术法附着时触发。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_priority"
+    }
+  },
+  {
+    "id": 21,
+    "name": "卡契尔",
+    "en": "Catcher",
+    "element": "物理",
+    "role": "重装",
+    "cost": 3,
+    "hp": 91,
+    "atk": 4,
+    "skill": {
+      "name": "守线",
+      "primaryEffect": "shield",
+      "value": 7,
+      "target": "友方单体（可自身）",
+      "text": "为该目标施加1层庇护，保护者为卡契尔，仅本回合有效。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "稳固阵地",
+      "primaryEffect": "shield",
+      "value": 4,
+      "target": "友方全体",
+      "text": "为全体友方授予护盾；选择一名主目标；自身治疗4。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 5,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "危线增援",
+      "triggerEvent": "ally_direct_hp_loss_below_forty_percent",
+      "triggerText": "己方角色受敌方直接攻击损失生命，结算后存活且生命严格低于40%。",
+      "effectText": "为该受伤角色增加3数值护盾。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "为该受伤角色增加3数值护盾。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Catcher",
+        "basis": "原作敌人蓄力或受控干员受击低于40%；本版保留低血受击条件。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "friendly",
+      "ultimateTargetRange": "friendly"
+    }
+  },
+  {
+    "id": 22,
+    "name": "埃特拉",
+    "en": "Estella",
+    "element": "寒冷",
+    "role": "近卫",
+    "cost": 3,
+    "hp": 78,
+    "atk": 5,
+    "skill": {
+      "name": "冰声刺",
+      "primaryEffect": "damage",
+      "value": 4,
+      "target": "敌方单体",
+      "text": "伤害后施加冻结。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "震音",
+      "primaryEffect": "damage",
+      "value": 5,
+      "target": "敌方当前前排",
+      "text": "选择一名主目标，伤害后仅主目标获得破绽。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 3,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "凝音追击",
+      "triggerEvent": "ally_applies_new_pending_freeze",
+      "triggerText": "己方给敌人新施加待生效冻结。",
+      "effectText": "对该存活目标造成1物理伤害，伤害后施加破绽；不延长冻结。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成1物理伤害，伤害后施加破绽；不延长冻结。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Estella",
+        "basis": "原作施加凝固时触发，映射为新施加冻结。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_only"
+    }
+  },
+  {
+    "id": 23,
+    "name": "萤石",
+    "en": "Fluorite",
+    "element": "自然",
+    "role": "术师",
+    "cost": 3,
+    "hp": 79,
+    "atk": 5,
+    "skill": {
+      "name": "即兴爆弹",
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方单体",
+      "text": "无额外效果。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "恶作剧齐射",
+      "primaryEffect": "damage",
+      "value": 10,
+      "target": "敌方任意单体",
+      "text": "可越过前排。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 3,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "免费赠礼",
+      "triggerEvent": "round_cryo_or_nature_hits_reach_two",
+      "triggerText": "己方本轮对同一实际敌人的寒冷和自然有效命中根动作并集达到2。",
+      "effectText": "对该存活目标造成2自然伤害。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成2自然伤害。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Fluorite",
+        "basis": "原作至少2层寒冷或自然附着；改为两次相关元素命中。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "any_enemy"
+    }
+  },
+  {
+    "id": 24,
+    "name": "汤汤",
+    "en": "Tangtang",
+    "element": "寒冷",
+    "role": "术师",
+    "cost": 5,
+    "hp": 66,
+    "atk": 5,
+    "skill": {
+      "name": "涡流弹",
+      "primaryEffect": "damage",
+      "value": 8,
+      "target": "敌方单体",
+      "text": "伤害后施加破绽。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "江河听令",
+      "primaryEffect": "damage",
+      "value": 4,
+      "target": "敌方全体",
+      "text": "选择一名主目标，伤害后仅主目标获得冻结。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 5,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "江流接应",
+      "triggerEvent": "ally_effective_cryo_hit",
+      "triggerText": "己方对敌人造成寒冷有效直接伤害。",
+      "effectText": "对该存活实际目标造成2寒冷伤害。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活实际目标造成2寒冷伤害。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Tangtang",
+        "basis": "原作寒冷附着或术法爆发；简化为寒冷有效命中。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "all_enemies"
+    }
+  },
+  {
+    "id": 25,
+    "name": "洛茜",
+    "en": "Rossi",
+    "element": "物理",
+    "role": "近卫",
+    "cost": 5,
+    "hp": 82,
+    "atk": 6,
+    "skill": {
+      "name": "赤影斩",
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方单体",
+      "text": "伤害后施加燃烧。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "灼影终式",
+      "primaryEffect": "damage",
+      "value": 12,
+      "target": "敌方单体",
+      "text": "伤害后施加破绽。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "赤影交织",
+      "triggerEvent": "ally_completes_dual_status",
+      "triggerText": "己方施加状态后，目标首次从不同时具有二者变为同时具有破绽和至少一种元素状态。",
+      "effectText": "对该存活目标造成3物理伤害，不消费已有状态。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成3物理伤害，不消费已有状态。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Rossi",
+        "basis": "原作同时存在失衡与术法附着；使用破绽加元素状态。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_priority"
+    }
+  },
+  {
+    "id": 26,
+    "name": "庄方宜",
+    "en": "Zhuang Fangyi",
+    "element": "电磁",
+    "role": "突击",
+    "cost": 5,
+    "hp": 82,
+    "atk": 6,
+    "skill": {
+      "name": "霆刃",
+      "primaryEffect": "damage",
+      "value": 9,
+      "target": "敌方单体",
+      "text": "消耗感电时以+3替代通用+2增伤。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "神霆降临",
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方当前前排",
+      "text": "选择一名主目标，伤害后仅主目标获得感电。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "霆阵追击",
+      "triggerEvent": "ally_normal_electric_marked_hit",
+      "triggerText": "己方普攻对命中前带感电的实际敌人造成有效伤害。",
+      "effectText": "对该存活目标造成2电磁伤害，不消费或刷新感电。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成2电磁伤害，不消费或刷新感电。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Zhuang_Fangyi",
+        "basis": "对电附着目标打出普攻终结；取消连携额外能量和终结技期间缩短冷却。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "front_only"
+    }
+  },
+  {
+    "id": 27,
+    "name": "卡缪",
+    "en": "Camille",
+    "element": "灼热",
+    "role": "先锋",
+    "cost": 4,
+    "hp": 83,
+    "atk": 6,
+    "skill": {
+      "name": "猎焰突进",
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方单体",
+      "text": "若实际目标在命中前燃烧且伤害后仍存活，消费其燃烧。本次战技成功消费敌人的燃烧时回复己方1战术点，每次战技最多回复1点，上限6。",
+      "apCost": 2,
+      "apRecovery": 1,
+      "apRecoveryCondition": {
+        "key": "consume_burn",
+        "text": "本次战技成功消费敌人的燃烧"
+      }
+    },
+    "ultimate": {
+      "name": "返焰",
+      "primaryEffect": "damage",
+      "value": 10,
+      "target": "敌方单体",
+      "text": "伤害后施加燃烧。施放后回复己方2战术点（上限6）。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "apRecovery": 2,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "回猎",
+      "triggerEvent": "ally_consumes_burning",
+      "triggerText": "己方攻击消费敌人的燃烧。",
+      "effectText": "对存活实际目标造成1点灼热连携伤害，并恢复己方1战术点（上限6）。每名先锋各自结算，不共享回点次数。",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "element": "灼热",
+          "target": "event_enemy"
+        },
+        {
+          "type": "recover_team_ap",
+          "value": 1,
+          "cap": 6,
+          "scope": "per_character_per_round"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Camille",
+        "basis": "原作灼热附着被消费或吸收；映射为燃烧消费。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0,
+      "apRecovery": 1
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_priority"
+    }
+  },
+  {
+    "id": 28,
+    "name": "弭弗",
+    "en": "Mi Fu",
+    "element": "物理",
+    "role": "近卫",
+    "cost": 5,
+    "hp": 70,
+    "atk": 5,
+    "skill": {
+      "name": "封云拳",
+      "primaryEffect": "damage",
+      "value": 8,
+      "target": "敌方单体",
+      "text": "伤害后施加破绽，自身获得3数值护盾。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "千钧落",
+      "primaryEffect": "damage",
+      "value": 12,
+      "target": "敌方单体",
+      "text": "伤害后自身获得4数值护盾。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "无悔上击",
+      "triggerEvent": "round_physical_hits_reach_two",
+      "triggerText": "己方本轮对同一实际敌人造成物理有效命中的不同根动作数达到2。",
+      "effectText": "对该存活目标造成2物理伤害，自身获得1数值护盾。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成2物理伤害，自身获得1数值护盾。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Mi_Fu",
+        "basis": "原作至少3层失衡；改为两次不同根动作的物理命中。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "front_priority",
+      "ultimateTargetRange": "front_priority"
+    }
+  },
+  {
+    "id": 29,
+    "name": "梨诺",
+    "en": "Liino",
+    "element": "电磁",
+    "role": "辅助",
+    "cost": 4,
+    "hp": 87,
+    "atk": 5,
+    "skill": {
+      "name": "领唱",
+      "primaryEffect": "heal",
+      "value": 10,
+      "target": "友方单体（可自身）",
+      "text": "自身进入领唱状态，持续到下一轮末；重复施放仅刷新。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "和声返场",
+      "primaryEffect": "heal",
+      "value": 5,
+      "target": "友方全体",
+      "text": "选择一名主目标，自身进入领唱状态至下一轮末。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 5,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "悦耳和声",
+      "triggerEvent": "vocalist_elemental_change",
+      "triggerText": "领唱状态有效期间，己方新施加感电、燃烧、待生效冻结，或通过攻击消费感电、燃烧。",
+      "effectText": "对存活实际目标造成1电磁伤害，并治疗执行时己方最低生命比例的存活角色2。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对存活实际目标造成1电磁伤害，并治疗执行时己方最低生命比例的存活角色2。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Liino",
+        "basis": "保留领唱姿态前提，反应施加或消费映射到现有元素状态。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "friendly",
+      "ultimateTargetRange": "friendly"
+    }
+  },
+  {
+    "id": 30,
+    "name": "诀",
+    "en": "Arcane",
+    "element": "自然",
+    "role": "术师",
+    "cost": 5,
+    "hp": 66,
+    "atk": 5,
+    "skill": {
+      "name": "应龙阵",
+      "primaryEffect": "damage",
+      "value": 8,
+      "target": "敌方单体",
+      "text": "伤害后施加破绽。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "四象合阵",
+      "primaryEffect": "damage",
+      "value": 4,
+      "target": "敌方全体",
+      "text": "选择一名主目标，伤害后仅主目标获得破绽。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 5,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "应龙合击",
+      "triggerEvent": "nature_or_two_other_elements",
+      "triggerText": "己方对敌人造成自然有效伤害，或本轮同一实际敌人受到己方两种不同非自然元素的有效伤害。",
+      "effectText": "对该存活目标造成1自然伤害，伤害后施加破绽。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成1自然伤害，伤害后施加破绽。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Arcane",
+        "basis": "选取原作智识阵式路线；自然附着或非自然附着阈值改为对应命中事件。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "all_enemies"
+    }
+  },
+  {
+    "id": 31,
+    "name": "提弗洛斯",
+    "en": "Typhoeus",
+    "element": "自然",
+    "role": "突击",
+    "cost": 5,
+    "hp": 77,
+    "atk": 6,
+    "skill": {
+      "name": "猎印贯射",
+      "primaryEffect": "damage",
+      "value": 9,
+      "target": "敌方单体",
+      "text": "若实际目标在本次攻击前已有本轮自然命中记录，伤害+1。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "荆棘箭雨",
+      "primaryEffect": "damage",
+      "value": 7,
+      "target": "敌方当前前排",
+      "text": "选择一名主目标；无额外效果。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "requiredCasts": 4,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "猎印齐发",
+      "triggerEvent": "round_nature_hits_reach_two",
+      "triggerText": "己方本轮对同一实际敌人造成自然有效命中的不同根动作数达到2。",
+      "effectText": "对该存活目标造成3自然伤害。",
+      "effects": [
+        {
+          "type": "design_specification",
+          "text": "对该存活目标造成3自然伤害。"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://endfield.wiki.gg/wiki/Typhoeus",
+        "basis": "原作猎印达到上限；将自然爆发积印简化为两次自然命中，不移植8层印记和空中动作。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "any_enemy",
+      "skillTargetRange": "any_enemy",
+      "ultimateTargetRange": "front_only"
+    }
+  },
+  {
+    "id": 32,
+    "name": "噗切娜",
+    "en": "Purrchena",
+    "element": "物理",
+    "role": "重装",
+    "cost": 4,
+    "hp": 85,
+    "atk": 4,
+    "skill": {
+      "name": "没有睡着",
+      "primaryEffect": "shield",
+      "value": 7,
+      "target": "友方单体（可自身）",
+      "text": "为同一目标施加1层庇护，保护者为噗切娜，仅本回合有效。",
+      "apCost": 2
+    },
+    "ultimate": {
+      "name": "礼盒防线",
+      "primaryEffect": "damage",
+      "value": 4,
+      "target": "敌方当前前排",
+      "text": "伤害元素改为自然；选择一名主目标，自身治疗5。",
+      "apCost": 0,
+      "earliestRound": 3,
+      "usesPerMatch": 1,
+      "damageElement": "自然",
+      "requiredCasts": 3,
+      "chargeSources": [
+        "skill",
+        "combo"
+      ],
+      "chargePerCast": 1
+    },
+    "combo": {
+      "name": "点心支援",
+      "triggerEvent": "ally_direct_hp_loss",
+      "triggerText": "己方角色受敌方直接攻击损失生命，结算后仍存活。",
+      "effectText": "治疗该受伤角色1，并为其增加1数值护盾。",
+      "effects": [
+        {
+          "type": "heal",
+          "value": 1,
+          "target": "event_injured_ally"
+        },
+        {
+          "type": "shield",
+          "value": 1,
+          "target": "event_injured_ally"
+        }
+      ],
+      "maxTriggersPerRound": 1,
+      "roundScope": "global_both_players",
+      "apCost": 0,
+      "playerActionCost": 0,
+      "unitActivationCost": 0,
+      "blockedWhileFrozen": true,
+      "sourceReference": {
+        "url": "https://warfarin.wiki/cn/operators/purrchena",
+        "basis": "原作受控干员受击触发礼盒治疗；本版固定效果并删除聚怪随机分支。",
+        "kind": "community_wiki",
+        "adaptedNotOriginalNumbers": true
+      },
+      "activation": "event_ready_then_manual_release",
+      "expiresAt": "current_global_round_end",
+      "resourceCost": 0
+    },
+    "targeting": {
+      "normalAttackRange": "front_priority",
+      "skillTargetRange": "friendly",
+      "ultimateTargetRange": "front_only"
+    }
+  }
+]

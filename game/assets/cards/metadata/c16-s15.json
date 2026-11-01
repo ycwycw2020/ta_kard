@@ -1,0 +1,39 @@
+{
+  "id": "c16-s15",
+  "characterId": 16,
+  "name": "阿列什",
+  "skin": 15,
+  "tier": "exquisite",
+  "revision": 3,
+  "expression": "alert canny concentration, eyes sharply focused and a closed knowing half-smile",
+  "pairedExpression": "relaxed sly grin, amused half-lidded eyes and one raised brow",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/alesh.d7f457d2.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/alesh.bfe6a583.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/alesh.d7f457d2.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 65
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c16-s15.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c16-s15.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c16-s15.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

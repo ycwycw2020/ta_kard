@@ -1,0 +1,70 @@
+{
+  "id": "c26-s13",
+  "characterId": 26,
+  "name": "庄方宜",
+  "skin": 13,
+  "tier": "fine",
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: precise-object-edit. This image is the EDIT TARGET. Change ONLY the mouth of 庄方宜 from an open-mouth smile to a natural, soft CLOSED-LIP smile. Lips gently meet, no teeth or inner mouth visible. Preserve absolutely everything else: eyes and gaze, face shape, head and torso orientation, both corrected arms and hands, horns, flowing hair, costume, maple leaf and ancient ink-wash background, composition, colors, lighting and brushwork. Same portrait 9:16 and resolution. No text or border.",
+  "references": [
+    "source-reference/c26-s13.png",
+    "source-reference/zhuangfy.png"
+  ],
+  "referenceUrls": [],
+  "generatedAt": null,
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c26-s13.png",
+    "sha256": "3255935a21782b6e9fb608dfa6d9ca23df98e07ada0173a853cad31282fd91e9"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c26-s13.png",
+    "sha256": "0c83afb3c6229f17df87864f54743003359f0e3150fc4a533f17d41ad8535ea4"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c26-s13.webp",
+    "sha256": "d69ad0f31adaa0462d80ca1a21c84e4a4df85aa295bbc2e2498f925bbaaebe2d"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "release": "20220424 / v0.2.5.0",
+    "source": "https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "neuralOutput": {
+      "width": 3764,
+      "height": 6688
+    },
+    "finish": "Lanczos3 to exact 2160x3840",
+    "native4K": false,
+    "elapsedSeconds": 156,
+    "executableSha256": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "modelSha256": {
+      "realesrgan-x4plus.param": "35330ececcea33b6c397a72548e788d5d53becee4734c50b7fada36e89f10a86",
+      "realesrgan-x4plus.bin": "713ee713b0353afaa27976f0563a64a5043bd70b9bd8936c2e26e25ebcdbcddf"
+    }
+  },
+  "status": "available",
+  "assetStatus": "available",
+  "processingFingerprint": "3f14a992d996f666a7519404ecef648ce9259ef7fdc336c5498a4cd4bb1a6fbc",
+  "processedAt": "2026-10-31T13:34:58.138Z",
+  "dynamicTier": "removed_in_v0.7.2",
+  "assetPathBase": "project",
+  "visualQA": {
+    "status": "approved",
+    "reviewedAt": "2026-10-31T13:46:19.119Z",
+    "reviewer": "Codex visual review / asset_delivery",
+    "notes": "闭嘴自然微笑，水墨红叶庭院；朝向及双肩到双手连贯，一臂抬起接叶、一臂下垂，未见多肢或错误手持武器。",
+    "registrySha256": "fe46924e76487a9aa7a60b4217916cb5d0f355fb7f6cd71df4e5fdc781d539f4"
+  },
+  "publication": {
+    "batch": "jue-zhuang-ancient-v2-20261031",
+    "source": "built-in image generation",
+    "fourthDynamicRarityAdded": false
+  }
+}

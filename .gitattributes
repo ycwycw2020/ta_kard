@@ -1,0 +1,3 @@
+# Keep source and deployment-proof bytes identical across Windows/Linux checkouts.
+# In particular, automatic CRLF conversion would invalidate published SHA-256 values.
+* -text

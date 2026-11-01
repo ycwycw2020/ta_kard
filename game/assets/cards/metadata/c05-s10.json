@@ -1,0 +1,39 @@
+{
+  "id": "c05-s10",
+  "characterId": 5,
+  "name": "艾尔黛拉",
+  "skin": 10,
+  "tier": "fine",
+  "revision": 3,
+  "expression": "delighted scientific curiosity, widened shining eyes and small spontaneous open smile",
+  "pairedExpression": "gentle but brave concentration, knitted brows and softly set mouth; no aggressive evil grin",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/ardelia.565c75af.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/ardelia.36d836c7.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/ardelia.565c75af.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 67
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c05-s10.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c05-s10.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c05-s10.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

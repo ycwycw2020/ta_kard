@@ -1,0 +1,39 @@
+{
+  "id": "c15-s15",
+  "characterId": 15,
+  "name": "骏卫",
+  "skin": 15,
+  "tier": "exquisite",
+  "revision": 3,
+  "expression": "stern clear command, furrowed brows and parted lips giving a concise order",
+  "pairedExpression": "thoughtful dry amusement, one corner of mouth slightly lifted and assessing eyes",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/pogranichnik.80f2ddbb.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/pogranichnik.6983f122.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/pogranichnik.80f2ddbb.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 67
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c15-s15.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c15-s15.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c15-s15.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

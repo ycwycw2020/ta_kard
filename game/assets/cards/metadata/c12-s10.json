@@ -1,0 +1,39 @@
+{
+  "id": "c12-s10",
+  "characterId": 12,
+  "name": "秋栗",
+  "skin": 10,
+  "tier": "fine",
+  "revision": 3,
+  "expression": "warm inviting open smile and lively raised brows, direct friendly gaze",
+  "pairedExpression": "resourceful determined confidence, a small closed challenging smile and sharply focused eyes",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/akekuri.3603d013.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/akekuri.751608ae.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/akekuri.3603d013.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 68
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c12-s10.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c12-s10.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c12-s10.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

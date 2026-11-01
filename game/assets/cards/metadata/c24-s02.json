@@ -1,0 +1,44 @@
+{
+  "id": "c24-s02",
+  "characterId": 24,
+  "name": "汤汤",
+  "skin": 2,
+  "tier": "normal",
+  "references": [
+    "source-reference/tangtang.png",
+    "source-reference/c24-s00.png"
+  ],
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/tangtang.2602b587.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/tangtang.b5cd99e9.png"
+  ],
+  "prompt": "Use case: stylized-concept. Asset: ONE new collectible character-card illustration, portrait 9:16, single continuous full-bleed painting, highest available native resolution. Character: 汤汤 from Arknights: Endfield, for the unofficial fan game Talos / 塔卫牌局.\nInput image 1 is the canonical APPEARANCE reference. Input image 2 is an existing card for face and hair continuity ONLY. The canonical APPEARANCE and COSTUME in image 1 takes absolute precedence wherever the references conflict; do not borrow extra garments from image 2. Create a genuinely NEW scene, pose, expression and camera arrangement; do not copy either layout. Preserve hairstyle, face shape, species features, outfit layers, color identifiers, accessories and canonical equipment. Do not invent a different costume, weapon or extra animal ears.\nQuality tier: normal. Style: Clean precise 2D anime cel illustration with crisp expressive drawing, economical two-step shadows, restrained palette and a simple graphic background. Finished and attractive but deliberately modest in background detail and material rendering. No watercolor, no oil painting, no cinematic particles.\nComposition and action: chest-up oblique profile facing right, turning the head back toward an off-frame sound; hands naturally outside the crop.\nScene and palette: a cool blue-gray transit platform with two simple receding structural shapes and soft window light. This is an original fan-art moment, not an assertion of an official story event. \nFacial acting: interested surprise, slightly lifted inner brow and gently parted lips; understated for reserved personalities. Character-specific personality reference: exuberant boastful laugh, bright eyes and raised cheeks. Coordinate eyebrows, eyelids, pupils, cheeks and mouth so the expression is alive and individual. Do not paste the same smile on every card. \nNatural anatomy and hands, clean readable silhouette, harmonious proportions, detailed face with the sharpest local focus. Tasteful nonsexual framing. No lettering, symbols masquerading as text, signature, watermark, logo, card border or UI. Do not print rarity or resolution. This image will be separately super-resolved to 2160x3840, with original size preserved in metadata.",
+  "status": "approved",
+  "mode": "builtin_imagegen",
+  "nativePath": "source-reference/c24-s02.png",
+  "generatedAt": "2026-09-27T12:04:18.773418+00:00",
+  "sourceImage": "source-reference/exec-a1630eba-881f-47e6-a6dd-833bd403f872.png",
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "source-reference/c24-s02.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c24-s02.png"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus-anime",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 50
+  },
+  "visualQA": {
+    "approved": true,
+    "method": "Native image plus 4K contact-sheet review",
+    "checkedAt": "2026-09-27T12:25:59.055853+00:00",
+    "notes": "Identity, expression variety, anatomy, framing and tier composition checked."
+  }
+}

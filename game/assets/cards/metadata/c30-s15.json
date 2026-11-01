@@ -1,0 +1,57 @@
+{
+  "id": "c30-s15",
+  "characterId": 30,
+  "name": "诀",
+  "skin": 15,
+  "tier": "exquisite",
+  "revision": 3,
+  "expression": "sharp resolute intensity, knitted brows and slightly parted lips, eyes fixed far off-frame",
+  "pairedExpression": "reserved interested appraisal, one gently raised brow and subtle relaxed mouth",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/lizhiyan.7ada7b83.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/lizhiyan.5e6e07c8.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/lizhiyan.7ada7b83.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 65
+  },
+  "native": {
+    "width": 940,
+    "height": 1672,
+    "path": "assets/cards/native/c30-s15.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c30-s15.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c30-s15.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2",
+  "assetPathBase": "project",
+  "animation": {
+    "type": "webgl-mesh",
+    "profileId": "c30-s15",
+    "texture": {
+      "path": "assets/cards/motion/c30-s15.webp",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "6022a3dd568271e11531bde50eaad1ef5124f5c6bbc89046dc8f09a46c9b8b75"
+    },
+    "masterSha256": "bb3646fd77591038bb4ce46558e5a5c1e817ae42067ec6df50b7e6ade19d4e26",
+    "breathing": true,
+    "naturalWind": true,
+    "calibration": "existing-s15-visual",
+    "standaloneVideo": false,
+    "live2DCubismRig": false,
+    "rarityChanged": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "TalosCardItems",
+  "standard": "ERC-721 Enumerable + fixed-price marketplace",
+  "chainId": 20260926,
+  "address": "0x3CB5F558Df2E765b9e30d7b093D56b357B8f2E6e",
+  "sourceCollection": "0x192A3cE528978B59e265fd6A3aE3fF6685b6b801",
+  "deployBlock": 10447,
+  "deployTransaction": "0x865141d4822381bf74fa6d2111566151b7714bd3efbfe51b5b1609e79f3d423a",
+  "runtimeBytecodeSha256": "f00c31ccdc49da336a638b484466567cf65f9265899b749ce1b44f4f608142bc",
+  "serialFormat": "QCCC RRRRRRRR HHHH",
+  "qualityCodes": {
+    "normal": 1,
+    "fine": 2,
+    "exquisite": 3
+  },
+  "characterCodes": "001-032",
+  "checksum": "uint256(keccak256(UTF-8 first 12 decimal digits)) % 10000; decimal, padded to four digits",
+  "checksumIsEncryption": false,
+  "newChainCreated": false
+}

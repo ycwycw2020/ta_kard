@@ -1,0 +1,51 @@
+// Explicit integration command; creates disposable contracts, never replaces the game chain.
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import solc from 'solc';
+import {JsonRpcProvider,Wallet,NonceManager,ContractFactory,parseEther,keccak256,toUtf8Bytes,ZeroAddress} from 'ethers';
+const cfg=JSON.parse(fs.readFileSync(process.argv[2]||'private/config.json','utf8'));
+const output=process.argv[3]||'items-contract-verification.json';
+const provider=new JsonRpcProvider(cfg.rpc,cfg.chainId,{staticNetwork:true,cacheTimeout:0});
+const admin=new NonceManager(new Wallet(cfg.wallets.admin.privateKey,provider)),a=Wallet.createRandom().connect(provider),b=Wallet.createRandom().connect(provider),c=Wallet.createRandom().connect(provider);
+const A=new NonceManager(a),B=new NonceManager(b),C=new NonceManager(c);
+const report={startedAt:new Date().toISOString(),chainId:cfg.chainId,mainGameContractPreserved:cfg.contract,tests:[]};
+const pass=s=>{report.tests.push(s);console.log('PASS '+s);};const done=async promise=>await(await promise).wait();
+try{
+ const source='pragma solidity ^0.8.30; contract Receipts { mapping(address=>mapping(uint256=>uint256)) public balanceOf; function mint(address p,uint256 id,uint256 n) external {balanceOf[p][id]+=n;} } contract RejectNFT {}';
+ const compiled=JSON.parse(solc.compile(JSON.stringify({language:'Solidity',sources:{'Test.sol':{content:source}},settings:{evmVersion:'london',outputSelection:{'*':{'*':['abi','evm.bytecode.object']}}}}))).contracts['Test.sol'];
+ const mock=await new ContractFactory(compiled.Receipts.abi,compiled.Receipts.evm.bytecode.object,admin).deploy({gasPrice:0});await mock.waitForDeployment();
+ const reject=await new ContractFactory(compiled.RejectNFT.abi,compiled.RejectNFT.evm.bytecode.object,admin).deploy({gasPrice:0});await reject.waitForDeployment();
+ const artifact=JSON.parse(fs.readFileSync('build/TalosCardItems.json','utf8'));
+ const nft=await new ContractFactory(artifact.abi,artifact.evm.bytecode.object,admin).deploy(await mock.getAddress(),'http://localhost:8787/api/item-metadata/',{gasPrice:0});await nft.waitForDeployment();
+ const own=nft.connect(A),buyer=nft.connect(B),third=nft.connect(C);
+ const ids=[101,111,116,3201,3211,3216];for(const art of ids)await done(mock.mint(a.address,art,art===101?3:1,{gasPrice:0}));
+ await done(admin.sendTransaction({to:b.address,value:parseEther('10'),gasPrice:0}));
+ await done(own.materializeFor(a.address,ids,2,{gasPrice:0}));assert.equal(await nft.totalSupply(),2n);
+ await done(own.materializeFor(a.address,ids,64,{gasPrice:0}));assert.equal(await nft.totalSupply(),8n);
+ const items=await nft.itemsOf(a.address,0,64),numbers=items.map(x=>x.tokenId.toString());assert.equal(new Set(numbers).size,8);
+ for(const x of items){const number=x.tokenId.toString(),art=Number(x.artworkId),prefix=String(art%100>=16?3:art%100>=11?2:1)+String(Math.floor(art/100)).padStart(3,'0');assert.match(number,/^[1-3][0-9]{15}$/);assert.equal(number.slice(0,4),prefix);assert.equal(BigInt(number.slice(12)),BigInt(keccak256(toUtf8Bytes(number.slice(0,12))))%10000n);assert.equal(await nft.verifyIdentifier(x.tokenId),true);assert.equal(await nft.verifyIdentifier((x.tokenId/10000n)*10000n+(x.tokenId%10000n+1n)%10000n),false);}
+ pass('all qualities and edge character codes use unique QCCC/random8/checksum4 on-chain IDs');
+ assert.equal((await nft.itemsOf(a.address,8,64)).length,0);await assert.rejects(nft.itemsOf(a.address,0,65));await assert.rejects(own.materializeFor.staticCall(a.address,[100],64));
+ pass('bounded materialization batches and enumeration pages');
+ const gift=items[0].tokenId;await done(own.gift(gift,b.address,{gasPrice:0}));assert.equal(await nft.ownerOf(gift),b.address);
+ await done(own.materializeFor(a.address,ids,64,{gasPrice:0}));assert.equal(await nft.totalSupply(),8n);assert.equal(await nft.ownerOf(gift),b.address);await assert.rejects(own.gift.staticCall(gift,c.address));
+ pass('gift changes ownership once; old receipt cannot mint a replacement after transfer');
+ const sale=items[1].tokenId,price=parseEther('4.123456789123456789');await assert.rejects(third.setListing.staticCall(sale,price));await assert.rejects(own.setListing.staticCall(sale,0));
+ await done(own.setListing(sale,price,{gasPrice:0}));let quote=await nft.listings(sale);assert.equal(await nft.listedCount(),1n);
+ await assert.rejects(buyer.buy.staticCall(sale,a.address,price,quote.revision,{value:price-1n}));await assert.rejects(own.buy.staticCall(sale,a.address,price,quote.revision,{value:price}));
+ await done(own.setListing(sale,price+1n,{gasPrice:0}));await assert.rejects(buyer.buy.staticCall(sale,a.address,price,quote.revision,{value:price}));
+ await done(own.setListing(sale,price,{gasPrice:0}));await assert.rejects(buyer.buy.staticCall(sale,a.address,price,quote.revision,{value:price}));quote=await nft.listings(sale);
+ pass('owner-only arbitrary 18-decimal pricing; stale and altered quotes are rejected');
+ const receipt=await done(buyer.buy(sale,a.address,price,quote.revision,{value:price,gasPrice:0}));assert.equal(await nft.ownerOf(sale),b.address);assert.equal(await nft.proceeds(a.address),price);assert.equal(await nft.listedCount(),0n);assert.equal(await provider.getBalance(await nft.getAddress()),price);
+ await assert.rejects(buyer.buy.staticCall(sale,a.address,price,quote.revision,{value:price}));await assert.rejects(third.withdrawProceeds.staticCall(c.address));
+ const before=await provider.getBalance(a.address);await done(own.withdrawProceeds(a.address,{gasPrice:0}));assert.equal(await provider.getBalance(a.address),before+price);assert.equal(await nft.proceeds(a.address),0n);assert.equal(await provider.getBalance(await nft.getAddress()),0n);await assert.rejects(own.withdrawProceeds.staticCall(a.address));
+ pass('purchase atomically transfers exact numbered card and credits seller; withdrawal pays exactly once');
+ const cancel=items[2].tokenId;await done(own.setListing(cancel,1n,{gasPrice:0}));const old=await nft.listings(cancel);await done(own.cancelListing(cancel,{gasPrice:0}));await assert.rejects(buyer.buy.staticCall(cancel,a.address,1n,old.revision,{value:1n}));
+ await done(own.setListing(cancel,1n,{gasPrice:0}));await done(own.approve(c.address,cancel,{gasPrice:0}));await done(third['transferFrom(address,address,uint256)'](a.address,b.address,cancel,{gasPrice:0}));assert.equal((await nft.listings(cancel)).seller,ZeroAddress);
+ pass('cancellation and ERC-721 operator transfers invalidate active sale quotes');
+ const protectedId=items[3].tokenId;await assert.rejects(own.gift.staticCall(protectedId,await reject.getAddress()));assert.equal(await nft.ownerOf(protectedId),a.address);
+ assert.equal(await nft.supportsInterface('0x80ac58cd'),true);assert.equal(await nft.supportsInterface('0x5b5e139f'),true);
+ pass('safe-transfer receiver rejection preserves ownership; ERC-721 and metadata interfaces supported');
+ report.passed=true;report.temporaryContracts={receipts:await mock.getAddress(),items:await nft.getAddress()};report.saleTransaction=receipt.hash;report.sampleNumbers=numbers;report.finishedAt=new Date().toISOString();
+ fs.writeFileSync(output,JSON.stringify(report,null,2));console.log(JSON.stringify({passed:true,tests:report.tests.length,sampleNumber:numbers[0]}));
+}finally{provider.destroy();}

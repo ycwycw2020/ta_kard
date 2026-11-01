@@ -1,0 +1,39 @@
+{
+  "id": "c26-s10",
+  "characterId": 26,
+  "name": "庄方宜",
+  "skin": 10,
+  "tier": "fine",
+  "revision": 3,
+  "expression": "composed intellectual curiosity, softly lifted eyebrow and restrained closed smile",
+  "pairedExpression": "clear disciplined focus, level intense eyes and firmly set mouth",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/zhuangfy.50a608b8.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/zhuangfy.c6750f9c.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/zhuangfy.50a608b8.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 70
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c26-s10.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c26-s10.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c26-s10.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

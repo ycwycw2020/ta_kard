@@ -1,0 +1,8 @@
+{
+  "chainId": 20260926,
+  "contract": "0x192A3cE528978B59e265fd6A3aE3fF6685b6b801",
+  "block": 6,
+  "transaction": "0x92764aa8712466b66e05e48321c509da2a55eafca9ede11d34081ef6b26fdfad",
+  "deploymentId": "0x34d75662d82f7ca124424c827f0ab0582a5a62142ea903cbff7f9b45d9137992",
+  "battleRulesHash": "0xf28658acffd134fecc7f1a7f2abb14a10c9f354a30bfdd2b95844c85b109bece"
+}

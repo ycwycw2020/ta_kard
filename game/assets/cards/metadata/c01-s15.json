@@ -1,0 +1,39 @@
+{
+  "id": "c01-s15",
+  "characterId": 1,
+  "name": "管理员",
+  "skin": 15,
+  "tier": "exquisite",
+  "revision": 3,
+  "expression": "resolute composure, firm posture and purposeful gaze or head angle; never remove face coverings",
+  "pairedExpression": "restrained curiosity conveyed by a small head tilt and relaxed shoulders; preserve all canonical face coverings",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/endministrator2.5ccb44a8.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/endministrator2.5ccb44a8.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/endministrator2.5ccb44a8.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 66
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c01-s15.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c01-s15.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c01-s15.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

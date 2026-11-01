@@ -1,0 +1,23 @@
+{
+  "chainId": 20260926,
+  "nodes": [
+    {
+      "index": 1,
+      "ip": "192.168.2.1",
+      "address": "0x71c1139d143d644d50f65764594a428c197447af",
+      "enode": "enode://e055af29d6b0ca5cf946134f19a243dc789454442e469b922caeec1ef2e50512225418cd992369393c150cda36c5d5737a27ecc0705128a8782acdd7a3bcc3e7@192.168.2.1:30303"
+    },
+    {
+      "index": 2,
+      "ip": "192.168.2.128",
+      "address": "0x8b36fe2c171fbd8f9ccd9bd0e9a3ca4da2b18358",
+      "enode": "enode://d8642d40288be5a50c094bc69f0bc38d93b8b07bb5b178d74c24cdcb18a06b234b7a9b602e621d7587663fbdc92e554794bd3407e1eb02fb6a000c343eb83550@192.168.2.128:30303"
+    },
+    {
+      "index": 3,
+      "ip": "192.168.2.129",
+      "address": "0xcdb22be6ca9353da95628db7f2b45f83e6b079fb",
+      "enode": "enode://a39d7ce1a17996e646f9648592e109ce76627dcfe2802ae4eed0aab7bda52fa808499347d7f50970afd497c444103c2357f378156127914cbc5ad69aecb33e95@192.168.2.129:30303"
+    }
+  ]
+}

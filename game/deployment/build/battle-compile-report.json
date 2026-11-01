@@ -1,0 +1,44 @@
+[
+  {
+    "name": "TalosBattle",
+    "bytes": 24303,
+    "linked": [
+      "TalosBattleCatalog.sol",
+      "TalosBattleEngine.sol"
+    ]
+  },
+  {
+    "name": "TalosBattleCatalog",
+    "bytes": 1610,
+    "linked": []
+  },
+  {
+    "name": "TalosBattleCombos",
+    "bytes": 15114,
+    "linked": []
+  },
+  {
+    "name": "TalosBattleEngine",
+    "bytes": 18129,
+    "linked": [
+      "TalosBattleEngine.sol"
+    ]
+  },
+  {
+    "name": "TalosBattleRules",
+    "bytes": 21456,
+    "linked": []
+  },
+  {
+    "name": "TalosBattleHarness",
+    "bytes": 7600,
+    "linked": [
+      "TalosBattleEngine.sol"
+    ]
+  },
+  {
+    "name": "TalosBattleTypes",
+    "bytes": 58,
+    "linked": []
+  }
+]

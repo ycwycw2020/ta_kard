@@ -1,0 +1,34 @@
+{
+  "config" : {
+    "chainId" : 20260926,
+    "berlinBlock" : 0,
+    "londonBlock" : 0,
+    "zeroBaseFee" : true,
+    "qbft" : {
+      "blockperiodseconds" : 3,
+      "epochlength" : 30000,
+      "requesttimeoutseconds" : 6
+    }
+  },
+  "nonce" : "0x0",
+  "timestamp" : "0x0",
+  "gasLimit" : "0x1c9c380",
+  "difficulty" : "0x1",
+  "mixHash" : "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
+  "coinbase" : "0x0000000000000000000000000000000000000000",
+  "alloc" : {
+    "95B6a8A5D694Da341e311De5aFf18307dD2AD6BB" : {
+      "balance" : "0xd3c21bcecceda1000000"
+    },
+    "3B2575C58A1f9211E0185C0860789Ca5Cf72513A" : {
+      "balance" : "0xd3c21bcecceda1000000"
+    },
+    "2C2B96Bc807addBee8756c68d50f537982348E20" : {
+      "balance" : "0xd3c21bcecceda1000000"
+    },
+    "97bf3841769B2177E76a5557C599eBa7186d7d13" : {
+      "balance" : "0xd3c21bcecceda1000000"
+    }
+  },
+  "extraData" : "0xf865a00000000000000000000000000000000000000000000000000000000000000000f83f9471c1139d143d644d50f65764594a428c197447af94cdb22be6ca9353da95628db7f2b45f83e6b079fb948b36fe2c171fbd8f9ccd9bd0e9a3ca4da2b18358c080c0"
+}

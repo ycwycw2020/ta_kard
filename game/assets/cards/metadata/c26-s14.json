@@ -1,0 +1,69 @@
+{
+  "id": "c26-s14",
+  "characterId": 26,
+  "name": "庄方宜",
+  "skin": 14,
+  "tier": "fine",
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: stylized-concept. One beautiful portrait 9:16 card illustration of 庄方宜 / Zhuang Fangyi from Arknights Endfield. Image 1 is her official appearance reference. Preserve her red eyes, black hair with red strands, red horns, pointed ears, canonical white-black top, long green skirt, gloves and cyan floating cubic cannons. Ancient Chinese aesthetic in scenery and painting only; keep her original outfit and weapon. Natural anatomy, exactly two coherent arms with correct hands. No text, border, watermark, sword, modern buildings, neon signs or cyberpunk scene. Highest native resolution. FINE tier. Refined gongbi and softly brushed mineral-color anime painting, plum purple, jade and warm paper-lantern gold. Half-body front three-quarter view in a traditional timber garden corridor at night, rain outside, lattice window and flowering plum branches, limited elegant detail. One hand relaxed at waist, other hand palm up directing a small floating cannon at shoulder height. Playful self-assured CLOSED-MOUTH smile, subtle raised eyebrow, lively eyes. Clear readable silhouette, balanced composition, gentle atmospheric depth, face upper third. Different from ivory ink-wash leaf scene and lavish exquisite landscapes.",
+  "references": [
+    "source-reference/zhuangfy.png"
+  ],
+  "referenceUrls": [],
+  "generatedAt": null,
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c26-s14.png",
+    "sha256": "850672d21281aa227b691faae7aaf78e6ce5f0f32863dc48834e7bf7bd51c3d7"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c26-s14.png",
+    "sha256": "d64fe5367de1992ed96609668287c720c97f3cbdfb60535095f2ffae4febe907"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c26-s14.webp",
+    "sha256": "51116686d1489aa59012bece2f349acea6c8aa891820be2856685cbadcea7b31"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "release": "20220424 / v0.2.5.0",
+    "source": "https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "neuralOutput": {
+      "width": 3764,
+      "height": 6688
+    },
+    "finish": "Lanczos3 to exact 2160x3840",
+    "native4K": false,
+    "elapsedSeconds": 178,
+    "executableSha256": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "modelSha256": {
+      "realesrgan-x4plus.param": "35330ececcea33b6c397a72548e788d5d53becee4734c50b7fada36e89f10a86",
+      "realesrgan-x4plus.bin": "713ee713b0353afaa27976f0563a64a5043bd70b9bd8936c2e26e25ebcdbcddf"
+    }
+  },
+  "status": "available",
+  "assetStatus": "available",
+  "processingFingerprint": "a0c3a740f0c8ee8a11823f45df10a58928ebc34e89e83fdc5b20182f3def45ba",
+  "processedAt": "2026-10-31T13:37:55.785Z",
+  "dynamicTier": "removed_in_v0.7.2",
+  "assetPathBase": "project",
+  "visualQA": {
+    "status": "approved",
+    "reviewedAt": "2026-10-31T13:46:19.152Z",
+    "reviewer": "Codex visual review / asset_delivery",
+    "notes": "梅花夜廊，闭嘴柔和微笑；一手托举浮游炮、一手松置腰前，手臂分离自然，古风灯影与花木背景。",
+    "registrySha256": "fe46924e76487a9aa7a60b4217916cb5d0f355fb7f6cd71df4e5fdc781d539f4"
+  },
+  "publication": {
+    "batch": "jue-zhuang-ancient-v2-20261031",
+    "source": "built-in image generation",
+    "fourthDynamicRarityAdded": false
+  }
+}

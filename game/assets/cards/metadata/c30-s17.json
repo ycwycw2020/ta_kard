@@ -1,0 +1,86 @@
+{
+  "id": "c30-s17",
+  "characterId": 30,
+  "name": "诀",
+  "skin": 17,
+  "tier": "exquisite",
+  "mode": "builtin_imagegen",
+  "prompt": "Create one exquisite portrait 9:16 collectible card illustration of Jue (诀). Image 1 is the official appearance and weapon reference: preserve her silver-white hair with teal-black undersides, blue eyes, black head ornaments, canonical white/black/cyan coat and black-red asymmetric legwear. Ancient Chinese moonlit lotus garden, moon gate, bamboo, magnolia, carved stone bridge and lantern reflections; rich lapis, pearl and muted gold mineral-pigment gongbi painting with delicately rendered anime face. Upper-thigh portrait, torso and face coherently three-quarter toward viewer, lively thoughtful gentle smile. One empty hand rests naturally on bridge railing, other open near waist; exactly two anatomically coherent arms. Long hair and coat tips drift gently rightwards in natural breeze with separated strands for later animation. Two independent black mechanical FLOATING CANNON gun blocks with broad cyan gun muzzles hover behind her, exactly the weapon type in reference. No sword, blade, spear, staff or handheld weapon. Preserve original outfit; ancient aesthetic is scenery and painting only. Intricate premium layered background, face clear, no sci-fi buildings, no text, no border.",
+  "references": [
+    "source-reference/lizhiyan.png"
+  ],
+  "referenceUrls": [],
+  "generatedAt": null,
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c30-s17.png",
+    "sha256": "556a8bb0ae143623c0d02defabbc988aa2e98573b7addde21dea2f1a5387490e"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c30-s17.png",
+    "sha256": "a0f093d0d77d456ec6cbdd881aaeaba3af1627ff5a47b84040957df350ca438a"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c30-s17.webp",
+    "sha256": "62077a6799d46f43f619e4308cc31556771fbca43c89b6b69ee573cffcbd54be"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "release": "20220424 / v0.2.5.0",
+    "source": "https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "neuralOutput": {
+      "width": 3764,
+      "height": 6688
+    },
+    "finish": "Lanczos3 to exact 2160x3840",
+    "native4K": false,
+    "elapsedSeconds": 186,
+    "executableSha256": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "modelSha256": {
+      "realesrgan-x4plus.param": "35330ececcea33b6c397a72548e788d5d53becee4734c50b7fada36e89f10a86",
+      "realesrgan-x4plus.bin": "713ee713b0353afaa27976f0563a64a5043bd70b9bd8936c2e26e25ebcdbcddf"
+    }
+  },
+  "status": "available",
+  "assetStatus": "available",
+  "processingFingerprint": "e3620a2acb885c0bf86e424577615744984ba28b0fc9da483126d27ca7a6430d",
+  "processedAt": "2026-10-31T13:32:02.865Z",
+  "dynamicTier": "removed_in_v0.7.2",
+  "assetPathBase": "project",
+  "visualQA": {
+    "status": "approved",
+    "reviewedAt": "2026-10-31T13:46:19.251Z",
+    "reviewer": "Codex visual review / asset_delivery",
+    "notes": "月庭莲池，空手开放掌与另一手扶石台动作连贯；双浮游炮正确，闭嘴笑，发丝及衣摆风向自然，与云海日景有明显色彩/构图差异。",
+    "registrySha256": "fe46924e76487a9aa7a60b4217916cb5d0f355fb7f6cd71df4e5fdc781d539f4"
+  },
+  "publication": {
+    "batch": "jue-zhuang-ancient-v2-20261031",
+    "source": "built-in image generation",
+    "fourthDynamicRarityAdded": false
+  },
+  "animation": {
+    "type": "webgl-mesh",
+    "profileId": "c30-s17",
+    "texture": {
+      "path": "assets/cards/motion/c30-s17.webp",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "a6c704e8adb209cb1fae75cdd06efeea50b056c54b021caab3a53c18b54fc8eb"
+    },
+    "masterSha256": "a0f093d0d77d456ec6cbdd881aaeaba3af1627ff5a47b84040957df350ca438a",
+    "breathing": true,
+    "naturalWind": true,
+    "calibration": "ancient-v2-s17-lotus-moon-floating-cannon-visual-20261031",
+    "standaloneVideo": false,
+    "live2DCubismRig": false,
+    "rarityChanged": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "c11-s12",
+  "characterId": 11,
+  "name": "弧光",
+  "skin": 12,
+  "tier": "fine",
+  "references": [
+    "source-reference/arclight.png",
+    "source-reference/c11-s00.png"
+  ],
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/arclight.e46ed671.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/arclight.e31580d7.png"
+  ],
+  "prompt": "Use case: stylized-concept. Asset: ONE new collectible character-card illustration, portrait 9:16, single continuous full-bleed painting, highest available native resolution. Character: 弧光 from Arknights: Endfield, for the unofficial fan game Talos / 塔卫牌局.\nInput image 1 is the canonical APPEARANCE reference. Input image 2 is an existing card for face and hair continuity ONLY. The canonical APPEARANCE and COSTUME in image 1 takes absolute precedence wherever the references conflict; do not borrow extra garments from image 2. Create a genuinely NEW scene, pose, expression and camera arrangement; do not copy either layout. Preserve hairstyle, face shape, species features, outfit layers, color identifiers, accessories and canonical equipment. Do not invent a different costume, weapon or extra animal ears.\nQuality tier: fine. Style: Refined luminous gouache and watercolor illustration with fine colored-pencil accents, sophisticated color harmony, delicate foliage and fabric textures, clear foreground-middle-distance layers and generous negative space. Richer environmental storytelling and painterly finish than the normal portrait cards. Not a flat cel-shaded bust and not dark oil-painted cinematic spectacle.\nComposition and action: a complete figure seated sideways in a carefully balanced diagonal composition, a mild elevated viewpoint; arranging a small personal tool or canonical equipment on a low surface.\nScene and palette: an ochre and lavender twilight shelter, textured fabric canopy, a few carefully rendered tools, warm indirect lantern light and a spacious atmospheric landscape beyond. This is an original fan-art moment, not an assertion of an official story event. \nFacial acting: quiet satisfaction after effort, softened eyelids and a fleeting character-specific amused or relieved smile; visibly different from the walking scene. Character-specific personality reference: quiet satisfaction, subtle one-corner smile, attentive eyes and relaxed brow. Coordinate eyebrows, eyelids, pupils, cheeks and mouth so the expression is alive and individual. Do not paste the same smile on every card. \nNatural anatomy and hands, clean readable silhouette, harmonious proportions, detailed face with the sharpest local focus. Tasteful nonsexual framing. No lettering, symbols masquerading as text, signature, watermark, logo, card border or UI. Do not print rarity or resolution. This image will be separately super-resolved to 2160x3840, with original size preserved in metadata.",
+  "status": "approved",
+  "mode": "builtin_imagegen",
+  "nativePath": "source-reference/c11-s12.png",
+  "generatedAt": "2026-09-27T09:49:47.557452+00:00",
+  "sourceImage": "source-reference/exec-df14df45-5aa1-4a2f-b1cf-8bc7fe179e4b.png",
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "source-reference/c11-s12.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c11-s12.png"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 146
+  },
+  "visualQA": {
+    "approved": true,
+    "method": "Native image plus 4K contact-sheet review",
+    "checkedAt": "2026-09-27T10:05:34.122136+00:00",
+    "notes": "Identity, expression variety, anatomy, framing and tier composition checked."
+  }
+}

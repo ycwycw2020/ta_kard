@@ -1,0 +1,3861 @@
+{
+  "generatedAt": "2026-11-01",
+  "note": "This file excludes itself, .git, and separately downloadable full-resolution art.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 177,
+      "sha256": "ea44c2e02bc9a5cbf1799e745a023fefc243e1797205bbef18d05e3769116882"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/rights.yml",
+      "size": 663,
+      "sha256": "a539367ff54aad106156c0b6ec88f34141bb4bd783976d3b153d4fdf97189aa9"
+    },
+    {
+      "path": ".gitignore",
+      "size": 456,
+      "sha256": "b0b976f813d50120299af2eae797422063dfa24ea3115aed3c2d98f36f03b304"
+    },
+    {
+      "path": "config-templates/config.example.json",
+      "size": 1396,
+      "sha256": "0deedd2b90a340880795f66b1d02d4d730082edd47068e5c1ac638aa9fc11038"
+    },
+    {
+      "path": "config-templates/indexer-config.example.json",
+      "size": 210,
+      "sha256": "cec778fcee9e7429f0b6ca2cae0eb38e3deb05bb9a4da812a64791878baa71f7"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "size": 4370,
+      "sha256": "96c5c022e83fbb2521286ee891f7053e1b616785905389a506448046d77e1608"
+    },
+    {
+      "path": "docs/asset-manifest.json",
+      "size": 137067,
+      "sha256": "a0c99667f20bd9148fe54755191595563d755ab2270e1a14877eb0157d09be5a"
+    },
+    {
+      "path": "docs/CONTRACTS.md",
+      "size": 4198,
+      "sha256": "f3c8ac4646cdae1c009d48201b93fc6cf07441cbd1e1aa1110dbe5bfbbad9f7d"
+    },
+    {
+      "path": "docs/PROJECT_INTRO.md",
+      "size": 4813,
+      "sha256": "c886a438e506009ff0d172441adbc66513288a606d45a507fa9e0d118e0beb04"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "size": 8203,
+      "sha256": "b95585442375974de93ee7ec014d5c70259b50f3778ce96b888560c9809c7b31"
+    },
+    {
+      "path": "game/assets/cards/display/c01-s00.webp",
+      "size": 93862,
+      "sha256": "d3152ec500847bcfef897b5f859a7fadd846853394be30c6b37d9a6b3d3715d2"
+    },
+    {
+      "path": "game/assets/cards/display/c01-s01.webp",
+      "size": 99398,
+      "sha256": "dc94bfe872bb073314fdd465ab5ec5ee0caffef336253cd45c7ef0451c5bb20b"
+    },
+    {
+      "path": "game/assets/cards/display/c01-s02.webp",
+      "size": 92722,
+      "sha256": "3aa1097aeba2ad4b868f1515206887d967d15e044c1059551b22fc926e32c4bf"
+    },
+    {
+      "path": "game/assets/cards/display/c01-s03.webp",
+      "size": 94506,
+      "sha256": "5cd6b0098960087caf3b1f14cd81faa7e3903413f9ba8ea8cbf8773dd13b94be"
+    },
+    {
+      "path": "game/assets/cards/display/c01-s04.webp",
+      "size": 82946,
+      "sha256": "dabfb62895ba51532cdff29d72591e96a17178775326675e9ee339c2188eac2a"
+    },
+    {
+      "path": "game/assets/cards/display/c01-s10.webp",
+      "size": 135072,
+      "sha256": "674711619588375b1d187eae946a14677b34890f91c9fd0d98db6f3b402c739c"
+    },
+    {
+      "path": "game/assets/cards/display/c01-s11.webp",
+      "size": 143354,
+      "sha256": "2bed0db929a2d7c6127c04c5434e39869e0cf3ee58d7bea7557ebe7382373c33"
+    },
+    {
+      "path": "game/assets/cards/display/c01-s12.webp",
+      "size": 120564,
+      "sha256": "b66d4ca80906d4d560484bf25da557351f46f13bd20a235f28f42b60552cecb6"
+    },
+    {
+      "path": "game/assets/cards/display/c01-s15.webp",
+      "size": 139016,
+      "sha256": "2f54082ba92431b91c0a6b8b61310aa3fb6fa56f97a15482e39d1342cda14538"
+    },
+    {
+      "path": "game/assets/cards/display/c02-s00.webp",
+      "size": 101518,
+      "sha256": "0f2226f5ad8f45de95cc12ff9a0624774687319114d5db1bd5ef7c67cbfa8f24"
+    },
+    {
+      "path": "game/assets/cards/display/c02-s01.webp",
+      "size": 92892,
+      "sha256": "bf84b03e4b0f25551b98cb0c0d1cea3efb5d1cd29608b035738152bee4429e63"
+    },
+    {
+      "path": "game/assets/cards/display/c02-s02.webp",
+      "size": 96752,
+      "sha256": "d8224a9c0504b0b0beb94eb8eb6d50c8aa6f4e76eeca85bbac319e42ed9e5b9a"
+    },
+    {
+      "path": "game/assets/cards/display/c02-s03.webp",
+      "size": 102632,
+      "sha256": "84a931a6a728a55f609efdc203992683c4da70ab5de8817f44a81d67d3404a2e"
+    },
+    {
+      "path": "game/assets/cards/display/c02-s04.webp",
+      "size": 101334,
+      "sha256": "83cc8da3d2f2bac025e5495bb03703aa382e092eeaf5cdd7264a5b01e361122c"
+    },
+    {
+      "path": "game/assets/cards/display/c02-s10.webp",
+      "size": 133062,
+      "sha256": "1acbfd81171fff7d350323a48893e669cd5c2b21f4a6f70f0f5c42653647d53b"
+    },
+    {
+      "path": "game/assets/cards/display/c02-s11.webp",
+      "size": 155108,
+      "sha256": "039043a8b54e1dc201150c6ca736a276807073cfb1bf40c1242517c2b4082137"
+    },
+    {
+      "path": "game/assets/cards/display/c02-s12.webp",
+      "size": 130390,
+      "sha256": "a5e792b0b000bd585cfefe168386737b925bbcea33493c0bb8675ee0b72c8041"
+    },
+    {
+      "path": "game/assets/cards/display/c02-s15.webp",
+      "size": 141626,
+      "sha256": "a08baf7b62b99a9015e84c8870c60e88eb18b5b0bcf3c88d08cdd651ae75d704"
+    },
+    {
+      "path": "game/assets/cards/display/c03-s00.webp",
+      "size": 92738,
+      "sha256": "59d5fdae81a9414bc5a2aa6a077602cbb9aee7be973855b81e4ccad7554d8dc9"
+    },
+    {
+      "path": "game/assets/cards/display/c03-s01.webp",
+      "size": 94772,
+      "sha256": "8044b57f2c048710f0dc215243d154371bddcbb4e79643b70978c96be03675f2"
+    },
+    {
+      "path": "game/assets/cards/display/c03-s02.webp",
+      "size": 96746,
+      "sha256": "188806e72eef88527bd9f2fe09f11e8c9d351c434bf231d1d4b33f4f534fd718"
+    },
+    {
+      "path": "game/assets/cards/display/c03-s03.webp",
+      "size": 89452,
+      "sha256": "312c0e035d519756cd7c7a5d157eb588f6da07a5494010d5219c6713e4935949"
+    },
+    {
+      "path": "game/assets/cards/display/c03-s04.webp",
+      "size": 96710,
+      "sha256": "8b1cb9c6b243783ca1fcc8b15da8674b05fbf036c33e52565da802898ebbb05d"
+    },
+    {
+      "path": "game/assets/cards/display/c03-s10.webp",
+      "size": 119996,
+      "sha256": "f2ee6a2b0c5053fc4f7260a22fb1e1392429d4b699a00561ebe8bf17ed396229"
+    },
+    {
+      "path": "game/assets/cards/display/c03-s11.webp",
+      "size": 148950,
+      "sha256": "23957004db42c583910f7855c3692badad94c0692aa40649901d772b7fb29d7a"
+    },
+    {
+      "path": "game/assets/cards/display/c03-s12.webp",
+      "size": 116494,
+      "sha256": "8b744de2d808c9404680df6828d156890374b91e014a6654efdcce22c468100c"
+    },
+    {
+      "path": "game/assets/cards/display/c03-s15.webp",
+      "size": 128590,
+      "sha256": "b79f92f17fdc75fd931621f5bd437969a463e3a29ebc2cccbdae42f9f8fe9946"
+    },
+    {
+      "path": "game/assets/cards/display/c04-s00.webp",
+      "size": 105940,
+      "sha256": "25e7c1c6ade154db85d17f43e7a4b08130397a485d1f7885846aab46fd223393"
+    },
+    {
+      "path": "game/assets/cards/display/c04-s01.webp",
+      "size": 93472,
+      "sha256": "8e52538cce1396f8c358c864220cc153f5835289519f3c7c960804011e566b5d"
+    },
+    {
+      "path": "game/assets/cards/display/c04-s02.webp",
+      "size": 100848,
+      "sha256": "b67a1546cbd0a92bef3a10d966448558e911cd9ccfd5501402593c7cca716da9"
+    },
+    {
+      "path": "game/assets/cards/display/c04-s03.webp",
+      "size": 91552,
+      "sha256": "2a222e86290b4c0999fb50b2c61a89cddd120bb0272ef06426d74c6d48243500"
+    },
+    {
+      "path": "game/assets/cards/display/c04-s04.webp",
+      "size": 100356,
+      "sha256": "266981acc3a508b8f4d05364e9e04a0821fe91468d865ee45e70bd1a2db4a0da"
+    },
+    {
+      "path": "game/assets/cards/display/c04-s10.webp",
+      "size": 115096,
+      "sha256": "9993d87d27df8c47fad2173adfa673e85c427c7e562c3cc5665a85b9ac28d094"
+    },
+    {
+      "path": "game/assets/cards/display/c04-s11.webp",
+      "size": 158850,
+      "sha256": "a3094d57ddfa9e07b599e6ff9b6f6bf207ede4bee2884c0b6c1cded391548f1a"
+    },
+    {
+      "path": "game/assets/cards/display/c04-s12.webp",
+      "size": 115666,
+      "sha256": "b252873ebed9a01439414b5ffe10e11b8c85089ca1a23894c6045621a46f77c1"
+    },
+    {
+      "path": "game/assets/cards/display/c04-s15.webp",
+      "size": 107048,
+      "sha256": "fc2a4b5e2072a94defc4007e1b0e7462e49b34889d9e59ee7de8e889ab30304e"
+    },
+    {
+      "path": "game/assets/cards/display/c05-s00.webp",
+      "size": 109722,
+      "sha256": "7a136e7cf59aea4de0b92579dc736bfdf927c95d12b87908072c58317fdde884"
+    },
+    {
+      "path": "game/assets/cards/display/c05-s01.webp",
+      "size": 114518,
+      "sha256": "ddcc51c4e190d812575bbaff4c76292a9af66d3a763de0b7676b83ce93a6334c"
+    },
+    {
+      "path": "game/assets/cards/display/c05-s02.webp",
+      "size": 105580,
+      "sha256": "1fc45b40d3f61b36d8f9f1bd9b71a6f0708693214dd17a3ff3338abfe64d8c68"
+    },
+    {
+      "path": "game/assets/cards/display/c05-s03.webp",
+      "size": 114410,
+      "sha256": "6870a98ebc32de9309c676f04e54e8c558bec53720ac8723107bf57c153519f6"
+    },
+    {
+      "path": "game/assets/cards/display/c05-s04.webp",
+      "size": 114156,
+      "sha256": "ec31c104f54cd28b8f75483e99d9e99540bd2bfb0ae57deac6a750d97d0e06bf"
+    },
+    {
+      "path": "game/assets/cards/display/c05-s10.webp",
+      "size": 150998,
+      "sha256": "cf9f19de05c1e686b0386d47719fa1aeb6d9b64b6855b25b5772f5503ced77a2"
+    },
+    {
+      "path": "game/assets/cards/display/c05-s11.webp",
+      "size": 151364,
+      "sha256": "6a4e20ad38cf560d056af82200f70a18a195df824813ec009f305f91df662cf4"
+    },
+    {
+      "path": "game/assets/cards/display/c05-s12.webp",
+      "size": 119200,
+      "sha256": "3557bc8ba866c7153a58554f6454c42fe6cea59eb2927725b8da35e04f53f2f2"
+    },
+    {
+      "path": "game/assets/cards/display/c05-s15.webp",
+      "size": 133206,
+      "sha256": "e7e5836b29613920b52cbfe9d19f5932bf197e6636c58b13543fc64d1ee652e8"
+    },
+    {
+      "path": "game/assets/cards/display/c06-s00.webp",
+      "size": 103800,
+      "sha256": "6f0d638cac12c54fabde1f8043d1fe1f8d9f414f34b5d428858b05a9f65e9e20"
+    },
+    {
+      "path": "game/assets/cards/display/c06-s01.webp",
+      "size": 97544,
+      "sha256": "f947573e5baede6cb983e0ac9e34ca1279db5a333962810e9dd4180f3cafaa9b"
+    },
+    {
+      "path": "game/assets/cards/display/c06-s02.webp",
+      "size": 94688,
+      "sha256": "66c12f83ea9df7db1be84001b7da54cf0872b5f0730e8ca830cdff7d6cd57de0"
+    },
+    {
+      "path": "game/assets/cards/display/c06-s03.webp",
+      "size": 101476,
+      "sha256": "bc9dab7d87e9e72046f87eeb48a6e97b7ec05469bc3d05f0bba2cc3bed71f5f4"
+    },
+    {
+      "path": "game/assets/cards/display/c06-s04.webp",
+      "size": 100988,
+      "sha256": "d9349ef3b02bff84fae5eeb35fb73e1902a9c6de9e4b136c18828979d7f0160b"
+    },
+    {
+      "path": "game/assets/cards/display/c06-s10.webp",
+      "size": 119206,
+      "sha256": "f22cc5c72757c2124280fd85b7a1ee241b50fccf5ea2b0c4ba5c525aee31f0a6"
+    },
+    {
+      "path": "game/assets/cards/display/c06-s11.webp",
+      "size": 148120,
+      "sha256": "ad21ebea047936e3ee34b612c90031b1317fdb3e1851c4acb74353b4ecd3c88c"
+    },
+    {
+      "path": "game/assets/cards/display/c06-s12.webp",
+      "size": 124894,
+      "sha256": "43ea3633d423f1ecc2c93f19d22dfebd32c1ab562ad9e6bdb9ef161a3f064c01"
+    },
+    {
+      "path": "game/assets/cards/display/c06-s15.webp",
+      "size": 135096,
+      "sha256": "0d75f017322dedb2175be26e5a1281bc3e4ce00781d423f2833f3182afd5e412"
+    },
+    {
+      "path": "game/assets/cards/display/c07-s00.webp",
+      "size": 112588,
+      "sha256": "72827ffd35f385bfc86ef9f42c6f83e648900dd77df3f66512ded852fd329d28"
+    },
+    {
+      "path": "game/assets/cards/display/c07-s01.webp",
+      "size": 110580,
+      "sha256": "bad13eafdf4c1cfb539379f8b65d0a720037631bbf39a58196342f25cde38d46"
+    },
+    {
+      "path": "game/assets/cards/display/c07-s02.webp",
+      "size": 116172,
+      "sha256": "ee9d277f25fd91ee6df3a9a404f49d80c8974d96ad68b47d3ea4875c346fe051"
+    },
+    {
+      "path": "game/assets/cards/display/c07-s03.webp",
+      "size": 116160,
+      "sha256": "13083107a9077c9c09330ef71d53f0b61331f3d0887c236ddab9c7148ab1e95d"
+    },
+    {
+      "path": "game/assets/cards/display/c07-s04.webp",
+      "size": 118054,
+      "sha256": "7aaef602ee15241260bb39d6a87dacf3fd1859922940363a2251b24df1718af9"
+    },
+    {
+      "path": "game/assets/cards/display/c07-s10.webp",
+      "size": 123002,
+      "sha256": "d48d1150700c045d582cffbda3fba31397d4a025d702a0271c47526504ffa877"
+    },
+    {
+      "path": "game/assets/cards/display/c07-s11.webp",
+      "size": 142158,
+      "sha256": "9a2e150cf10d5712cae19e4817ee29501120f81dd0e77553544f7d01b30ad7de"
+    },
+    {
+      "path": "game/assets/cards/display/c07-s12.webp",
+      "size": 123066,
+      "sha256": "3ef7e2a07eae7dbf46bb5fdfa9ada454922f766b2247e45c9e943bbe46f61d67"
+    },
+    {
+      "path": "game/assets/cards/display/c07-s15.webp",
+      "size": 131456,
+      "sha256": "2d286d89534249dfdae9b2ccbd8bb5cf386c90c45a056bf770b12026b1a7a4c8"
+    },
+    {
+      "path": "game/assets/cards/display/c08-s00.webp",
+      "size": 105838,
+      "sha256": "79e7e61f6a550726d789fb8ae7e13389895f2cec6a864f4e9b4f2b85cfeec857"
+    },
+    {
+      "path": "game/assets/cards/display/c08-s01.webp",
+      "size": 101212,
+      "sha256": "12e1ef20ff30b7f69f24bd4ee7f922e5653fac0cca5b4b8a34a528856e9fc276"
+    },
+    {
+      "path": "game/assets/cards/display/c08-s02.webp",
+      "size": 99056,
+      "sha256": "723fe2e0692486480fd5d4ed40eeaa5e7e944312b812e12729a66b8f26c31117"
+    },
+    {
+      "path": "game/assets/cards/display/c08-s03.webp",
+      "size": 110454,
+      "sha256": "4c56057bb5d2e542373ef2b7336ba24b4aef30b7f7b970b10eb43fec03643a5a"
+    },
+    {
+      "path": "game/assets/cards/display/c08-s04.webp",
+      "size": 121092,
+      "sha256": "f283c17f01cac822d4ef73cbe16b7d0fddcbcaeb694802c4f57215b32166d1f8"
+    },
+    {
+      "path": "game/assets/cards/display/c08-s10.webp",
+      "size": 133346,
+      "sha256": "94d2ec46d197605c0a0f9e35bacc0bb9948308f49a00a0600eda8eead17f877c"
+    },
+    {
+      "path": "game/assets/cards/display/c08-s11.webp",
+      "size": 173844,
+      "sha256": "c6a56188f1dd24c0213f3c7b8046e4140fec152ca11cccdcaf6cc0a4b33913e6"
+    },
+    {
+      "path": "game/assets/cards/display/c08-s12.webp",
+      "size": 140804,
+      "sha256": "fadc8aa62c5df003d9fbe3f8d7f7dd2c89a93b13a81007f87c66a92408d6676b"
+    },
+    {
+      "path": "game/assets/cards/display/c08-s15.webp",
+      "size": 143438,
+      "sha256": "a0e22dbed9b69c8a24aa4bac5d18ad508603165df2f0789686c9913e32943a02"
+    },
+    {
+      "path": "game/assets/cards/display/c09-s00.webp",
+      "size": 103064,
+      "sha256": "01f6a6ed13510f804de2262912ddf1ef2cba958d2b0fa03db13a9a73b45aa23b"
+    },
+    {
+      "path": "game/assets/cards/display/c09-s01.webp",
+      "size": 98788,
+      "sha256": "4ea3bfa88cf9079ad9dff44776c43e76f97db51c1615aff764a4d2e4c74db000"
+    },
+    {
+      "path": "game/assets/cards/display/c09-s02.webp",
+      "size": 99800,
+      "sha256": "7a4c848ed7a87fc2fddcaa7acc7955bf07b2199c5678d8703348997eac976f5a"
+    },
+    {
+      "path": "game/assets/cards/display/c09-s03.webp",
+      "size": 106700,
+      "sha256": "2cf645f5b68b115a3918e326eb2d84ccdf6e434a666dcc4f1cc9e707f7444ab9"
+    },
+    {
+      "path": "game/assets/cards/display/c09-s04.webp",
+      "size": 99996,
+      "sha256": "92155334ee5aae99e0892bba00b85684835ce0f2cf9e932724695bd10e4dd2a3"
+    },
+    {
+      "path": "game/assets/cards/display/c09-s10.webp",
+      "size": 128698,
+      "sha256": "b8b2e55ba8bd74f4be0fe12205e1942486abe891add5aa56d6fbe804a9f9aa89"
+    },
+    {
+      "path": "game/assets/cards/display/c09-s11.webp",
+      "size": 147836,
+      "sha256": "8a88539c2dc5e1d4e1b1033b1b1c6501279e271e74010714f66e409474f65384"
+    },
+    {
+      "path": "game/assets/cards/display/c09-s12.webp",
+      "size": 116826,
+      "sha256": "968efffbe87bb717e78537750c02934aba2d96e12fbc38274357d5a2e09a7c61"
+    },
+    {
+      "path": "game/assets/cards/display/c09-s15.webp",
+      "size": 117634,
+      "sha256": "de4a37ec1301038ef9b8741406858564730faa2fb6bd8ab97016e1d8ced57c54"
+    },
+    {
+      "path": "game/assets/cards/display/c10-s00.webp",
+      "size": 111046,
+      "sha256": "c2324db75505d0b677ee59d301bad99136251bce281277229780121d2aff92b0"
+    },
+    {
+      "path": "game/assets/cards/display/c10-s01.webp",
+      "size": 105920,
+      "sha256": "44f8880ca3ff66edcdab62b244f487683a2d89317526a3bd9981a7572418a4de"
+    },
+    {
+      "path": "game/assets/cards/display/c10-s02.webp",
+      "size": 101154,
+      "sha256": "c6af4bb8ddbbbbd94679cb40e2f0d069c205d8cd587d18b853da30519b83cb4e"
+    },
+    {
+      "path": "game/assets/cards/display/c10-s03.webp",
+      "size": 103738,
+      "sha256": "382ac2b11938911a73e98ea6ed4719263ffe378a28f96e6f999fd93f48710b9e"
+    },
+    {
+      "path": "game/assets/cards/display/c10-s04.webp",
+      "size": 104736,
+      "sha256": "be1d41c71d7f82a9ccbc7965f0d13af1e14b15c3ce1da6fb140280c5ae7bbf50"
+    },
+    {
+      "path": "game/assets/cards/display/c10-s10.webp",
+      "size": 133540,
+      "sha256": "a7491a38f64a1a90ac89270543efa2acbb212774db5923a04b451b69b33f04c4"
+    },
+    {
+      "path": "game/assets/cards/display/c10-s11.webp",
+      "size": 160150,
+      "sha256": "5d4aa8e9edf09330dced4ea13ffeff746a4246600de9959f1dc91c359a26a716"
+    },
+    {
+      "path": "game/assets/cards/display/c10-s12.webp",
+      "size": 127508,
+      "sha256": "21877c75446e6f0a63217c91f5f1edc27be5861d4f1a154e016cc25b2fa47d0f"
+    },
+    {
+      "path": "game/assets/cards/display/c10-s15.webp",
+      "size": 141186,
+      "sha256": "06a4920e85c222fc9432dcc9a4068016b50bf6a7646ca8b8dc2e6b2dedb8a369"
+    },
+    {
+      "path": "game/assets/cards/display/c11-s00.webp",
+      "size": 98670,
+      "sha256": "38597772170598ee1b7881e05a0a3f0c82119f2f348b8c7024c8d8320de92c58"
+    },
+    {
+      "path": "game/assets/cards/display/c11-s01.webp",
+      "size": 103106,
+      "sha256": "6b3fe3a4c5528b191a6c7cf92d2c951fb7f671a081dcf965ac3015ad524d5f75"
+    },
+    {
+      "path": "game/assets/cards/display/c11-s02.webp",
+      "size": 99498,
+      "sha256": "20543e3cdaad3fa7b553b3ed00bae90022d561cc33d18e9d9462f29fe607921c"
+    },
+    {
+      "path": "game/assets/cards/display/c11-s03.webp",
+      "size": 107748,
+      "sha256": "77a5400efb77c8d1a0739331746c95ecfd80eee1ab5b5077141885430651c4f3"
+    },
+    {
+      "path": "game/assets/cards/display/c11-s04.webp",
+      "size": 105214,
+      "sha256": "f98d8878afe17dcbf027eebb216e7553b6cd4b5181ef3a6f78dd78b658d8a802"
+    },
+    {
+      "path": "game/assets/cards/display/c11-s10.webp",
+      "size": 115426,
+      "sha256": "66c623c8df30872698e3d301298f59335f764987a3ba24dcc2137aeba398a977"
+    },
+    {
+      "path": "game/assets/cards/display/c11-s11.webp",
+      "size": 149440,
+      "sha256": "7b9fe045449d05454064970fa250261242c6c60bfd44758e05b6ed7f483e6798"
+    },
+    {
+      "path": "game/assets/cards/display/c11-s12.webp",
+      "size": 126086,
+      "sha256": "d82e29c8ccf6a2db8eb8ebdbe226964e7155298129c7dfa2ae471ccea6a1d30e"
+    },
+    {
+      "path": "game/assets/cards/display/c11-s15.webp",
+      "size": 135604,
+      "sha256": "8394d17a99d5ad90e4147c68ccf8985e0ee5dd790e5e651a3b5c08191e5799d4"
+    },
+    {
+      "path": "game/assets/cards/display/c12-s00.webp",
+      "size": 93608,
+      "sha256": "89ab9131b973863d9e938df95fab0332cdb23e3fecf4c1dcac698321dd9543e2"
+    },
+    {
+      "path": "game/assets/cards/display/c12-s01.webp",
+      "size": 87954,
+      "sha256": "44453001b5f636610170b049e9d3ad7c52f3d1fe4c626cd829bccfe72571da42"
+    },
+    {
+      "path": "game/assets/cards/display/c12-s02.webp",
+      "size": 100228,
+      "sha256": "b3e40fb447dbfeef0b9b14cd1c607c5adcff10d4b16f9e0504a0df6343850424"
+    },
+    {
+      "path": "game/assets/cards/display/c12-s03.webp",
+      "size": 92750,
+      "sha256": "b7a1ddc2448d740b3bade1f0b8f0bcd431e5ae956c10399b2d5461b051fde0f7"
+    },
+    {
+      "path": "game/assets/cards/display/c12-s04.webp",
+      "size": 87992,
+      "sha256": "c46ccae26a36b7e7d0c3a993a153f97aa0204ff56f78b376b44ebe463ce4053c"
+    },
+    {
+      "path": "game/assets/cards/display/c12-s10.webp",
+      "size": 130138,
+      "sha256": "1d2fb61ce6f2a8160d801eb243dbcfa9bfabb096b5a01aafbada48ee1f867019"
+    },
+    {
+      "path": "game/assets/cards/display/c12-s11.webp",
+      "size": 144416,
+      "sha256": "daee9628dd3c32a753c024f6b145375b884b41d447df9f0dcf336550b08ffcf3"
+    },
+    {
+      "path": "game/assets/cards/display/c12-s12.webp",
+      "size": 123516,
+      "sha256": "4648db839da261f473bdc0eaee4aedbfbe51e4ec51d18dbc572f4c84620a9dc6"
+    },
+    {
+      "path": "game/assets/cards/display/c12-s15.webp",
+      "size": 109620,
+      "sha256": "303cedab21cfc355a9ae01a858f1ee5bb11abb917ca390d2a5517b9ad861561c"
+    },
+    {
+      "path": "game/assets/cards/display/c13-s00.webp",
+      "size": 108066,
+      "sha256": "73b4ce8c91990dc12123c63666da0110feb30e74cffb77125e94520d05698239"
+    },
+    {
+      "path": "game/assets/cards/display/c13-s01.webp",
+      "size": 107076,
+      "sha256": "0dcc287dc13fd9fcaa6c31c210e167ebf625e3e08b1bbce52b67561bec1eab0d"
+    },
+    {
+      "path": "game/assets/cards/display/c13-s02.webp",
+      "size": 112140,
+      "sha256": "a58e173c2e425edee653dd40b764c06d2825d7801175b4dfa5d2758843be4ece"
+    },
+    {
+      "path": "game/assets/cards/display/c13-s03.webp",
+      "size": 113656,
+      "sha256": "7b540f2199f0befbd843cf17b0e3134ff11c47011ca87d7d5c9456ba75cb2def"
+    },
+    {
+      "path": "game/assets/cards/display/c13-s04.webp",
+      "size": 112880,
+      "sha256": "1cbf01af5607d13c47b7920590a77920f4a71e895e08289cfcf1ca644c856181"
+    },
+    {
+      "path": "game/assets/cards/display/c13-s10.webp",
+      "size": 137694,
+      "sha256": "774b28d87d375c16ec66c0c25ded1d4d00ce3e83c2b3e85c18912379016921c4"
+    },
+    {
+      "path": "game/assets/cards/display/c13-s11.webp",
+      "size": 151228,
+      "sha256": "08d2c9ce9acb7e460989a45059dce4041c6475f15ec83bbf76317345a5c7542b"
+    },
+    {
+      "path": "game/assets/cards/display/c13-s12.webp",
+      "size": 139706,
+      "sha256": "f47a3c464e3f4fec4ce612ab7e8cd5d7fd36b6c6cba645c8e86f786d44147db5"
+    },
+    {
+      "path": "game/assets/cards/display/c13-s15.webp",
+      "size": 140158,
+      "sha256": "fb2832c93abbe3ec22560b6e0c393ad36baf9748a252caa7fe28310aaa1b8b0a"
+    },
+    {
+      "path": "game/assets/cards/display/c14-s00.webp",
+      "size": 119382,
+      "sha256": "103383a81df0c887dc059466e47c3cb59bd35eeeaca77b021a8b2ecbf6071aff"
+    },
+    {
+      "path": "game/assets/cards/display/c14-s01.webp",
+      "size": 120826,
+      "sha256": "bd8af264d6b092ccf0164db94560cf06ace731c19b25a86a92a4a991288acdaa"
+    },
+    {
+      "path": "game/assets/cards/display/c14-s02.webp",
+      "size": 123692,
+      "sha256": "3ef403d689d4a57963e2be707d2bd4e27215558f433d719e84745675b22be2ac"
+    },
+    {
+      "path": "game/assets/cards/display/c14-s03.webp",
+      "size": 122934,
+      "sha256": "9f5d8bfd6853abcd6530d530752c0e4580ff9fdbabde0071c120bae3b2c179d6"
+    },
+    {
+      "path": "game/assets/cards/display/c14-s04.webp",
+      "size": 117758,
+      "sha256": "d2ebf1b5e4b9474286249068396f037a9fd23ef1415dcd5cda3a72f2a33f68ae"
+    },
+    {
+      "path": "game/assets/cards/display/c14-s10.webp",
+      "size": 149462,
+      "sha256": "800addfce70a89da4c3ac3bbf02d89cd25a889ede0e69437c0a3b020f1a30e4b"
+    },
+    {
+      "path": "game/assets/cards/display/c14-s11.webp",
+      "size": 155746,
+      "sha256": "ab1742dacc06eb6c44d485edc9016a1f00a042530314f388943f6e0e92c7a3b3"
+    },
+    {
+      "path": "game/assets/cards/display/c14-s12.webp",
+      "size": 134240,
+      "sha256": "764ab90c71f1175a28e1dd8662e08eb6e906d4085ae14d7c35cb81c605a5e95b"
+    },
+    {
+      "path": "game/assets/cards/display/c14-s15.webp",
+      "size": 145862,
+      "sha256": "7853151b3b7bfdd27ac9c31711540db3dd6325a50cc8c2dcb2f775a4b96b8c5f"
+    },
+    {
+      "path": "game/assets/cards/display/c15-s00.webp",
+      "size": 110636,
+      "sha256": "551f094ddb1442250c9b1fc1b257da6f803e7e3716e7bbbcd9688dea3d22de7e"
+    },
+    {
+      "path": "game/assets/cards/display/c15-s01.webp",
+      "size": 110404,
+      "sha256": "ca727eb9d2518f9ee160282521fc177bf46225b065e99de7723ff3057cce72e5"
+    },
+    {
+      "path": "game/assets/cards/display/c15-s02.webp",
+      "size": 110074,
+      "sha256": "1d6d948a037a2c9c948172b38d84a3520eef8cca03718c4b158b92866fad799b"
+    },
+    {
+      "path": "game/assets/cards/display/c15-s03.webp",
+      "size": 103886,
+      "sha256": "11f21237c297db70f72bd1a384eba0a445228f52beeba2bb265b5f987ba6105f"
+    },
+    {
+      "path": "game/assets/cards/display/c15-s04.webp",
+      "size": 104244,
+      "sha256": "72efd0df93be18f6fd3793038aff662ad6ee8919754be8c7773846dae22d2ed1"
+    },
+    {
+      "path": "game/assets/cards/display/c15-s10.webp",
+      "size": 131854,
+      "sha256": "b10b30fdac74087962cc8cf27e70cdfbf5979a12c8e5d8cc7e0f956f4f694e87"
+    },
+    {
+      "path": "game/assets/cards/display/c15-s11.webp",
+      "size": 161982,
+      "sha256": "418b730913bb4494d8c5c3dc7cbcc1d3451c76365d2e29aa7005020923258325"
+    },
+    {
+      "path": "game/assets/cards/display/c15-s12.webp",
+      "size": 125550,
+      "sha256": "d8b77878696bb795034ef94f615d3f3cc9e545336db67b62092a427b6a7b141b"
+    },
+    {
+      "path": "game/assets/cards/display/c15-s15.webp",
+      "size": 122430,
+      "sha256": "24cd2e006522ca287705b56065a64c6b4700ddb2c391282419f9d56f0f187c35"
+    },
+    {
+      "path": "game/assets/cards/display/c16-s00.webp",
+      "size": 110980,
+      "sha256": "f98bf6e8108a26faba7e0fae6fdbe6bb6d4b11edcbdd42eb9c3cece33374b92f"
+    },
+    {
+      "path": "game/assets/cards/display/c16-s01.webp",
+      "size": 118080,
+      "sha256": "871f3fc5d83b62a8be419dcbf5b0a956383f19facbf2df6515cf9917496d2b21"
+    },
+    {
+      "path": "game/assets/cards/display/c16-s02.webp",
+      "size": 109008,
+      "sha256": "110c4ed1f5e98463c99f984de22353746ea801faae347e8c7c06dfa1b38ad554"
+    },
+    {
+      "path": "game/assets/cards/display/c16-s03.webp",
+      "size": 115076,
+      "sha256": "0615cb71f124a389e9e205a427ff6f85303c9b73e2f73f4654cc718c8d138a6a"
+    },
+    {
+      "path": "game/assets/cards/display/c16-s04.webp",
+      "size": 110958,
+      "sha256": "6eadeb982e7f0f29e119fbc252f62480a47224c6491f19b1d3c04f6ddfc85ee5"
+    },
+    {
+      "path": "game/assets/cards/display/c16-s10.webp",
+      "size": 143108,
+      "sha256": "ca7330396a787b122025448b16de7961873f2e0bc5ee45d22918668481306b6c"
+    },
+    {
+      "path": "game/assets/cards/display/c16-s11.webp",
+      "size": 155064,
+      "sha256": "aca057f5717633c8a5005578a31d6a9d558ba53b7ecde8291c16aab4dfef595d"
+    },
+    {
+      "path": "game/assets/cards/display/c16-s12.webp",
+      "size": 128556,
+      "sha256": "79a7aeb8d4ab974b7563ff53f39f38b7aced9fb209291c7b0941365652bb3ef0"
+    },
+    {
+      "path": "game/assets/cards/display/c16-s15.webp",
+      "size": 145778,
+      "sha256": "eda0c1c45365ed125cbb1d42ecc3d06278b253c47cf46318200673dd81b2a30b"
+    },
+    {
+      "path": "game/assets/cards/display/c17-s00.webp",
+      "size": 101654,
+      "sha256": "e93d31fc39c2052eeb847267696c9aaa47789085b569af1d4c25428c901b76ea"
+    },
+    {
+      "path": "game/assets/cards/display/c17-s01.webp",
+      "size": 101908,
+      "sha256": "57b8f67220d775580bc97837c7a38560ca965d355825b2fdde4550763093f6a5"
+    },
+    {
+      "path": "game/assets/cards/display/c17-s02.webp",
+      "size": 104288,
+      "sha256": "ba3e03bce6ec0869c865c44a1b60a64a664d18eb27477ad182646ebe899a45e9"
+    },
+    {
+      "path": "game/assets/cards/display/c17-s03.webp",
+      "size": 101756,
+      "sha256": "1a18c876616171f95d916bee2d984630c70d127aebbe61960156b226c93adb9a"
+    },
+    {
+      "path": "game/assets/cards/display/c17-s04.webp",
+      "size": 101748,
+      "sha256": "f18245e518ca268953acdd29f4aaa771d262791de00226fbecd2e5bf81480854"
+    },
+    {
+      "path": "game/assets/cards/display/c17-s10.webp",
+      "size": 119146,
+      "sha256": "e974d57ba14c79fa42bc435c85c493bd1c34b53e599c442a101c870c4c7a96cb"
+    },
+    {
+      "path": "game/assets/cards/display/c17-s11.webp",
+      "size": 155818,
+      "sha256": "5cf8f4b9d1b94fe78909d4b7b85cf164b3dd4f4de68daa4a665dcbe99801528c"
+    },
+    {
+      "path": "game/assets/cards/display/c17-s12.webp",
+      "size": 134702,
+      "sha256": "1bd8b23c05a9de0294c3baa83d5d055269898348d842f21405a730f63cc27fd5"
+    },
+    {
+      "path": "game/assets/cards/display/c17-s15.webp",
+      "size": 124730,
+      "sha256": "4d032629dd67ddd1cdf6f9cb198bae072d78b58d479cb5e5baa0c6c30838ecd3"
+    },
+    {
+      "path": "game/assets/cards/display/c18-s00.webp",
+      "size": 75666,
+      "sha256": "3ac742d385e66c940a7228b1dd2ded39a9002bc4dbc8c3b075f59849d0ee39b6"
+    },
+    {
+      "path": "game/assets/cards/display/c18-s01.webp",
+      "size": 80922,
+      "sha256": "913b619d65eea2afce78031a465087f4402028865cc8d4b7d0b016691128fade"
+    },
+    {
+      "path": "game/assets/cards/display/c18-s02.webp",
+      "size": 74052,
+      "sha256": "6923ced4f40282945c381dd97a9815d18a796f47f8e7a8eb4beb65f6ad4d740e"
+    },
+    {
+      "path": "game/assets/cards/display/c18-s03.webp",
+      "size": 90178,
+      "sha256": "02a03a76803dcd97c3dc13e10c304edb8ad155c0bb219791e1bf72426b1376f2"
+    },
+    {
+      "path": "game/assets/cards/display/c18-s04.webp",
+      "size": 80758,
+      "sha256": "b047e26477826949309eb783ad81e6d31505e8c4c90c2ec3bab24d2c814541bb"
+    },
+    {
+      "path": "game/assets/cards/display/c18-s10.webp",
+      "size": 121340,
+      "sha256": "6d91e3c109c0a03be4a84da38f4fe8912f687b9c8a74f38107a166f04f7d3568"
+    },
+    {
+      "path": "game/assets/cards/display/c18-s11.webp",
+      "size": 139104,
+      "sha256": "c47b40f77bf5af5fd51d07b54dc82d86994a157df3c912b2da04fe77162e1e78"
+    },
+    {
+      "path": "game/assets/cards/display/c18-s12.webp",
+      "size": 105824,
+      "sha256": "5d2860f8caf09d73d98cd82028af4fe993da06ab8c04b7cee339cccfb2e6ab4a"
+    },
+    {
+      "path": "game/assets/cards/display/c18-s15.webp",
+      "size": 104050,
+      "sha256": "38ec501403b6600de3774c91dc7edb01cef88b97624eea84ab21c02f478cc9d9"
+    },
+    {
+      "path": "game/assets/cards/display/c19-s00.webp",
+      "size": 113030,
+      "sha256": "13f03700d0856012e2f036e978e4cd9da04e31092b4a426e81bec7436b7b4ddf"
+    },
+    {
+      "path": "game/assets/cards/display/c19-s01.webp",
+      "size": 109556,
+      "sha256": "a09fe0ff920e420447c8cf70253bea6b6c6d8049e0b3604635b5b4d512a3077e"
+    },
+    {
+      "path": "game/assets/cards/display/c19-s02.webp",
+      "size": 101134,
+      "sha256": "66b5a93b1fd23892b638d28c7bc3e72cd3e4faac33fc6a13f165efffbce20311"
+    },
+    {
+      "path": "game/assets/cards/display/c19-s03.webp",
+      "size": 120822,
+      "sha256": "20cd25b54f577b3e59a03ad920cbed15ae3a4abb685c49290014bb22f6d8fe30"
+    },
+    {
+      "path": "game/assets/cards/display/c19-s04.webp",
+      "size": 123218,
+      "sha256": "d73da54655ca2b70026b95ccd838557cf9bd8302eb6472a4cf6432058d4e6a6d"
+    },
+    {
+      "path": "game/assets/cards/display/c19-s10.webp",
+      "size": 127566,
+      "sha256": "e88a96befdf1e04476a3a48de4735af71282610e478faf7aacf6ba9edd5102de"
+    },
+    {
+      "path": "game/assets/cards/display/c19-s11.webp",
+      "size": 160530,
+      "sha256": "3c906f3c85cd205984d2d8a10a52cab12f97dcc4827f5112571c01ab53328df9"
+    },
+    {
+      "path": "game/assets/cards/display/c19-s12.webp",
+      "size": 134622,
+      "sha256": "d609c35915784e3529699c93276ebf0875710234ee4772197a71456fa97bc3c0"
+    },
+    {
+      "path": "game/assets/cards/display/c19-s15.webp",
+      "size": 127922,
+      "sha256": "3fd6b13040339a38dabb87e51202313f3d18542cbb930b7b0dcf37b380872797"
+    },
+    {
+      "path": "game/assets/cards/display/c20-s00.webp",
+      "size": 84256,
+      "sha256": "a83a1a6b99602f8e7d4a1dceb8f13edac6b35454685de8e26d9e0128dacda1fe"
+    },
+    {
+      "path": "game/assets/cards/display/c20-s01.webp",
+      "size": 83764,
+      "sha256": "84425e14ac8794a5237654594fc1483a2d9fd704a1eb9348df8ed7963357e250"
+    },
+    {
+      "path": "game/assets/cards/display/c20-s02.webp",
+      "size": 71740,
+      "sha256": "7a55b54a84ea70d2b237e700cefbf54083526e488347a91802364c2e9d2e0bdb"
+    },
+    {
+      "path": "game/assets/cards/display/c20-s03.webp",
+      "size": 84482,
+      "sha256": "679e42e939cb44f01ef95c855f4372c3ff0b6129e9ac49aea6b795bd71a0da43"
+    },
+    {
+      "path": "game/assets/cards/display/c20-s04.webp",
+      "size": 79236,
+      "sha256": "dc6b73b221946ac378568d425a2526b6b5b271947d9982105675bdc95aa13fd8"
+    },
+    {
+      "path": "game/assets/cards/display/c20-s10.webp",
+      "size": 108500,
+      "sha256": "9c46831ae84d7b215523bb7585b5507fc1402cca375279d21472d81045928189"
+    },
+    {
+      "path": "game/assets/cards/display/c20-s11.webp",
+      "size": 151126,
+      "sha256": "f88672e6e9131d9a1f2a4f38937586c9ea7813dffe298b1f15507e4b75ff166a"
+    },
+    {
+      "path": "game/assets/cards/display/c20-s12.webp",
+      "size": 115052,
+      "sha256": "94b01100da0aa0d2b0626105c08c7442a4aea1f53424c8bb9d6de819a8ba8195"
+    },
+    {
+      "path": "game/assets/cards/display/c20-s15.webp",
+      "size": 120582,
+      "sha256": "decd43dbd721b23442d5c73671f2ce5bb68d573e1d6198a5641e4e5e1422ddc5"
+    },
+    {
+      "path": "game/assets/cards/display/c21-s00.webp",
+      "size": 92806,
+      "sha256": "6c5ca0cbbc911177be5b4e15afc0eb2ff7dc8f6a8f6641e89a30e1e3d970e98e"
+    },
+    {
+      "path": "game/assets/cards/display/c21-s01.webp",
+      "size": 92230,
+      "sha256": "eb3fa4cfd86e0b80fea01c81bfadf3284dc08e36f8ed2fce881d7adb18256aae"
+    },
+    {
+      "path": "game/assets/cards/display/c21-s02.webp",
+      "size": 81074,
+      "sha256": "03b2e8e8a8b35585cdfdfa5b49f2d6a6a325504ecbf94e552a6f3d5d5e9e4292"
+    },
+    {
+      "path": "game/assets/cards/display/c21-s03.webp",
+      "size": 101228,
+      "sha256": "db849291ffa2c89621ad84e383dfdb4b5b98a3a193574f9c499688d1c44bb156"
+    },
+    {
+      "path": "game/assets/cards/display/c21-s04.webp",
+      "size": 83646,
+      "sha256": "dac0c24b4f41eb2f7062c3d6fa99f4e0eddf73052767097e880427220f25285f"
+    },
+    {
+      "path": "game/assets/cards/display/c21-s10.webp",
+      "size": 119958,
+      "sha256": "1d9cdf38bd263207e23a89cdf6f9a67f62d08ad7f58b46f4ae7fa56796c58ac0"
+    },
+    {
+      "path": "game/assets/cards/display/c21-s11.webp",
+      "size": 133848,
+      "sha256": "942a95a1dcf265499ecec840bda5c7fe54394475fc692c9b69b28b59ad72d839"
+    },
+    {
+      "path": "game/assets/cards/display/c21-s12.webp",
+      "size": 126698,
+      "sha256": "241244ab0506bf553c06274e87d6aaa892fd1bb2d8e412afd749a9bf6ff707b2"
+    },
+    {
+      "path": "game/assets/cards/display/c21-s15.webp",
+      "size": 110828,
+      "sha256": "028eb1e9d7391f11217049b80fea9814d4c506bc988c3b0d60e304d9a57eba51"
+    },
+    {
+      "path": "game/assets/cards/display/c22-s00.webp",
+      "size": 92406,
+      "sha256": "c79d2ac1b3ac92a9ede09a7591f5c32fb6d4381f26db1065d5ad103444e00971"
+    },
+    {
+      "path": "game/assets/cards/display/c22-s01.webp",
+      "size": 78172,
+      "sha256": "1d38ffc40485201c8ced0de3504105266c4b905755fb5073f224d2b12255afaf"
+    },
+    {
+      "path": "game/assets/cards/display/c22-s02.webp",
+      "size": 81928,
+      "sha256": "3d73e2e1c0c8b2b6ba529109a2befbbce2305f5fa6c7181727c520afd37729d4"
+    },
+    {
+      "path": "game/assets/cards/display/c22-s03.webp",
+      "size": 81378,
+      "sha256": "557409ecbbf1af4d25ceaf7319ceddf07d2e7b9e8a5fae1cf9016602de7ce645"
+    },
+    {
+      "path": "game/assets/cards/display/c22-s04.webp",
+      "size": 87364,
+      "sha256": "7197abf17663ad6b4dfe6f43af72938afa03e2a3c5e829bacebe8603d33719d5"
+    },
+    {
+      "path": "game/assets/cards/display/c22-s10.webp",
+      "size": 106330,
+      "sha256": "990d95e0e939a8a7bf035e0fb3bc1a0768ba4dbb06a952060a7554c4fc2fb975"
+    },
+    {
+      "path": "game/assets/cards/display/c22-s11.webp",
+      "size": 144186,
+      "sha256": "3874bb1fa305c3c944b303362f3452488028566fdead2861a8906a4e502bd696"
+    },
+    {
+      "path": "game/assets/cards/display/c22-s12.webp",
+      "size": 126988,
+      "sha256": "9b34aee84df3eadbc23a8cd0c60648075ba0d28b8fd733b06a7f8a6ca084d4e7"
+    },
+    {
+      "path": "game/assets/cards/display/c22-s15.webp",
+      "size": 114768,
+      "sha256": "8d8e21d730acccfa1d96ee04e890acd196e35eaa1016067e52b433ad5872f1d7"
+    },
+    {
+      "path": "game/assets/cards/display/c23-s00.webp",
+      "size": 101062,
+      "sha256": "a73a4bfb9275b1cf1136d5afd5b43b7d08a2652a0847619c827c1dd7fb28b63c"
+    },
+    {
+      "path": "game/assets/cards/display/c23-s01.webp",
+      "size": 97072,
+      "sha256": "bfdee1ba91e3cba1de439e743156433f207de0950717bd1243f77e4b2fb704bc"
+    },
+    {
+      "path": "game/assets/cards/display/c23-s02.webp",
+      "size": 97318,
+      "sha256": "8c8e51dc8efa5248737f652dc474d3e519995a78168a6fc475db240bb312646b"
+    },
+    {
+      "path": "game/assets/cards/display/c23-s03.webp",
+      "size": 80822,
+      "sha256": "e26cff0a9cfb455b6a10c1c3ef11a32b4b5dd46abee513803306c27096d52a16"
+    },
+    {
+      "path": "game/assets/cards/display/c23-s04.webp",
+      "size": 86306,
+      "sha256": "97ca6107ce2722bf1cab8a0fd757fa7ce2228cbbfedaca1d28fa608a82912600"
+    },
+    {
+      "path": "game/assets/cards/display/c23-s10.webp",
+      "size": 106746,
+      "sha256": "fb748be69398794987060407e6033d30fc8bf81898c1e01b556cd43182d2df5e"
+    },
+    {
+      "path": "game/assets/cards/display/c23-s11.webp",
+      "size": 144318,
+      "sha256": "50ff3eb57fd51bd62d9c99b11af2ac242c8bd2961d0f3aeb369b0f310c3ab46f"
+    },
+    {
+      "path": "game/assets/cards/display/c23-s12.webp",
+      "size": 112840,
+      "sha256": "2b2dc4db16bb2fd0d895d24ceb7e27f2d48dbeaa12cdca93ad169ebc8f1f3455"
+    },
+    {
+      "path": "game/assets/cards/display/c23-s15.webp",
+      "size": 102542,
+      "sha256": "ebe95963cd7745742a642d60e78b235e7e6ededcefd04e9abe51827640371ef7"
+    },
+    {
+      "path": "game/assets/cards/display/c24-s00.webp",
+      "size": 106464,
+      "sha256": "900ea78b9a83cdc1d730c616e5329290dfe47b2feeea9ebc973b197471ca9c2f"
+    },
+    {
+      "path": "game/assets/cards/display/c24-s01.webp",
+      "size": 97148,
+      "sha256": "2d75defd9928bd25140ce2c8faa6af5792e2e4c8b1e2fa3ab18a51c302066ff7"
+    },
+    {
+      "path": "game/assets/cards/display/c24-s02.webp",
+      "size": 116416,
+      "sha256": "7589ab5045058359f845edde6754803ceade19f8c149bccfed18c086fadde7e6"
+    },
+    {
+      "path": "game/assets/cards/display/c24-s03.webp",
+      "size": 111102,
+      "sha256": "535db5076afd927fee4dde14229c23bf1e7d7cfd81d299c1e7e7095a409cf9dd"
+    },
+    {
+      "path": "game/assets/cards/display/c24-s04.webp",
+      "size": 107224,
+      "sha256": "416630eb2fdfad3bf6214bf75a65b19daa1ef24323399848e3fd508138a918a3"
+    },
+    {
+      "path": "game/assets/cards/display/c24-s10.webp",
+      "size": 138282,
+      "sha256": "269b8be60220b337efc9eaa45208e03697deb96345553123f1ddd2515ce5935b"
+    },
+    {
+      "path": "game/assets/cards/display/c24-s11.webp",
+      "size": 153066,
+      "sha256": "4df8c62b7242ec63f37008b27de00ba4c5b440b383d33f85fe4e0da812fd1a77"
+    },
+    {
+      "path": "game/assets/cards/display/c24-s12.webp",
+      "size": 130260,
+      "sha256": "52a2c0259c0988645742399e7a977c5f078bbae8b95cc23fcfe85efb224160b1"
+    },
+    {
+      "path": "game/assets/cards/display/c24-s15.webp",
+      "size": 149550,
+      "sha256": "a04d035e0fec27e5b5287ca638c894948aa040bfe95f8f0112eeec3c7fa7b1d3"
+    },
+    {
+      "path": "game/assets/cards/display/c25-s00.webp",
+      "size": 122992,
+      "sha256": "3bce3341ac02c74bff2409ee024564e3ef13fb11876ec8b044197c1de03d45d5"
+    },
+    {
+      "path": "game/assets/cards/display/c25-s01.webp",
+      "size": 118448,
+      "sha256": "a191cbae65546d1864fa4bf7a25530ad67ccf62e704498cc6e123ab02212692a"
+    },
+    {
+      "path": "game/assets/cards/display/c25-s02.webp",
+      "size": 113662,
+      "sha256": "b9f1baa34a8fdc5ec435da918b76894b4406f95ac40922babbb07cacd233054c"
+    },
+    {
+      "path": "game/assets/cards/display/c25-s03.webp",
+      "size": 116058,
+      "sha256": "65134dd351e50010fb981ed3804a56d3e805b0d1e8da3bc6acd888388c55ae56"
+    },
+    {
+      "path": "game/assets/cards/display/c25-s04.webp",
+      "size": 121756,
+      "sha256": "1c69ebd8f47c7d070672322e0d279b2b36303fcbd52214091f08a9e83ab6c767"
+    },
+    {
+      "path": "game/assets/cards/display/c25-s10.webp",
+      "size": 121974,
+      "sha256": "8ff1eb3f352b279e229118bb25178f60aa35ea5556b69948c442b58334bd471d"
+    },
+    {
+      "path": "game/assets/cards/display/c25-s11.webp",
+      "size": 160298,
+      "sha256": "4bdd0c827e78a3664826c7cf3033ee1cdf3007e6302ff4c45c6fc448f960156d"
+    },
+    {
+      "path": "game/assets/cards/display/c25-s12.webp",
+      "size": 132286,
+      "sha256": "dc3badaac9ae17fb326e55591c5cb55ab91e6dcaa6f6e9b8a8271acae3b98f07"
+    },
+    {
+      "path": "game/assets/cards/display/c25-s15.webp",
+      "size": 135776,
+      "sha256": "ca9f26993e8b319dfa1132280b8ce3a09b81b052d608ee4974f1bbc6a7fcbc04"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s00.webp",
+      "size": 107076,
+      "sha256": "ebe7e7ab48fcc6a222072ea5f9a54133c39a0dd641f232d3af49c97afd723225"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s01.webp",
+      "size": 101486,
+      "sha256": "8560c2ed9d2642f4abd3c2a578906010fc34d6239e960587722a32f8b6a45e97"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s02.webp",
+      "size": 109682,
+      "sha256": "127b6abfb801ab18a8462239be5f74de244b33f5d26982d9928af9dce5b69069"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s03.webp",
+      "size": 101582,
+      "sha256": "5c35c1a1ac6d966f55b8479db52263f2bd2d5a895a63cd54ca988bebdee620c4"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s04.webp",
+      "size": 108098,
+      "sha256": "e95b9f07cc3b5353f4777c2ae5764fd6e9f3a861e346931f41fcea38f4cc8ebe"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s05.webp",
+      "size": 112778,
+      "sha256": "cca14c59672619684a5f58e5165c73c19aef025211a72e00834cf286fe35fba6"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s06.webp",
+      "size": 123914,
+      "sha256": "8acf0bf9fe6d522fe792c68119b569d564523e147fe0d3518e564ebdfea4893d"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s07.webp",
+      "size": 121122,
+      "sha256": "2118a1a93d1668068bf55f69b81cfb7d7ee125137ae7c091ff68cd435c0b50ea"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s08.webp",
+      "size": 143974,
+      "sha256": "aceee12dc321f186342186d3b8bd2d7b63338add99a5fa86af8bf0b60977bd99"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s09.webp",
+      "size": 145564,
+      "sha256": "b4eb0ac1d993ff0ca9cdaaa2eea41b0c0d894aaf707e037e44438c33519b402b"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s10.webp",
+      "size": 140576,
+      "sha256": "c3fc23f862de0fea0e38762ede18d170d8ff93cd7b68dae947607e140418e9a2"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s11.webp",
+      "size": 161362,
+      "sha256": "5070beb680ebe285dbbdaba16d93de44d821939260092ad9951ed014a254b7a9"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s12.webp",
+      "size": 127274,
+      "sha256": "6b38f73997ecab19233ae10915153bf6136f2be8b89d0f4bf09553b508652920"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s13.webp",
+      "size": 151866,
+      "sha256": "d69ad0f31adaa0462d80ca1a21c84e4a4df85aa295bbc2e2498f925bbaaebe2d"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s14.webp",
+      "size": 141182,
+      "sha256": "51116686d1489aa59012bece2f349acea6c8aa891820be2856685cbadcea7b31"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s15.webp",
+      "size": 137132,
+      "sha256": "f31e192e4e2addca68d68f28a4889f08ad1f06a6b5a108bf0bf5b962f387c057"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s16.webp",
+      "size": 138482,
+      "sha256": "33fd4ebae974e11f6d9a9f0e9e13a3fa8306afdcb6a861094aa8710b1fca19b8"
+    },
+    {
+      "path": "game/assets/cards/display/c26-s17.webp",
+      "size": 158288,
+      "sha256": "c4864574651c850889a91bdd9e087286784ca371b118e27e3bd671a9206631b9"
+    },
+    {
+      "path": "game/assets/cards/display/c27-s00.webp",
+      "size": 91506,
+      "sha256": "0f1b194147a3caf0bd7cbbf1dd019a555ede4fee6500a9b8cd9f2997e9cf8831"
+    },
+    {
+      "path": "game/assets/cards/display/c27-s01.webp",
+      "size": 101576,
+      "sha256": "a300b1acd4b889500947260659bc17743efaced8069b3c3bce0f7b78e6319c2a"
+    },
+    {
+      "path": "game/assets/cards/display/c27-s02.webp",
+      "size": 94026,
+      "sha256": "064a5657b05c4bca7aae994c8c437228942b6065acfb12eeeb6e363f90489075"
+    },
+    {
+      "path": "game/assets/cards/display/c27-s03.webp",
+      "size": 100854,
+      "sha256": "89381f2e6e9f5cae8edac68f622c52eda2cea2540d5f44893c83520784e6f7c1"
+    },
+    {
+      "path": "game/assets/cards/display/c27-s04.webp",
+      "size": 116128,
+      "sha256": "30e9708e388e887d8e3b1f343902b74354e52b0b5ad2416a0e920513e7bd6c66"
+    },
+    {
+      "path": "game/assets/cards/display/c27-s10.webp",
+      "size": 118850,
+      "sha256": "16eac0da8973ddfb95160c45848b1d6d23439ca47f330053fa8c98fdfeb4704c"
+    },
+    {
+      "path": "game/assets/cards/display/c27-s11.webp",
+      "size": 154776,
+      "sha256": "b67c4d96bfb251c5a04efc6fc9dbe1501696b41aee0e837cdde2e9ae07b20041"
+    },
+    {
+      "path": "game/assets/cards/display/c27-s12.webp",
+      "size": 128732,
+      "sha256": "3f91f9cf7f68fccf85e273763d11e12ae4a9063d450b70c7be937142b4f475c1"
+    },
+    {
+      "path": "game/assets/cards/display/c27-s15.webp",
+      "size": 152944,
+      "sha256": "132c2b762c6c76b9616cd4f8d427a596360dd7c40adc6abb758c5db438d072da"
+    },
+    {
+      "path": "game/assets/cards/display/c28-s00.webp",
+      "size": 122680,
+      "sha256": "5b08dcc657eefa47a0b6233f294e90d076df4aa21fe8e5a800114dae79f8d60a"
+    },
+    {
+      "path": "game/assets/cards/display/c28-s01.webp",
+      "size": 118626,
+      "sha256": "93e85500310976b31b458349a3a512c1dea28f18584188790591e6648a2786ca"
+    },
+    {
+      "path": "game/assets/cards/display/c28-s02.webp",
+      "size": 117068,
+      "sha256": "50d5175d3a148ea8c9ec53ddc1421b49bdfdb25897f161c40989e71a0e07dd1b"
+    },
+    {
+      "path": "game/assets/cards/display/c28-s03.webp",
+      "size": 114126,
+      "sha256": "d16261cf407fc97c10bda520061657f65fd81ade46e9bb0d5a88909e195d7edf"
+    },
+    {
+      "path": "game/assets/cards/display/c28-s04.webp",
+      "size": 123986,
+      "sha256": "1f2aad9360ef32f40a73462d599eb31d3f0a75b8e079a033a050b399763201dc"
+    },
+    {
+      "path": "game/assets/cards/display/c28-s10.webp",
+      "size": 146502,
+      "sha256": "f9827dd8a3b315dd95c6ee9871957bb1f0a51449165af8cec72190ace94fe905"
+    },
+    {
+      "path": "game/assets/cards/display/c28-s11.webp",
+      "size": 154258,
+      "sha256": "592b9715e82810bde331b902fb8e431639503da0b3c7dfaad345f757e832a66a"
+    },
+    {
+      "path": "game/assets/cards/display/c28-s12.webp",
+      "size": 136706,
+      "sha256": "7aae98f569f00011b3cdbfbb33697f8e75a6fed2c6e4f3d1ce6da308327dabda"
+    },
+    {
+      "path": "game/assets/cards/display/c28-s15.webp",
+      "size": 152278,
+      "sha256": "8877910b9acd0c8b04e16009b3f229999f0d6b00749bd5025bbc318c7087aed6"
+    },
+    {
+      "path": "game/assets/cards/display/c29-s00.webp",
+      "size": 116766,
+      "sha256": "d8196e122cd31d395f91eb56b3407affb9a286235a12a0a0e88dd2031f1bbca3"
+    },
+    {
+      "path": "game/assets/cards/display/c29-s01.webp",
+      "size": 117210,
+      "sha256": "8f57f512a6a8234c0eb7dfac36031da4df1d086a656714d74d8a25e8f1ddf81b"
+    },
+    {
+      "path": "game/assets/cards/display/c29-s02.webp",
+      "size": 117474,
+      "sha256": "973a6aa23738208eada12c7f15f40c157647e9fa254eaf8cf9a1a231c56e66d9"
+    },
+    {
+      "path": "game/assets/cards/display/c29-s03.webp",
+      "size": 119422,
+      "sha256": "65e34ab2f5337781e13d23fcacb8d2ebd539d5e531834ea1c15d12e08239bdde"
+    },
+    {
+      "path": "game/assets/cards/display/c29-s04.webp",
+      "size": 130858,
+      "sha256": "f7b548d4a1e80de09655a9b2c632e404e6a4d3022528406282890b692862b5e0"
+    },
+    {
+      "path": "game/assets/cards/display/c29-s10.webp",
+      "size": 133086,
+      "sha256": "4560c984c97092761d46f4dead3e9d6d27b462e14158deefa9ddea2f8b79f574"
+    },
+    {
+      "path": "game/assets/cards/display/c29-s11.webp",
+      "size": 173464,
+      "sha256": "fcc8b311606dbb68db7b176f5b0f7b6ea1507237f27e7e69011451b87c39d04f"
+    },
+    {
+      "path": "game/assets/cards/display/c29-s12.webp",
+      "size": 142834,
+      "sha256": "179e37284e1691d145f3e5bfcd28ad5e55b6fc748edb9a693e5b0c2a61b1d12a"
+    },
+    {
+      "path": "game/assets/cards/display/c29-s15.webp",
+      "size": 151738,
+      "sha256": "ea11d0c704bf0991f538f9456f62de689f1ebab26b4bb7091bc1c923cbac58af"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s00.webp",
+      "size": 101500,
+      "sha256": "5538bf8be4496eb383e4f9f7c5c92f6b12bd82af2f205d600597ccc8e7d5a9bc"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s01.webp",
+      "size": 102652,
+      "sha256": "0a6c8671894a6040ab4f5a353b1d057106210d515f06fce59bcc7101b8b5e024"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s02.webp",
+      "size": 108792,
+      "sha256": "b88c103331630b251191725770f9fc3b81e3bb9ba14827b07b9b75d49ce2edfd"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s03.webp",
+      "size": 106368,
+      "sha256": "1126d98372b2ae80948ffccc337710c95445192856c8f24008913011ee06afdb"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s04.webp",
+      "size": 113054,
+      "sha256": "4b525f98a70e4e3b0fe470e9d6c4231b82856459ed526509579453ad2627c5ed"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s05.webp",
+      "size": 144580,
+      "sha256": "a6718f6fee2e39387b4a8c6794e96ff3ed0c08b76bc6ecd8b88893a3f9760642"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s06.webp",
+      "size": 140686,
+      "sha256": "ec8c28a8c9bb90047fadee1afbdedcb53c45d05150e64019254792d983f7596f"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s07.webp",
+      "size": 115564,
+      "sha256": "f11462233016bfa4293d75cc07ddaa558e0d3ad362f9d296b04e8a8f47156fd0"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s08.webp",
+      "size": 118370,
+      "sha256": "58281e68b0b25640b8cc31eace95925a1214903aa851eaba8bb241fe7df03b32"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s09.webp",
+      "size": 130000,
+      "sha256": "d70df955c393b61a815e807dd8849bc272d8fa47e105cedb65540afeb2d83477"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s10.webp",
+      "size": 128834,
+      "sha256": "77a19d84a620b0092ba9ecad2d5f0dd0683a0e721bbc46b35de28db2a0fac914"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s11.webp",
+      "size": 146776,
+      "sha256": "196d83788dfc73a672c8466972434167da7c70ee4ef1ea2952fb0e659ed6a83f"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s12.webp",
+      "size": 120258,
+      "sha256": "4da3002b4181dde994058db3aa3c519fb65c4a512f76a942d2f46cd41f4843e4"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s13.webp",
+      "size": 174512,
+      "sha256": "0a49f0c1244da252b6f3d81a4c33d7dcd12f69d983769bb4c7d6205987304bdd"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s14.webp",
+      "size": 137264,
+      "sha256": "7e1d84333b83a3f5faf04bf71a8012cb87e7a42371e1c1252879b8d44af87553"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s15.webp",
+      "size": 128216,
+      "sha256": "803acaf4da666d1290eb63735c9a970c4c8ca6ecfdb9b0c262aa94469bce4bbd"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s16.webp",
+      "size": 161952,
+      "sha256": "f8bbba8738220d84e621706d18539a344e8389a09f0ecb2e1161def90a4cef7b"
+    },
+    {
+      "path": "game/assets/cards/display/c30-s17.webp",
+      "size": 160742,
+      "sha256": "62077a6799d46f43f619e4308cc31556771fbca43c89b6b69ee573cffcbd54be"
+    },
+    {
+      "path": "game/assets/cards/display/c31-s00.webp",
+      "size": 103254,
+      "sha256": "e00b6b5d3b5c057208cc6822a0e549354a6bd0914b4f61a6abc8adbfe35b8884"
+    },
+    {
+      "path": "game/assets/cards/display/c31-s01.webp",
+      "size": 88594,
+      "sha256": "1903b1ab2e7023d6cfa9333023370695886695d26767e5da9553d38d7ef9d256"
+    },
+    {
+      "path": "game/assets/cards/display/c31-s02.webp",
+      "size": 95890,
+      "sha256": "d732a296a2ef24720377c8791e171a30354678a70f2ffa35921c6cbd8b004a28"
+    },
+    {
+      "path": "game/assets/cards/display/c31-s03.webp",
+      "size": 106634,
+      "sha256": "5257de1415cfb7588e2919d0dc8fc6f21ec81c77fc47b8c75e42594fb84ecfe9"
+    },
+    {
+      "path": "game/assets/cards/display/c31-s04.webp",
+      "size": 111118,
+      "sha256": "35818160c97b9d3cfcebb6168a44487245c75dfe6726e0fe0aea9146245a1eac"
+    },
+    {
+      "path": "game/assets/cards/display/c31-s10.webp",
+      "size": 127652,
+      "sha256": "bd7994d1b45d20f02f45b5f7d04bf210b4bbfc48428c2d56b1cd9cc298d81d71"
+    },
+    {
+      "path": "game/assets/cards/display/c31-s11.webp",
+      "size": 158054,
+      "sha256": "f296b6f8d21c06e01fc8901915c5a7b064b3ce8cbde2487b0e6d4c5ca25512ff"
+    },
+    {
+      "path": "game/assets/cards/display/c31-s12.webp",
+      "size": 134300,
+      "sha256": "f04bbe53892177039fae687db87804b0b497a97469494928fb303315c242eeec"
+    },
+    {
+      "path": "game/assets/cards/display/c31-s15.webp",
+      "size": 146240,
+      "sha256": "7f933cdfff3156561bf6813c5148af11dd444e2f99980c5e979a700c7e6e08b1"
+    },
+    {
+      "path": "game/assets/cards/display/c32-s00.webp",
+      "size": 82772,
+      "sha256": "5a290a273c5f02f30d1efe04b366b57941533ea07e1cffec3ce6d7c0e50099b0"
+    },
+    {
+      "path": "game/assets/cards/display/c32-s01.webp",
+      "size": 75780,
+      "sha256": "7f921425b00b3c6c661969116b2cff2af9f14009086832f6c749e7acb93aca97"
+    },
+    {
+      "path": "game/assets/cards/display/c32-s02.webp",
+      "size": 81330,
+      "sha256": "f833af5d4ebb6311d3d3ebacd7c8157888176fa734f46423c9a3d6059ddf8327"
+    },
+    {
+      "path": "game/assets/cards/display/c32-s03.webp",
+      "size": 93642,
+      "sha256": "860d98b1a325c1f329035d2df6c210e63bef819c6f4166838d5212c013873cca"
+    },
+    {
+      "path": "game/assets/cards/display/c32-s04.webp",
+      "size": 89104,
+      "sha256": "b7db3107445bb79b5fc5a92b02c0583c909709745cfaba43f6bbdbcbb3cd6078"
+    },
+    {
+      "path": "game/assets/cards/display/c32-s10.webp",
+      "size": 126752,
+      "sha256": "d208ffb7839908e4d6d7f9414cd64bf519cff40aced7eb6e65768bdf0692fd56"
+    },
+    {
+      "path": "game/assets/cards/display/c32-s11.webp",
+      "size": 136788,
+      "sha256": "7927ad2af801a6de40f068d0917ce313c1109197bc648858c5401d5c10e61454"
+    },
+    {
+      "path": "game/assets/cards/display/c32-s12.webp",
+      "size": 117242,
+      "sha256": "528eb23ad5b31c415b2d8ea540b947f5befbd0407ab552eb4b866ce66e368368"
+    },
+    {
+      "path": "game/assets/cards/display/c32-s15.webp",
+      "size": 95808,
+      "sha256": "1aad269598d23c761680064fd67e7e50f943266a9d6120dce8baa15703411f41"
+    },
+    {
+      "path": "game/assets/cards/metadata/c01-s00.json",
+      "size": 782,
+      "sha256": "89d1f68eec459857fa51ae14837c13e3fbcb2ab3243182d7bc5d67f23c73a751"
+    },
+    {
+      "path": "game/assets/cards/metadata/c01-s01.json",
+      "size": 3854,
+      "sha256": "b191705b1459f2831f344eaccb00ccace94e2b4340e4403639ab3d6233eb763a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c01-s02.json",
+      "size": 3861,
+      "sha256": "373cdeedfc5b559383cc560bc98b3931b01ede589ae0dd7699f0f2f46f024902"
+    },
+    {
+      "path": "game/assets/cards/metadata/c01-s03.json",
+      "size": 3857,
+      "sha256": "d5fb0bbdddaa2a3836854e0e0e85b4355a49b14fd8cc7cdd511df9a7a218d25f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c01-s04.json",
+      "size": 4187,
+      "sha256": "cd2cdaa32d983962a4b9e09ca5c62f2aa5c13d0caf5f62702029c1226dbf7f12"
+    },
+    {
+      "path": "game/assets/cards/metadata/c01-s10.json",
+      "size": 1297,
+      "sha256": "338656512d31c8142e6f0e02045e791185d55dee7c11bb773fff120f98d136e0"
+    },
+    {
+      "path": "game/assets/cards/metadata/c01-s11.json",
+      "size": 3902,
+      "sha256": "62ee84fb4627bd267a3dce70982d48fc66af9b99390adf9ba48f86e3dd7a90c2"
+    },
+    {
+      "path": "game/assets/cards/metadata/c01-s12.json",
+      "size": 3932,
+      "sha256": "ff160735ebeb5de63a1651137f9335d0d12f0775c689692a992b6cf5254d8f23"
+    },
+    {
+      "path": "game/assets/cards/metadata/c01-s15.json",
+      "size": 1302,
+      "sha256": "93b7afb29c34652a9b6e716d22e99882305371d3469703468c9ce01c6fdf9da8"
+    },
+    {
+      "path": "game/assets/cards/metadata/c02-s00.json",
+      "size": 771,
+      "sha256": "1dfb40fcce71038bdbc50835f93ba9092c729820d08bccafdf86eaa512551f68"
+    },
+    {
+      "path": "game/assets/cards/metadata/c02-s01.json",
+      "size": 3421,
+      "sha256": "86f5420cda03e72afd2906f63bc897c5d6899dca66a431694dca23116b07de08"
+    },
+    {
+      "path": "game/assets/cards/metadata/c02-s02.json",
+      "size": 3428,
+      "sha256": "6a09306ddca90a6c9a714aee2bda49196ffb65a53e5fc6a75af19406cd9c6096"
+    },
+    {
+      "path": "game/assets/cards/metadata/c02-s03.json",
+      "size": 3424,
+      "sha256": "db98ee71c5150531401edc1a75bcc8ed83c82f43dd35638a3a46c8e84fc7870a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c02-s04.json",
+      "size": 3463,
+      "sha256": "6ab6fada5dd99ddb56ea82b31d22929fde5babb60e43eba48caeaea6aed208a6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c02-s10.json",
+      "size": 1234,
+      "sha256": "50c1e23a0f678faa23428a573cfebc111f132137a938d1e883467f452ee420f8"
+    },
+    {
+      "path": "game/assets/cards/metadata/c02-s11.json",
+      "size": 3638,
+      "sha256": "5c9a6b01eecdd400b55c8f78f3bc13cd49e736e8632fcc2cd0752cc8d505a7a2"
+    },
+    {
+      "path": "game/assets/cards/metadata/c02-s12.json",
+      "size": 3669,
+      "sha256": "e54e128b1d9f3ac0f25585aec6f6b00dcb986b3c070b6df3afacb553b8f69955"
+    },
+    {
+      "path": "game/assets/cards/metadata/c02-s15.json",
+      "size": 1239,
+      "sha256": "90deafa8f0f75114fd31984d986df7b1b9c625626e2c9ab28ee6f72a71cb3fc3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c03-s00.json",
+      "size": 774,
+      "sha256": "4689fa9327feef2aa02dccfe73a5f8afad35588768f9796aa59c1c84924956e7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c03-s01.json",
+      "size": 3488,
+      "sha256": "e376bef09262532894d9fb2f07d3f3db7b3fa6a60bd8cf6e01a0429ad4b7d9a3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c03-s02.json",
+      "size": 3495,
+      "sha256": "43eec1fd7f23c8169a0c784965614e4bdbab428762b134290f5bd025bc59600a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c03-s03.json",
+      "size": 3491,
+      "sha256": "47d81e25f4d9e18c39953452a65664126022c8c1d372cb91aa0a34fdaa534bdd"
+    },
+    {
+      "path": "game/assets/cards/metadata/c03-s04.json",
+      "size": 3530,
+      "sha256": "dc426f535a0c9204521f896f950fad6c4999e5687b8eacf4d3c4a0fbf7b2f2fc"
+    },
+    {
+      "path": "game/assets/cards/metadata/c03-s10.json",
+      "size": 1228,
+      "sha256": "81a647bdb1c123894ead75ee1a54cdc1190581793dbc045a3a6b5e185008e87c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c03-s11.json",
+      "size": 3705,
+      "sha256": "eaf353269b293b8107a1246c32b39ae88c8704b0f0b9251f60db4262c5bbd6e9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c03-s12.json",
+      "size": 3736,
+      "sha256": "7cbe1a79c16fde04f2233d4a9caf3c85afe7954eddfe36420c7fe54f972e4811"
+    },
+    {
+      "path": "game/assets/cards/metadata/c03-s15.json",
+      "size": 1233,
+      "sha256": "06d2d568b2d8c4cbd271d6c6516f90c0612b36b822efaca697d407784d88487b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c04-s00.json",
+      "size": 772,
+      "sha256": "9194d8d0006feb8a04f8bdcb221b1f6c1b4e7b83e112d8244fa084ca1b15ed25"
+    },
+    {
+      "path": "game/assets/cards/metadata/c04-s01.json",
+      "size": 3918,
+      "sha256": "fbd6756632389bf700f48daa05ecb4ffd3ffc68a8bca89db874bc47be9973e40"
+    },
+    {
+      "path": "game/assets/cards/metadata/c04-s02.json",
+      "size": 3925,
+      "sha256": "dc887df97e991a24cc3fc6984ec9b9fe17ecd6e9e042d1c6fcd284c6a18c6c7c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c04-s03.json",
+      "size": 3921,
+      "sha256": "148223f08d9dd2eb41f2f22c5cf9df1b75c6833f532a3f0a598493ff367adff7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c04-s04.json",
+      "size": 4303,
+      "sha256": "179a8ee75b717710e8662cafe9d2aa66131950b261dd8b7f7a5aa909921a09dc"
+    },
+    {
+      "path": "game/assets/cards/metadata/c04-s10.json",
+      "size": 1241,
+      "sha256": "69904cece38f970bee3fd7f2142b37e7ae96aa5e5a39d26559a83f3fe9db4b7a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c04-s11.json",
+      "size": 4136,
+      "sha256": "016092877886033e431c3d90b03ad59f59c544466105c20c8c6b471f01709c10"
+    },
+    {
+      "path": "game/assets/cards/metadata/c04-s12.json",
+      "size": 4166,
+      "sha256": "a7be0febc723a17eb0b77ac23b3d3fba7172deaac1e17c160acd29a4bf1140cf"
+    },
+    {
+      "path": "game/assets/cards/metadata/c04-s15.json",
+      "size": 1246,
+      "sha256": "c655fa23bfbd680061a115921aa7606a5efab8965f159fa061cda41af7c5f465"
+    },
+    {
+      "path": "game/assets/cards/metadata/c05-s00.json",
+      "size": 777,
+      "sha256": "cdeb005298a7cc784b7733d08049e8d7023df688531f979b7aedc5b473e34fa9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c05-s01.json",
+      "size": 3617,
+      "sha256": "0d3cb2dc345f2d4018f1496b12c7e254de85768cce8b7fb27d7a36a08d54b786"
+    },
+    {
+      "path": "game/assets/cards/metadata/c05-s02.json",
+      "size": 3624,
+      "sha256": "c45a816a5ca2e915ae5ab5deac16f56f22413b696ff9323d4f4a1c11c5efab6e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c05-s03.json",
+      "size": 3620,
+      "sha256": "1f10f86f78cfe5ca8cf189fde9ae1af9794966d0cb9b93fc0f5e3593fd01e361"
+    },
+    {
+      "path": "game/assets/cards/metadata/c05-s04.json",
+      "size": 4002,
+      "sha256": "d127c1c01ba34b3c4cbf6c3b0c60b742f71760a35f18e0644b5a243dc98957cf"
+    },
+    {
+      "path": "game/assets/cards/metadata/c05-s10.json",
+      "size": 1246,
+      "sha256": "68b6b0e0ba4e26bfed2fc2b1fe57c75266d5cedbbffc6f74fb2b9becb0477f96"
+    },
+    {
+      "path": "game/assets/cards/metadata/c05-s11.json",
+      "size": 3835,
+      "sha256": "d22ed6193a2fb1dbc037cfe032d7f95c06418fc7261127a2a951e7211a0b6ef9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c05-s12.json",
+      "size": 3864,
+      "sha256": "cdc7774149a61c750aad95bc16217170b0d369aeb9104861554a747c44ef12e0"
+    },
+    {
+      "path": "game/assets/cards/metadata/c05-s15.json",
+      "size": 1251,
+      "sha256": "4b156b52dc62f3593db2c4959b00769a2eda264e7f8df00cbdc2508653faa595"
+    },
+    {
+      "path": "game/assets/cards/metadata/c06-s00.json",
+      "size": 773,
+      "sha256": "da45455c3bdaf5197b1701c883fd41d4f532da58c03a9555c7888373a43f757c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c06-s01.json",
+      "size": 3589,
+      "sha256": "80a660d3b8786257bf48e5850f1e309cbc3fa6b26ae7ce8f5e2c2bfcbcb3ce7b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c06-s02.json",
+      "size": 3596,
+      "sha256": "8ac9f06d56a7728d472924c74405c237d2fd59ce779402d0bd20d56531df8d84"
+    },
+    {
+      "path": "game/assets/cards/metadata/c06-s03.json",
+      "size": 3592,
+      "sha256": "bbf26acb17aa192b94aae6de5a5871e3268193c1951fd852d1b522cf75e4c6f9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c06-s04.json",
+      "size": 3974,
+      "sha256": "91b1a3ac946b34b7592d771c4ba3dcae9cce0f2766e75d3e68edce6b7128f268"
+    },
+    {
+      "path": "game/assets/cards/metadata/c06-s10.json",
+      "size": 1226,
+      "sha256": "4f839c3ddac77c6d24f905c26324804be45401c083b1278fbadcdc5bf8b98586"
+    },
+    {
+      "path": "game/assets/cards/metadata/c06-s11.json",
+      "size": 3807,
+      "sha256": "bae179c5d09cd43f8b3af881425870df63fd02d88c048d32006b9c790f7d7957"
+    },
+    {
+      "path": "game/assets/cards/metadata/c06-s12.json",
+      "size": 3837,
+      "sha256": "e29d7288b4dcc33fbd1c84004419f2d7b6b6124085a194158ca3f1e1c4fb86e9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c06-s15.json",
+      "size": 1231,
+      "sha256": "e2d62aaa2dfaac0e4f1e90a73487d67da19dcb892f0e6d7aeb6a4ef21466e7a3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c07-s00.json",
+      "size": 769,
+      "sha256": "c196fc7dbe52520bb922edfc21d4ee0dbdb1bd040497caac6b61a635490915ea"
+    },
+    {
+      "path": "game/assets/cards/metadata/c07-s01.json",
+      "size": 3582,
+      "sha256": "d4a84226c3e647b1ccdc93474cf7f1c89e81f050b8367779a32fdfd841be5c2a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c07-s02.json",
+      "size": 3589,
+      "sha256": "b5eda18e327017a79d5e71f3a77a2824fe46ae39020fd7bbb8210e269502842e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c07-s03.json",
+      "size": 3585,
+      "sha256": "39cc6c83a53fcf2ccf1bc06f2d935cc883193516bfc7bb2bdac0958dc5b5428c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c07-s04.json",
+      "size": 3967,
+      "sha256": "562d1836aba7aa36adbf3d4d1a8aa6383a6d86c38a95f2cc19567bca31a76daa"
+    },
+    {
+      "path": "game/assets/cards/metadata/c07-s10.json",
+      "size": 1231,
+      "sha256": "80879d59252efe996dc22e17854480c4267e241e07afb4d9e998d29008d59e42"
+    },
+    {
+      "path": "game/assets/cards/metadata/c07-s11.json",
+      "size": 3800,
+      "sha256": "a23582c53e55c75087f0f218cb5e5ca3b1aa5d582d5ac87ba7a634c4eae21ccd"
+    },
+    {
+      "path": "game/assets/cards/metadata/c07-s12.json",
+      "size": 3830,
+      "sha256": "810c11a8a5783a893ad06f83e4fd1581210dcaca4ac24306a5768f7809c6b418"
+    },
+    {
+      "path": "game/assets/cards/metadata/c07-s15.json",
+      "size": 1236,
+      "sha256": "110292e28a66dddf5b9341c34c83b3980ea2baf7969cb6fa19c3bea28bd68c2e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c08-s00.json",
+      "size": 776,
+      "sha256": "225bc4afe12321d48095acc5950d5d265c009fc63c6caf5a0f12bf8e5093cf45"
+    },
+    {
+      "path": "game/assets/cards/metadata/c08-s01.json",
+      "size": 3595,
+      "sha256": "a6a4eb8b6d11c44d089880b069849fe1884e06e7c00f21aa06a53163c088eede"
+    },
+    {
+      "path": "game/assets/cards/metadata/c08-s02.json",
+      "size": 3602,
+      "sha256": "85bb29bfc5595d4350f1184de381c869a386ceac94759c02e366e0e939c1eaa3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c08-s03.json",
+      "size": 3598,
+      "sha256": "7b272f15c09cc086bee9bd5ac3a4241f5da1348a4c4c49261aaf6fb4d7c280a9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c08-s04.json",
+      "size": 3980,
+      "sha256": "344ecf222a19ee0eef9c6c7d2f61094254f49889f8378e4d14df7b8f4a4cdeaa"
+    },
+    {
+      "path": "game/assets/cards/metadata/c08-s10.json",
+      "size": 1224,
+      "sha256": "c90393d30be35c5909cd3b4ebb96aef42049cd70a433a66af68ab98e65ebd807"
+    },
+    {
+      "path": "game/assets/cards/metadata/c08-s11.json",
+      "size": 3813,
+      "sha256": "921e2067969376830706d3fe0e1fec63ad930cb7f7914ca4ea7dcf7b84170baa"
+    },
+    {
+      "path": "game/assets/cards/metadata/c08-s12.json",
+      "size": 3843,
+      "sha256": "beee3b9de480dc53811fcf92750c5e3bb52adb110520dd2e80e6a66badb2d7c2"
+    },
+    {
+      "path": "game/assets/cards/metadata/c08-s15.json",
+      "size": 1229,
+      "sha256": "700c742fa4556aafc536f25031e2fc23301269a1fa0ac49ad97ede6f7b6f0568"
+    },
+    {
+      "path": "game/assets/cards/metadata/c09-s00.json",
+      "size": 770,
+      "sha256": "6a5c7aff2252239ffd601d7d777fe671087cb1c73535f8356661ef515b8e8a02"
+    },
+    {
+      "path": "game/assets/cards/metadata/c09-s01.json",
+      "size": 3635,
+      "sha256": "831c2489d3f54be396e572536ec3ceefe8a3df02930d1633e63208f17964ae34"
+    },
+    {
+      "path": "game/assets/cards/metadata/c09-s02.json",
+      "size": 3642,
+      "sha256": "efb090f2f21314fe345387b66ec651907e3d2b1bcd7f7a16fc765a3e71c51c67"
+    },
+    {
+      "path": "game/assets/cards/metadata/c09-s03.json",
+      "size": 3638,
+      "sha256": "db07776f320a10f6d896bf98fe5b8a6805ccef286fd97e46bfe01edce112dd70"
+    },
+    {
+      "path": "game/assets/cards/metadata/c09-s04.json",
+      "size": 4020,
+      "sha256": "f10ea0fbf64aa0b280b136375e30b37832c2b65cde75b3cc8f85cb78dea6b4e0"
+    },
+    {
+      "path": "game/assets/cards/metadata/c09-s10.json",
+      "size": 1291,
+      "sha256": "5df2fe0d3ac61dddac358deabc478392ea9f87fcbdbc18dbdd72dc1c5c80c763"
+    },
+    {
+      "path": "game/assets/cards/metadata/c09-s11.json",
+      "size": 3853,
+      "sha256": "61f2bea2f33f54e7dabe349a56613f8b0601f27f1920f96e34fefc79b3b9f1b1"
+    },
+    {
+      "path": "game/assets/cards/metadata/c09-s12.json",
+      "size": 3883,
+      "sha256": "f076dd1311140f652c4144a54046dfbc25f304e197f8094fcd6aaa8edcacc7a3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c09-s15.json",
+      "size": 1296,
+      "sha256": "ea21066ddc5449ec91eece390698ca7f470e9f028c2f49d93faa1ea2290195f7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c10-s00.json",
+      "size": 771,
+      "sha256": "769b2823163df23d0edc433d2d3c499482c08ed1c418ef052c0f9d875e823af1"
+    },
+    {
+      "path": "game/assets/cards/metadata/c10-s01.json",
+      "size": 3585,
+      "sha256": "189acc15711b81dae8b3736fdb7f32bbb9e4dad775444628c0722c2bf889d6b2"
+    },
+    {
+      "path": "game/assets/cards/metadata/c10-s02.json",
+      "size": 3592,
+      "sha256": "5c5472d0f41eff206aecd7830c15ad2e29a1705d0e9c7a12d8881830d5ae4eeb"
+    },
+    {
+      "path": "game/assets/cards/metadata/c10-s03.json",
+      "size": 3588,
+      "sha256": "ecdc988168ce675497debb18148ab6da1ce5ff1c37213bde807e30b638cc8084"
+    },
+    {
+      "path": "game/assets/cards/metadata/c10-s04.json",
+      "size": 3970,
+      "sha256": "80763ff059f77f0057af9f33b37a8cbd13fcba609da241d1a8540336c6a55e25"
+    },
+    {
+      "path": "game/assets/cards/metadata/c10-s10.json",
+      "size": 1214,
+      "sha256": "fb2c8fe9851c0d5d367f1d01621e87c810f141f9fa8e718d3168d8d97f877cf5"
+    },
+    {
+      "path": "game/assets/cards/metadata/c10-s11.json",
+      "size": 3803,
+      "sha256": "56feaadb1a60fd9e8278ce35fa8653dc6ed0ac6a97f2f9043e951efdcb1d2252"
+    },
+    {
+      "path": "game/assets/cards/metadata/c10-s12.json",
+      "size": 3833,
+      "sha256": "3567bcfd332e0d94ffe583ee6b073d0580a5eab88097473c0a1a81c57f187c18"
+    },
+    {
+      "path": "game/assets/cards/metadata/c10-s15.json",
+      "size": 1219,
+      "sha256": "dc98ad52c906a847742e177b5ce2b53dc7a6716533b7045ffbd77d426cc522fa"
+    },
+    {
+      "path": "game/assets/cards/metadata/c11-s00.json",
+      "size": 773,
+      "sha256": "f37c8f86fa75936c570bd25185264247014c5475629a01d45f0ee031a174e60c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c11-s01.json",
+      "size": 3600,
+      "sha256": "b42d24176e28514de423eacc6e7184a358e18a60d8113a782912ec98d293d7c5"
+    },
+    {
+      "path": "game/assets/cards/metadata/c11-s02.json",
+      "size": 3607,
+      "sha256": "75faf3e2ac5dda2636e8b31e0f197eb8e4630ab7519a332683948c84a6aeee1e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c11-s03.json",
+      "size": 3603,
+      "sha256": "13f27027241c2ded363e8f70c4c568ee16abeb9b35fb53fbc07fdd309325994b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c11-s04.json",
+      "size": 3985,
+      "sha256": "327cee66bbd1447770a182b54ab518951fce7337264f3aba0c718bd8eced79fb"
+    },
+    {
+      "path": "game/assets/cards/metadata/c11-s10.json",
+      "size": 1222,
+      "sha256": "cf9ffcce4fdd4731e8eed060022f905078c7326a64534aced9a545d03ad31153"
+    },
+    {
+      "path": "game/assets/cards/metadata/c11-s11.json",
+      "size": 3818,
+      "sha256": "45086c54b0cfa5092c62bc6a5f389152d97448853de3ddcf2560554c42f3659e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c11-s12.json",
+      "size": 3848,
+      "sha256": "64922d4a4f3f5cc248c6594d7f847722b17d86e352999b002ee0f4507c84621a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c11-s15.json",
+      "size": 1227,
+      "sha256": "700077d1e8dbdc2d752178006682a3d3e8fd7ddea4530199d3ce7189dc5f6b42"
+    },
+    {
+      "path": "game/assets/cards/metadata/c12-s00.json",
+      "size": 772,
+      "sha256": "7076b7a8ac93fc79e858e1250fa389d0aa5684d28d4f4d9bba40a780b239d426"
+    },
+    {
+      "path": "game/assets/cards/metadata/c12-s01.json",
+      "size": 3591,
+      "sha256": "9cb986bc37c485f06588d63b958e83ebdb68a590580960a211d1c09e58e39002"
+    },
+    {
+      "path": "game/assets/cards/metadata/c12-s02.json",
+      "size": 3598,
+      "sha256": "6aa475d834c060fc81c56710e0f295a5597d9660794d4d3f70b651fc85fbd8b0"
+    },
+    {
+      "path": "game/assets/cards/metadata/c12-s03.json",
+      "size": 3594,
+      "sha256": "d739c0e56e695ff41d26bc3f8f36e4a497a8415fb51b061b44c2d6115c9d4611"
+    },
+    {
+      "path": "game/assets/cards/metadata/c12-s04.json",
+      "size": 3976,
+      "sha256": "b03a2a7ea53a57839c9a5ba05b85c60aeae05fb294b7f0d5f60df1b0a1e4465b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c12-s10.json",
+      "size": 1227,
+      "sha256": "aa1fbc7481402addf2b03d78a2fadfd7ca5236391e358959f07e46377d64f053"
+    },
+    {
+      "path": "game/assets/cards/metadata/c12-s11.json",
+      "size": 3809,
+      "sha256": "b067afe7abc27d01fdecc08c2352b3b72fa485bef886e81590f09af4e8a47f42"
+    },
+    {
+      "path": "game/assets/cards/metadata/c12-s12.json",
+      "size": 3839,
+      "sha256": "a9136b8e65b21f9a8a0e12ad1a912650ebf914621d546bfe95f19a49b6d026ff"
+    },
+    {
+      "path": "game/assets/cards/metadata/c12-s15.json",
+      "size": 1232,
+      "sha256": "8e176f0e4498c1fb05e3e0027ee3555e71305e71f46597467c86022615c2b44b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c13-s00.json",
+      "size": 779,
+      "sha256": "de4c4d468a05f8544eca53744b5eccf1c83ba1875ab5a4e9af2b45dc9a36c5d6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c13-s01.json",
+      "size": 3610,
+      "sha256": "a338140c90d407ea7187925b146b2616407c5224ee9def16dd0757ca70b7d258"
+    },
+    {
+      "path": "game/assets/cards/metadata/c13-s02.json",
+      "size": 3617,
+      "sha256": "9deabac27156550fee9d75938b07afa46e4392f3838082fafd5c582d33ef855b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c13-s03.json",
+      "size": 3613,
+      "sha256": "66ea1320fd988c9f7df4991e45653e288c80e5fc3e744480a141bcf3d66334f0"
+    },
+    {
+      "path": "game/assets/cards/metadata/c13-s04.json",
+      "size": 3995,
+      "sha256": "121b578d2dfb78d6950f4b2cf5ea4fb4ba04875c93375deeba97f0bb2cc40119"
+    },
+    {
+      "path": "game/assets/cards/metadata/c13-s10.json",
+      "size": 1246,
+      "sha256": "34ec9669b068abe4d2a79b85724d8fa66ccab9cc2c0cca537dd140cf9796a22e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c13-s11.json",
+      "size": 3828,
+      "sha256": "697f32c0a883f15d1a8f7b5d28c685f0669a08b02bc5deb8643e237445af5105"
+    },
+    {
+      "path": "game/assets/cards/metadata/c13-s12.json",
+      "size": 3858,
+      "sha256": "a5de01ed84f2ddf8d339075a979b3a183ba20163970e33678f3a882d7975f8b5"
+    },
+    {
+      "path": "game/assets/cards/metadata/c13-s15.json",
+      "size": 1251,
+      "sha256": "c8f394325b07274f9ed2e89dec115e6489ca970f843efc53aaa385aaaccd9792"
+    },
+    {
+      "path": "game/assets/cards/metadata/c14-s00.json",
+      "size": 773,
+      "sha256": "cfdae1d976f7f0134a406036c4e958dcc4363a7576d902e09342ef99d48fe877"
+    },
+    {
+      "path": "game/assets/cards/metadata/c14-s01.json",
+      "size": 3603,
+      "sha256": "ea23668d2d1909c7144a88849e61b3c384dd7c183bfe9f369d76491f58e09687"
+    },
+    {
+      "path": "game/assets/cards/metadata/c14-s02.json",
+      "size": 3610,
+      "sha256": "044f5cd7b2566cd9a8c4efd6ae17bc7c51048f5bc2a12d37e0d6f003e3f881db"
+    },
+    {
+      "path": "game/assets/cards/metadata/c14-s03.json",
+      "size": 3606,
+      "sha256": "890d0ceef2dcde7314a72239e41400eb7e084b63fa1d5d1a54553bb3f17a8969"
+    },
+    {
+      "path": "game/assets/cards/metadata/c14-s04.json",
+      "size": 3988,
+      "sha256": "805e373eaa4a011a7f6469ee2c58d60efb77c23042d9d3c2dd36c330ada7e4ea"
+    },
+    {
+      "path": "game/assets/cards/metadata/c14-s10.json",
+      "size": 1245,
+      "sha256": "d7e08e0f8c315029bed86ebea7a0b9996517eea56e1e879943b4a3f0ab9461f1"
+    },
+    {
+      "path": "game/assets/cards/metadata/c14-s11.json",
+      "size": 3821,
+      "sha256": "f4a4560304659e8de0c1a52f33432316272936d1ba7236d7a3330665c1bbaab7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c14-s12.json",
+      "size": 3851,
+      "sha256": "5b4c7a928515d01e687cdf4889118b9bab975e243c8b395eb604beb0090f2df0"
+    },
+    {
+      "path": "game/assets/cards/metadata/c14-s15.json",
+      "size": 1250,
+      "sha256": "a66451db1b6d8e697dfe903903aadbfdfafdbf50dcdff075fcbc7211c165b8b5"
+    },
+    {
+      "path": "game/assets/cards/metadata/c15-s00.json",
+      "size": 777,
+      "sha256": "34bcee777c2e154bf411353c90321d5713fd783aba43427daf3f99835db5b438"
+    },
+    {
+      "path": "game/assets/cards/metadata/c15-s01.json",
+      "size": 3616,
+      "sha256": "74e007827625a543ae9f169232170e365b006bd3404e3e71d29884caca7e9dc3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c15-s02.json",
+      "size": 3623,
+      "sha256": "da1cdbcadcdcaf2f967f6fff34998a756ede9c5c94ad6aa27707e37fb57df830"
+    },
+    {
+      "path": "game/assets/cards/metadata/c15-s03.json",
+      "size": 3619,
+      "sha256": "632d5514bf137973f6922b824395fc3b38afced1b7c24873fafaf46f0d1ef628"
+    },
+    {
+      "path": "game/assets/cards/metadata/c15-s04.json",
+      "size": 4001,
+      "sha256": "40091ea7c0c0931b0ac2c45939c4c26277044d915117566bc2a3b169fb202eea"
+    },
+    {
+      "path": "game/assets/cards/metadata/c15-s10.json",
+      "size": 1234,
+      "sha256": "e4eec56a4d30ba253ba2bf69a9a1dda197b4e19f6a9ed0945d515d5429ee114f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c15-s11.json",
+      "size": 3834,
+      "sha256": "c62418cc2580c197175628beab8e539fc57df76fabb11fcbfa71a295f3ab45e6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c15-s12.json",
+      "size": 3864,
+      "sha256": "b36690e927864a2d38e01f523e203064cc8f9b9a28eeb74b8c9746d797944f4b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c15-s15.json",
+      "size": 1239,
+      "sha256": "418a22fd1c646a5cb975803507121e7abced3370a06e98ea800e97ef55c661d8"
+    },
+    {
+      "path": "game/assets/cards/metadata/c16-s00.json",
+      "size": 773,
+      "sha256": "058d88a36889fbcd6dfe5a57c399a9bf198b793b06ad1d37a38a3e170eb354f1"
+    },
+    {
+      "path": "game/assets/cards/metadata/c16-s01.json",
+      "size": 3582,
+      "sha256": "506acae0cfa3e63c35156a9ebc3159fb1ab27638d84d00941375eb087cb4d01d"
+    },
+    {
+      "path": "game/assets/cards/metadata/c16-s02.json",
+      "size": 3589,
+      "sha256": "816f1009ba4fa7e8e7f65a5c22a6f7635500daae5dfbc92e7db06e46c90d3bf1"
+    },
+    {
+      "path": "game/assets/cards/metadata/c16-s03.json",
+      "size": 3585,
+      "sha256": "3bc5f24fc8bb1b7a30c9afbfe5e865314f2f8d0016d7ffa87a5098cbd056ac2f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c16-s04.json",
+      "size": 3967,
+      "sha256": "e55bdb807de4e8a92d49a27325e0761afcd04f12ea77f729896692395681d019"
+    },
+    {
+      "path": "game/assets/cards/metadata/c16-s10.json",
+      "size": 1202,
+      "sha256": "06a7c3545a5f46ef893c7dc863f4de8092ff2a14e550cf58ab89ce3289a95fc2"
+    },
+    {
+      "path": "game/assets/cards/metadata/c16-s11.json",
+      "size": 3800,
+      "sha256": "0e42bff135b9e36f320d3ea01a04d3957242cb52734aaff84f88fe28f85320c7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c16-s12.json",
+      "size": 3830,
+      "sha256": "070c48ad814f4cf61b1915764140c27d1ad6d7d05a7adb2e097d8ba8eb61967c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c16-s15.json",
+      "size": 1207,
+      "sha256": "ebb39f26edcc9998835930143a4612442a33618374ef25ecb2e69ff3257bf294"
+    },
+    {
+      "path": "game/assets/cards/metadata/c17-s00.json",
+      "size": 779,
+      "sha256": "841ea0ca13c3c613a106c02d017bbdba7e71b0b62b04de9a653fba4d27d680a9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c17-s01.json",
+      "size": 3622,
+      "sha256": "205eebd9fe8e92fb752788775a5026ce4fcdf59045a4cbc13b08484180259f88"
+    },
+    {
+      "path": "game/assets/cards/metadata/c17-s02.json",
+      "size": 3629,
+      "sha256": "2dbdff92d597e2e9f39a33f045b6bd8001780924af2c9a8a8ac377f12c34b28b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c17-s03.json",
+      "size": 3625,
+      "sha256": "93933d089a423bbdee32281cc63f238f3879c32c37f9077a7995ec74aebda06e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c17-s04.json",
+      "size": 4007,
+      "sha256": "362ed4852c517671212b88d4f6b631663cffb5b1a815b83a5b51cb2140c09935"
+    },
+    {
+      "path": "game/assets/cards/metadata/c17-s10.json",
+      "size": 1243,
+      "sha256": "73431576c7890f47bb6e1868268f86246830d69da2440c1bb5c7a86bd302f749"
+    },
+    {
+      "path": "game/assets/cards/metadata/c17-s11.json",
+      "size": 3840,
+      "sha256": "43ab0f9a003c1e5ad886c0f250193fdf4ff622bcbb0807ab0abecf8b17b96432"
+    },
+    {
+      "path": "game/assets/cards/metadata/c17-s12.json",
+      "size": 3870,
+      "sha256": "9ac00eccf229314122034e1f58739e0e8f2f1f4b30138d89b4edb5f1530be12d"
+    },
+    {
+      "path": "game/assets/cards/metadata/c17-s15.json",
+      "size": 1248,
+      "sha256": "27ecfad7020d8cad4fd04af3e2078b56ff8d2ba37a1fc05f20c50c6ff4456480"
+    },
+    {
+      "path": "game/assets/cards/metadata/c18-s00.json",
+      "size": 770,
+      "sha256": "00008d85c11327f70d847df80973e9c0dc5bfe88d4add3c0c735650f43bf99d5"
+    },
+    {
+      "path": "game/assets/cards/metadata/c18-s01.json",
+      "size": 3751,
+      "sha256": "176fd4e2604654afaf9eec47f213e56275c5de313c7c1afd099f235cd7e9870c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c18-s02.json",
+      "size": 3758,
+      "sha256": "e8f5da78a1618365e585e2611ae763f31d8fea86aa7fe895096c252561b1ff39"
+    },
+    {
+      "path": "game/assets/cards/metadata/c18-s03.json",
+      "size": 3754,
+      "sha256": "56cc71b503d31c186f5d5658a843a069ba9c6a73dd279eff257a4e739eccd3ee"
+    },
+    {
+      "path": "game/assets/cards/metadata/c18-s04.json",
+      "size": 4136,
+      "sha256": "ffe5c9cea6affa51d4d98845ae612df204a4046f938558ba6c4364119cf19a44"
+    },
+    {
+      "path": "game/assets/cards/metadata/c18-s10.json",
+      "size": 1227,
+      "sha256": "14fee95ec6cd87184cd6219ed8d17abcb8879cead59ae03f5c62e4e47db37091"
+    },
+    {
+      "path": "game/assets/cards/metadata/c18-s11.json",
+      "size": 3969,
+      "sha256": "c6e410f075ffa86b6819ef5fe6dd9f077b0cc060c6d0715dfaa82e3989c48792"
+    },
+    {
+      "path": "game/assets/cards/metadata/c18-s12.json",
+      "size": 3999,
+      "sha256": "6d015d787ace16b83c84fdb94beb49f15d521b32ea88498bc7e17a2a3acacfa9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c18-s15.json",
+      "size": 1232,
+      "sha256": "8d2cbdfa810282d8a4ee1e335b7229edec656411bacd00bdd1fe9e31de0f90fb"
+    },
+    {
+      "path": "game/assets/cards/metadata/c19-s00.json",
+      "size": 770,
+      "sha256": "85b7d5daadd061be4db28956e5d731990cdd5dc4d5ccb15a4a99dfe310025691"
+    },
+    {
+      "path": "game/assets/cards/metadata/c19-s01.json",
+      "size": 3619,
+      "sha256": "9731e07ff38ed9006d21a8c86f4f80b902ae7557bf8b28e6f7df47b3016f427e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c19-s02.json",
+      "size": 3626,
+      "sha256": "d7f1e12646e8eb21fdd05e64cc163502fda265c9b7a09605557d3d91c85ceacb"
+    },
+    {
+      "path": "game/assets/cards/metadata/c19-s03.json",
+      "size": 3622,
+      "sha256": "598ac598c0f53c6174362938090521fd59b19f4b874c569c157ec29119a7e815"
+    },
+    {
+      "path": "game/assets/cards/metadata/c19-s04.json",
+      "size": 4004,
+      "sha256": "5cd682283724f7602c1d44824b7e73d17a7ecdf64c61dbee45043bec76d10e1a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c19-s10.json",
+      "size": 1259,
+      "sha256": "c632b32b7b7e248cdbd856d5f678711f46d617b841f892d488cbe142c38a4b0b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c19-s11.json",
+      "size": 3837,
+      "sha256": "e72320ba7c9f606696e213d553abd63aa3622e442982435804ebf17ca12d413c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c19-s12.json",
+      "size": 3867,
+      "sha256": "3a59803bf489ededb9cc19520b3d391e404396767d9942f51b8db4c4c2598b6d"
+    },
+    {
+      "path": "game/assets/cards/metadata/c19-s15.json",
+      "size": 1264,
+      "sha256": "68844ff66feae3b3baf301a1c166cd76f665d4ea8c82e07b6ef0b9a3591b7bf4"
+    },
+    {
+      "path": "game/assets/cards/metadata/c20-s00.json",
+      "size": 773,
+      "sha256": "f635a5fdbb096fa7276c1e264edf22cc52dc3b8e25962b7051d2ee45d1f8da35"
+    },
+    {
+      "path": "game/assets/cards/metadata/c20-s01.json",
+      "size": 3967,
+      "sha256": "c1733c79523366f8eca030a9789879f3c5336648fbf010b58268c591367ad4e3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c20-s02.json",
+      "size": 3973,
+      "sha256": "30a410ad9249848e558683b87ac327b6fe3d28d9ca3f9e3dc124a9c6e1cf3438"
+    },
+    {
+      "path": "game/assets/cards/metadata/c20-s03.json",
+      "size": 3970,
+      "sha256": "0372115b0fd87e022640f3cd2886b48ef27ee85ffe4fd1fa09e4cc286f81c428"
+    },
+    {
+      "path": "game/assets/cards/metadata/c20-s04.json",
+      "size": 4351,
+      "sha256": "c0076a9bd811e5bc8531ab4c1f66f96af5302740666c49eec1050cf2344311cc"
+    },
+    {
+      "path": "game/assets/cards/metadata/c20-s10.json",
+      "size": 1211,
+      "sha256": "90731af65fe191c300cc5ec248e4fd3668b4ef73136579b4e7b7d9bc5a26c6e6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c20-s11.json",
+      "size": 4185,
+      "sha256": "683513e19d8ddb72542af0cc49cb6184475253e2355a6d2e31020088f0cc9954"
+    },
+    {
+      "path": "game/assets/cards/metadata/c20-s12.json",
+      "size": 4215,
+      "sha256": "af8c755d89642e6eb4c13217a548679d4ceb5578ddf11c9f6cfc0d6ff11ef7c6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c20-s15.json",
+      "size": 1216,
+      "sha256": "3ff0778c32f4cb9f2522f60f06b2d516f36cf8c9e65bf6f13c962e859af8de10"
+    },
+    {
+      "path": "game/assets/cards/metadata/c21-s00.json",
+      "size": 775,
+      "sha256": "18bdc0dad04662c233b4df1b3eb47aebc6126a2f23bf73675d922724f843c89b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c21-s01.json",
+      "size": 3580,
+      "sha256": "2de470689e332b1b7c643c297e83b590ef6675542d7166a806da3a3d9105ccea"
+    },
+    {
+      "path": "game/assets/cards/metadata/c21-s02.json",
+      "size": 3587,
+      "sha256": "b71e766f9c72cfbd2bd643ad2d7125e918932401df1b242315be1ff31e41044d"
+    },
+    {
+      "path": "game/assets/cards/metadata/c21-s03.json",
+      "size": 3583,
+      "sha256": "7172b72965e9a57a98f7354df7ae9af32574afcdf7a0602fda5cff0f682575f4"
+    },
+    {
+      "path": "game/assets/cards/metadata/c21-s04.json",
+      "size": 3965,
+      "sha256": "eb8650103ea6781bc9d3834b2e4f1db985244aeeda15dd7c9046d690bbe1d8a4"
+    },
+    {
+      "path": "game/assets/cards/metadata/c21-s10.json",
+      "size": 1195,
+      "sha256": "0b1dcb28d93855dd82614c9406225f596b72ca85121cceaf1572c6d6daa031c8"
+    },
+    {
+      "path": "game/assets/cards/metadata/c21-s11.json",
+      "size": 3798,
+      "sha256": "5ea16d7e05fb759a6e78586b2a9b9a47aff8e6ac945b82619c4ba9ee68154b75"
+    },
+    {
+      "path": "game/assets/cards/metadata/c21-s12.json",
+      "size": 3828,
+      "sha256": "1929cd38ce0ea7a0b617f6ef91af833e8612f19a4573e1accb866bc911a7cb60"
+    },
+    {
+      "path": "game/assets/cards/metadata/c21-s15.json",
+      "size": 1200,
+      "sha256": "bbe34632f4263dfc63de5897aca56be26e9fb859066146b30b3d4ea9c6cb8c6f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c22-s00.json",
+      "size": 775,
+      "sha256": "c23606d3c9aefceb25afb2ee8dedc7494b18c86362dc1f125b27b642171b3e75"
+    },
+    {
+      "path": "game/assets/cards/metadata/c22-s01.json",
+      "size": 3614,
+      "sha256": "4ec7f8c6a97ca5aa21e9069a17bf0ec870fbaadda7704923f1b488e0f21ef61f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c22-s02.json",
+      "size": 3621,
+      "sha256": "9425a59a7d3302793898b28a5367921e828c06b8a73b4eb06aa44050ebe19a03"
+    },
+    {
+      "path": "game/assets/cards/metadata/c22-s03.json",
+      "size": 3617,
+      "sha256": "b58c34dff16ebd0192f19c191ed54f85ba7655f1c1b86f7079e6677e0f0ef9e7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c22-s04.json",
+      "size": 3999,
+      "sha256": "91e5aa3d6225f41234e8200622ed5ab2d027da5b439a96fdf65de8f348a8e2f8"
+    },
+    {
+      "path": "game/assets/cards/metadata/c22-s10.json",
+      "size": 1252,
+      "sha256": "0e347956dac361cb4706c943bb8e79c42332f3ac4ef37ef19fe5d52beec80f69"
+    },
+    {
+      "path": "game/assets/cards/metadata/c22-s11.json",
+      "size": 3832,
+      "sha256": "c87b13e436f84ebb9268556f79cb5f7cd473c5598bc77f758e1625a3533a5ad8"
+    },
+    {
+      "path": "game/assets/cards/metadata/c22-s12.json",
+      "size": 3862,
+      "sha256": "08027cb9548e1c160554b97c69584c7059c6b5246f332f11be37a31755c80bd1"
+    },
+    {
+      "path": "game/assets/cards/metadata/c22-s15.json",
+      "size": 1257,
+      "sha256": "729d3611c9b29836272bcfcdc16b0ec42913bd10db973fa2af857dfef3917981"
+    },
+    {
+      "path": "game/assets/cards/metadata/c23-s00.json",
+      "size": 773,
+      "sha256": "5731878a6144265ba1c21eb5b5a8bea4f961d3edb9f92b46b9fd66e63001f79d"
+    },
+    {
+      "path": "game/assets/cards/metadata/c23-s01.json",
+      "size": 3589,
+      "sha256": "0d6c6352b9367ed709541f2ff0d04c168ffe6e8a197d83d5b0805d65e9c7174d"
+    },
+    {
+      "path": "game/assets/cards/metadata/c23-s02.json",
+      "size": 3596,
+      "sha256": "183f9372ae411a6abcc63729002d2fc13538f3a6599accad3fb6bd1ae0eed065"
+    },
+    {
+      "path": "game/assets/cards/metadata/c23-s03.json",
+      "size": 3592,
+      "sha256": "9c1e53d0f34d2ae960614a350aa8484cc1da47412fcb2fffe1bea39f9930c220"
+    },
+    {
+      "path": "game/assets/cards/metadata/c23-s04.json",
+      "size": 3974,
+      "sha256": "48313537269630fa15cad4e30844f0af821bcb4ee3a10f3991abe83556cde78b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c23-s10.json",
+      "size": 1207,
+      "sha256": "46ac163b01ab711cd00a798f1a0189566ce5a7c4cb43271a23e5dc8d3e1a7227"
+    },
+    {
+      "path": "game/assets/cards/metadata/c23-s11.json",
+      "size": 3807,
+      "sha256": "e9b9598ff1e3a635fa457500c1a18efd8e33e12b4beddb756bd5893c25c8195f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c23-s12.json",
+      "size": 3837,
+      "sha256": "7ff8a7a801a8ea17c5b9068068860d6a3485321f5f47dd6100f74038070a77d6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c23-s15.json",
+      "size": 1212,
+      "sha256": "cbf8155026330fe12ab8639f30ff1467e9a01cd2906b53692276e9642d70bc6e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c24-s00.json",
+      "size": 773,
+      "sha256": "240df63fc0dd4e2fbafcee9bb28197bb46cdf140b1ef63f2e045936d1eae935c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c24-s01.json",
+      "size": 3579,
+      "sha256": "e81c2e7a6e5d7352cdf3afec0c1ae53aaec9f9d04a0d351892c061be838cb1f8"
+    },
+    {
+      "path": "game/assets/cards/metadata/c24-s02.json",
+      "size": 3586,
+      "sha256": "bc1c9628dc1b0b1a3c46197a17ea8b39b3dd8a69e366c42e2064962887cee937"
+    },
+    {
+      "path": "game/assets/cards/metadata/c24-s03.json",
+      "size": 3582,
+      "sha256": "30796ffac265b0a170153c4d6234c1e0c7a0225611aa58b677760e2bf8264022"
+    },
+    {
+      "path": "game/assets/cards/metadata/c24-s04.json",
+      "size": 3964,
+      "sha256": "59c925521cb2f4b2015c3db8707e23b3257bce991264e6c98dae276276baf13b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c24-s10.json",
+      "size": 1216,
+      "sha256": "b1b1b4534a174213051ef9777e957084ca51abc3f12ae62d03cf0d24bf2b1a1f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c24-s11.json",
+      "size": 3797,
+      "sha256": "26b1c3f31bce5d9c5ab833403b8ca4b0a28022e28c5a7a3f6262270627e69102"
+    },
+    {
+      "path": "game/assets/cards/metadata/c24-s12.json",
+      "size": 3827,
+      "sha256": "4198532b1bc0a27568419f99fc900ce53b0bdad012661d8a449fc37dc86389a6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c24-s15.json",
+      "size": 1221,
+      "sha256": "3cb31fbfd5456f8d71e85fe07f4fd566e4b70099587ce88285d728a0f5376211"
+    },
+    {
+      "path": "game/assets/cards/metadata/c25-s00.json",
+      "size": 770,
+      "sha256": "5c342d7eb264c3a1d315382543682ca834d4cecb1f1963e6adcfc63cbcc58eac"
+    },
+    {
+      "path": "game/assets/cards/metadata/c25-s01.json",
+      "size": 3589,
+      "sha256": "234938462e75f6d8b872904b39734aabee423cd5edab4787476396753b0f5d7e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c25-s02.json",
+      "size": 3596,
+      "sha256": "bf9afa4553ce62d3a020eeff9c64b98aaf1e1856b7e7055a6dcdf96732c6efc3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c25-s03.json",
+      "size": 3592,
+      "sha256": "b1ea61942eefdd735ac097fe36319dd56e1a178cbae94f35dbd2e50784992cc0"
+    },
+    {
+      "path": "game/assets/cards/metadata/c25-s04.json",
+      "size": 3974,
+      "sha256": "90e59a2d8c60d26fc7462467268081064d2bd99e84cbcfdf3d66e451362291bf"
+    },
+    {
+      "path": "game/assets/cards/metadata/c25-s10.json",
+      "size": 1246,
+      "sha256": "8991afb8c67ed9b23c141f0c283744a69137ea1eefc391699292bddf9dfedbcf"
+    },
+    {
+      "path": "game/assets/cards/metadata/c25-s11.json",
+      "size": 3807,
+      "sha256": "dfd9fe2e32be82abd1a9d93cec9c85fb34f656db42afdedef50c5de711623a5a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c25-s12.json",
+      "size": 3837,
+      "sha256": "c77f231e4d58ebfdb3f2d4cf507eb5dd7d434b39e98f4bf481b0b7441b2ef7e7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c25-s15.json",
+      "size": 1251,
+      "sha256": "329977140530b10c26ccdaaaf83acc5ef393995dbd5534bd8824d843a426d9d9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s00.json",
+      "size": 776,
+      "sha256": "487bfe3791e4dba4a2bb742b9a2d6738bcc73b1810116d5f68969b940913ce86"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s01.json",
+      "size": 3612,
+      "sha256": "c9b7eae0de079dbd2f779f7355e74b937398e226d4946bc5cbe2a4f954ded598"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s02.json",
+      "size": 3619,
+      "sha256": "18288e2350cfebdd934de4739eb118d50ceb59f577098fc17bc728559fccd036"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s03.json",
+      "size": 3615,
+      "sha256": "1f4fd6973a5d36e5fe9671ec911d159e11a709f20176b214df7a46b008b04fc9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s04.json",
+      "size": 3997,
+      "sha256": "052dbc381174f03b6a062c07de301796ff15a5da6638614a4a4c323381b25cb0"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s05.json",
+      "size": 3725,
+      "sha256": "0c972f35b9ff3b2a7bb59b996ea0d842e0a138f75e9ccbd5cce9462eb93be71c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s06.json",
+      "size": 4262,
+      "sha256": "2da5e43842411be5f43c2c36d14272931053ae28250dcdbeee264b21e688c876"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s07.json",
+      "size": 4223,
+      "sha256": "99bc3b290e076a0fa7f0faef27b5b09ff886309a4dce05ab6b88d3c9142a3a53"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s08.json",
+      "size": 4122,
+      "sha256": "57b1515652c72fb771bc5ec5450079cab4c6a6e10b7d0766fba1807b28dfd95f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s09.json",
+      "size": 4223,
+      "sha256": "e1f0b2adf92adf3a5262bcbc52bae68de79882a0c39358971c5458972e68acc9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s10.json",
+      "size": 1217,
+      "sha256": "e43bbf8dfb56027e5ae3fc6fd739e046c8bd98c4acf5d2cdc8ae458ce2fb1756"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s11.json",
+      "size": 3830,
+      "sha256": "3aaf158e23766349b88914a1ec66675b304c2ef55132852a095add6065d78e88"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s12.json",
+      "size": 3860,
+      "sha256": "cfb4ac5ee29702366864594000e1505182cdcb01616a59f0b015227411ff5e11"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s13.json",
+      "size": 2947,
+      "sha256": "a38a0460c526a5af8d8b1add003e0265dd4eafad22c968a9b4ae4cc3954e918f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s14.json",
+      "size": 3625,
+      "sha256": "ead33cad4767fb6af2ec79f9dc7c018439438539c8f9c98d2fc0f244a124759d"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s15.json",
+      "size": 1811,
+      "sha256": "806b4daa23ac8254498a75ed9c82dc16566735339c7a22d460618c2f8f441772"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s16.json",
+      "size": 4079,
+      "sha256": "34e1cd43df924837dec03703f44ba9485cefdbbd01c4881c463ed62d28184754"
+    },
+    {
+      "path": "game/assets/cards/metadata/c26-s17.json",
+      "size": 4487,
+      "sha256": "c4a1f7af0d4b8c04d52ae1f2e6c4c48e53650e8a687b912289a8f24cce922744"
+    },
+    {
+      "path": "game/assets/cards/metadata/c27-s00.json",
+      "size": 772,
+      "sha256": "ae80527a3e2fdd096f9ae340ecd1b4481ab780e6b3c579a9171d531392d00a36"
+    },
+    {
+      "path": "game/assets/cards/metadata/c27-s01.json",
+      "size": 3606,
+      "sha256": "203511ae5a50a68acd6eb5fe4b94b40f00d841109651ad6873c0f969ae33a6ff"
+    },
+    {
+      "path": "game/assets/cards/metadata/c27-s02.json",
+      "size": 3613,
+      "sha256": "d665f2df583b59384ca96cbdf467556e699f3022495f8077d5652ef7722cc69f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c27-s03.json",
+      "size": 3609,
+      "sha256": "e2c078288195dfd47e208cadb8dba0560befb0205f51423237a083e8448eaca9"
+    },
+    {
+      "path": "game/assets/cards/metadata/c27-s04.json",
+      "size": 3991,
+      "sha256": "06db7004d5f3f9d4f46653ef689fce9fbc7e1e30db2066bcdabcb365a43a525a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c27-s10.json",
+      "size": 1235,
+      "sha256": "8939bf88dcbb362309ffb7939c0a6e5dd48893aaf9e0bc92e4be8dfa82d43c07"
+    },
+    {
+      "path": "game/assets/cards/metadata/c27-s11.json",
+      "size": 3824,
+      "sha256": "da7f81898bb4e82ff769d8f559637b4602f39052acf43fd5a79d8aca18d427ee"
+    },
+    {
+      "path": "game/assets/cards/metadata/c27-s12.json",
+      "size": 3854,
+      "sha256": "b1ead62a42c91f2f8aec24c345f014968b5a5c04d32be1665c76b8c57e568a24"
+    },
+    {
+      "path": "game/assets/cards/metadata/c27-s15.json",
+      "size": 1240,
+      "sha256": "9a7c8c845a909b9e8ed4add6d66c0721d6966852fdc58422d13220002f7dbd31"
+    },
+    {
+      "path": "game/assets/cards/metadata/c28-s00.json",
+      "size": 769,
+      "sha256": "7c96fd5ac20db99f8705f77b1bed8979c9ace959f9740811f4b99bd6e896d972"
+    },
+    {
+      "path": "game/assets/cards/metadata/c28-s01.json",
+      "size": 3586,
+      "sha256": "b1c4b238878e96548dbfa354bb1b8da76cc2ef9accf939f2206fcdc4dee7cf04"
+    },
+    {
+      "path": "game/assets/cards/metadata/c28-s02.json",
+      "size": 3593,
+      "sha256": "dd099df4dff254bc852ba9821eb255bcde6cbf4bc88933ceec34e733526bb9a0"
+    },
+    {
+      "path": "game/assets/cards/metadata/c28-s03.json",
+      "size": 3589,
+      "sha256": "b88b13ec5880d5b203ba1781bf2e14653473a5dcbfd1d949d705a8b14b9ad2e4"
+    },
+    {
+      "path": "game/assets/cards/metadata/c28-s04.json",
+      "size": 3971,
+      "sha256": "1b771d2ae1907f0bf6d5ab57f603867506edbec298af55e7d2357b10dcedb885"
+    },
+    {
+      "path": "game/assets/cards/metadata/c28-s10.json",
+      "size": 1194,
+      "sha256": "62f60fbea8fb4a14ee34139a4c4836484595b6d9db63c2549f00f8f837c1dbb1"
+    },
+    {
+      "path": "game/assets/cards/metadata/c28-s11.json",
+      "size": 3804,
+      "sha256": "4a0d1adf30293b99aa8c1fecd8f147d3282c0e84b9bab4a80761801e282f1c31"
+    },
+    {
+      "path": "game/assets/cards/metadata/c28-s12.json",
+      "size": 3834,
+      "sha256": "e1d2d1d5759b4b490d805cad43279668e5a9e74f3714a8645dce4bc84229b1d6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c28-s15.json",
+      "size": 1199,
+      "sha256": "211f4eeb2a78da619c3fcee8d4c7af3e6224ffaf65974750cbfc528e420065c3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c29-s00.json",
+      "size": 770,
+      "sha256": "d84a8ae696d9e11873947c4a48cbba6c23da57b53fe77a72b590cd0ef7c47b8f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c29-s01.json",
+      "size": 3588,
+      "sha256": "7d5aef2f3873bc543af433c00414f0fb6af42c3e67b7ce4e41f02cc5dd8eda15"
+    },
+    {
+      "path": "game/assets/cards/metadata/c29-s02.json",
+      "size": 3595,
+      "sha256": "611fa0afae674fb508a5a50ebc99116e66a1f2b384714cfe2ab95fab8838a2ce"
+    },
+    {
+      "path": "game/assets/cards/metadata/c29-s03.json",
+      "size": 3591,
+      "sha256": "4906f28324dc3f2a9b9dbd840c1ba2de3ace1c87b9e2a2d2ea0e450029e3dcd7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c29-s04.json",
+      "size": 3973,
+      "sha256": "9ca0ecbc2f1376f93f793851200699cae325f1e05b5cfc26ac8a04d7dcf8d10f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c29-s10.json",
+      "size": 1202,
+      "sha256": "f0917644aeedc54a1fed3870985d30e344427fbe439c965ffb1b2027c8277d4e"
+    },
+    {
+      "path": "game/assets/cards/metadata/c29-s11.json",
+      "size": 3806,
+      "sha256": "ed5009b1213a4ec5a6cfcc8dcea47dc85f59221a5e8b14ecb8e70d449f71d317"
+    },
+    {
+      "path": "game/assets/cards/metadata/c29-s12.json",
+      "size": 3836,
+      "sha256": "0528db8b26b7d8ac5e9aaf83c14cf3f64c0d194022d32cfb825df77ca2571ce6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c29-s15.json",
+      "size": 1207,
+      "sha256": "65f61e83a9e7c163438f8cab93defc36e9d08a5bfb2d0fcb76fd3743c428049a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s00.json",
+      "size": 770,
+      "sha256": "966951d6d4f1fefd9f0aa10b60299e78bd47cddbac37e1f4d330ab84a13400dc"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s01.json",
+      "size": 3596,
+      "sha256": "c9636039e64948f911e25208b66117fe6f56bc1b6da9bf98cf44c46c38c85a2a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s02.json",
+      "size": 3603,
+      "sha256": "35676bf20d2427720a67916c2b9658f78383b833cb50b33f9abf1ec1a5797385"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s03.json",
+      "size": 3599,
+      "sha256": "23b0ff60d5b9629ee7e9527ccae96d6b89fa0f513290411db53aa3409ac46e1d"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s04.json",
+      "size": 3981,
+      "sha256": "b66af651fa55b32fd01075f83dd903964832209eb63f9e102d553be4e2a04a7b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s05.json",
+      "size": 4364,
+      "sha256": "2fadaa96ca40aefaec5045881ad390a9c3fb3d9e362c4fffb2b0c6cb69383f84"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s06.json",
+      "size": 4397,
+      "sha256": "9afc50d49cf6258eb070cc3b432038a9494802047a1b8fc3335df3ed9fb613a7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s07.json",
+      "size": 4395,
+      "sha256": "174a0f6aaaa13b738d848084339114965cbc4af88d418052aa2eca079de77e2a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s08.json",
+      "size": 4359,
+      "sha256": "84393557af19b48094a90664c1c28200cff94788cfd076c87de7fade15d27209"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s09.json",
+      "size": 4472,
+      "sha256": "6bbe3c9eda4f9d94a69b59ee02893790c9a163db7ee9f0d9261fe28ffbce92e4"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s10.json",
+      "size": 1233,
+      "sha256": "343bcc6863f814d803005734d51acf65750d10bf20827e12e8c9c2d61f7ccdc8"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s11.json",
+      "size": 3814,
+      "sha256": "b59f9124b930eeb179c7483ae7a903320d8bf3ef087bd20c029e5e7431638a4b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s12.json",
+      "size": 3844,
+      "sha256": "3a972c4a61ad8a1439e1db03b901b649dced1bae7142f0b768ef213675c1dfc5"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s13.json",
+      "size": 4596,
+      "sha256": "a6ea557215be4ed0bd40c6202b6988aa72c00eeaffc4dd4007293d4dbe9aa1c6"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s14.json",
+      "size": 4563,
+      "sha256": "3bd064ec8773e99ee3a4cee5e9b9a9f2f6cfbac3682d985f43b12aebbc669d7c"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s15.json",
+      "size": 1827,
+      "sha256": "06ecf1907b1341f1ce83c271d678088decda5e93258ee99fdbc892d804fec816"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s16.json",
+      "size": 5656,
+      "sha256": "f9ab8db5af73f3d456f97b33a2230c1fe1e1849b661998c4af7f504cdf7a5a36"
+    },
+    {
+      "path": "game/assets/cards/metadata/c30-s17.json",
+      "size": 4226,
+      "sha256": "e2e845191498dad9da81489ad041c2fc39d93a051c192cbd9a776f522b3bb3be"
+    },
+    {
+      "path": "game/assets/cards/metadata/c31-s00.json",
+      "size": 778,
+      "sha256": "5bebd3e172e34245e2fee8a37543dcd92ba338573b80c5b3b2aa79ec0cec34f8"
+    },
+    {
+      "path": "game/assets/cards/metadata/c31-s01.json",
+      "size": 3647,
+      "sha256": "1c3155167ef04550eeaf7fcd91b129de28937b3be2ff22f952ab3a395500e04a"
+    },
+    {
+      "path": "game/assets/cards/metadata/c31-s02.json",
+      "size": 3654,
+      "sha256": "a76628cdf1fb7c6373dd2125d40d5a497e93ff70b486a8273e2651ccbe4a22e5"
+    },
+    {
+      "path": "game/assets/cards/metadata/c31-s03.json",
+      "size": 3650,
+      "sha256": "ff199b4a8b8458c0ac1292b2d8a6ea5473461ac2a1119f5fdab9b11f7c5283ab"
+    },
+    {
+      "path": "game/assets/cards/metadata/c31-s04.json",
+      "size": 4032,
+      "sha256": "9d7fda6036090d999709f9fb1d505581a0d6238d26ad81c86fc551fc31ea4614"
+    },
+    {
+      "path": "game/assets/cards/metadata/c31-s10.json",
+      "size": 1263,
+      "sha256": "f759c2d6694cf1e97a59b9d9f02215b5530aeeacaadc6326e9c97925d6be4f96"
+    },
+    {
+      "path": "game/assets/cards/metadata/c31-s11.json",
+      "size": 3865,
+      "sha256": "f5f9d2559df691aaa63a31c46472172ce90bb8ff97fd6490cb45f9214a67c6ce"
+    },
+    {
+      "path": "game/assets/cards/metadata/c31-s12.json",
+      "size": 3895,
+      "sha256": "c4fc10d61828a5e32ec3e0771e423b124867d673a08edc4892806446ee55391b"
+    },
+    {
+      "path": "game/assets/cards/metadata/c31-s15.json",
+      "size": 1283,
+      "sha256": "ce14e570483888201eabc950daff9fbcee005a7a2d74f0a2259c2be8c72d2a9d"
+    },
+    {
+      "path": "game/assets/cards/metadata/c32-s00.json",
+      "size": 775,
+      "sha256": "d79cf7aa93e480794352f4fe9701a88fe7b9f66addacbef21a95c14083cad40f"
+    },
+    {
+      "path": "game/assets/cards/metadata/c32-s01.json",
+      "size": 3879,
+      "sha256": "a8107ff6217dce7185a26b6812009b75097a2257e25bfa002d55e36b6bc11a01"
+    },
+    {
+      "path": "game/assets/cards/metadata/c32-s02.json",
+      "size": 3886,
+      "sha256": "c3de7a1f662e3c0ac9019264a665ed53c8a366846b8f28c28141818fe28ae5ec"
+    },
+    {
+      "path": "game/assets/cards/metadata/c32-s03.json",
+      "size": 3882,
+      "sha256": "73f0c9af328ceabafdd9e2b3ffee136b218e4d0ff08745b8dc183eb624c292d7"
+    },
+    {
+      "path": "game/assets/cards/metadata/c32-s04.json",
+      "size": 4264,
+      "sha256": "bed387e7a345916306965f4caef70b1a62bfdcb9f41f42d932aab8013ee66d82"
+    },
+    {
+      "path": "game/assets/cards/metadata/c32-s10.json",
+      "size": 1295,
+      "sha256": "c22d86b331d93dd174b534eed32db39e802ccfdef83769f04c3fda8f24f6b053"
+    },
+    {
+      "path": "game/assets/cards/metadata/c32-s11.json",
+      "size": 4097,
+      "sha256": "098175aedd79f7754147abaa43c1ffef6aca79f6125ad1f1c8b09b2e696883e2"
+    },
+    {
+      "path": "game/assets/cards/metadata/c32-s12.json",
+      "size": 4127,
+      "sha256": "b15b5e7ccc4f2058bc5cc9aab6336bf262283e73e5167509ca2c8e970d93d3b3"
+    },
+    {
+      "path": "game/assets/cards/metadata/c32-s15.json",
+      "size": 1300,
+      "sha256": "1d3394cef88762c779ce2af69243663ab20d8aeb9dba4800d90435449d01a7f8"
+    },
+    {
+      "path": "game/assets/cards/motion/c26-s15.webp",
+      "size": 545094,
+      "sha256": "dd448dd90600682ee01850ae81e031d9fa5571eef2f5cf070bf4ccef7a8166d7"
+    },
+    {
+      "path": "game/assets/cards/motion/c26-s16.webp",
+      "size": 527070,
+      "sha256": "bd5e987ccfa1490aa3011b457033c77f4be28c0cf7a7ad82c08b9f885bcdf4b8"
+    },
+    {
+      "path": "game/assets/cards/motion/c26-s17.webp",
+      "size": 611340,
+      "sha256": "ba509d5fef46c1d47005a4208a7c25ac2c57ec7e74010821d9402b13d0c4301d"
+    },
+    {
+      "path": "game/assets/cards/motion/c30-s15.webp",
+      "size": 514332,
+      "sha256": "6022a3dd568271e11531bde50eaad1ef5124f5c6bbc89046dc8f09a46c9b8b75"
+    },
+    {
+      "path": "game/assets/cards/motion/c30-s16.webp",
+      "size": 645766,
+      "sha256": "2101a6a609647cb685a9355b21fc33347c1b1e67259078c09e466fd920e4e3fa"
+    },
+    {
+      "path": "game/assets/cards/motion/c30-s17.webp",
+      "size": 610226,
+      "sha256": "a6c704e8adb209cb1fae75cdd06efeea50b056c54b021caab3a53c18b54fc8eb"
+    },
+    {
+      "path": "game/assets/cards/production-status.json",
+      "size": 4010,
+      "sha256": "1640962313989228d11d4e8d2178381db529c4556b68d546b0148f34200f8f8f"
+    },
+    {
+      "path": "game/assets/desk-detailed-metadata.json",
+      "size": 2395,
+      "sha256": "84036bf13ea315779f29f546b2e4951b9770cfaf6ca2ae3ea5149a00a56d0e32"
+    },
+    {
+      "path": "game/assets/desk-detailed-ui.webp",
+      "size": 105080,
+      "sha256": "575050e7c37fa2e704f251a0907401e10f4cb9d52ff2d5a317af6427479ce627"
+    },
+    {
+      "path": "game/deployment/adaptive-node/Change-Server.ps1",
+      "size": 3737,
+      "sha256": "f34553860050005cb5a788f6026a12fc3dd10c6c045d9fa2393ca1fd3722ab34"
+    },
+    {
+      "path": "game/deployment/adaptive-node/contract.json",
+      "size": 2729,
+      "sha256": "7ba1498e28d5eebb03af221033bd2a3e4ca2dd73ba8772d21ee8771f61a37c6d"
+    },
+    {
+      "path": "game/deployment/adaptive-node/core.mjs",
+      "size": 23618,
+      "sha256": "2f850a5fb3a7229423a3f8ece030fbb6c405b5194d0406c6ee063f6974c81d9f"
+    },
+    {
+      "path": "game/deployment/adaptive-node/core.test.mjs",
+      "size": 11109,
+      "sha256": "76a69a66b13abc8d171d2bc26b285be1bd334e9456a4024a96b47bff39e4e899"
+    },
+    {
+      "path": "game/deployment/adaptive-node/genesis.json",
+      "size": 1158,
+      "sha256": "8a1b485de315121b3c55d402a2d7827d45bed3b6f4adceafa2a20c2eb4f1d297"
+    },
+    {
+      "path": "game/deployment/adaptive-node/Install.cmd",
+      "size": 227,
+      "sha256": "85a4efbfbbb9c8fb64fbee47356849f9469e0148e13cddd7c9b75e78fbdd84cc"
+    },
+    {
+      "path": "game/deployment/adaptive-node/install.mjs",
+      "size": 10717,
+      "sha256": "3c3315aaed70b064e9d80ed6f679bddb97c2931f04be8a9a9b4e4ec630cacffa"
+    },
+    {
+      "path": "game/deployment/adaptive-node/Install.ps1",
+      "size": 5909,
+      "sha256": "d29abc1de16c0b0691f691cf2a1608cab14b458c4af17acbc47f0ab888b83eb1"
+    },
+    {
+      "path": "game/deployment/adaptive-node/Install.sh",
+      "size": 1985,
+      "sha256": "ef42b799eb98f9114b44fe40da1022418580220fbad8ee0ffef12d772ae25ef5"
+    },
+    {
+      "path": "game/deployment/adaptive-node/installer-manifest.json",
+      "size": 2494,
+      "sha256": "d89c3b9b2e7aba04b95ade2725d675f6c017c955bf0e0ddb960fd4642a3a7d43"
+    },
+    {
+      "path": "game/deployment/adaptive-node/README-Linux.md",
+      "size": 5740,
+      "sha256": "1d6eb0343c69ea2e547a6aadd3c914fe4a9938b8a2616893a3d50304f797c222"
+    },
+    {
+      "path": "game/deployment/adaptive-node/README-Windows.md",
+      "size": 6235,
+      "sha256": "a2aef12cdc051a5312768b93e1c618a9528726c3b91f40c1f538e85acd159f41"
+    },
+    {
+      "path": "game/deployment/adaptive-node/server.mjs",
+      "size": 6162,
+      "sha256": "827b181b95bf2121b579c87fe63a2824131ab6649fea622f94a9c70827dd9c6c"
+    },
+    {
+      "path": "game/deployment/adaptive-node/Verify-Package.ps1",
+      "size": 702,
+      "sha256": "e4cb5d6122f4fef3d23bb10e94e23027d0ccfb9a63e021fe6cf3aefccb4e0ab0"
+    },
+    {
+      "path": "game/deployment/adaptive-node/更换服务器说明.md",
+      "size": 4761,
+      "sha256": "53e1d2233dd7949e49976879b109db9a200431614aaf45a4e9b97c1f8f3ffa0f"
+    },
+    {
+      "path": "game/deployment/battle-deployment.json",
+      "size": 2987,
+      "sha256": "a779e60cae32cbf0a096af808f7754dfa800fb779afa068891e23e35775b5212"
+    },
+    {
+      "path": "game/deployment/build/battle-compile-report.json",
+      "size": 681,
+      "sha256": "71ea42b502759c8a3ac7ae181ccebaaa97040b216b92adb3d89d472a44395620"
+    },
+    {
+      "path": "game/deployment/build/TalosBattle.json",
+      "size": 428833,
+      "sha256": "19d98ea97fc13fb894e1228fb87ef07cd7a367097c2f188a3a948387c758aa45"
+    },
+    {
+      "path": "game/deployment/build/TalosBattleCatalog.json",
+      "size": 27662,
+      "sha256": "ef44f9bf2a0721b9a71dff98991fa13cd4537f62fb9a7375eed598a12634e211"
+    },
+    {
+      "path": "game/deployment/build/TalosBattleCombos.json",
+      "size": 267031,
+      "sha256": "ce4936e0d1216b824869a2a5fdb19f23f512784b378783bc75501bbbb3044053"
+    },
+    {
+      "path": "game/deployment/build/TalosBattleEngine.json",
+      "size": 324852,
+      "sha256": "38a446018f764b8ce97956ae6e8e90adefefdb641f3da101aa1b8025e7d35d43"
+    },
+    {
+      "path": "game/deployment/build/TalosBattleHarness.json",
+      "size": 164433,
+      "sha256": "9c83c1c8d342eec60c5d375b5f8cb85b223ff85f08c78684af0bc28c029488eb"
+    },
+    {
+      "path": "game/deployment/build/TalosBattleRules.json",
+      "size": 374511,
+      "sha256": "55c3e75ba91c377cd646781ac2ac4595fe0d6e559a39c7f0e872d3ec2be01c06"
+    },
+    {
+      "path": "game/deployment/build/TalosBattleTypes.json",
+      "size": 2423,
+      "sha256": "8e35908cd8a61d1a64daef25c1c2bd188e5d824e8af3734d56f5775f90878f8d"
+    },
+    {
+      "path": "game/deployment/build/TalosCardItems.json",
+      "size": 71908,
+      "sha256": "88db10a6ce8460a649727c865cbfa2efca0b8f441c1878055d3093b896bf1dfa"
+    },
+    {
+      "path": "game/deployment/build/TalosCards.json",
+      "size": 91419,
+      "sha256": "193a77bb651e6f0d64fc699cb75a3177e5c966040369c0c7695e721581392cf2"
+    },
+    {
+      "path": "game/deployment/catalog.json",
+      "size": 70119,
+      "sha256": "fea95e11861c73b3edd4e37f4fb3f8548dfba1f2978fea34c9df574de3b670b8"
+    },
+    {
+      "path": "game/deployment/contract-deployment.json",
+      "size": 365,
+      "sha256": "f26eb61725920bd09df6b49e630a80c876c87747d7fad010befaa4f74650d1cc"
+    },
+    {
+      "path": "game/deployment/contracts/DEPLOYED.json",
+      "size": 1841,
+      "sha256": "2d0d84feb9a141483a1acc141d9fbbc551ed5cb27a6e66eb6c27f235b3b26b60"
+    },
+    {
+      "path": "game/deployment/contracts/TalosBattle.sol",
+      "size": 9021,
+      "sha256": "34212654553f49751cecbe5c6486283419799dbd37a8019d89efacda9237adc9"
+    },
+    {
+      "path": "game/deployment/contracts/TalosBattleCatalog.sol",
+      "size": 1897,
+      "sha256": "29eeafda4feb3820bd8b2adce02202598726f0cd95ddf4358b7c2b4caba17910"
+    },
+    {
+      "path": "game/deployment/contracts/TalosBattleEngine.sol",
+      "size": 49579,
+      "sha256": "706ebfaa79dd1b56cdf82c60ddc4aa9c6b1becedd0420fddfc2c004ca1636fea"
+    },
+    {
+      "path": "game/deployment/contracts/TalosBattleHarness.sol",
+      "size": 753,
+      "sha256": "1c6967bf9acc3b0b8d7a192dc43e0a920a52e27c318a2f707ef2c598ddec3e83"
+    },
+    {
+      "path": "game/deployment/contracts/TalosBattleTypes.sol",
+      "size": 2971,
+      "sha256": "4fedc670bda80de42bd8d0634b8e5c74c495ad7e90686ef317cc896f4b3abca8"
+    },
+    {
+      "path": "game/deployment/contracts/TalosCardItems.sol",
+      "size": 8845,
+      "sha256": "a2a9a744aa9ef23596a21e71b724b8246e769dc91e7cfdf4347394a376e36b03"
+    },
+    {
+      "path": "game/deployment/contracts/TalosCards.sol",
+      "size": 9479,
+      "sha256": "cefbe4dc6a4f3064d7dda7b4c4cefd8aa77d561b0afa9b5d8cc543bcdceb0e04"
+    },
+    {
+      "path": "game/deployment/engine.cjs",
+      "size": 28410,
+      "sha256": "3f50acfaa0435aa23bf3714153331ca4f20934995ba11a75f76eed0c521c0eb0"
+    },
+    {
+      "path": "game/deployment/indexer.mjs",
+      "size": 1658,
+      "sha256": "c5f936f81db281920f1140725ce99d5e3906cbbc3ca5875a3e7c8092006cbcd8"
+    },
+    {
+      "path": "game/deployment/items-deployment.json",
+      "size": 769,
+      "sha256": "f287d8d9d44380d1854ef3caddc2d7542713b36c7f449cbb79dcbd0d255bfe24"
+    },
+    {
+      "path": "game/deployment/lib/artwork.mjs",
+      "size": 1042,
+      "sha256": "03f82bccadc3695b5e17509203ffedf59b7278712cff5981b6fb00211da4abda"
+    },
+    {
+      "path": "game/deployment/lib/battle-chain.mjs",
+      "size": 17634,
+      "sha256": "dc79caa7e7ed3796f91667211cf503bfead37c4ee0bb9f68cea36cb7fe70e050"
+    },
+    {
+      "path": "game/deployment/lib/battle-fleet.mjs",
+      "size": 2667,
+      "sha256": "d5fa6467b1e4e13e7a5fcfa56d544f5fcd6122573a43bf4edd984dbc246ce61b"
+    },
+    {
+      "path": "game/deployment/lib/chain.mjs",
+      "size": 3630,
+      "sha256": "dd2f9c6c3134d751b675230e983fbd1720676a15508fc769a362e17e5bf3f6af"
+    },
+    {
+      "path": "game/deployment/lib/game.mjs",
+      "size": 7813,
+      "sha256": "846c49597803844ce2b37a84c57eab2bfb94df896c26c780fd0b566d848967dd"
+    },
+    {
+      "path": "game/deployment/lib/items.mjs",
+      "size": 3197,
+      "sha256": "942332139c89a076288a3268fe76c20f90689b18ca749c37496580813a3bbaa0"
+    },
+    {
+      "path": "game/deployment/network.json",
+      "size": 929,
+      "sha256": "04c26ee8d6d5b9a532f37d4b5e15e079670b3b9634b3edf1fe17565e23427f02"
+    },
+    {
+      "path": "game/deployment/package.json",
+      "size": 1043,
+      "sha256": "7356399aed1e808c1902f28c02c72e7f4bd10084fcddfc239e07da4bafdb6022"
+    },
+    {
+      "path": "game/deployment/pnpm-lock.yaml",
+      "size": 8683,
+      "sha256": "ed95c953e96fcc62d520926f58fcc030cbc6b6239f292fc88dd62da135a4151f"
+    },
+    {
+      "path": "game/deployment/rules/v0.7.0/catalog.json",
+      "size": 63804,
+      "sha256": "9cce6bfaf707c23586b36fd675785aa13f593294ca02382f844c1280276fc1c8"
+    },
+    {
+      "path": "game/deployment/rules/v0.7.0/engine.cjs",
+      "size": 22720,
+      "sha256": "0f1f157817bf837af258187d41971fa0aef02470918d3bbf606bbd0212cbf5bd"
+    },
+    {
+      "path": "game/deployment/rules/v0.7.1/catalog.json",
+      "size": 70296,
+      "sha256": "e79a4e140dcdd96900e7295ff71e2ae392858588e4a75322b27552c29bb1f58d"
+    },
+    {
+      "path": "game/deployment/rules/v0.7.1/engine.cjs",
+      "size": 24047,
+      "sha256": "d0a25e20e184fade6108c1ec626678aec71e9cf64b3f22625c97621053c6d049"
+    },
+    {
+      "path": "game/deployment/rules/v0.7.1/TalosCards.json",
+      "size": 83377,
+      "sha256": "4a766d1e9974269613dd1f6b4c0136a8f14ed0aba655360c0464752a11f81896"
+    },
+    {
+      "path": "game/deployment/rules/v0.7.1/TalosCards.sol",
+      "size": 7287,
+      "sha256": "b5e13b966c00388f6a1405d0e4c7bfee2b00a18da88f94c120e4ef40eeea7e96"
+    },
+    {
+      "path": "game/deployment/schema.sql",
+      "size": 2496,
+      "sha256": "d98697df05e3f37bb42e5f540d31add8d328dfd900aa742eadb960ef94cf9974"
+    },
+    {
+      "path": "game/deployment/scripts/battle-artifacts.mjs",
+      "size": 1919,
+      "sha256": "679532b3f18252566bbb40f3b1809b24ab7f969d96f1e682d987939294ba7bc8"
+    },
+    {
+      "path": "game/deployment/scripts/change-port.mjs",
+      "size": 997,
+      "sha256": "1e8d2f019235cebdd73a7a7fb4692ce1af417d09b408c7b2c89347e6ddde6e34"
+    },
+    {
+      "path": "game/deployment/scripts/compile-battle.mjs",
+      "size": 1984,
+      "sha256": "49565aa555a5ae68026b6d1cecc464647b235e716790375b85ebe1d9bc6e35e1"
+    },
+    {
+      "path": "game/deployment/scripts/compile.mjs",
+      "size": 979,
+      "sha256": "676d7775185f86fb670c979cee6650d60446e9b761c2d602993ea9050be7979e"
+    },
+    {
+      "path": "game/deployment/scripts/configure-network.mjs",
+      "size": 1576,
+      "sha256": "3746fb95e8fbe7b0d9f6b34ea26603c1ac3e490be301bca6de422d057c684d66"
+    },
+    {
+      "path": "game/deployment/scripts/deploy-battle.mjs",
+      "size": 4543,
+      "sha256": "caf74b610cd4cc0ffc639f01c73382aae005a275a61d319f5616d512511e66f1"
+    },
+    {
+      "path": "game/deployment/scripts/deploy-contract.mjs",
+      "size": 1301,
+      "sha256": "36618bb198e328eb1aa03c23b2648da909797c797c7f650da4f8ae571bb36d63"
+    },
+    {
+      "path": "game/deployment/scripts/deploy-items.mjs",
+      "size": 4710,
+      "sha256": "2534d423fd9f74980769ca639d8af2ecc63450d86ca9368650f4538aedd9bcd2"
+    },
+    {
+      "path": "game/deployment/scripts/final-check.mjs",
+      "size": 5258,
+      "sha256": "ab40479156984a502b47cdd7eb599588d2c2ee4d71ebe1593cdf1ed3fd38ba03"
+    },
+    {
+      "path": "game/deployment/scripts/prepare.mjs",
+      "size": 1906,
+      "sha256": "426a6e3271b9ac12eeb19ba95a18fb1b749b64843afd751b7951cb8c3edd8a15"
+    },
+    {
+      "path": "game/deployment/scripts/setup-db.mjs",
+      "size": 2457,
+      "sha256": "e28c252289bc54196cd27e4e49c3d71bc88ad10f04143b0b66851a3bd62102f2"
+    },
+    {
+      "path": "game/deployment/scripts/simulate-balance.mjs",
+      "size": 2322,
+      "sha256": "79297580c43f99eac91177fda525428bcedd20de76fe6b37c33d6fc130abae76"
+    },
+    {
+      "path": "game/deployment/server.mjs",
+      "size": 22345,
+      "sha256": "3722fdda32c75cede785a0636fa440613278a9bbbb5dfb29d619d092da0e3282"
+    },
+    {
+      "path": "game/deployment/test/ai-timing.test.mjs",
+      "size": 1953,
+      "sha256": "a4815092992c331e7a6ab5cf212f8a325e2cfdd8014a7dcb51e72d6d2e4dcae3"
+    },
+    {
+      "path": "game/deployment/test/artwork.test.mjs",
+      "size": 1234,
+      "sha256": "ea7294d53c8063960d288cc3cac7aef502f09ba5f349a0ab69f97705551f52d8"
+    },
+    {
+      "path": "game/deployment/test/audit.test.mjs",
+      "size": 4159,
+      "sha256": "1e876407d86521f3340f1509f4310c236fdced1fca4d143daec0a3ee23543b51"
+    },
+    {
+      "path": "game/deployment/test/battle-chain.test.mjs",
+      "size": 10577,
+      "sha256": "82d5335fec803f890bf05ad9b4d02a67fc52f7ead5fc0c5976d71bb46310d006"
+    },
+    {
+      "path": "game/deployment/test/battle-contract.live.mjs",
+      "size": 16253,
+      "sha256": "bee64e3e9d6195fa29f686b7a4e1299b5679a041a0a749079113e7a203ee1b9c"
+    },
+    {
+      "path": "game/deployment/test/battle-fleet.test.mjs",
+      "size": 2085,
+      "sha256": "f05fbfa24d22e5991836f57e329411c55f3212ecdc5c93802e90fa29a0428707"
+    },
+    {
+      "path": "game/deployment/test/battle-http.live.mjs",
+      "size": 5633,
+      "sha256": "38e1e22404a99b893e2f4c5adf1b5c8c3e347cc0a8ceb2be6bd3d8feedf42c20"
+    },
+    {
+      "path": "game/deployment/test/battle-rules.live.mjs",
+      "size": 6747,
+      "sha256": "fe34cd6e0f12e334b5cde6ff21fb3c816e74e4fddc06d3bcdb80f73c9f2d45c1"
+    },
+    {
+      "path": "game/deployment/test/card-market.test.mjs",
+      "size": 1152,
+      "sha256": "1e176868e5c02c084ccab6b7b433e2cabd12a14b58a63ccc55643816dabc7d79"
+    },
+    {
+      "path": "game/deployment/test/contract-integration.mjs",
+      "size": 6132,
+      "sha256": "fb19153f26d758fc7a563fee70ff0aa4c65c79483657e4a37a53fd3f8667fae9"
+    },
+    {
+      "path": "game/deployment/test/game.test.mjs",
+      "size": 2834,
+      "sha256": "7e2e655ade2a9aacee57ffb8ac4f76b61a066114e0234ffdac84744f8608a7bd"
+    },
+    {
+      "path": "game/deployment/test/integration.mjs",
+      "size": 6071,
+      "sha256": "e6550fa1c37c3d8b9b804d932d695d556ff9b6446a5ae75bc550d25c9e9ab026"
+    },
+    {
+      "path": "game/deployment/test/items-contract.integration.mjs",
+      "size": 7314,
+      "sha256": "efaecb8b221e62187b1a69242f9680ceecdf4ba1219ad81a0ac4880c327a7bfb"
+    },
+    {
+      "path": "game/deployment/test/tactical-points.test.mjs",
+      "size": 6637,
+      "sha256": "8d0bcc9184426ba976f5592de7d724bb4b97cf9176f483acf9a19cb37ebf9917"
+    },
+    {
+      "path": "game/deployment/test/team-cost.test.mjs",
+      "size": 1914,
+      "sha256": "01f13ad981a16f48a4d785b0ae866e672cda88e8d1771184527aafe770b38d5e"
+    },
+    {
+      "path": "game/deployment/test/wallet-reset.test.mjs",
+      "size": 1333,
+      "sha256": "06cbc055ada1756c484f3cd967e44ce6005fee9be4225e13a584d0e06b50e42f"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/battle-deployment.json",
+      "size": 2968,
+      "sha256": "1b2c7b1f9954104a0b312997a0e2ad2c4dd2b2830697332b439bd7aac6693f21"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/build/TalosBattle.json",
+      "size": 427748,
+      "sha256": "97955ab1e752cfcf327129a74588f22a2e6417500f374f9eb113a1f73811e22b"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/build/TalosBattleCatalog.json",
+      "size": 27662,
+      "sha256": "ef44f9bf2a0721b9a71dff98991fa13cd4537f62fb9a7375eed598a12634e211"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/build/TalosBattleCombos.json",
+      "size": 267109,
+      "sha256": "7634c179b51b7a1353131cea3c4052ab8d5aa5c6eeecc5f5cb53ed85f47d0a4c"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/build/TalosBattleEngine.json",
+      "size": 324838,
+      "sha256": "c44cc357b8561c0f8382fa1174c9210e6a58828401602940139564787a1b8c78"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/build/TalosBattleHarness.json",
+      "size": 164413,
+      "sha256": "84e10d53953a4613b2a5e8f1fce5385c0349de333876c509d7c5e99c15052027"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/build/TalosBattleRules.json",
+      "size": 374626,
+      "sha256": "930e08a4cb28afab18a0a5d6e0b43680875cd51388e18c9ea82d13c40acc4705"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/build/TalosBattleTypes.json",
+      "size": 2423,
+      "sha256": "8e35908cd8a61d1a64daef25c1c2bd188e5d824e8af3734d56f5775f90878f8d"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/catalog.json",
+      "size": 70119,
+      "sha256": "fea95e11861c73b3edd4e37f4fb3f8548dfba1f2978fea34c9df574de3b670b8"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/contracts/TalosBattle.sol",
+      "size": 8963,
+      "sha256": "0d052af66e9cc9dcb13fce98b5b3e612b8a115e988b802b0c825530653d32209"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/contracts/TalosBattleCatalog.sol",
+      "size": 1897,
+      "sha256": "29eeafda4feb3820bd8b2adce02202598726f0cd95ddf4358b7c2b4caba17910"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/contracts/TalosBattleEngine.sol",
+      "size": 49579,
+      "sha256": "d6f5b0a56baf4aaf45a4104850dec048d805a9f07dccea686683dcbc798bd3be"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/contracts/TalosBattleHarness.sol",
+      "size": 753,
+      "sha256": "1c6967bf9acc3b0b8d7a192dc43e0a920a52e27c318a2f707ef2c598ddec3e83"
+    },
+    {
+      "path": "game/deployment/versions/battle-16/contracts/TalosBattleTypes.sol",
+      "size": 2971,
+      "sha256": "4fedc670bda80de42bd8d0634b8e5c74c495ad7e90686ef317cc896f4b3abca8"
+    },
+    {
+      "path": "game/deployment/web/app.js",
+      "size": 46530,
+      "sha256": "507fa4b5d8bde1c444d90eff0dbf00f8bbb251e18c7e7cf2ec6f72333488b4bf"
+    },
+    {
+      "path": "game/deployment/web/battle-modes.css",
+      "size": 2206,
+      "sha256": "eebe5d1cdd7ed16239ed40e948cfc58cfa8f2224e54ce93a070c28bfd3573fea"
+    },
+    {
+      "path": "game/deployment/web/battle-protocol.mjs",
+      "size": 864,
+      "sha256": "cd156ac2d7df59cd295d18821cc8aba9e979dfa4c77636ed3a6bab7773acb862"
+    },
+    {
+      "path": "game/deployment/web/card-motion-profiles.mjs",
+      "size": 5269,
+      "sha256": "9027aa3f444c7aabd2d0de1de2a661ae101fc19f787ca1d96e5cf6cc61b09cdb"
+    },
+    {
+      "path": "game/deployment/web/card-motion.css",
+      "size": 1226,
+      "sha256": "ce8c1391f2a439ec2a2781377412ff33eae18d00c447c14a500cf68f773b798a"
+    },
+    {
+      "path": "game/deployment/web/card-motion.mjs",
+      "size": 15192,
+      "sha256": "0f2b83720f2c79320ff48cc5578a81de974ab166a3c6d82f545fbc05a0a9c305"
+    },
+    {
+      "path": "game/deployment/web/engine.js",
+      "size": 28410,
+      "sha256": "3f50acfaa0435aa23bf3714153331ca4f20934995ba11a75f76eed0c521c0eb0"
+    },
+    {
+      "path": "game/deployment/web/ethers.js",
+      "size": 512985,
+      "sha256": "66580dbb32353addbbfd2c1880a29693436c2d41ebdd4bf4a4516b9ad6f5f5ea"
+    },
+    {
+      "path": "game/deployment/web/icon.svg",
+      "size": 265,
+      "sha256": "10b6debca8b202e7b4766a36187e634d8610c9c012aae8373c1bc10d8aa9a476"
+    },
+    {
+      "path": "game/deployment/web/index.html",
+      "size": 1333,
+      "sha256": "e56a7882274e029e475cbbfe36f841500ed917ff12912f3f160e84bd91253db1"
+    },
+    {
+      "path": "game/deployment/web/market.css",
+      "size": 2606,
+      "sha256": "3b195bceddec40e68d4bff10c6bac170d35b85f1fd2b5340510b981562bfce30"
+    },
+    {
+      "path": "game/deployment/web/market.mjs",
+      "size": 11756,
+      "sha256": "081153f46ca283c6080ddd14572341891c4b3ba7420cddcae9072c3608b1e05f"
+    },
+    {
+      "path": "game/deployment/web/pending.svg",
+      "size": 526,
+      "sha256": "775e3aa254d15a7ed7c8cfe1ad4c8a83142966bbd471a4829794004eb7d8cda5"
+    },
+    {
+      "path": "game/deployment/web/style.css",
+      "size": 16207,
+      "sha256": "2ac55e51a4bbba6110b05dac2490b3036bf80f07ddc948e3f436b2941e372dd4"
+    },
+    {
+      "path": "game/deployment/web/wallet-storage.mjs",
+      "size": 357,
+      "sha256": "758c843ccf6cec935684fef2446d596259d2d24e753774e6a9e12f60b6b367ea"
+    },
+    {
+      "path": "LICENSE",
+      "size": 4563,
+      "sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5"
+    },
+    {
+      "path": "LICENSE.md",
+      "size": 3296,
+      "sha256": "25a46d281f98d60516580982226872725f7aeb97af5a9885ef2fb645f4f459b3"
+    },
+    {
+      "path": "LICENSES/ARTWORK_NOTICE.md",
+      "size": 2015,
+      "sha256": "f34706728ab7b93734f97f5d22427dd4c3ffbec9f51853fea0bae282abaa4fe8"
+    },
+    {
+      "path": "LICENSES/CC-BY-NC-SA-4.0.txt",
+      "size": 20850,
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    },
+    {
+      "path": "LICENSES/MIT-historical.txt",
+      "size": 1189,
+      "sha256": "3c447952e37563fc5cdfd38f6721ccede1f04db9aac8a14f96cc59dc21271420"
+    },
+    {
+      "path": "LICENSES/PolyForm-Noncommercial-1.0.0.txt",
+      "size": 4563,
+      "sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5"
+    },
+    {
+      "path": "LICENSES/third-party/@openzeppelin_contracts/package-info.json",
+      "size": 240,
+      "sha256": "327dbbe23fd547b2c031738018f9b8aa02cab4ecafaa68ab4e11450e62374d22"
+    },
+    {
+      "path": "LICENSES/third-party/ethers/LICENSE.md",
+      "size": 1075,
+      "sha256": "44eea86637405118248327fbe9d9fa95d04c7a57221c7e8c155f736db9f1b612"
+    },
+    {
+      "path": "LICENSES/third-party/ethers/package-info.json",
+      "size": 206,
+      "sha256": "dbd4615ac5b07e5322d7083cc5375ccb0ba0700a28a1f2cb261768da25b9de5d"
+    },
+    {
+      "path": "LICENSES/third-party/pg/LICENSE",
+      "size": 1077,
+      "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3"
+    },
+    {
+      "path": "LICENSES/third-party/pg/package-info.json",
+      "size": 236,
+      "sha256": "785fbddfaa7fb8878443ffc6e70f3c0428e4e314b722af8189e805390afb8078"
+    },
+    {
+      "path": "LICENSES/third-party/solc/LICENSE",
+      "size": 1067,
+      "sha256": "852bcc033a46c62f99fb5ffd43b3241ba2c0c440c6034aa2114505f2c4f03c4a"
+    },
+    {
+      "path": "LICENSES/third-party/solc/package-info.json",
+      "size": 207,
+      "sha256": "bfe01d2407bf71aaa9e16b901d1ce7949685b86b7907ce7441d6ba1706e315e1"
+    },
+    {
+      "path": "LICENSES/third-party/ws/LICENSE",
+      "size": 1183,
+      "sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef"
+    },
+    {
+      "path": "LICENSES/third-party/ws/package-info.json",
+      "size": 202,
+      "sha256": "2d9f573888db21aabad4f5c15a0f8a07dbf6b44bea70cff9099fbdc47eabed28"
+    },
+    {
+      "path": "README.md",
+      "size": 6330,
+      "sha256": "c8bd27f8f262e3be958c067f700cadc3590e8ed9a846da3779f45e2ce639e733"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1799,
+      "sha256": "b55f8fc7f890073e27ff79401264c51c122051d91d03ea53946e40092082a237"
+    },
+    {
+      "path": "tools/existing-host/Add-Validator.ps1",
+      "size": 756,
+      "sha256": "6379cba6ce4c56041d3453efbe62901d31e02e75f7bc7af8f5ea28ed283d6d84"
+    },
+    {
+      "path": "tools/existing-host/Export-Server.cmd",
+      "size": 113,
+      "sha256": "534815b7c34661ae7f197eacb685942f1ced88330cee3f08f52d2bc81618db1d"
+    },
+    {
+      "path": "tools/existing-host/Export-Server.ps1",
+      "size": 549,
+      "sha256": "242edc57a46e710f2fc08e1c75cf8140adc28d5f73ddf377680d519e7d2634ec"
+    },
+    {
+      "path": "tools/existing-host/Start-Game.cmd",
+      "size": 110,
+      "sha256": "0dfa855845b4df581978ce0dfbdeee7c26432308309d33912f3e6e54e02046b0"
+    },
+    {
+      "path": "tools/existing-host/Start-Game.ps1",
+      "size": 4339,
+      "sha256": "a6d5f83b8145ed86fefa243b05447f01d5f7e04dafeac673c402be4dd8a1c9d4"
+    },
+    {
+      "path": "tools/existing-host/Status-Game.ps1",
+      "size": 891,
+      "sha256": "82f41757159d4a13cb4d13f491c786e3cc08639b57c9b792bc74aebeedd3943c"
+    },
+    {
+      "path": "tools/existing-host/Stop-Game.cmd",
+      "size": 93,
+      "sha256": "4166016123d182cdc07e94efc3b9613a4d52ed252795f02990d8342317834783"
+    },
+    {
+      "path": "tools/existing-host/Stop-Game.ps1",
+      "size": 2087,
+      "sha256": "5245bedc58081acedd6e3eabe455602b6e9acfa56bc3b5065c1b70e35775ae6f"
+    },
+    {
+      "path": "tools/import-art.py",
+      "size": 1716,
+      "sha256": "4b6cdceaf84c3a42e96fdd9f91441a8451800c4c3efb8e6b29192e39c01c088c"
+    },
+    {
+      "path": "tools/verify-assets.py",
+      "size": 1509,
+      "sha256": "4e0b10d1eadd350a841af2763ee4dc7971ed13b23db3b49eb9edef900ef0a10c"
+    }
+  ]
+}

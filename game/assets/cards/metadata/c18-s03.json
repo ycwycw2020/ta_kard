@@ -1,0 +1,44 @@
+{
+  "id": "c18-s03",
+  "characterId": 18,
+  "name": "大潘",
+  "skin": 3,
+  "tier": "normal",
+  "references": [
+    "source-reference/dapan.png",
+    "source-reference/c18-s00.png"
+  ],
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/dapan.8a1d195a.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/dapan.7cdb6a4e.png"
+  ],
+  "prompt": "Use case: stylized-concept. Asset: ONE new collectible character-card illustration, portrait 9:16, single continuous full-bleed painting, highest available native resolution. Character: 大潘 from Arknights: Endfield, for the unofficial fan game Talos / 塔卫牌局.\nInput image 1 is the canonical APPEARANCE reference. Input image 2 is an existing card for face and hair continuity ONLY. The canonical APPEARANCE and COSTUME in image 1 takes absolute precedence wherever the references conflict; do not borrow extra garments from image 2. Create a genuinely NEW scene, pose, expression and camera arrangement; do not copy either layout. Preserve hairstyle, face shape, species features, outfit layers, color identifiers, accessories and canonical equipment. Do not invent a different costume, weapon or extra animal ears.\nQuality tier: normal. Style: Clean precise 2D anime cel illustration with crisp expressive drawing, economical two-step shadows, restrained palette and a simple graphic background. Finished and attractive but deliberately modest in background detail and material rendering. No watercolor, no oil painting, no cinematic particles.\nComposition and action: seated half-body portrait with a slight overhead view, quietly studying a small plain object near the lap; face unobstructed.\nScene and palette: a muted sage and cream observation nook with a soft plant silhouette and a simple seat. This is an original fan-art moment, not an assertion of an official story event. \nFacial acting: quiet thoughtfulness, lowered eyeline and soft closed lips, subtly different brow tension from the other portraits. Character-specific personality reference: hearty joyful grin, rounded lifted cheeks and warmly squinting eyes; preserve panda anatomy. Coordinate eyebrows, eyelids, pupils, cheeks and mouth so the expression is alive and individual. Do not paste the same smile on every card. Preserve the panda species face, muzzle, fur and proportions; expressions and hands must remain anatomically appropriate for the canonical panda.\nNatural anatomy and hands, clean readable silhouette, harmonious proportions, detailed face with the sharpest local focus. Tasteful nonsexual framing. No lettering, symbols masquerading as text, signature, watermark, logo, card border or UI. Do not print rarity or resolution. This image will be separately super-resolved to 2160x3840, with original size preserved in metadata.",
+  "status": "approved",
+  "mode": "builtin_imagegen",
+  "nativePath": "source-reference/c18-s03.png",
+  "generatedAt": "2026-09-27T11:04:26.804816+00:00",
+  "sourceImage": "source-reference/exec-3bca62a1-10ee-4015-96f7-bf292e6d9562.png",
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "source-reference/c18-s03.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c18-s03.png"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus-anime",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 51
+  },
+  "visualQA": {
+    "approved": true,
+    "method": "Native image plus 4K contact-sheet review",
+    "checkedAt": "2026-09-27T11:36:59.487858+00:00",
+    "notes": "Identity, expression variety, anatomy, framing and tier composition checked."
+  }
+}

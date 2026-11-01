@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import {Wallet,keccak256,toUtf8Bytes,randomBytes,hexlify} from 'ethers';
+fs.mkdirSync('private',{recursive:true});fs.mkdirSync('logs',{recursive:true});
+if(fs.existsSync('private/config.json'))throw Error('Existing deployment preserved: do not regenerate keys.');
+const wallets=Object.fromEntries(['admin','seeder','reward','faucet'].map(n=>{const w=Wallet.createRandom();return[n,{address:w.address,privateKey:w.privateKey}]}));
+const battleRulesHash=keccak256(Buffer.concat([fs.readFileSync('engine.cjs'),fs.readFileSync('catalog.json')]));
+const config={chainId:20260926,origin:'http://localhost:8787',rpc:'http://127.0.0.1:8545',nodeRPCs:['http://127.0.0.1:8545','http://127.0.0.1:8546','http://127.0.0.1:8547'],db:{host:'127.0.0.1',port:5433,user:'talos',password:crypto.randomBytes(24).toString('hex'),database:'talos'},wallets,deploymentId:hexlify(randomBytes(32)),battleRulesHash,rewardRulesVersion:keccak256(toUtf8Bytes('talos-reward-v1')),indexerToken:crypto.randomBytes(32).toString('hex'),seeds:[],createdAt:new Date().toISOString()};
+config.walletResetId=config.deploymentId;
+fs.writeFileSync('private/config.json',JSON.stringify(config,null,2));
+const genesis={config:{chainId:20260926,berlinBlock:0,londonBlock:0,zeroBaseFee:true,qbft:{blockperiodseconds:3,epochlength:30000,requesttimeoutseconds:6}},nonce:'0x0',timestamp:'0x0',gasLimit:'0x1c9c380',difficulty:'0x1',mixHash:'0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365',coinbase:'0x0000000000000000000000000000000000000000',alloc:Object.fromEntries(Object.values(wallets).map(w=>[w.address.slice(2),{balance:'0xd3c21bcecceda1000000'}]))};
+fs.writeFileSync('private/qbft-config.json',JSON.stringify({genesis,blockchain:{nodes:{generate:true,count:3}}},null,2));
+console.log('Prepared private keys, database credential and immutable rules hash.');

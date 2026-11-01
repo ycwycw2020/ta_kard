@@ -1,0 +1,39 @@
+{
+  "id": "c21-s10",
+  "characterId": 21,
+  "name": "卡契尔",
+  "skin": 10,
+  "tier": "fine",
+  "revision": 3,
+  "expression": "gentle reassuring smile, warm eyes and relaxed cheeks",
+  "pairedExpression": "steady protective concern, knit brows, clear determined eyes and firm lips",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/catcher.bc6bcfaa.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/catcher.d4e72ab0.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/catcher.bc6bcfaa.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 66
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c21-s10.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c21-s10.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c21-s10.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

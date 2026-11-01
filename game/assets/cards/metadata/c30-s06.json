@@ -1,0 +1,69 @@
+{
+  "id": "c30-s06",
+  "characterId": 30,
+  "name": "诀",
+  "skin": 6,
+  "tier": "normal",
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: stylized-concept. Asset type: new portrait collectible card illustration, vertical 9:16, highest available native resolution, intended 2160x3840 after separately labeled super-resolution. Image 1 is the OFFICIAL CHARACTER APPEARANCE and WEAPON reference, not a composition template. Subject: adult Jue (诀), unmistakable silver-white bob and long flowing silver hair with teal-black undersides, black angular head ornaments and fine red antenna strands, blue eyes with red accents, canonical black armoured bodice and short black armour skirt, white/black long coat with cyan-teal lining and trailing panels, black-red asymmetric legwear and black boots. Preserve all canonical costume identity, face, hair, body proportions. The ancient Chinese aesthetic applies to scenery, palette and traditional painting craft ONLY, never redesign the canonical costume. Her canonical weapon is autonomous FLOATING CANNON ARTILLERY, exactly as the reference: independent large angular black/charcoal hovering gun chassis with cyan energy-emitting barrel/muzzle and mechanical slab-like structure. NEVER give her any sword, blade, katana, dagger, spear, staff, bow, floating sword or handheld weapon. Hands are empty except any specifically requested harmless everyday object. No futuristic buildings, no industrial setting, no cyberpunk neon background, no UI. Keep one character only. Natural anatomy, coherent hands. No lettering, text, numbers, watermark, logos, card border. Full bleed harmonious portrait illustration. MORNING GARDEN. Ordinary card in clean cel-shaded anime illustration with economical brushlike contours and broad flat color. Knee-up frontal figure on a simple old stone garden path, Jue shifts weight onto one leg, hands resting loosely at sides, softly amused eyes and gentle closed-lip smile. Pale lavender sky, one pale courtyard wall, a few blue-green grasses, minimal cloud shapes. Slate blue, muted lilac, jade and ivory palette, only two background planes, restrained detail. Canonical costume unchanged; no weapon.",
+  "references": [
+    "source-reference/lizhiyan.png"
+  ],
+  "referenceUrls": [],
+  "generatedAt": null,
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c30-s06.png",
+    "sha256": "60051025e523e52004e7dda1dc3cf5406972bdc777a35536206c084d00fb4853"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c30-s06.png",
+    "sha256": "6db7fa72c2a8456bf5cfcd80a676bd97c8c9559bfbb289cc2cf654c6422a8eda"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c30-s06.webp",
+    "sha256": "ec8c28a8c9bb90047fadee1afbdedcb53c45d05150e64019254792d983f7596f"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "release": "20220424 / v0.2.5.0",
+    "source": "https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0",
+    "model": "realesrgan-x4plus-anime",
+    "scale": 4,
+    "neuralOutput": {
+      "width": 3764,
+      "height": 6688
+    },
+    "finish": "Lanczos3 to exact 2160x3840",
+    "native4K": false,
+    "elapsedSeconds": 62,
+    "executableSha256": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "modelSha256": {
+      "realesrgan-x4plus-anime.param": "2b8fb6e0ae4d2d85704ca08c119a2f5ea40add4f2ecd512eb7f4cd44b6127ed4",
+      "realesrgan-x4plus-anime.bin": "fe01c269cfd10cdef8e018ab66ebe750cf79c7af4d1f9c16c737e1295229bacc"
+    }
+  },
+  "status": "available",
+  "assetStatus": "available",
+  "processingFingerprint": "52e70dac828a4d1b29ebf73d41b9fbf6f4c2c7fd192438e2d1eb1f7069b81f4b",
+  "processedAt": "2026-10-31T13:04:53.886Z",
+  "dynamicTier": "removed_in_v0.7.2",
+  "assetPathBase": "project",
+  "visualQA": {
+    "status": "approved",
+    "reviewedAt": "2026-10-31T13:30:18.704Z",
+    "reviewer": "Codex visual review / asset_delivery",
+    "notes": "淡紫春庭三分之四立姿，双臂下垂连贯；色彩明显区别水墨。",
+    "registrySha256": "fe46924e76487a9aa7a60b4217916cb5d0f355fb7f6cd71df4e5fdc781d539f4"
+  },
+  "publication": {
+    "batch": "jue-zhuang-ancient-v2-20261031",
+    "source": "built-in image generation",
+    "fourthDynamicRarityAdded": false
+  }
+}

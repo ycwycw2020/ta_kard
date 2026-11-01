@@ -1,0 +1,67 @@
+{
+  "chainId": 20260926,
+  "version": "1.1.1-team-cost20",
+  "contract": "0x245f7E77ca588B468bf912dF2747077f1907713d",
+  "block": 50398,
+  "transaction": "0x0f4ce55c1bc3bba933a7c48432de705201caeb2aeecbe30a972f4c4f1939eb33",
+  "itemsContract": "0x3CB5F558Df2E765b9e30d7b093D56b357B8f2E6e",
+  "aiOperator": "0x95B6a8A5D694Da341e311De5aFf18307dD2AD6BB",
+  "rulesHash": "0x1254e6b775597c71ce2fe145db2d5e42b55d179d55c4bd086aba4d159c055275",
+  "catalogHash": "0x8df2107a316ccd310cae7dfc45d6987c78e22ca5f72908b88b557342d6cb7493",
+  "linkedLibraries": {
+    "TalosBattleCatalog": "0x8af970310365478f1D6Ea8CC01A697aE9A597Fe7",
+    "TalosBattleCombos": "0xe5E8BB6E45394b782c092ba2f0cC744e2FF30486",
+    "TalosBattleRules": "0x21893eE33B612C2500ca8B9Fe15C04427509Bf2C",
+    "TalosBattleEngine": "0x8219611D15e18De55A8A7Cc3445584B5da67ca0E",
+    "TalosBattle": "0x245f7E77ca588B468bf912dF2747077f1907713d"
+  },
+  "deployments": {
+    "TalosBattleCatalog": {
+      "address": "0x8af970310365478f1D6Ea8CC01A697aE9A597Fe7",
+      "transaction": "0x9d2ce5e94a3feea1f8154410b314392163424a0697ecfe2541ba2aa1348a8da6",
+      "block": 50394,
+      "gasUsed": "400001"
+    },
+    "TalosBattleCombos": {
+      "address": "0xe5E8BB6E45394b782c092ba2f0cC744e2FF30486",
+      "transaction": "0x528365689cb053b50f68ad4fa0d1d558bd2da36e8a8b84a98d5bc56e92488034",
+      "block": 50395,
+      "gasUsed": "3317101"
+    },
+    "TalosBattleRules": {
+      "address": "0x21893eE33B612C2500ca8B9Fe15C04427509Bf2C",
+      "transaction": "0xcef256d7d382d80428d8f2c66c342790d5819275b341bb664815ec22f46d61a1",
+      "block": 50396,
+      "gasUsed": "4687874"
+    },
+    "TalosBattleEngine": {
+      "address": "0x8219611D15e18De55A8A7Cc3445584B5da67ca0E",
+      "transaction": "0xc9afbd722c36dd8a4e3a158b0c2937119f3ed59d57aa1fa0918579c14fc33e0e",
+      "block": 50397,
+      "gasUsed": "3968701"
+    },
+    "TalosBattle": {
+      "address": "0x245f7E77ca588B468bf912dF2747077f1907713d",
+      "transaction": "0x0f4ce55c1bc3bba933a7c48432de705201caeb2aeecbe30a972f4c4f1939eb33",
+      "block": 50398,
+      "gasUsed": "5312273"
+    }
+  },
+  "codeHash": "0xb89fabc2df93a5269fb868cf670f08f53c2017256b5a8dd086c67bf650d7b21e",
+  "runtimeVerifiedWithImmutableMask": true,
+  "sources": {
+    "contracts/TalosBattle.sol": "34212654553f49751cecbe5c6486283419799dbd37a8019d89efacda9237adc9",
+    "contracts/TalosBattleCatalog.sol": "29eeafda4feb3820bd8b2adce02202598726f0cd95ddf4358b7c2b4caba17910",
+    "contracts/TalosBattleEngine.sol": "706ebfaa79dd1b56cdf82c60ddc4aa9c6b1becedd0420fddfc2c004ca1636fea",
+    "contracts/TalosBattleTypes.sol": "4fedc670bda80de42bd8d0634b8e5c74c495ad7e90686ef317cc896f4b3abca8"
+  },
+  "compiler": "0.8.30+commit.73712a01.Emscripten.clang",
+  "publicInformation": true,
+  "teamCostCap": 20,
+  "shield": {
+    "grant": 12,
+    "cap": 24,
+    "expires": "round end"
+  },
+  "legacyRewardCompatibility": "Existing TalosCards EIP-712 reward entry retained; API derives the match outcome from TalosBattle."
+}

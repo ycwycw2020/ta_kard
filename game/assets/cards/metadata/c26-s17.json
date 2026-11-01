@@ -1,0 +1,86 @@
+{
+  "id": "c26-s17",
+  "characterId": 26,
+  "name": "庄方宜",
+  "skin": 17,
+  "tier": "exquisite",
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: stylized-concept. One beautiful portrait 9:16 card illustration of 庄方宜 / Zhuang Fangyi from Arknights Endfield. Image 1 is her official appearance reference. Preserve her red eyes, black hair with red strands, red horns, pointed ears, canonical white-black top, long green skirt, gloves and cyan floating cubic cannons. Ancient Chinese aesthetic in scenery and painting only; keep her original outfit and weapon. Natural anatomy, exactly two coherent arms with correct hands. No text, border, watermark, sword, modern buildings, neon signs or cyberpunk scene. Highest native resolution. EXQUISITE tier. Exceptionally refined Chinese rock-color and premium painterly anime art, rich warm amber, copper and emerald jade. Low-angle three-quarter full figure on an ancient Chinese stone bridge above an autumn mountain town, intricately carved pavilion eaves, layered mist, sunbeams and windblown ginkgo leaves. She stands gracefully with one hand extended in a clear commanding gesture and the other relaxed at hip. Lively confident CLOSED-MOUTH smile, alert warm eyes, natural relaxed neck and shoulders. Two original cyan cubic floating cannons hover separately to her sides. Natural soft crosswind blows long separate hair locks, red ties and skirt ends to image-left, roots anchored, readable hair/cloth edges for local animation. Intricate premium materials and distant landscape, coherent depth and face focal point, no overcrowding. Distinct from seated cool-blue rain-pavilion card.",
+  "references": [
+    "source-reference/zhuangfy.png"
+  ],
+  "referenceUrls": [],
+  "generatedAt": null,
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c26-s17.png",
+    "sha256": "bd1800c3e911ceadefc28636b1b593a8f688c65311bfa00c1a877e488b6befa0"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c26-s17.png",
+    "sha256": "49b38af88582627b8116e1577f3bd01d570117de2b0d499c7313e59276173f9a"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c26-s17.webp",
+    "sha256": "c4864574651c850889a91bdd9e087286784ca371b118e27e3bd671a9206631b9"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "release": "20220424 / v0.2.5.0",
+    "source": "https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "neuralOutput": {
+      "width": 3764,
+      "height": 6688
+    },
+    "finish": "Lanczos3 to exact 2160x3840",
+    "native4K": false,
+    "elapsedSeconds": 185,
+    "executableSha256": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "modelSha256": {
+      "realesrgan-x4plus.param": "35330ececcea33b6c397a72548e788d5d53becee4734c50b7fada36e89f10a86",
+      "realesrgan-x4plus.bin": "713ee713b0353afaa27976f0563a64a5043bd70b9bd8936c2e26e25ebcdbcddf"
+    }
+  },
+  "status": "available",
+  "assetStatus": "available",
+  "processingFingerprint": "1fc44e22719a5ac0f3f9b299012657aeb5eb91cf38662c2026bd12e438ce57be",
+  "processedAt": "2026-10-31T13:41:00.640Z",
+  "dynamicTier": "removed_in_v0.7.2",
+  "assetPathBase": "project",
+  "visualQA": {
+    "status": "approved",
+    "reviewedAt": "2026-10-31T13:46:19.216Z",
+    "reviewer": "Codex visual review / asset_delivery",
+    "notes": "金秋山城低机位长景，伸掌与另一手腰侧对应双肩，披发和裙摆有自然风势；浮游炮正确，无剑。",
+    "registrySha256": "fe46924e76487a9aa7a60b4217916cb5d0f355fb7f6cd71df4e5fdc781d539f4"
+  },
+  "publication": {
+    "batch": "jue-zhuang-ancient-v2-20261031",
+    "source": "built-in image generation",
+    "fourthDynamicRarityAdded": false
+  },
+  "animation": {
+    "type": "webgl-mesh",
+    "profileId": "c26-s17",
+    "texture": {
+      "path": "assets/cards/motion/c26-s17.webp",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "ba509d5fef46c1d47005a4208a7c25ac2c57ec7e74010821d9402b13d0c4301d"
+    },
+    "masterSha256": "49b38af88582627b8116e1577f3bd01d570117de2b0d499c7313e59276173f9a",
+    "breathing": true,
+    "naturalWind": true,
+    "calibration": "ancient-v2-s17-autumn-ginkgo-mountain-visual-20261031",
+    "standaloneVideo": false,
+    "live2DCubismRig": false,
+    "rarityChanged": false
+  }
+}

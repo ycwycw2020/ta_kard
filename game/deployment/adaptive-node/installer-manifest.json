@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "chainId": 20260926,
+  "genesisSha256": "8a1b485de315121b3c55d402a2d7827d45bed3b6f4adceafa2a20c2eb4f1d297",
+  "genesisBlockHash": "0x27c9903f7a3c87bc6028d8a19769dd5920f96cf45492a3ae4f083e171f6ce596",
+  "primaryPublicKey": "e055af29d6b0ca5cf946134f19a243dc789454442e469b922caeec1ef2e50512225418cd992369393c150cda36c5d5737a27ecc0705128a8782acdd7a3bcc3e7",
+  "validatorPublicKeys": [
+    "e055af29d6b0ca5cf946134f19a243dc789454442e469b922caeec1ef2e50512225418cd992369393c150cda36c5d5737a27ecc0705128a8782acdd7a3bcc3e7",
+    "d8642d40288be5a50c094bc69f0bc38d93b8b07bb5b178d74c24cdcb18a06b234b7a9b602e621d7587663fbdc92e554794bd3407e1eb02fb6a000c343eb83550",
+    "a39d7ce1a17996e646f9648592e109ce76627dcfe2802ae4eed0aab7bda52fa808499347d7f50970afd497c444103c2357f378156127914cbc5ad69aecb33e95"
+  ],
+  "suggestedServer": "10.195.244.225",
+  "serverPort": 30303,
+  "besuVersion": "26.8.1",
+  "javaFolder": "jdk-25.0.4.1+1",
+  "nodeVersion": "24.19.0",
+  "downloads": {
+    "besu": {
+      "url": "https://github.com/besu-eth/besu/releases/download/26.8.1/besu-26.8.1.zip",
+      "sha256": "1357fb3587247b6debcee9998dd145f61f9c82b66f4fbb88c2c892bf9edfb464",
+      "file": "besu-26.8.1.zip",
+      "format": "zip"
+    },
+    "javaWin": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+      "sha256": "00c847d804f4a78e9f04f2683faf14fed898535b177b7fc704486cb0284e9283",
+      "file": "java-25.0.4.1-windows.zip",
+      "format": "zip"
+    },
+    "javaLinux": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_linux_hotspot_25.0.4.1_1.tar.gz",
+      "sha256": "dbb698396d478e7fa2b1e50f4103324b2a99b90569ee27c33f2261f9215cf41e",
+      "file": "java-25.0.4.1-linux.tar.gz",
+      "format": "tar"
+    },
+    "nodeWin": {
+      "url": "https://nodejs.org/dist/v24.19.0/node-v24.19.0-win-x64.zip",
+      "sha256": "57f71ab3652e797d84acddc79c81cc9ff1c6ddb2a1974cdb83f00fee9bff4c73",
+      "file": "node-v24.19.0-win-x64.zip"
+    },
+    "nodeLinux": {
+      "url": "https://nodejs.org/dist/v24.19.0/node-v24.19.0-linux-x64.tar.xz",
+      "sha256": "14b342e71204f811bde6153be8e04b62aef63c236fef92b55f9c83154b409647",
+      "file": "node-v24.19.0-linux-x64.tar.xz"
+    }
+  },
+  "releaseEpoch": "2026-09-27-clean-reset",
+  "maintenanceRevision": "2026-09-28-server-switch"
+}

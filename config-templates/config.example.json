@@ -1,0 +1,28 @@
+{
+  "chainId": 20260926,
+  "origin": "http://localhost:8787",
+  "rpc": "http://127.0.0.1:8545",
+  "nodeRPCs": ["http://127.0.0.1:8545", "http://127.0.0.1:8546", "http://127.0.0.1:8547"],
+  "db": {"host": "127.0.0.1", "port": 5433, "user": "YOUR_DATABASE_USER", "password": "GENERATE_LOCALLY", "database": "YOUR_DATABASE"},
+  "wallets": {
+    "admin": {"address": "GENERATE_LOCALLY", "privateKey": "GENERATE_LOCALLY_NEVER_COMMIT"},
+    "seeder": {"address": "GENERATE_LOCALLY", "privateKey": "GENERATE_LOCALLY_NEVER_COMMIT"},
+    "reward": {"address": "GENERATE_LOCALLY", "privateKey": "GENERATE_LOCALLY_NEVER_COMMIT"},
+    "faucet": {"address": "GENERATE_LOCALLY", "privateKey": "GENERATE_LOCALLY_NEVER_COMMIT"}
+  },
+  "contract": "YOUR_ERC1155_ADDRESS",
+  "itemsContract": "YOUR_ERC721_ADDRESS",
+  "battleContract": "YOUR_20_COST_BATTLE_ADDRESS",
+  "previousBattleContracts": [{"address": "YOUR_16_COST_BATTLE_ADDRESS", "deploymentBlock": 0, "mode": "legacy16"}],
+  "deployBlock": 0,
+  "itemsDeployBlock": 0,
+  "battleDeploymentBlock": 0,
+  "deploymentId": "GENERATE_LOCALLY",
+  "walletResetId": "GENERATE_LOCALLY",
+  "battleRulesHash": "GENERATE_FROM_ACTUAL_ENGINE_AND_CATALOG",
+  "onchainBattleRulesHash": "FROM_BATTLE_DEPLOYMENT",
+  "battleCatalogHash": "FROM_BATTLE_DEPLOYMENT",
+  "rewardRulesVersion": "GENERATE_LOCALLY",
+  "indexerToken": "GENERATE_RANDOMLY_NEVER_COMMIT",
+  "seeds": []
+}

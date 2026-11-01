@@ -1,0 +1,10 @@
+{
+  "name": "@openzeppelin/contracts",
+  "version": "5.4.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts.git"
+  },
+  "includedRuntimeBinary": false
+}

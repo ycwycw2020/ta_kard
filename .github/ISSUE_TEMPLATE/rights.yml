@@ -1,0 +1,19 @@
+name: 权利与素材删除联系
+description: 向作者反馈版权、署名或需删除的资源
+title: "[权利联系] "
+body:
+  - type: markdown
+    attributes:
+      value: "本项目未获《明日方舟：终末地》官方授权。如有侵权，作者核实后将删除仓库及相关发布资源。请勿在公开 Issue 中发送证件、住址、密码或其他敏感资料。"
+  - type: textarea
+    id: affected
+    attributes:
+      label: 受影响的文件或资源链接
+    validations:
+      required: true
+  - type: textarea
+    id: basis
+    attributes:
+      label: 原始作品、权利依据与请求
+    validations:
+      required: true

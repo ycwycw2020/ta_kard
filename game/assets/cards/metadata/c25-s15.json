@@ -1,0 +1,39 @@
+{
+  "id": "c25-s15",
+  "characterId": 25,
+  "name": "洛茜",
+  "skin": 15,
+  "tier": "exquisite",
+  "revision": 3,
+  "expression": "youthful courageous resolve, brows knit and lips slightly parted, earnest eyes; age-appropriate nonsexual framing",
+  "pairedExpression": "proud slightly bashful excitement, raised brows and delighted closed smile",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/rossi.c58b721b.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/rossi.b7ae95b5.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/rossi.c58b721b.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 66
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c25-s15.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c25-s15.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c25-s15.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

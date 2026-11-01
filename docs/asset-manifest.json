@@ -1,0 +1,3721 @@
+{
+  "snapshot": "2026-11-01",
+  "files": [
+    {
+      "path": "game/assets/cards/4k/c01-s00.png",
+      "size": 12274734,
+      "sha256": "aa612cc17e84a022e3242ffe598f36b0fa150a4ada96c27c8e3a95315827b510",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c01-s01.png",
+      "size": 13644340,
+      "sha256": "586aeed44fb554c2d037eeb4dfd14a15a1ac53d70531f31e93ec9b4089588286",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c01-s02.png",
+      "size": 11546027,
+      "sha256": "2d05d9c22c68f101cfd70b9d80dc4dc73306b9c5806e0195446dc5a071a208d1",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c01-s03.png",
+      "size": 11870951,
+      "sha256": "9daad4712497aca3e959e01e715cb90ef354fd751b61def379edd03db6799f24",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c01-s04.png",
+      "size": 9291063,
+      "sha256": "705cf790c321afac5045933aabaf85966299caca42cbe2db9ec24dff1c2a4977",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c01-s10.png",
+      "size": 18312692,
+      "sha256": "f6e6b47dc1a3fdba66b774ae360511bde7da95b02d1aae84b8cd99e91da0a582",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c01-s11.png",
+      "size": 19534548,
+      "sha256": "a5a7083062c93cfd0993b78161d9fb1b76caee8acbb2fd38f2f0ee12fa02e368",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c01-s12.png",
+      "size": 18743568,
+      "sha256": "6fbbc1006687380b87da73e58fa5068ad279c48dfe3b40e2915a366c667e629b",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c01-s15.png",
+      "size": 18681414,
+      "sha256": "69da3a96de260e4e1eb3eeca072dfc7f98b7f1427c94a6f537ee48d788759788",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c02-s00.png",
+      "size": 13192014,
+      "sha256": "6afc4946101c1c395627cfbcc03dcf5011aa39eeaa701d7cc1a41de7aff39585",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c02-s01.png",
+      "size": 12293951,
+      "sha256": "958f2a3fb9300d2bd4c2d24a248f6e3b7ee6b235ce92c87c3ba9cd87ebaeb05f",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c02-s02.png",
+      "size": 12706417,
+      "sha256": "928045295d61e8576609be652125254baf9395337c79ec4bafbebcff1c955e94",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c02-s03.png",
+      "size": 12731484,
+      "sha256": "96b3ada958d3d1092f9aa47bad53602e2a46a4ca0b32fc4c22cc7e20f63d5b54",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c02-s04.png",
+      "size": 12504970,
+      "sha256": "e9fd61bf8b61253e4c51306d4148cf2321e05341576f6c98251255118aafd021",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c02-s10.png",
+      "size": 19325917,
+      "sha256": "cbc338b1f00e4d761502e85cbca5c793663613089060d087b74d744ee3123129",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c02-s11.png",
+      "size": 19794118,
+      "sha256": "17e4b6b71ecbd026ea3934e735017234773ad22ce728c08b8cd085371c29d0a8",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c02-s12.png",
+      "size": 19563149,
+      "sha256": "dae1febc601c5dcc3f97b750675d3cecf7cb6c4595cdc6d2057917e1c42471f5",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c02-s15.png",
+      "size": 19592312,
+      "sha256": "1dace06589a79595f198bccdd5971e5d65610999b993ce6066eb823d3c6f4c35",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c03-s00.png",
+      "size": 12573369,
+      "sha256": "44258f314302e36da95ad6e42386628d91f369f5099d1ee6cdc48ffbcdf56858",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c03-s01.png",
+      "size": 12566586,
+      "sha256": "b075fabe044ad2b8ffe2744df8f2aabc776440de9d8a119f34b0c80b356b1602",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c03-s02.png",
+      "size": 12094253,
+      "sha256": "dde1bc66c2a82efd650654310b29798eaa95a472de11b7fd8430b34f14481472",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c03-s03.png",
+      "size": 12235272,
+      "sha256": "b617cf6a27cb69232ea8ddb9dd3699ea7bc65cfc9d85525cf49f82c316a86f76",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c03-s04.png",
+      "size": 11946033,
+      "sha256": "536dfad638579a0a29dd6d968774e451fcd718178b9799b40a743b10446916d4",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c03-s10.png",
+      "size": 18622981,
+      "sha256": "ad431816dd5e5feec2c2219e46728a716a8bb6fd9239dc2b138db04182855563",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c03-s11.png",
+      "size": 19396568,
+      "sha256": "e1579bd9d10ab279b12bc6c09d046210fddc1f524d228c479670f28bae3393a4",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c03-s12.png",
+      "size": 18675840,
+      "sha256": "11fc96a734985d78bb68b5e50420f2f326bfcc8176aa14434e203e5d72b72180",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c03-s15.png",
+      "size": 18767797,
+      "sha256": "beabcda7d9a6fe00d44b4968a209cf806d408ba505b13d39bb4256eb06782043",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c04-s00.png",
+      "size": 13163385,
+      "sha256": "4cedbc011f2bdf2ed93ce6e13c1ff0510ec23944e3cc057ecb3d5adb811a8907",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c04-s01.png",
+      "size": 11734768,
+      "sha256": "fad638dd77cbc5c96c8ec1fa0a882d077bb177674f6000b0cc9f1cbd4f27543c",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c04-s02.png",
+      "size": 12707493,
+      "sha256": "f0783e78322a0ee9e8099ae82382ccf189a8ea94c78cdb4c8ccf22cef31bf90c",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c04-s03.png",
+      "size": 11588230,
+      "sha256": "fd08655a45e431d55d943883fff265a9dabcaba449e145914975e94c4ceb0293",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c04-s04.png",
+      "size": 12018016,
+      "sha256": "a3904ce7a5958f4110952d6f81d074a0e0a4a269060614fe930c797326f906bd",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c04-s10.png",
+      "size": 18921307,
+      "sha256": "de5ed03bf1025079bc4cdd490e3c7c2cd823f1a064f391535e10fe5b2ec404b3",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c04-s11.png",
+      "size": 20092292,
+      "sha256": "1bc9d9c7423451f9511da2577df3b2bcdb9bbb89ca4bbd91df9e52faa73f9ae5",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c04-s12.png",
+      "size": 18421125,
+      "sha256": "bc4424aa2de5aec3c2a083d140593de9e9fde0f3617f3639964c21bad2446731",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c04-s15.png",
+      "size": 17098128,
+      "sha256": "0ce7c1a3875eb6f6915d419d78168754cacef176488369162f22602121b217dc",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c05-s00.png",
+      "size": 13433915,
+      "sha256": "4439495d69c09840afbca76af2a32226ff5b4052c95369294d78c440f2e9085b",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c05-s01.png",
+      "size": 13261396,
+      "sha256": "bb6bfcdfac42ab4edd4d75697c346d1103f159c56c98540fcfed94dd090cce0f",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c05-s02.png",
+      "size": 13051197,
+      "sha256": "7f59d43cfe03653f6e2e3e3dd025b96d1d8796e13084290d761f54d2b3037df9",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c05-s03.png",
+      "size": 14264896,
+      "sha256": "853ee5b30cc3e1f85af61af2d3c5d771402f1359f587ce157295b1e647933d5b",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c05-s04.png",
+      "size": 13003211,
+      "sha256": "1d5b575edf0115488246c06904f6bd25824f1e56123f91077e93142e74dfa746",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c05-s10.png",
+      "size": 20185818,
+      "sha256": "13dd67929c754813b0c06b6d873c025d264244c6440102c2a5ed71a7a8d7eedb",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c05-s11.png",
+      "size": 19792327,
+      "sha256": "68641174a3913edc32bc7f3922c4cb4b1b6cc3f0c55a60559619cba5f1977aed",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c05-s12.png",
+      "size": 19190516,
+      "sha256": "49f428fea288a1175f9babe8864bf5d382dea197ea45f518a4a1363e6d948b20",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c05-s15.png",
+      "size": 19891434,
+      "sha256": "4d7e26019ca758cf67d1f4c0db07e431a145768aa269829c4e4ceae49d1f9f8d",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c06-s00.png",
+      "size": 13454702,
+      "sha256": "e322ff4860884afefc0cffa4a513b6fcff951524daff37ee667c48e05e583a28",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c06-s01.png",
+      "size": 12017031,
+      "sha256": "b4a3d8e124026f1f828aacad8cf9f1f461cf28067a8718dd8a65fafe50d7192f",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c06-s02.png",
+      "size": 12042624,
+      "sha256": "fd8ac1db2452ac4b643fb3356fecbb579dfa5e4db457d7896c884dbf1d4564a7",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c06-s03.png",
+      "size": 12311659,
+      "sha256": "3538f8d5c3fab7c2f571458b5207e75d3bd70db62307a1f59c3f464c33ab36d9",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c06-s04.png",
+      "size": 11934618,
+      "sha256": "47cc0b8a2af7ae278adad693839ef749a0a3dc41e81664146179dd5c93d8291a",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c06-s10.png",
+      "size": 18403501,
+      "sha256": "33f7ac33398303e010b051b93b82027b869f54d2f4bb7f8848a08f6f3baa86e0",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c06-s11.png",
+      "size": 18760573,
+      "sha256": "bb1aea31093da11335f0213f7292b9d5be8a306bbf917130f66216312b610248",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c06-s12.png",
+      "size": 19130839,
+      "sha256": "8e46689d6e0344bcaa18a8eb035dca4042e3fb60ea5f1e6444c9785d81119983",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c06-s15.png",
+      "size": 19328310,
+      "sha256": "c4bcfb00477214f957b0edfde7ad2370fc5044c58fa72a68ba43f16687df208b",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c07-s00.png",
+      "size": 13819814,
+      "sha256": "1dc207d88250959cffd7829e74e2250fc5ecc17c46e0cba000cd89880b634690",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c07-s01.png",
+      "size": 13807469,
+      "sha256": "938c76299a46467f3fee998e02e5968743b5c3851d4f6904afb8ce6d22ba9a40",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c07-s02.png",
+      "size": 14351089,
+      "sha256": "5692359ff6e5c76e76677ceb3fe7162d3213926d0f23db1478105a31a527000b",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c07-s03.png",
+      "size": 13795003,
+      "sha256": "b9a1913387e3da54f6988c3fafaebe38d7bb075b2883093be9ca41324f24f0cf",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c07-s04.png",
+      "size": 13741339,
+      "sha256": "27bf686d56758d31fe5e003127d6167be0fd93984e03e8a4c80356422d68537e",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c07-s10.png",
+      "size": 19070762,
+      "sha256": "a928025bdaf54fde4410b6301f75fee716f22bf61c6b667ba50cbb59e266cff6",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c07-s11.png",
+      "size": 19537861,
+      "sha256": "1f3d0c829be13498ba518f3d57a4745d8d0f4474b0276bd4ef3010674da007b9",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c07-s12.png",
+      "size": 19370016,
+      "sha256": "ebf94abf8efe4f4b4a90bf92e6905930eda96ce2dc5289164103c1cda1544854",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c07-s15.png",
+      "size": 19110083,
+      "sha256": "701cf2b6cad58fb4600aa9ed0ba3a66d248fc7c76214da579a5224aa5c2688ef",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c08-s00.png",
+      "size": 14253702,
+      "sha256": "3ceb51adc004ad9a5142002c220030728ad4cb5de6fffd374369e333d1fe0570",
+      "archive": "ta_kard-art-4k-01.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c08-s01.png",
+      "size": 12824275,
+      "sha256": "729c92c0000a2d4164f545a66586dc15a4ff2a97ebef9ad56fbdbb7e6e4de64e",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c08-s02.png",
+      "size": 13267457,
+      "sha256": "c9412f4b486a2767a56d3dc558933a14167c530fb7e266a147f2895a8da63143",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c08-s03.png",
+      "size": 13780555,
+      "sha256": "642ecc29325b7efa42c22afffc2f26f6c3295b5c9b8d6fec51f3ef729e9d66f3",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c08-s04.png",
+      "size": 14619201,
+      "sha256": "1ea684df55818ccb7f6a2377cdb51296fbc0810ed3bb0e059355a58c81a5058d",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c08-s10.png",
+      "size": 19538965,
+      "sha256": "2341d90c139a210515013c2564d1a5255528d7d498a27dbb51214abce5dc719f",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c08-s11.png",
+      "size": 20297997,
+      "sha256": "c8c94417e2a23ea8e6d83932a49c51eadbd5933f184d9deb3c2c435ce547b3f7",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c08-s12.png",
+      "size": 19882876,
+      "sha256": "26b2bdff960f86381ff7e68ff9f7bb0aa8ec61d46e3180b201490de5e88fb2bb",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c08-s15.png",
+      "size": 20067481,
+      "sha256": "ddfdf90c3e3feee5b5efb21a0ce2702a3890d5f924a4980fb281bab1d772e9ac",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c09-s00.png",
+      "size": 14009013,
+      "sha256": "72a616e73840ffeb7707b1f210fcec73d483a702a49236004e5bb98b39b122a5",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c09-s01.png",
+      "size": 12769635,
+      "sha256": "8b86733eb0d9cabe69d7bc1367af5e42089aad116a1e3c238b63508a666e3bce",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c09-s02.png",
+      "size": 12990361,
+      "sha256": "aa5d5d81a40bf42b05a4a3dad5e4b99b1a378be9875abfdd54f0fbf6db1fd6d7",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c09-s03.png",
+      "size": 13161181,
+      "sha256": "79c119f884b99950290a00f8f1ddde18a859e38d80bc46f7122dac47f8d92f43",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c09-s04.png",
+      "size": 12426622,
+      "sha256": "7f452990058ea518af3c01510351250ccfacb0bbda15bb522b884465bc6ceb7f",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c09-s10.png",
+      "size": 19457975,
+      "sha256": "cb50a404ba8560385744ce473b35f50783c3f1bdbdef167a1898aa8c0705a04e",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c09-s11.png",
+      "size": 19854222,
+      "sha256": "5a40fc4633979fb1663644dc889865fa6eb66df8a8bd1a68a46604c75ff4650e",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c09-s12.png",
+      "size": 19114555,
+      "sha256": "4d6cb182a4c21858b1d4f31d459af79ded6e83ff5496ba75cc02b1fc6ef8774a",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c09-s15.png",
+      "size": 18575692,
+      "sha256": "3d77ba6964af26b341eeb74e589d780bce63f91c77e9ae818f739ebf3da1f30f",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c10-s00.png",
+      "size": 13793386,
+      "sha256": "643ac63b0d10ce3de3e49ee36a04b87200e62c0a6e9b520d7c56a07bc06e450a",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c10-s01.png",
+      "size": 13123614,
+      "sha256": "9a52dab2a4bc7b8d1b8ea94d9d659c3ea26d4e84e09fd31ecd5851f756abd056",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c10-s02.png",
+      "size": 12675728,
+      "sha256": "4ffc86a6d1ee91281458ab07c43bcaa5134ecf48af865118c15a3adea79f2896",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c10-s03.png",
+      "size": 13600614,
+      "sha256": "303d0ccfc28ae7702ea555959dec5c58fc5263670d6ea87e222a35b7db7ea0bf",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c10-s04.png",
+      "size": 12791087,
+      "sha256": "acf69de48008c9e876e92cf71129a87d64adf1a8d5593ea279ffc88dfc1a5a60",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c10-s10.png",
+      "size": 19479806,
+      "sha256": "e0693682e4c51867f255450f7940723f11a019b0da71b5b9acd1eba25a8de272",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c10-s11.png",
+      "size": 20264630,
+      "sha256": "2f22f7c5d3940d6a25c69c62990d25f838810aafdc08a9f8aff9e941c89f1fd9",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c10-s12.png",
+      "size": 19574565,
+      "sha256": "e101a9d94413fdae005ce995c3afabd3243e425e2e58ba41238b6b2096cb36ad",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c10-s15.png",
+      "size": 20253009,
+      "sha256": "47b1bc320bb43906fbe5a6b04227f70deeaa037c37757b925da5b78c728e1df6",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c11-s00.png",
+      "size": 12269936,
+      "sha256": "c363516e1265841c821acbd00d19b29169175185df4592b25400d452c1a2f918",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c11-s01.png",
+      "size": 12821312,
+      "sha256": "ee2ebfbbbd11461a4f44e5e075c4cbf1a898c361025103de8b21d269fb3c0ff2",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c11-s02.png",
+      "size": 12395517,
+      "sha256": "9b01321f43e20314932a6407457eebe6811609ee224ca2b77529b1af46d9cdec",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c11-s03.png",
+      "size": 13405869,
+      "sha256": "0e887d30bca442f563ecb89a77ef61db284461eb6046fc79ecc1bb9a3da902d5",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c11-s04.png",
+      "size": 12562046,
+      "sha256": "10ce379edbae71e501d5966c90e0ad9aae7ac6cd3adf8af2ea7d3bb439fe7f22",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c11-s10.png",
+      "size": 18119129,
+      "sha256": "96ed444ae5cfce9c4613a7d34cf99dcc452d4b0ec0c69dc99b42dca1815bcb35",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c11-s11.png",
+      "size": 19414544,
+      "sha256": "7ecd48e3ff43a6e0447cb77f23da1681532eb86ef295fbb0acbc5ef087993126",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c11-s12.png",
+      "size": 19386014,
+      "sha256": "e990dc5c7a9ccafbb1dcaf0f84653f62f412c8b46a26826e9d5d714ce74afeef",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c11-s15.png",
+      "size": 18575357,
+      "sha256": "ce02ee0bc3821c18d68d12589b16b0325959e40582bc26bcf31d4c3d15339baf",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c12-s00.png",
+      "size": 13316828,
+      "sha256": "5f980c1e0db3ea682ed37639b6e28dde7aed8fd9cf3266b98856e2afd225a9c6",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c12-s01.png",
+      "size": 11637144,
+      "sha256": "fdc3de04a288eea33d5ea7196d1104fc1573f0840d444a4cd881f44c361ac057",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c12-s02.png",
+      "size": 12885877,
+      "sha256": "d91d41388e0b64c162d627e23f3208f620b8b6943d75a5470a0612649f11d034",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c12-s03.png",
+      "size": 12378369,
+      "sha256": "5c2cb734c64b72444708dfa26cda163f60d235c7544d1f48d44e6d71c0457f33",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c12-s04.png",
+      "size": 10916964,
+      "sha256": "291e24d9597acacdf8f134d83dd4e2a7dfd6313f1d9704c9f5966255041b1f41",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c12-s10.png",
+      "size": 19430571,
+      "sha256": "90d5f4b4a89a0466fc4c07b0d85997415c9b563d3e55d5264c187379aefc79fd",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c12-s11.png",
+      "size": 19547578,
+      "sha256": "b96abe768061de4b7a55cc7003a0e42f0c2c5897766c705107cbe37378e2dc4d",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c12-s12.png",
+      "size": 18980151,
+      "sha256": "1a84bb737f408372cd63630b8dc6401953003a39d1cec95254ddaf003e02d8f3",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c12-s15.png",
+      "size": 17721416,
+      "sha256": "bfcdd92cca5f3991941e197f9ee318f2b45a7d50d9b94bd682f5aff10eef63c9",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c13-s00.png",
+      "size": 13445744,
+      "sha256": "a08cfa70106d3c535c1e4d4a38138c904e57c6a888d25ead60a9bbe308253718",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c13-s01.png",
+      "size": 13842066,
+      "sha256": "846d0324ca0013e8267145146e50f462a521a905cc21e2fdcec49cb544ca7a93",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c13-s02.png",
+      "size": 13370511,
+      "sha256": "82c4b53cdf7e4b3fb0145a46a7a282691fccb78ef2e9ba4291d2f3513e412ae2",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c13-s03.png",
+      "size": 14251963,
+      "sha256": "3a980c39a8584ce5554e7abdd730e8b4d0badd50427909ea4eb912f109c87299",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c13-s04.png",
+      "size": 13541872,
+      "sha256": "cdc6c935239a195477341035258d071b35c0b7293e33400e336ec257731601d7",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c13-s10.png",
+      "size": 19902923,
+      "sha256": "73a8b90c00a31efb04d3e9804d0bf6909fe3bf54ec29b85c74d866584b011410",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c13-s11.png",
+      "size": 19964923,
+      "sha256": "7d60cae53428e9cd0cde411ac8f0e3b3146373ddc27195ccb2140c084ba96692",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c13-s12.png",
+      "size": 19933256,
+      "sha256": "d87d117fc6d905e534ea1a0642c66ae728791f1a0abe7002c7ae4b0b324d3a2c",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c13-s15.png",
+      "size": 20212570,
+      "sha256": "807c7d2c73a0c69d11a2fcec2e355bc46e059702d54c0d0291c22fccab40519e",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c14-s00.png",
+      "size": 14206642,
+      "sha256": "dacd3395ee05a640b05b693eb28724fb18d6e3048bf731ca8cea490f1e738161",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c14-s01.png",
+      "size": 13870445,
+      "sha256": "a9678723aeb8931fe3048301a3e67403a02d2c920002cc6f9a52b476963e390e",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c14-s02.png",
+      "size": 13801389,
+      "sha256": "64c21a24144e6e60fd94a496f19c712e75d46e814090807abb0935851a2425a6",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c14-s03.png",
+      "size": 13636011,
+      "sha256": "bb73d83a6aebffb83d7ee5bf65957365fc121ff8671fff6eb174d38e5e43b029",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c14-s04.png",
+      "size": 13001780,
+      "sha256": "eca729a4b3b7d8a3a2103e8e163a22e02ff662260ca9d4da6e7e7fbebb91a001",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c14-s10.png",
+      "size": 20262010,
+      "sha256": "05efee8353d4815cec8ed4a4348d05a8d7dd3ca52fe7b9fe36615e6cb78ac65c",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c14-s11.png",
+      "size": 19916801,
+      "sha256": "755fa3ceeaf7f4433a6d6285704609bfcf7505854d1cee3ccdad01cf17f96b60",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c14-s12.png",
+      "size": 19495328,
+      "sha256": "a11fb00774c2c9177a96ad20f63625d5c766b25c9b83b8337e82f6929c354e75",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c14-s15.png",
+      "size": 20363781,
+      "sha256": "487651098c3145257ab839f9ca84c4cb7d2d1b9fec4a7c25973ab62a6274e129",
+      "archive": "ta_kard-art-4k-02.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c15-s00.png",
+      "size": 13518966,
+      "sha256": "8fe9ab36d7ee72a37454a7566dd0cdd404d9a4ce5101e685bdec9dba243e6b0b",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c15-s01.png",
+      "size": 13656666,
+      "sha256": "4ab12ec21d82b8f0d040d61ed6222f35e0ea3fb65d252f0266fa6b3879474ee4",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c15-s02.png",
+      "size": 13369850,
+      "sha256": "e27aa051efc99d216de2e099c23a4c7c9c751fe5533dc438457613cb21aa7a22",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c15-s03.png",
+      "size": 12329323,
+      "sha256": "23223d22fa38983b9359a5f9b09a40b12b81f532791e24b54052af3125dabeae",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c15-s04.png",
+      "size": 13060606,
+      "sha256": "824f70780bb96a48f0caeddb6da979f7ccc99920ddab229ea6a6450730a5ee0f",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c15-s10.png",
+      "size": 19850420,
+      "sha256": "3d32c91a15b40957ab6743ed316e52cf8d3a64831223d7ab865b9c21404df106",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c15-s11.png",
+      "size": 20461667,
+      "sha256": "8d41951896f4a8307923270cdf746f363bcb0977ae0d3541554b7ed2e5fd98b4",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c15-s12.png",
+      "size": 18965084,
+      "sha256": "df42052a97df80241ab6681ea3c4b1416f7832ae27dc49f279fc68cc5ba07923",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c15-s15.png",
+      "size": 18283332,
+      "sha256": "644dfb871da11fdb8f73514c201a5d33097ea2677e5e2b7b255f73f3874a24f8",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c16-s00.png",
+      "size": 13650308,
+      "sha256": "38e3745ada3c1803c9754733000e401c39c310ec176f974ff65b62668568d782",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c16-s01.png",
+      "size": 13232663,
+      "sha256": "0be0651722c899408ca3a99770c53e4095f26d9a7796c14f4a26bc3817c48997",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c16-s02.png",
+      "size": 13113466,
+      "sha256": "e999f596f5bda3d0b8ad9e650044b0c350dbb71756f227925c640f0fd66ca7fe",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c16-s03.png",
+      "size": 13202064,
+      "sha256": "ad4749a1659e5cfcd02f03b58de97742c5ba58b520762435f89d52c76a3641d1",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c16-s04.png",
+      "size": 12813867,
+      "sha256": "aaa9886ce14713de434547f4c58d644a56da3282067ebe265d381df25a0ca327",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c16-s10.png",
+      "size": 19686263,
+      "sha256": "81c19a9e6c0f6a30e23ad867e7b930b7383903710740ebada6697d30a3e70b28",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c16-s11.png",
+      "size": 19478493,
+      "sha256": "d4e6d530ea164e449474721170cf5ba755b6c3bcef1c011e492292e7f5eaa4d5",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c16-s12.png",
+      "size": 19014351,
+      "sha256": "c14fd763af32771f98c88f28ca638e4fab0671f31b0538fa77fe36c6b31c1e88",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c16-s15.png",
+      "size": 19458858,
+      "sha256": "668f73c31267fb8e599dc8483bb84494cad0d6b7c0ffa08e8d52951fd157998d",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c17-s00.png",
+      "size": 13127438,
+      "sha256": "d80e04b75c1922472129525261ae330482f9368aeca547265727ba0eca6173d3",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c17-s01.png",
+      "size": 12980324,
+      "sha256": "a93caf1ef1e455a748f6c7eee0e28bfa5cd9d1c21b6d6f7d49b361b914c07e7b",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c17-s02.png",
+      "size": 12557354,
+      "sha256": "b53bea44610a0fdd7318ad289852e8e38df91e68dd5d122766a9f8ef92647684",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c17-s03.png",
+      "size": 12421542,
+      "sha256": "0f4fb84533f91832e436697d53ccc4e42b4d03b7c3de80d6bb14d4a352f7d958",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c17-s04.png",
+      "size": 12070842,
+      "sha256": "8802d6c583a3c9dee10025824bfa2a5a0facf0d33d97ba04ecf8c03b7ec033eb",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c17-s10.png",
+      "size": 18865664,
+      "sha256": "f9704edee4880a1494fa91588d6513274d276c359bc971f7fe7b5e49d6e4ffba",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c17-s11.png",
+      "size": 19495985,
+      "sha256": "f6d1380d633cbc7199bb2b0388011ca3d90c302094fa68c9a07d66223382ce7a",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c17-s12.png",
+      "size": 19339986,
+      "sha256": "b1c42b335805033be447d89ed2016d75cfd8a974d9980b9a7100da5b29641dc1",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c17-s15.png",
+      "size": 18018805,
+      "sha256": "99b6e61ed6159a8011fb3358952de4d6c6eeb8d1c5a3133ad622d06da1003842",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c18-s00.png",
+      "size": 10246268,
+      "sha256": "73727e9462b7f8fb18c47eebfab02e8731699645dae9038b111fc609eab7bf96",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c18-s01.png",
+      "size": 10464518,
+      "sha256": "2649cba11f29de26d7c6fb43e4938d7965758c835c70feb9f0375483d6a1101a",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c18-s02.png",
+      "size": 9494712,
+      "sha256": "46b7950024ad7817fc20b5340c8c016c6aaabb719a5cade1c5eb4fd3dee2446d",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c18-s03.png",
+      "size": 11110069,
+      "sha256": "75b8a6370d8b11f7d8cf30dac22e4399c9c1ee4c9d2423d4067067e46643e128",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c18-s04.png",
+      "size": 10005056,
+      "sha256": "1252b304009be56a18f0ee98f1e4f48051879b181bfa40a6e78f6f24d80e36b6",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c18-s10.png",
+      "size": 19232739,
+      "sha256": "2fd3a01ee8b90011106bf065a710f115adf34bf1dd84ceb7b427ec9ffdaf640c",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c18-s11.png",
+      "size": 19314001,
+      "sha256": "e9fd0b3192d392a0f3ce8535b872ef73e60c93fa4631fc1e642c8f064f768d2a",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c18-s12.png",
+      "size": 18024632,
+      "sha256": "3485fb5ecb5e9913bc5aa04cf99d22b99007a419520bbd64c5d9135d019ea62c",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c18-s15.png",
+      "size": 18009077,
+      "sha256": "0f64fa618d93e560f1290431220d30bb9c323fef0734bbe7241708e105a7f1a3",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c19-s00.png",
+      "size": 14493466,
+      "sha256": "3be685b00defc912e1b35f33387e722d858ae70c12b6b7c4ef1dee038055a315",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c19-s01.png",
+      "size": 13307550,
+      "sha256": "bbc15451cc4ef5e6f25c7d9c3138474624d688106aa5a96d2ef4c825639536d3",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c19-s02.png",
+      "size": 12875304,
+      "sha256": "b82c4c070a3cc72d8add50bed3f6a6d037cd35f82959d60f6e98aedd228a0236",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c19-s03.png",
+      "size": 14424385,
+      "sha256": "acb527dc2bbcfbcadd2e38fde2e17e963ccbd99105fab61a82de10bd09136007",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c19-s04.png",
+      "size": 14245640,
+      "sha256": "14219977c648477c2f2d693bfd1e07768b04a01f7c0f85fb1b76fbea3a409047",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c19-s10.png",
+      "size": 19330669,
+      "sha256": "89266a6110d6b1d4b21d1dd9f29572cac8a499c8a4c70ba1d2a5139fff5a12bc",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c19-s11.png",
+      "size": 20373186,
+      "sha256": "91860368d10a1f511d8c0ec39e507ed3df7d4315abdef24e9b3d1e3f93105292",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c19-s12.png",
+      "size": 19275611,
+      "sha256": "1b60671c0ca998076a0d3c0da2edfcc6e45d6be0202018e5ccba4327255f2839",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c19-s15.png",
+      "size": 18970997,
+      "sha256": "5f60eb2a6793c1eab9262a94e7aa0df2c6b71b5b7ef583845da7b676573088f7",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c20-s00.png",
+      "size": 11246772,
+      "sha256": "6ba82a39aeb08bb3a4d32110b28b1daa56fd1cf457bc31a26cc62e4f11077a87",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c20-s01.png",
+      "size": 10821604,
+      "sha256": "90bd7584659dd54a71c35a65870341facf129978422d817a12af143287307791",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c20-s02.png",
+      "size": 10090981,
+      "sha256": "9196945ad7117258df1d6e22bd905def1ac2d08682a39acbbae42ea8ec57cdf6",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c20-s03.png",
+      "size": 11187111,
+      "sha256": "2dbd9ad64fe7ff1a7e03c1be7f2593e85bce3067baa1985490f75a281c49d2d1",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c20-s04.png",
+      "size": 9621041,
+      "sha256": "3b5b730085b2db65e2b56d48f15609c4b5531cea57b1a13427d64af23943937e",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c20-s10.png",
+      "size": 18261651,
+      "sha256": "9231ffd424ed260df3c7ea3623e5f17ba222599d06c6165a882890f48521977f",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c20-s11.png",
+      "size": 19838829,
+      "sha256": "11c0271416f99912289ac99d06a6336749766c4b656b216d80d3e2ba7c48077c",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c20-s12.png",
+      "size": 18423872,
+      "sha256": "a42ce1b016ce2e97e68562bb2f29b63960a9ec614df9525a05ba3f87fe4c58b4",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c20-s15.png",
+      "size": 19127317,
+      "sha256": "f8d849585e3407eb2c7796011f260d1b083cb4998cf885d3d38276dac9a45398",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c21-s00.png",
+      "size": 11134543,
+      "sha256": "9b494a0da845194b481a395e9497c9533614fcfbde3862554ec24fb702e039b7",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c21-s01.png",
+      "size": 11505590,
+      "sha256": "87a624675d42ba5a7eb6b8231ea5549a0ec83dfe11ab2dbecc095ea596df0acf",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c21-s02.png",
+      "size": 10132222,
+      "sha256": "1baed6c09148ebc5fa180b9df72c8d99a5ed412de3479da8dd6bb0b25a44f551",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c21-s03.png",
+      "size": 12490584,
+      "sha256": "af403bd72966d0e6ff1810358a8bbaf9afb5249633ef916fb43879851a3ff2f5",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c21-s04.png",
+      "size": 10572744,
+      "sha256": "f19cc202d596b933abca64949baf51d0da8382090682cd93e8c8fb3e8bc731ae",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c21-s10.png",
+      "size": 18803146,
+      "sha256": "95d05f9eac5ae34c6d9cede881c41a6d197add24170059ea21c52842a754525e",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c21-s11.png",
+      "size": 18752838,
+      "sha256": "ffad42411034d0b44d3b2d1334228f4e686195401abfcc78124fafd15390c051",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c21-s12.png",
+      "size": 19345288,
+      "sha256": "afdc6ee2cf7f290861e0d22605a5acf65511e162c567545cc96347fbc5715b81",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c21-s15.png",
+      "size": 17861826,
+      "sha256": "389a777d1eb82a0fbef1c903c19789997b2cb018b569cb61fb2dfc4e2fec8e6a",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c22-s00.png",
+      "size": 11770303,
+      "sha256": "77cd046710c43caf36508b94115c39c6947908815df70d3546b12b35e69eff22",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c22-s01.png",
+      "size": 10776083,
+      "sha256": "eac5abf0b63a5d4cab16e80954ecfcb18fd4bdbd39af8908bea4994102c78f86",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c22-s02.png",
+      "size": 10782386,
+      "sha256": "b2bca0082b8b5708a8ca60013c17be90d28b80be65401f56edb8e4013c5d5549",
+      "archive": "ta_kard-art-4k-03.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c22-s03.png",
+      "size": 10004159,
+      "sha256": "5554e60fd5981134e777baa2810ecd32e2540db0d4393a07890890daf718185f",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c22-s04.png",
+      "size": 10956950,
+      "sha256": "69036c1e4aadc12624be653aea097b21a0f7aa891b4c88db109bfccb84456088",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c22-s10.png",
+      "size": 17800274,
+      "sha256": "ce97bf87f565f0bc2cc38303a63317009517add347c5cebd42af0323851bf0a8",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c22-s11.png",
+      "size": 18821242,
+      "sha256": "6f1789efe27dbe6fed3f26d25fac800ee1f5eb7a4a1d0686122903db250230d8",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c22-s12.png",
+      "size": 19006415,
+      "sha256": "3a0ef22fb2267b727f61f9c17af5c8e8f4988abbf193aeedc64d43d740feb11a",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c22-s15.png",
+      "size": 18322321,
+      "sha256": "12ef49aa2690fe05ef36a5a9f2f877ae4c4d1f716b99f91e2776978b9a582d14",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c23-s00.png",
+      "size": 12172642,
+      "sha256": "0322271e8d476d1e93a57e02bf4ea30fe89267258aa14293610a036cc97925f6",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c23-s01.png",
+      "size": 11667338,
+      "sha256": "8b0cdbf4dc97f5bf4afdb9d8212cb8ef5dac60f0f1ad35d3fd8be95efc9879a6",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c23-s02.png",
+      "size": 11882664,
+      "sha256": "a39970708c016e4ce2bde76326c622ebf4f7a9d6512de12db3ff9aae8e315654",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c23-s03.png",
+      "size": 10592290,
+      "sha256": "656f1af666959501f32873cd98e591ccd15268c8848ef73e3cd7333bfb3f304b",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c23-s04.png",
+      "size": 10830722,
+      "sha256": "6d7e69b17dee199ab9e53273986d4c7f30dd074b50e42cc387e3c11a9328ee20",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c23-s10.png",
+      "size": 18571285,
+      "sha256": "61c42d626e4c0f49fb5da38006a636c8d9aca9c0089670843ac5c74d59dfac5c",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c23-s11.png",
+      "size": 19228255,
+      "sha256": "d61a4df4e4c7abbbc0747c75cf692872eb87f2bc9271b51eb9c31e19a3008599",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c23-s12.png",
+      "size": 18730583,
+      "sha256": "f9f96e27c21fe353dff870023ca88ad52c0fbaf3a19abc169462968b95c70bd8",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c23-s15.png",
+      "size": 16570747,
+      "sha256": "001838014d0a64890b24a19de86956358618ae6d1524bf92a5a7092c5ff8bb1b",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c24-s00.png",
+      "size": 14165259,
+      "sha256": "15cce8e6287088d25a46e7a2f6133ce4457f44d79f2ad890c99212765767a26e",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c24-s01.png",
+      "size": 12403281,
+      "sha256": "0fa7849c356e44c275c1ca4456085e757087e2d6f983bb3678bec2df04c4e4fc",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c24-s02.png",
+      "size": 13545243,
+      "sha256": "86dbec44da7ef38fceb69c2c706d10e08afcfebd4b97d7c3aba0adcb95cd1754",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c24-s03.png",
+      "size": 13321591,
+      "sha256": "e249506cc23a5f104c65be35d607180fc861f5db61991b8763eb5435a6aaa141",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c24-s04.png",
+      "size": 12670342,
+      "sha256": "8417c5a90b02434103798694e8ab5df3c68bb454cbe97dce2a5830bf065fd18d",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c24-s10.png",
+      "size": 19151151,
+      "sha256": "26adcac8918b646972933dbcf2768e7e3c9d95014eb47e2fb7b8e37631fbada1",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c24-s11.png",
+      "size": 19379026,
+      "sha256": "e4b06cd16165366fcc1d5ff02619541256e5d078ff145272bfa8e5d2b541f3b9",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c24-s12.png",
+      "size": 18592256,
+      "sha256": "04d324adca0b19133946c3a25ed6ab7acf3414defaf54e78c7ca9608c167828f",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c24-s15.png",
+      "size": 19846263,
+      "sha256": "60bc518b78138071c04358f635f8bdacf6526ccf5e71a092ba360bc2fecd67c5",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c25-s00.png",
+      "size": 13895225,
+      "sha256": "79865950e44d64368cc8bd5dad9ad998b345faa3f946db10f63450e1e392ede0",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c25-s01.png",
+      "size": 13720085,
+      "sha256": "f411b3be9aaf12cc0f6eefa6a82e0f3c1a3d59ebec139b86b348183746a273eb",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c25-s02.png",
+      "size": 13649468,
+      "sha256": "e95b4cd6b32786f22d48e0410424043b427a54ff13d9fd662d69d5b6a393dff3",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c25-s03.png",
+      "size": 13715032,
+      "sha256": "8cefc0770f401ed5a3ba5441b460a527dbd62410ca6a2b98b88623188e3f2bd4",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c25-s04.png",
+      "size": 13467127,
+      "sha256": "13e2a4add5cd1ce505bad0425a2622cc61c5713be00e7de4d73aa87ffe1794b3",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c25-s10.png",
+      "size": 19340968,
+      "sha256": "7f569d5badad2a864bb799d26ae874dc0f647c7d0843c69c9e62353a0ab84dcc",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c25-s11.png",
+      "size": 20702664,
+      "sha256": "e273e94dbe52165ed57574cb236f2cfccc1d65f746feb897f414e9bdd264726a",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c25-s12.png",
+      "size": 19628781,
+      "sha256": "0ef4da5dba87ffc9b53eb561f320bdb1d83a670efb58bf00dbf6c901e6dfe97d",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c25-s15.png",
+      "size": 19917889,
+      "sha256": "b3bde7cc7efb0d983b11f52997595641d7ef5f55b57a6dcba232d27513123e32",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s00.png",
+      "size": 12854538,
+      "sha256": "832beea27239d5bcd8c0acc36e3dc3c34b32485ad54e8f749f3e1556fa05f7a1",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s01.png",
+      "size": 12491437,
+      "sha256": "76f2fbd6c431003e27337c5b68794c577b20b120e64a51a536e78faf012584fa",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s02.png",
+      "size": 12767966,
+      "sha256": "22ef8209019323074fe6cb04392afb193434a5946d6cce22ee517d9036dba311",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s03.png",
+      "size": 12790319,
+      "sha256": "0d87733e95abd1222f8a59e3e500ca02602f2456a5f90e296410ce5da0b323a1",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s04.png",
+      "size": 12955030,
+      "sha256": "ee2134e35f829c3aae77f066c9db2aba7d9902c2404307119ca39e1b39868359",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s05.png",
+      "size": 15734091,
+      "sha256": "33e774d672218724193e3b76468bc04337b06c97d8c0c6305aebbf76ee4df268",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s06.png",
+      "size": 17356231,
+      "sha256": "5b14f5a979e67ccbe29de0e613193ed19404978046883bc43ac234136852c2d8",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s07.png",
+      "size": 15462199,
+      "sha256": "989eedb91cbc22d670a7040162149e361137c3e923e6b22e6063f17024b9c333",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s08.png",
+      "size": 17868018,
+      "sha256": "ed7fc861337ae74059ddc651bcc8953df96f856bca35a39121e28ed3ddc27aed",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s09.png",
+      "size": 15765193,
+      "sha256": "3c0b9049f8cd07e082e69bd07975ab947e225ecf6f98cc0e6eade9778dcbcc47",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s10.png",
+      "size": 20113668,
+      "sha256": "9ffdf12efa4614ea63db35310587b56baf913d14a9eef7a914878f7a7939eddf",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s11.png",
+      "size": 20221929,
+      "sha256": "f593bbc218b107e24f31ce36d341a1e353c09d597ba3e888bf0b36ad43a6b057",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s12.png",
+      "size": 19453824,
+      "sha256": "493a4d5c80f3cfdb2ed311980116229b1014d4227f14659f022727176db785f6",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s13.png",
+      "size": 18272863,
+      "sha256": "0c83afb3c6229f17df87864f54743003359f0e3150fc4a533f17d41ad8535ea4",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s14.png",
+      "size": 20457644,
+      "sha256": "d64fe5367de1992ed96609668287c720c97f3cbdfb60535095f2ffae4febe907",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s15.png",
+      "size": 19729691,
+      "sha256": "f04580158045d89098ca10453c8cc2efc6e1c0ba4641b468c9ff791245103046",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s16.png",
+      "size": 19659088,
+      "sha256": "8e9853029e4489d5a26e91e7ff88fb16e3732491d4c09bb64ce54cc9d1844eb9",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c26-s17.png",
+      "size": 20692191,
+      "sha256": "49b38af88582627b8116e1577f3bd01d570117de2b0d499c7313e59276173f9a",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c27-s00.png",
+      "size": 12257312,
+      "sha256": "2ba770bbbe53ed78f0c167dd8a40518cbb3ca55d8578022119d0a35657190825",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c27-s01.png",
+      "size": 12338283,
+      "sha256": "1a1b29428160c7a237185f5ef8e7addc47009b1ce5a814ae9a235c5b3c053d5a",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c27-s02.png",
+      "size": 11474360,
+      "sha256": "44d8556b8473de880d06fa47a7d5d04be02255e887297a522f199cebcd51625b",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c27-s03.png",
+      "size": 12431093,
+      "sha256": "87d53db37c78a30ee21d78b337eebe58a330d4c973f98a6dc0cdb6b174627383",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c27-s04.png",
+      "size": 13219528,
+      "sha256": "c06f4cf140f98872cbd5b2b824ed63d6ce11050f7a647f7120074a9c479edbe6",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c27-s10.png",
+      "size": 18578288,
+      "sha256": "b581f98634d1ec59462f7dbab8cddebae98bdbfafce80c8a207acbbafde1ac07",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c27-s11.png",
+      "size": 20061745,
+      "sha256": "84c255ea19536b92fd865db296f380bec9394d715a19ca3522b7cf1a1bd12554",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c27-s12.png",
+      "size": 19678987,
+      "sha256": "d3596a25cbd2d2afbde510e1d61a0c303a87fc854f5ddee1267e702102d703dd",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c27-s15.png",
+      "size": 20502533,
+      "sha256": "84d07691b2cd9c6e67ae2aab24b6a0f13078d11f8749111a2f978f3c0a0c65c7",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c28-s00.png",
+      "size": 14612782,
+      "sha256": "3a41cacc914c7ecfb72cc787708e00187d940e74d6a5576a3df5b555bb22e39f",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c28-s01.png",
+      "size": 14452348,
+      "sha256": "f62207d6a657aa5d8f68e0c4f300b10b94c54f3d0f917fb8ed291cbcb5a72fc6",
+      "archive": "ta_kard-art-4k-04.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c28-s02.png",
+      "size": 13749050,
+      "sha256": "a34048a1ae9621ec6302aed2db9a0acd5e20b477836278ed6631c167fbfd6557",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c28-s03.png",
+      "size": 14309634,
+      "sha256": "7ec36140ad0b54989ca73ef4152442e229bee318cd4d953ecb43129140913f2f",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c28-s04.png",
+      "size": 13713388,
+      "sha256": "cc3c005f40cfa7176b7b0d012c867bad1fd9dc85d9020582f693bee2cd993b1f",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c28-s10.png",
+      "size": 19573975,
+      "sha256": "63b74d7aa4217332387b41550c30852dc1ec807cb72bd8ace7ffb46f6d743194",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c28-s11.png",
+      "size": 19790956,
+      "sha256": "6f094b44e8254fa321a0c94718114f9eaae4552b5a04af4a51aecd169bb2920a",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c28-s12.png",
+      "size": 19492412,
+      "sha256": "e07c26fd4e5e609edabc5a9900cde6391d86005cbadf9ba0de6792eb9284bba2",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c28-s15.png",
+      "size": 20609433,
+      "sha256": "c4b031600b62c54bd645ee0d580399bd1abc9935aa1a5bc71666e27fb077bfa4",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c29-s00.png",
+      "size": 14670945,
+      "sha256": "97b89849ed21213203606caa0a1e3851feb59913fc478af01f680426158ddd6c",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c29-s01.png",
+      "size": 14134498,
+      "sha256": "5ef5b5f27d3563904a44d743bcb62d90a858f6bf86f183ab9b93618ca094d777",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c29-s02.png",
+      "size": 13511579,
+      "sha256": "ac81ed3fd359f79d9248d825e81d06c176a7f232b698e54fc0eb90850ea46515",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c29-s03.png",
+      "size": 13635804,
+      "sha256": "12926dd795c4fd18ec6e1ae277daa0b753cf486747eb9c6917e5c523100b59b6",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c29-s04.png",
+      "size": 14432964,
+      "sha256": "2786df6dd06ceca330c2c397d107316dbee2811a359b27360fade673315ba0fe",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c29-s10.png",
+      "size": 19117004,
+      "sha256": "df9a5814d06d41fa0051ae3944f719af86b5cbc6ebec4645585d6c9939b27141",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c29-s11.png",
+      "size": 20213816,
+      "sha256": "7398559e3c82ce923227630029026994166baaf8aa522f2a9e973df694cafdca",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c29-s12.png",
+      "size": 20077395,
+      "sha256": "1a1e9787524b178d7eb59418dfc3386abe29b6018514e14c92bd877946624501",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c29-s15.png",
+      "size": 20614160,
+      "sha256": "ff662a97bba75c6b8a77e96a1d288fdd9a49a887d1210cc011b981097a9a5d9b",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s00.png",
+      "size": 14057484,
+      "sha256": "ee75f7fa19fab186655e537d9a14fc7553390bb823d97916bf572784b30fb465",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s01.png",
+      "size": 13304571,
+      "sha256": "b2b826509686437134b8d0c140ab9ed5f2c581a858ab9e4e779939440effb1e9",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s02.png",
+      "size": 13035685,
+      "sha256": "365351aed594f7ac5c23d559214744f97f9866fcb4d4bee057d2e496ae11317b",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s03.png",
+      "size": 13070354,
+      "sha256": "762319d9532f0ee8afe264a7485449ab11ec526db93fe5077b781faded611de1",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s04.png",
+      "size": 13845539,
+      "sha256": "0748580790fcf48093757aa0b4b0dd6457a092e972e1482cc919316927fa899b",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s05.png",
+      "size": 16511055,
+      "sha256": "781feee3bc4049471a4dcd4ffcea4bb5a5f3a4591f6eda5ff1403f1152f5e48c",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s06.png",
+      "size": 15565560,
+      "sha256": "6db7fa72c2a8456bf5cfcd80a676bd97c8c9559bfbb289cc2cf654c6422a8eda",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s07.png",
+      "size": 15889344,
+      "sha256": "956f3135dafa01f6401e7b94a278069dbeabd95068bda29d9be54b685bdfa2ae",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s08.png",
+      "size": 16618720,
+      "sha256": "5bec29b82412c072d84dfcbd45f2aa87eb0d7b56b6ee25f4e1ef32a6f9410531",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s09.png",
+      "size": 15627497,
+      "sha256": "4464800b72baad2a7ed1d17a9d56d772b7736dfdaaf319e31e1942ecdecd8ce8",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s10.png",
+      "size": 19381472,
+      "sha256": "25bd1be15887727f750f48d29dee5b82cf84fe085a540be96c5d19909dfa86ff",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s11.png",
+      "size": 19665228,
+      "sha256": "eebc704c85353cbac5a191ccd76ce57dc9f2ea259d34e662ef3a246e7bca66dd",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s12.png",
+      "size": 18768565,
+      "sha256": "c674aa68e974dbb27b9069cf496bbb2f0aaa1070defb9fc185f23c9b87ff5fa9",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s13.png",
+      "size": 20680389,
+      "sha256": "289170beaef4c12f9dc9af00eb13783ae6aec7d067fb7a40a6fc213b834b6119",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s14.png",
+      "size": 20051364,
+      "sha256": "3431de32c0626aec7cc20c073a9f417d8b422e3493f44e0b4d5c7ff86905f304",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s15.png",
+      "size": 19737982,
+      "sha256": "bb3646fd77591038bb4ce46558e5a5c1e817ae42067ec6df50b7e6ade19d4e26",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s16.png",
+      "size": 20443634,
+      "sha256": "397d04463b45ba5cd8ba90bee4e3c1779fd326d55bbf387503eb3f839050f3b8",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c30-s17.png",
+      "size": 20676091,
+      "sha256": "a0f093d0d77d456ec6cbdd881aaeaba3af1627ff5a47b84040957df350ca438a",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c31-s00.png",
+      "size": 14324678,
+      "sha256": "39a27740d5ca649cbe73e0ec8ae45283567f9e26c549ae5b8918f3a1c8eca141",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c31-s01.png",
+      "size": 12102251,
+      "sha256": "75fd2491aa7ccf4fbfc38b568302652eb3310ec544f34285770498391a41f8fe",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c31-s02.png",
+      "size": 13068793,
+      "sha256": "eb797fb2dfa10672de4b263801747762a8e5e0673cb07428bef5cc1741d9f87d",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c31-s03.png",
+      "size": 14015922,
+      "sha256": "894d40424b066457feb75245770c6df9291b74488ae365f4d5aa92668f6f35c7",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c31-s04.png",
+      "size": 13501318,
+      "sha256": "cc279d6009a8aae96fddc62618d513fce79467840071e035d2714bed3cdbbe30",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c31-s10.png",
+      "size": 19321082,
+      "sha256": "3acc64f02d51a8f8ce7280b0141c90ffb1314ff51766a3c0b490e6862f1bdf9a",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c31-s11.png",
+      "size": 20101874,
+      "sha256": "eb9b4f0711001297f4ebe4df134f0c201a28df90fddb107db056710c74a212ff",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c31-s12.png",
+      "size": 19776083,
+      "sha256": "938a0e12f79c876efe54e5bb57f74f0ad9f9a0f3a9e3eb17baea608e0ba28f63",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c31-s15.png",
+      "size": 20386488,
+      "sha256": "b0b0cef6bbb0027e8217991d8bbb727978f28bc87eac636c01ea65503ff49b48",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c32-s00.png",
+      "size": 11680727,
+      "sha256": "9acfea81c41415287c6b958f783383cc357dd6089de95e593b60067e8e5ca700",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c32-s01.png",
+      "size": 11369522,
+      "sha256": "8408c7c2f151b56b76094789eb45eabd5b86d9ed9a62ac79e9a25911e106dfdd",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c32-s02.png",
+      "size": 11227915,
+      "sha256": "10934e30f4951131bea9d0f5de6c20cd6a8ec814345ae796091852d9e8b6ee91",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c32-s03.png",
+      "size": 12218217,
+      "sha256": "d72bb1776a6979528b702ff7403a0c2c3c9e538bddc7f4adf20f8e87de46fc15",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c32-s04.png",
+      "size": 12183330,
+      "sha256": "15fe0f65835c56b553106e0402e30c6667acee32c2e2fc79a6e7464020b0ffac",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c32-s10.png",
+      "size": 19416144,
+      "sha256": "cbc85bc3d8fbdfebb09199e6fbf1703959957b1985ae73014bd3ba9068c765d3",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c32-s11.png",
+      "size": 19411220,
+      "sha256": "58d8198358ec4f38905db70c1ed78b3b890495592a86faf09aca7acedc949ba1",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c32-s12.png",
+      "size": 19462166,
+      "sha256": "9a166109acf8d1e1329d9fe77a17b7c6d1b931ca4bcd371276ee1e77581318a1",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/4k/c32-s15.png",
+      "size": 17609092,
+      "sha256": "5207f377f3c9ebe8dcf67562f4a30dcf7cb66f7c51016a2f1bd54cae2cfdcadd",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/desk-detailed-4k.png",
+      "size": 10175949,
+      "sha256": "45bb75cf1b7838cb82588cfafa9d16b55384e9ed96d80c027e019ebf4a3f5064",
+      "archive": "ta_kard-art-4k-05.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c01-s00.png",
+      "size": 2332745,
+      "sha256": "0ebefb7ef0e74a5c7993081d5b5e537c84204b0cedc05af7d0263b99edfb80ab",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c01-s01.png",
+      "size": 2370880,
+      "sha256": "d9b5f5b041e54b22a4760c5397cbee52bba4cde0d19abad176cc39c4a5ce32e0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c01-s02.png",
+      "size": 2377658,
+      "sha256": "2b97b0d1a36638fb7fac2fd216b118b5a864b97a011a0ff787241f9d4b9765df",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c01-s03.png",
+      "size": 2328698,
+      "sha256": "4eea18e0a3f22536fae0b0cf641194944ac37543ad80efb4ba12e7541272a7eb",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c01-s04.png",
+      "size": 2192295,
+      "sha256": "b9ad8dba148bb475a1119fc013823a316f2262841b87691ee1e6c20adf1c7534",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c01-s10.png",
+      "size": 2821189,
+      "sha256": "f1dcec045126bba8e2af0f47673614d2db6c4038e3f6f762cdbc873dfbcf4572",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c01-s11.png",
+      "size": 2864626,
+      "sha256": "6093191927d1882f62a8f42e62c0dd1c9cece7be69b7ae3eeeeddac470da4753",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c01-s12.png",
+      "size": 2628755,
+      "sha256": "4743c7c05da86fde94072fd1fc353b5d2ebed4a7d00b69c1ef89c0e38a47a501",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c01-s15.png",
+      "size": 2867306,
+      "sha256": "1b87b7d547aa30129dd793291eeeaafe2fec9579e359093f09c47684fc78f96e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c02-s00.png",
+      "size": 2487669,
+      "sha256": "c8acd56fa5343c4e719b18d2d61dbc1310565ddc590d0fdd2f307aea00629483",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c02-s01.png",
+      "size": 2348035,
+      "sha256": "7721492a673d71addde8e0bb635a2f035abf741e78c3bde7ab7629e05b99b2ce",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c02-s02.png",
+      "size": 2462345,
+      "sha256": "dca7c3a2fec4ef5a02760213c41e9c2032257ec47cdf6e5efabe3ada3f9b81cb",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c02-s03.png",
+      "size": 2486089,
+      "sha256": "f2dc1e313c30cc5306d4a1432fb8d6a23f43105d2e760a87502c5015d051d383",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c02-s04.png",
+      "size": 2554450,
+      "sha256": "6e0fa69e01788a2d9734222e7490fdf558bf0ead3cbc3c5dc5730b090fec37d0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c02-s10.png",
+      "size": 2916273,
+      "sha256": "1c6b98acc4de233fa6355a8a76c65d16b9d1543d2aa8fbaf518feb3a737ebff0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c02-s11.png",
+      "size": 3029262,
+      "sha256": "932ef48346f74fe9d5065820e054411595c03a96e1954df13e0d517136e6ac95",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c02-s12.png",
+      "size": 2888810,
+      "sha256": "577a4e449b8217ca2e0e8a2fc7459130a8060c45b8a59ad1a29b3c656c355835",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c02-s15.png",
+      "size": 3066460,
+      "sha256": "f8aa2cd2e96005362576e38f2e39c9b1a6252a949e563d4a24777ce28df9fb1c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c03-s00.png",
+      "size": 2293139,
+      "sha256": "07a3db1086e655669ef4a178d188246df86389739f8b470ab55429d249d636b0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c03-s01.png",
+      "size": 2287554,
+      "sha256": "4db758b6bb4f8200ac8046b02655e1392a3a3ee55fd23a7c82925179c45dcefb",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c03-s02.png",
+      "size": 2370463,
+      "sha256": "9cce4c4f14ffa2c289b6c29738ee8ff53e1ae706cbcd8c96c1c6bd7d08b6eb58",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c03-s03.png",
+      "size": 2435227,
+      "sha256": "18d8adc24b5037010404a9f8d9c38da24285be74f908fb4e7e3cae5b40c05de7",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c03-s04.png",
+      "size": 2341039,
+      "sha256": "7881a56cbb1bad13db06897aa528529c6274f584805cfd9c162ffdf42f9f3f2e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c03-s10.png",
+      "size": 2837159,
+      "sha256": "3a33ca99edf6f4152141e86ebaf1761cfd3b12f141a51362a559b921ca1b7de3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c03-s11.png",
+      "size": 3019243,
+      "sha256": "bb1ff036686a623b4255eaf4cbddc2670f268701468020a69c623f325767ee07",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c03-s12.png",
+      "size": 2638223,
+      "sha256": "2ee3115be17ac0b092e6b6a734c7aa6a889e8037ccf75aefe7a5cea96b2b7e37",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c03-s15.png",
+      "size": 3011120,
+      "sha256": "69af7dcbd655d2d70b648414a51b2f225e736857a37e1c37de332fea86033fe6",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c04-s00.png",
+      "size": 2547201,
+      "sha256": "edeb6d702d14f48239a90faba9ffc3310d14e5bee60cd52f04598327685c687b",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c04-s01.png",
+      "size": 2297011,
+      "sha256": "899626bb94d505e2b9cb90685fdbb258567518b55bfefe1ca9150d9737a1302d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c04-s02.png",
+      "size": 2465215,
+      "sha256": "ac6dcf5c9b8fe64d6be4724ecd1ef417b8fba2dabe0619b1bc006d8cbefee012",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c04-s03.png",
+      "size": 2409549,
+      "sha256": "07ead2d7d599ef53972adf5a78169191d4a33002d04114d182cfb6badb613435",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c04-s04.png",
+      "size": 2485077,
+      "sha256": "1c42c862224704fbe5aa9eb4d904cc212ef4f6ba7e11d9c278d2cb66ef4d0299",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c04-s10.png",
+      "size": 2726194,
+      "sha256": "89d74805833031ca387591685d36bb2921d28dad42b1cbf72f769b4d74b3c44c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c04-s11.png",
+      "size": 3073710,
+      "sha256": "49bc33b0fc554818452d75656fce2a79fdece62ef0150fba12401b8a95664c22",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c04-s12.png",
+      "size": 2584694,
+      "sha256": "63c88e840ef96236d2256efa71008cfd3a2411d410b8428ba29c7b79b45c2464",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c04-s15.png",
+      "size": 2592149,
+      "sha256": "e0a43f20b316f47e17242921c939ef752938e8020aec336595b943d0e90eb091",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c05-s00.png",
+      "size": 2523859,
+      "sha256": "545d4b895efd052f7e12db386c0aa5e06c60da47fddb121afd8d709455d9901b",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c05-s01.png",
+      "size": 2531102,
+      "sha256": "8af95657d27dcc47766e5b37ef42e54e3b43bf31045e3ceb11e9ff8a55d97907",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c05-s02.png",
+      "size": 2480038,
+      "sha256": "c79f4504d60f064da557f2982763313aa79840bfdfe0de49542a02ca1ce73a04",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c05-s03.png",
+      "size": 2661552,
+      "sha256": "00894d6d37324f8022ecc1859ebbc5d2b9a825eb3625810a5daba944a60a77be",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c05-s04.png",
+      "size": 2549035,
+      "sha256": "a79477b5219a1cbdd7aa58fb7fe389408831fbf5a14a64c71e87d4d9a21ee321",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c05-s10.png",
+      "size": 2981938,
+      "sha256": "f1cb4ac66e2491aabee02cde83dca8b772b6239930bf0c44d91e68ac52f57f77",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c05-s11.png",
+      "size": 2998211,
+      "sha256": "e880b7bac3888c3e815e173067177b278d983587e3a5fd1868c3b50587027528",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c05-s12.png",
+      "size": 2692492,
+      "sha256": "ec6e9e9f6080e431e5f5daa9cd771884d4d6f6f40f557ca35917fec24193f7dc",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c05-s15.png",
+      "size": 2919891,
+      "sha256": "0d5f8bb36582c38a690ca1b58f105be7ed1a261697c2cde9d83f0c999cfc06cd",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c06-s00.png",
+      "size": 2532781,
+      "sha256": "f49769a8826f4c55c4f487b2481379c7b4e98472d8f0884864b054e20bb48de9",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c06-s01.png",
+      "size": 2398250,
+      "sha256": "4ffecf1500bf1771002e1d4afae1e23a9fb2360d4df40683bf9dc838347ee6a8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c06-s02.png",
+      "size": 2345840,
+      "sha256": "ffded8b315b039e34feab5f7776196b3ea976448400f5f7cd13a4bd36a8349ea",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c06-s03.png",
+      "size": 2437820,
+      "sha256": "1ddb4245fcfe54163055adf79b4b5bd9c3d2c4aa58176f448ce48188476c13a9",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c06-s04.png",
+      "size": 2495219,
+      "sha256": "faa91a26d4fa4931c00d5042d06811b4d791aeadef4effdb2d352e2e326b4d54",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c06-s10.png",
+      "size": 2722944,
+      "sha256": "683485b53f4d3b6b18732599e28194a0e033a57f52889bf5a699fbaaa580b054",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c06-s11.png",
+      "size": 2962576,
+      "sha256": "89b5e669d59679276181cc29bd6c8db3126ee6f4542523f6f824bdc84ed4b7f8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c06-s12.png",
+      "size": 2709511,
+      "sha256": "18faa3b2cde5d781a69b448a75ba9aae23774b3bda36902252f52c5e36fa8d62",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c06-s15.png",
+      "size": 2978623,
+      "sha256": "9e0ce1b9b9b0969855dd385707866d3389ef7d859beb282d2eaa707cadfe8d9f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c07-s00.png",
+      "size": 2567978,
+      "sha256": "90530e177976fa2f561fc581c3784653ad99852afeb8c08a1f8c9136d4e890ec",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c07-s01.png",
+      "size": 2477036,
+      "sha256": "73ad0ed3038c080060f76525640247feb66559cf242fc62e3ed55f2662e091f8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c07-s02.png",
+      "size": 2540538,
+      "sha256": "c3f7c4eb324414533f284171963ad57636652805a99048712860420f46edcf67",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c07-s03.png",
+      "size": 2624459,
+      "sha256": "635f1050fd08135f41f75dc9eaae9a04aa6c7884795083d01ba14ab507460351",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c07-s04.png",
+      "size": 2596925,
+      "sha256": "6c736348c709efbd5e4e66fd5e8bf04877f7a2a03780433a176420a5ff6d1fe3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c07-s10.png",
+      "size": 2784711,
+      "sha256": "8e8fdf86d297248feddf2151f21bb66c5c04f3d8cf0cb284951728b68fd93319",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c07-s11.png",
+      "size": 2892226,
+      "sha256": "17a5c1e40b9a480b627dca02479d6e6c21cdd7f5129caf75fa2f01d5df871eb8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c07-s12.png",
+      "size": 2748974,
+      "sha256": "b81a7bb57b2951bb978de4936b45b3312d93319ce294a65ffce54cd72dfd0569",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c07-s15.png",
+      "size": 2910456,
+      "sha256": "ceed167c6e626b5a4f17c4afdeb9258d9e37dad9ddbc49f38f7555eea8efabb8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c08-s00.png",
+      "size": 2479698,
+      "sha256": "e33050434c91ebe8de0ed7ae5aafa8191b4b3e52f7f624694ea04962bd57306b",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c08-s01.png",
+      "size": 2354645,
+      "sha256": "be35c48d74c96849774226b598ecde6d27580aed8f68f5e95e4e100722082a9d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c08-s02.png",
+      "size": 2337321,
+      "sha256": "694fda8471ead26a7e45f6de6f7b0f04fbc06b55e835c9a536ef35af7d293da1",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c08-s03.png",
+      "size": 2550866,
+      "sha256": "0df8a255bccf73b13a99953609a2c8306b0aaa5173e530bde53cd19e8d150ee4",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c08-s04.png",
+      "size": 2655295,
+      "sha256": "43a23616e34a72d46190e519b296baf736d7133e9822c72c86044ac8e8e36636",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c08-s10.png",
+      "size": 2840164,
+      "sha256": "e26e271fa0a56ee10dc49afeb4fc640e2404a06b6c3e6a762e109fded2ca1980",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c08-s11.png",
+      "size": 3212032,
+      "sha256": "08ef538cfb274ea5d53f54ab477b25caa3c4f144ab7e49a301f8433a39477449",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c08-s12.png",
+      "size": 2893857,
+      "sha256": "3c9ec87a90161a5af194c99d7683386a78b8783dd14f816f0016ac924f432cb6",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c08-s15.png",
+      "size": 2965928,
+      "sha256": "2ceb5f2ddacc6305f14592d3a99e0bf0607cc2dcac20940336b99080a5adfae5",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c09-s00.png",
+      "size": 2396239,
+      "sha256": "4fd0a6f8bf7f9ef6c6bb418b74d830cbca40052b190434e8b81c50f39ca267fc",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c09-s01.png",
+      "size": 2404306,
+      "sha256": "78b38a3058da64b363bd95a98782e10d26441ee7f8b321154e9b7c8c66c4c97a",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c09-s02.png",
+      "size": 2324074,
+      "sha256": "77e5d0426e20e8c60727932199d8a11125ba2c1c9102bcff0dd3d01702fc6c2a",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c09-s03.png",
+      "size": 2504066,
+      "sha256": "c792bfd6bec76d398c68a89e6f124f6c49ebd66b03a44efa54089ef112daf8c1",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c09-s04.png",
+      "size": 2394622,
+      "sha256": "ea6aecc74b8c9a019cb55866d2fe2143852b5f93e292a1733ceef7704529f3c9",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c09-s10.png",
+      "size": 2856499,
+      "sha256": "dbed91903c63295b7e4eab4fdbd8e833c4cc3b5a9522c8edb9dd2e1cb01bb1cc",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c09-s11.png",
+      "size": 2939542,
+      "sha256": "176e7a111d1e790c2f58d713b01a8fd3ccf7a701edbae171124a53066bb2ca46",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c09-s12.png",
+      "size": 2670509,
+      "sha256": "ca288d23691434cb6ca763486d88028dbcca48403aa1ab0e0575177218355a4e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c09-s15.png",
+      "size": 2692220,
+      "sha256": "f80d266d5a1fb7db2b4eeae16cbf3a38a21659ba7f5db15873aaee3f12fad679",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c10-s00.png",
+      "size": 2507840,
+      "sha256": "4d27f7fa5e77947961b8f11409ad6223cb16381d500d3f844e6c679e69698dbe",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c10-s01.png",
+      "size": 2426175,
+      "sha256": "d42dd43d4dd50871a6738d3346eb4512d2f084521fdaf93b584bde744fa4283c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c10-s02.png",
+      "size": 2377689,
+      "sha256": "05b4062fdcca3894d48d7ae12a0b7f230ebcb5d6cd332491ac7e1cdb7dd2dc18",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c10-s03.png",
+      "size": 2453935,
+      "sha256": "558e102c6ea36085c845193d6a2b72d00493bab86c169adb62568bda43813419",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c10-s04.png",
+      "size": 2464146,
+      "sha256": "5f1f299b9754a0a47dade061a19cac0127fdb16bd6a3fa8b67c50acf9cf87e81",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c10-s10.png",
+      "size": 2942768,
+      "sha256": "80b8069790075ab35c6b078ae60fbb0badd54a4baac446015d21734ae1968b3f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c10-s11.png",
+      "size": 3141322,
+      "sha256": "a30584360e722a165d9e129d8b8f1a37f24952b67609f7da5eb01af95e86a568",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c10-s12.png",
+      "size": 2758120,
+      "sha256": "abe04fb5883ada749b769f0222d6fc0e9208d8045ff5a061951d439231af5041",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c10-s15.png",
+      "size": 3104447,
+      "sha256": "d68c7f4c4ff3ded87cc27dffdd8a4ab711888b7c9717f90b85275d567982ce9c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c11-s00.png",
+      "size": 2408544,
+      "sha256": "1b48ecc32cf31ddd9eb0d363330bbda802cb7c789b52e27fe65c3bd97f04445e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c11-s01.png",
+      "size": 2354508,
+      "sha256": "7f4c67c6de55603c9374b81e92dd64efcd2384e4f8ee727d167ddae0b6cd0681",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c11-s02.png",
+      "size": 2379166,
+      "sha256": "ed6fc7583933ba44678b249e637d00c4236b0142ab350a6eca662d96ff869bf2",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c11-s03.png",
+      "size": 2561400,
+      "sha256": "393ff7bf7321f28dde777a409d9cd9c8e31cd40d963ba5db207b40ff3a3fc708",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c11-s04.png",
+      "size": 2516318,
+      "sha256": "10caf446e14b0d31a715283332e21d31625e4ced95d5a4814cc9c3deeb27f610",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c11-s10.png",
+      "size": 2679838,
+      "sha256": "9b514beb39c572543b5ea7ebe079dc9386519c71bbc615e801de3bf9a8312894",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c11-s11.png",
+      "size": 2946712,
+      "sha256": "c180ec92a270eee11d8523bf076b0aa0250ea59f6acf8a77b871189cd990ddae",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c11-s12.png",
+      "size": 2756503,
+      "sha256": "f38dc77d24f184bd31ec6dc0d553161dfaf9c0933bcae9e7442399a6a17c4aef",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c11-s15.png",
+      "size": 2939466,
+      "sha256": "903c9f601e3ddccbf8bf46c7c91a2f30c4070ff4e057edd38f7ee7e267834625",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c12-s00.png",
+      "size": 2418815,
+      "sha256": "07b59775daf84119a80b0c2311e72d69f446ce16f87e1938b67d606f5e5f7622",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c12-s01.png",
+      "size": 2209582,
+      "sha256": "50bf674f9c452fe91c02fa557ba107c4aef0d08bd12f17e6c5fcd1a099405762",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c12-s02.png",
+      "size": 2408173,
+      "sha256": "3ca4bd24d54aca9f9b4dfedfec43d12ad2c0c82b486b9f2d336a4a6b2a4c5391",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c12-s03.png",
+      "size": 2377028,
+      "sha256": "4a35c6f326816ccfe2464606f5925d1816ca9479f560280a6086947a5b4ff743",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c12-s04.png",
+      "size": 2297959,
+      "sha256": "ad436fb444fd5ea35166f3ea0e8be7fb2b97dfe36d36cf3307d5c0014e7a3ea2",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c12-s10.png",
+      "size": 2856029,
+      "sha256": "6c3295acfbeb64dbfad1b4e17a877b8bc1db5eda5525b89a5c5d0ec9d7da030c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c12-s11.png",
+      "size": 2878076,
+      "sha256": "449275e5b934bc2106337eddbdba331ba7b60504a2b1f78334fa92f904599ac9",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c12-s12.png",
+      "size": 2676346,
+      "sha256": "9ec3e664c4dadf864ba27832c4c840ab0442a29aa879d2fa26f7690c0cd59e5f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c12-s15.png",
+      "size": 2572387,
+      "sha256": "00313164f48ffe48d0254264a50fde9722292cfe0d0f77ae5775a440af008000",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c13-s00.png",
+      "size": 2336398,
+      "sha256": "06f5e35429d150dbbcad84e021341b207630c0341b94ab0671d4accd2c386026",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c13-s01.png",
+      "size": 2430170,
+      "sha256": "c76a13cac083de090915f0a9b203ba1483a14b94db28d40f1dc90e4115290174",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c13-s02.png",
+      "size": 2497344,
+      "sha256": "5723ea53b9cff15dd5fd8fbc25a44c9d9bca81e37c82f6724148f9afb1dcab00",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c13-s03.png",
+      "size": 2622108,
+      "sha256": "4a2c6d32175b90d1362258315a13bec18f1ef7d2112d210ed843c8fbd9e56fb0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c13-s04.png",
+      "size": 2605604,
+      "sha256": "1ab1144e6845e7b80fe9b5ce9683ba03b0db31136a80b059ed54105db3cb0bf1",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c13-s10.png",
+      "size": 2969410,
+      "sha256": "d17b11711b049bd9ec1acd811c808bc8471182debff69744f4fe5759f86709d8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c13-s11.png",
+      "size": 3013762,
+      "sha256": "1729765d0af93b4dbafe2c48f5d69030ec59d1693c3c9886891c67aa939c14f9",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c13-s12.png",
+      "size": 2922924,
+      "sha256": "0bdbfd7eef197927ba9e0ae561bc23e08d060c426bcdcbfee2ff042b6b47e76d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c13-s15.png",
+      "size": 3040617,
+      "sha256": "bfb4f80e4b138e7fd5d1c799fbaed0f58bb23f819f0b4e2fd08a9df06bcbeaaa",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c14-s00.png",
+      "size": 2525887,
+      "sha256": "106e3db2f34c971756332a69ffefcbed078beaed82343a85a73bf025aead9320",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c14-s01.png",
+      "size": 2496238,
+      "sha256": "d4998924c0e04ef255ec39f690f9691df8cd63b0b8d917df2fd4ac9f2dde77f3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c14-s02.png",
+      "size": 2544141,
+      "sha256": "3a98d6ca151bd70596190a77fa0c07044499f7ca415490c02d43379c9209c726",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c14-s03.png",
+      "size": 2620984,
+      "sha256": "e8f227963954f270b6bf8bd4cd7a76158617144b9ba63a1f54434fc20cf0a176",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c14-s04.png",
+      "size": 2592537,
+      "sha256": "9c2bf24a2ceb011e28049187021c7d4bfbbe3e3d2f96935d78c23b363824539d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c14-s10.png",
+      "size": 2918151,
+      "sha256": "34a3ca2c0d69fe52260788990919cc85c3c75e00b143196c3defde6e18f5a9f2",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c14-s11.png",
+      "size": 2993677,
+      "sha256": "a95853801a633e15a13f51db37b31f804ffe34b0bb71f4ec0eb625017910f8fc",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c14-s12.png",
+      "size": 2823148,
+      "sha256": "7814b59427528028edc2c8cfa2cd4d1ac3400abcf2c18205dd7d77bb9d5d208d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c14-s15.png",
+      "size": 3100327,
+      "sha256": "a6aff44013302f02b46944949a4076b3f40cf0f0888f6adfceb7d47fd1080146",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c15-s00.png",
+      "size": 2668450,
+      "sha256": "c49ea46517f25e009b18ecf02670e286da35d3aa61dd2b7402c0fccdd1991c4d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c15-s01.png",
+      "size": 2595953,
+      "sha256": "0d214d8dfaf7ef1e1b5fbacfe1a47e389213e03c26fac21464cdd007385c5aa2",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c15-s02.png",
+      "size": 2601551,
+      "sha256": "0664f140cb6998a014f3203c4e743c65696ee931a81c40e941b6132135ee4351",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c15-s03.png",
+      "size": 2533922,
+      "sha256": "297cd2439f77b2c918c49d68464484d299b6b24cf54dc898b6750f90e4fa28a8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c15-s04.png",
+      "size": 2629502,
+      "sha256": "e0fbaf4448f9b8ce41d1957977ff45ed001eb39f9b90ecd7d9db8b5cb44e282e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c15-s10.png",
+      "size": 2978432,
+      "sha256": "9cb67e8b88aca85820ee8152792adf59afd9a3a731fde378c3a791671be36f80",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c15-s11.png",
+      "size": 3171037,
+      "sha256": "e4224bc7f6826c4b862f760434627c88633a4f753b7e6bfb26acc57c238ef872",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c15-s12.png",
+      "size": 2745531,
+      "sha256": "fc1f196f4fbf2e7a5338fc7baa81a71534467b17f7d0281ef990530715ca51a5",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c15-s15.png",
+      "size": 2843518,
+      "sha256": "0748b8e45f546d2f6546e501399de12f8fbe90eadb74b31fa9941e1b58d62546",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c16-s00.png",
+      "size": 2532090,
+      "sha256": "0c45b1647a77a08b52abdeb3b03c5ca96352771e8431b5023ede361a05eeb15c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c16-s01.png",
+      "size": 2563857,
+      "sha256": "127eb6c35d47024f20b3368f23f62813d3a0f998bb78d5da479f7e0f7d3316c1",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c16-s02.png",
+      "size": 2475583,
+      "sha256": "c313fcff4abf06115c6bc4d1736ed88a18fb0c36df294d4a95749d5caf40c980",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c16-s03.png",
+      "size": 2567459,
+      "sha256": "dbbc791d5abdf2082db7d3ba821618d5f75329697e7f25f7e14569ba41d95fb7",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c16-s04.png",
+      "size": 2483719,
+      "sha256": "6b63457882c152234c34883e14d685ebc3b210c41c7521a0807427d6142369d2",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c16-s10.png",
+      "size": 2974120,
+      "sha256": "82d12903aa49a79443e052463ab4cca3015b47ac802222ad7fd3ca99f49eaba9",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c16-s11.png",
+      "size": 3032195,
+      "sha256": "5a2f0c8a0dd747b19f12010d914ddfd95b20a6c48786aa242d46c1cda83df55f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c16-s12.png",
+      "size": 2743546,
+      "sha256": "2f9b0233e0d458520128f72dd291b8637657aacd65a3270cf4c08b3fa83290c6",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c16-s15.png",
+      "size": 2950522,
+      "sha256": "293fd7f5aadab78f362771babb55c20ee6ca4c0896fab35ca70ba15cecf1321c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c17-s00.png",
+      "size": 2505160,
+      "sha256": "ee1f48dee488cc7e0caf177c4c49ea76fd8c43391a8f19b887f0b0132061e671",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c17-s01.png",
+      "size": 2432364,
+      "sha256": "8dc756d15ef302ccaa5d7aee52f9cee37c3a5225aa3d0ea55519837720532aac",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c17-s02.png",
+      "size": 2515234,
+      "sha256": "f2e468e3d5ac16da0ab107cbb6180398ff79ab21fddd82709d6d227c1229b321",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c17-s03.png",
+      "size": 2490043,
+      "sha256": "cc4c20cfe87e939fb3aaac77b955b511db37a63cc99a665c6a268012a6b162e2",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c17-s04.png",
+      "size": 2492777,
+      "sha256": "180eb59d3bc85cbf33fe6a46e9d7c4659d7fe6d26aa158e0e4a278e927f02641",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c17-s10.png",
+      "size": 2710105,
+      "sha256": "80e02f710b4d985b53abf65fe802ae0ba8908a2ace5b3e8ec2d3667b851d7a83",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c17-s11.png",
+      "size": 3003481,
+      "sha256": "29fb6c9e3f13edf83391314f6ae5ca935ed86c867944a555eb7bd4c02acbe051",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c17-s12.png",
+      "size": 2826449,
+      "sha256": "c64d33a8a71711211db634de9b80dc70cd23947c906f24173fe5cf3dd95556c8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c17-s15.png",
+      "size": 2800569,
+      "sha256": "6c57f675fe34dfeb17496864ab89ea357c93690ca4c9a36ecc68ff938fab8d6c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c18-s00.png",
+      "size": 2182125,
+      "sha256": "4ded0bea43fdb387f7f458ba8540b787108abac73ac178abdd81cdeba928d4a0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c18-s01.png",
+      "size": 2124667,
+      "sha256": "46a82d80c6b75f498066705e7a443007b5f6337880e99c08cb3c8c1393f67e86",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c18-s02.png",
+      "size": 2108683,
+      "sha256": "b3478dae4c3f23915492f769caa5a464c0639d7231ae4a40c32dec15278ef2ad",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c18-s03.png",
+      "size": 2322602,
+      "sha256": "da9411a01f40a4e2f81f8200b04bc03e320a76093c16cea78e48a7d47f1543a5",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c18-s04.png",
+      "size": 2198191,
+      "sha256": "e9e77bbdfc79318474aa4bae8d499ba8fcfd70ad088104cf90647f58cc2fc30f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c18-s10.png",
+      "size": 2690459,
+      "sha256": "5bdd6e3865296b620b40a4e98d6bb210f6787616ab2ddae75d75b3ea4cf0f5dc",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c18-s11.png",
+      "size": 2897773,
+      "sha256": "73c0347f86e57f8e2f9fdbacfa6afdfea250b5a02811a8af1a5f523c2662f4f4",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c18-s12.png",
+      "size": 2498728,
+      "sha256": "89ea0758acae425f592ca1ab2e919f8f587f0f1240fc599230ca08f97525bf23",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c18-s15.png",
+      "size": 2493560,
+      "sha256": "3a53f7f77c8f584fa321a0fa55eefb3823ec61ec46d572d331a1a6be6a538faa",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c19-s00.png",
+      "size": 2557906,
+      "sha256": "6189e0b5137251468d4896d3ef058b37c24c38b9720e6bffc4bffe10f3cc7739",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c19-s01.png",
+      "size": 2460498,
+      "sha256": "14db4202127cfc3cdfbb4653bcc2fefd446e1928d58ae1edbfed15182db00f23",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c19-s02.png",
+      "size": 2393067,
+      "sha256": "67cd17e40779e88b46b141e3443972e26c8f7359e2a92dc2b49e096da7026f54",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c19-s03.png",
+      "size": 2712147,
+      "sha256": "d1de7f8f0e0fcadce17b5f3f8f208b49ccc820a8e8fe195bdb0812d48ca83b02",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c19-s04.png",
+      "size": 2709256,
+      "sha256": "246d203e0548ee35ae2d30305c27dccf245282961387dc400c925c5b5c7981b0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c19-s10.png",
+      "size": 2876655,
+      "sha256": "0eea1202b7d51f8b3e267aae924ed8087e928a603945b6d36062c996665da658",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c19-s11.png",
+      "size": 3081014,
+      "sha256": "04180837c4534fa0f09f875c0cb245d0a0f5d952246a49393e58f8a8bf4b8cb5",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c19-s12.png",
+      "size": 2844371,
+      "sha256": "a84fb7681ac8a9ae5d38619f72679972a741e99b7008562cd07851a0fb643d97",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c19-s15.png",
+      "size": 2888683,
+      "sha256": "1994599a68e347724341f0fcb360195ecfc983eaf8b269741a65f56d41951dbd",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c20-s00.png",
+      "size": 2261228,
+      "sha256": "b8f65d946a509e3b402ed5c3823a16bbab7c73c6bb40a9b37cb9191e63952753",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c20-s01.png",
+      "size": 2191066,
+      "sha256": "25b89ee29928028b5a749c1aa92f9a244ab6949c8977b8fc92f83a8d012eaa77",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c20-s02.png",
+      "size": 2141160,
+      "sha256": "b0786ba3af97e43f21f3a4779f44505c8b6cb9ad8b2bdc1530f9da5a5e23a470",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c20-s03.png",
+      "size": 2228298,
+      "sha256": "a626c57926164e487dc6834c0a0df254313faa5fc401a587d25c3079b9fba33d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c20-s04.png",
+      "size": 2228485,
+      "sha256": "423a99f2920692d3ad96be09cdb3458a49eb28dc5854c313f3d916f832ef36fa",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c20-s10.png",
+      "size": 2589484,
+      "sha256": "a82dead55b079540d7acf99074834b8f0ad8ce1c103bce5ab86053b94efe72ba",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c20-s11.png",
+      "size": 2924599,
+      "sha256": "05f68111d5d202d75e56e1a400e34ac7fad3ef54bd2a5fe96ba47525d751fafc",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c20-s12.png",
+      "size": 2531192,
+      "sha256": "be6192399302116ff286692faffae0a69cd8ce814d7657cc2250de5aa63ba7e3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c20-s15.png",
+      "size": 2794456,
+      "sha256": "e0b451e223ce33a193f6609b73bc0037345b332587e8aa69ceb273ee6c6d83b1",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c21-s00.png",
+      "size": 2373844,
+      "sha256": "f0712841cd95e058b57109a44b40217eb27fffcae0d17201a1d32e64ec24c364",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c21-s01.png",
+      "size": 2262707,
+      "sha256": "8596128c6c34d2c61fb60a0fd4dcbd013d75e3632bb713a65f1e68b40e182bc5",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c21-s02.png",
+      "size": 2142367,
+      "sha256": "7c964328be57621df4333752ca19117ca20a14f100fa392bcb87a5445f71046d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c21-s03.png",
+      "size": 2562594,
+      "sha256": "f7252fcd929766ac62fc01713ade38b39441cb096a5c53e7f4efb5c4cb309c21",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c21-s04.png",
+      "size": 2297151,
+      "sha256": "c9a1502170f6a0185189bbcc6133cc8ae1b6672192d8e9e376013e6057041efe",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c21-s10.png",
+      "size": 2685423,
+      "sha256": "b3421a14bfdba62f5c23ab1f517c88c89d0b1d2c102daa37ca565faec9cfcd2a",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c21-s11.png",
+      "size": 2760647,
+      "sha256": "4e641c25b37ade9aaa4d39c692f58694f602154cf6ba9fe1ce0b83a9b8689908",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c21-s12.png",
+      "size": 2742947,
+      "sha256": "505824ba1e17706e6d7ddbc703707f4640b98d20db8a193a829661703e5bce3f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c21-s15.png",
+      "size": 2751642,
+      "sha256": "c0bae0a2790486c51ed78cfcf14787e9aa851dc979533606bd4f159f5c593b8c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c22-s00.png",
+      "size": 2341133,
+      "sha256": "8a51f00e3170fcd30dfeeb009e7670d2d4af312807bd2245b8358cdd677b6080",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c22-s01.png",
+      "size": 2171683,
+      "sha256": "d33afac9cf349bb87defaefd69f43b604f910c5e2b3742174844243c1f1da1d7",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c22-s02.png",
+      "size": 2228427,
+      "sha256": "e7ccebbbed4f8756a5f39e2dd537f2075aea587b3a0fb85826da443804eedc8e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c22-s03.png",
+      "size": 2217894,
+      "sha256": "fd1f04dc7d5ce41e2fe04b13d513d992c8765a055d984cef4acc80fc7a0d123f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c22-s04.png",
+      "size": 2260224,
+      "sha256": "61751a923f788ba32300fe1c0fe9edd768af619a273a92ea945fa5b4535d787b",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c22-s10.png",
+      "size": 2512228,
+      "sha256": "f54fb2d709e6e3ab9f5b96d63dc96bd9c8a0936418d686c5185583c36fa0cb82",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c22-s11.png",
+      "size": 2839350,
+      "sha256": "30a2229a5897e8ca5771577bd8f826c4f5ecb2341473f7c9d0bdbca681f4ee83",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c22-s12.png",
+      "size": 2715487,
+      "sha256": "5d9ac3073316637a48de48df032592fe914efa97e4e888ea051b3f47dc612b56",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c22-s15.png",
+      "size": 2707042,
+      "sha256": "da58f416fff71b545f6306602ccf27281892bb48918294f643eab2a4c8a3b185",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c23-s00.png",
+      "size": 2435439,
+      "sha256": "fb383aa8a29c8181bc4cc5b5e5aa0adf31ac080acd6d6d7620534b43c5c3db05",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c23-s01.png",
+      "size": 2315476,
+      "sha256": "b2b128c328c3b9609c78b40784dec657a145c0085b55c1a81c88755c9fc4876d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c23-s02.png",
+      "size": 2352733,
+      "sha256": "bb9534443ab654311226651ba820e39ddd7176a377c89863e26c8710529ad6fa",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c23-s03.png",
+      "size": 2232261,
+      "sha256": "eb93a7f4607186cc921c7aca687081171deef80c203170a69d5249c425fa07e0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c23-s04.png",
+      "size": 2285590,
+      "sha256": "fe20c461e9b528e9daf08047d91fb652f4ab47687a58d57f39654c04cc135b43",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c23-s10.png",
+      "size": 2624313,
+      "sha256": "7b7095f764ae1ef3dc01a38354e056b7ab2535f367662ca55ff831031016a218",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c23-s11.png",
+      "size": 2915964,
+      "sha256": "676a41384b4927a8ca21da48930da8bd563a3388da77c396c72dde22cca6ad49",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c23-s12.png",
+      "size": 2617070,
+      "sha256": "6525bda6d13e61479750f763e66c6ddc23229b1bbd5b525022466c0763dfa2b1",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c23-s15.png",
+      "size": 2525553,
+      "sha256": "dc86a279864031b4ca1d8cf538d1e72a3635430aa5283d7a5e3d11da63861ab3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c24-s00.png",
+      "size": 2451583,
+      "sha256": "35e611d6d554496dfab6448f711c7d065c9e9a99cb3d8a1c7b4d561054b08b00",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c24-s01.png",
+      "size": 2313014,
+      "sha256": "20f1f9e677c61bbb3c66d605d183beb20cc33c4cf3e7c0fc479c6b4540b718f4",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c24-s02.png",
+      "size": 2460766,
+      "sha256": "e8c7364e331265a2b77ec212a460030c4d14d1236d4c861def353b53ad663aa1",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c24-s03.png",
+      "size": 2492870,
+      "sha256": "ff4e3aabe1d875cf353bb127ba442919b32d458e824879b9ea0f7b39d406071c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c24-s04.png",
+      "size": 2449308,
+      "sha256": "4d6f7c2a2ae82104d982538f66814c163ccd6e66d64ae0b4401f0bd9d0cc909e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c24-s10.png",
+      "size": 2899370,
+      "sha256": "18513e4dab8c11ff9f4d14c9894c2b34b46ff5b81e202dd29032723f9d8c6107",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c24-s11.png",
+      "size": 2981139,
+      "sha256": "9a9d0a06964e72f0c4dbb49c9b6caf94df3cf8c5b40f50ba5738d4f034b56d97",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c24-s12.png",
+      "size": 2759012,
+      "sha256": "39842502c885c29eb33176a6fd45f6d7ca4474c38a1acbb222600c9485fa909e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c24-s15.png",
+      "size": 3090949,
+      "sha256": "02f6a4a98509443696ea38921836095662e292d173e445355da983967c69d937",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c25-s00.png",
+      "size": 2600480,
+      "sha256": "a5a35e342eb258ef6da74ae0eb23c9b1500723c26539d277401122b95277e268",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c25-s01.png",
+      "size": 2562221,
+      "sha256": "a18ee7c855a4efa7b8d05152ec04edd41c82f066a969e23439e5bab67f3e0632",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c25-s02.png",
+      "size": 2534461,
+      "sha256": "fdd11dddcc1ad8b6522cc188fe7125aa8fa6ee8dfa53bcead6100d33abd1e145",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c25-s03.png",
+      "size": 2540879,
+      "sha256": "dc35d9e05cd53f3272a35d27122da678fd7b8dadfd896fcae8f40b26ae530934",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c25-s04.png",
+      "size": 2702131,
+      "sha256": "82e3a7d11d4f1fb6d6d5d8878a819cf1ebc8dbcbac925fce869f389912a190b3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c25-s10.png",
+      "size": 2721413,
+      "sha256": "50dcb5403c870ba6f0f00ac8d87cdc09aaeb2e008658572ef2a6dca5ca497cbc",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c25-s11.png",
+      "size": 3107693,
+      "sha256": "787bd4804e17e858eb7b54ffa554e7700444f354c649834e53fd1a549bb55b19",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c25-s12.png",
+      "size": 2741543,
+      "sha256": "4e57fc5e79a20f2c557968b87d7acd6ec6474b79a1a8ec06a09b08b756cfa0de",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c25-s15.png",
+      "size": 2934816,
+      "sha256": "f62354f16f0a49b7d3fafca44b96d733b46027d5b883bd8dae49a249c0c6fcb1",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s00.png",
+      "size": 2532875,
+      "sha256": "0f67897740bd2ed20f2b18118f96c945f14bf1e35356c8cc1f9749cabee7b06e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s01.png",
+      "size": 2401081,
+      "sha256": "10602496e85d6363967026c0744bfa698acdcb303391f0d5e1e6512bfd4b3667",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s02.png",
+      "size": 2532460,
+      "sha256": "e4f09498183a9e81b53f887678e6b4d40bacbc2486e4b9734d6a4da4c8e01702",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s03.png",
+      "size": 2499405,
+      "sha256": "8775a035104461a66da85465de032a586d4ced0ffa27463a44c3840e25b32903",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s04.png",
+      "size": 2575145,
+      "sha256": "019413f9b72cfeca2f401eb3ef9282ce20e3d90c1ad2684619eab3626d018cc2",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s05.png",
+      "size": 2754146,
+      "sha256": "b7a59bc7157b3af392b6d04d8d33e21355262b58f41963a03d0af7087ddcd6ca",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s06.png",
+      "size": 3137942,
+      "sha256": "5f17612baad039530645517b77feb50eb89b42d6d5681b98ac4f599af4f09d0c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s07.png",
+      "size": 2711024,
+      "sha256": "787473b34312e91e62b541af40e6cee44846afec19cc565d764ee0136ef5046d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s08.png",
+      "size": 3249841,
+      "sha256": "bef865f5ceb68acadb56c0b49d50ede10f97c56597aca71a1020f8a860274bd1",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s09.png",
+      "size": 3495124,
+      "sha256": "7eb88c93b47c12a4bb59b64542e71c0469e7ad15b9caae64181a9c5c6f5134f7",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s10.png",
+      "size": 2935832,
+      "sha256": "767a56278b20d300bdd315a4cc0db431266608dd24acdd5816ae48b10e3b76f9",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s11.png",
+      "size": 3116775,
+      "sha256": "a3163f4bb6b9ad87f379e27529d3ec6e841abd4f2afbe581069b51de3d2120d5",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s12.png",
+      "size": 2769279,
+      "sha256": "3759cd8b89df3e60179941fd9b7b6b6b5c0a7e0883ef76fd48bb3732e6e4dbe8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s13.png",
+      "size": 3174347,
+      "sha256": "3255935a21782b6e9fb608dfa6d9ca23df98e07ada0173a853cad31282fd91e9",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s14.png",
+      "size": 3070279,
+      "sha256": "850672d21281aa227b691faae7aaf78e6ce5f0f32863dc48834e7bf7bd51c3d7",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s15.png",
+      "size": 2962166,
+      "sha256": "23125eb61dd3ce70b4913d79da4879be4c5a1cb6b6cfb2b9b23c3a44c6609a46",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s16.png",
+      "size": 2938761,
+      "sha256": "0266b437056ce01327f1aff688eec45fbe8301c77f52502602aafe5f4608bcf0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c26-s17.png",
+      "size": 3232710,
+      "sha256": "bd1800c3e911ceadefc28636b1b593a8f688c65311bfa00c1a877e488b6befa0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c27-s00.png",
+      "size": 2350362,
+      "sha256": "5131eb3abf4914ef767926374202d744fc2f751da8039d9848609e07ad4c8077",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c27-s01.png",
+      "size": 2341845,
+      "sha256": "556c0035ef0ab45e27905cd46443362ec330a13373ccbcf5e3b4e2f126f95fe8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c27-s02.png",
+      "size": 2313523,
+      "sha256": "d509c6f5253a15032f487b8b36d52470a44313bb2c3d9645c9511a6d3b10f79d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c27-s03.png",
+      "size": 2435826,
+      "sha256": "49ac41bf76a15fba07463bef5557749fa4a8c7bff3eda20ab1fe42588a55eb2d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c27-s04.png",
+      "size": 2635038,
+      "sha256": "086f71555e9455b5a937446cef9c7c82e56f72b29ffa4e7528ba024c0d329bb9",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c27-s10.png",
+      "size": 2790587,
+      "sha256": "e4106315f8735169092286773e81ef864c74fddd16ca28325dfae967381c42cb",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c27-s11.png",
+      "size": 3079453,
+      "sha256": "65b77faa0cdfa3c351e72f1651ab7174a64eb88bffbd6ba4cb69c38fc1eb6c83",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c27-s12.png",
+      "size": 2824449,
+      "sha256": "41e110be16799995e3eee3545b0d7a32f79fc67145401213fd14591f85b24e93",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c27-s15.png",
+      "size": 3072714,
+      "sha256": "27a732f5354e740c82fc56133d94039dbe6934511fb669b1a0b3aab03dbdc51a",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c28-s00.png",
+      "size": 2648570,
+      "sha256": "e726f4f011114fd3efef51890f0f84140bfa41a8c115bbaefc9f7005b7ce471b",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c28-s01.png",
+      "size": 2453008,
+      "sha256": "9d05cd0488975e0911f3646ad7f954efcf538bcea2524c1224e88e0456e048c8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c28-s02.png",
+      "size": 2540636,
+      "sha256": "42ed2471c24f175aa2d6a4a6f23f4e9ea559376c0b19d883eb70d5f0ae806a17",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c28-s03.png",
+      "size": 2613941,
+      "sha256": "26ffa8b7b25f4a78e1d5f9439c23d0458e69dce375b76c999b971cadc9c87b75",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c28-s04.png",
+      "size": 2656135,
+      "sha256": "8297a4a883a1a91c1a534cfd78ec680e02f084521c6426125c1bbbbd076aa763",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c28-s10.png",
+      "size": 2932753,
+      "sha256": "d34f0b78e10e73a283210234dcc49b7ec22fa8536fdb02c5a4ab128b569c6bc8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c28-s11.png",
+      "size": 3029579,
+      "sha256": "5ac7bfa7f36b030b5e46a95b4ee158c65b96e3d6bbcd0b86e1342f3285776c4b",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c28-s12.png",
+      "size": 2724606,
+      "sha256": "22b3c8a7df1516a8d5fe0ca6737178407ed0a9a2daf88142eb7ae4b5c76c2c53",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c28-s15.png",
+      "size": 3081219,
+      "sha256": "d6f4228e2549212696109e213c5584503dc782336254a5f656be8d708fb3c19b",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c29-s00.png",
+      "size": 2582956,
+      "sha256": "f3ec25468a7c5a18ded363c126cf2d7ba96ae25e7939b5e1449be86faa7fab29",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c29-s01.png",
+      "size": 2574018,
+      "sha256": "3cf479e0f4381699aff69186fe3d3cede61bf980637e9247b02457691f297bec",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c29-s02.png",
+      "size": 2578137,
+      "sha256": "943da62cc7621c240c5247b5542ee48ba664f61cb377d7ebf512b285a0433b43",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c29-s03.png",
+      "size": 2577765,
+      "sha256": "57f058a5b67610ec3efbf31a0240254996267bb928ef6f571a553f6609b124c7",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c29-s04.png",
+      "size": 2772304,
+      "sha256": "43cdc4a366bc05724e8b45f4103fac8565494d88a143a5d0e1d3b405c40064c2",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c29-s10.png",
+      "size": 2781315,
+      "sha256": "85e889de197ceaf60924bbb6f063ad80194454c7e8f735202b82acca20384a19",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c29-s11.png",
+      "size": 3129579,
+      "sha256": "7b3ecfd62271d17c1bfb691fb1515561963cd17a37d44e994df87c7a7a88317c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c29-s12.png",
+      "size": 2885451,
+      "sha256": "6180d7a49e40e06909e4a640d1beecca7cdfd1fc39d2dc3c5a76fa57a3fd95f5",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c29-s15.png",
+      "size": 2998651,
+      "sha256": "5d4b19aa6f814ac6acb191eefca827cb680493db7c4a6c38a301f35d1fa289f4",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s00.png",
+      "size": 2517945,
+      "sha256": "8c98540726384d5e350a390811ce7066e8c801467fa364ee7d3a181ffab1d7d5",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s01.png",
+      "size": 2416487,
+      "sha256": "f4467fa109d6e3f48b12b642c28d5db6e5511558ce416db01df405e6ce47dfd3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s02.png",
+      "size": 2537105,
+      "sha256": "d387e2f2c80d78f9ba40caf6a48aba13911511764f46253605b734e7270812d0",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s03.png",
+      "size": 2535501,
+      "sha256": "c04413fac8fc424060d925b85ea6c48ff79225f7bdab970946866713e6e455cb",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s04.png",
+      "size": 2641798,
+      "sha256": "392d120bd6d539f20d1b965c81a5b7ceef4edba4e96e2d2709553d3daeca952f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s05.png",
+      "size": 3875203,
+      "sha256": "e15c614f282f399febe75a8777edb9224a2a7b27838df71e248bc2c85c733ba3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s06.png",
+      "size": 3085260,
+      "sha256": "60051025e523e52004e7dda1dc3cf5406972bdc777a35536206c084d00fb4853",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s07.png",
+      "size": 2836809,
+      "sha256": "6de2060577264c392acc46047a5a768a5dd157c13e0f710a077141ccca0c45b8",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s08.png",
+      "size": 3103922,
+      "sha256": "a9bbf01c735c24d36a1ac77558d14711735f15e2c5954a1c9690426a3834ab73",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s09.png",
+      "size": 3222818,
+      "sha256": "9d411287d2eebcdcdc239709f83260e36d1be9028c4a09243a59a6bc167f0cb3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s10.png",
+      "size": 2811716,
+      "sha256": "d21d561d8e385bb795ad8b7d7fb4148395cdec7e1f72a33d54ec359b38408f8f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s11.png",
+      "size": 2983422,
+      "sha256": "cf1d5bb822961a8c14f961571dc34edb1f7147c84783c4d089a1a2b2bf033fca",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s12.png",
+      "size": 2706190,
+      "sha256": "76051848f4cf753e0dadf4e0c89512adf1108e76501c37a27fc99cce3f05a9a3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s13.png",
+      "size": 3525502,
+      "sha256": "f19174979b6e4d0ab9709193b62fa36d802b18da074a0976ecf4b431038bc27b",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s14.png",
+      "size": 3205933,
+      "sha256": "09c63b778d04a2a7840164437fc5cafeeca29d635531304777da08a675658b88",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s15.png",
+      "size": 2934742,
+      "sha256": "f1ef0ea7d27d15de598218c3590d5a2164326926ef28f06208df0da65d4c8c8f",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s16.png",
+      "size": 3463641,
+      "sha256": "d2e898bfa61d550edd9a5fc42bf673e7014d526b9257d23825bdb86fb477b473",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c30-s17.png",
+      "size": 3219753,
+      "sha256": "556a8bb0ae143623c0d02defabbc988aa2e98573b7addde21dea2f1a5387490e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c31-s00.png",
+      "size": 2460463,
+      "sha256": "4ea3c4c7ff8635a9851e29127a92122cf278104a19e2489b286ab132fdf0c491",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c31-s01.png",
+      "size": 2272825,
+      "sha256": "a58070af29f97e19ab35d63f95629559a79ec385c2e6ecf1175e99d679b7a335",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c31-s02.png",
+      "size": 2365836,
+      "sha256": "e95871e4c1b27af35c9c5832c3bc020acd7dcb7221f8f28a5d14684b6c5dd719",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c31-s03.png",
+      "size": 2542377,
+      "sha256": "f0685eee022d6f2044c4f7a4236dbc5f9183ff6c660b6dc150213b6fd27dc504",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c31-s04.png",
+      "size": 2580963,
+      "sha256": "6b29fe993a3fdecbdd48a657f145dafdc2d7b3e91ccf230e5f1432898ca9025d",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c31-s10.png",
+      "size": 2756351,
+      "sha256": "950f756a31cb64da6e83805efa88dd24e8241ebe14e9c7b8120d4c07d133f84e",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c31-s11.png",
+      "size": 3054451,
+      "sha256": "1851204b58c68f0a5c3af0f14fb82c768652e1c635feba4c13e01184ce58d2ae",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c31-s12.png",
+      "size": 2745289,
+      "sha256": "22947e6338f93770bb22759b7a8e21332bdaee690d4cc5d7b84b3cad962a9040",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c31-s15.png",
+      "size": 3018344,
+      "sha256": "f7f56dc58e23ba94b7b1957b1d1de7cb295e2241ffcb8ce3341c351840317683",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c32-s00.png",
+      "size": 2224846,
+      "sha256": "57b3b7e9cdd9625a74932f37af9b52b923e65d2ce546625ee5ef4055e1163464",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c32-s01.png",
+      "size": 2099093,
+      "sha256": "bf19506ce48a797a1f0e5584adf141c5a88096051b5242f481075be4ec8bca78",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c32-s02.png",
+      "size": 2206152,
+      "sha256": "2ebdfbc12d2683457763b3e5c32cd7ff732a90390e92cbc17f53216b7c6de811",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c32-s03.png",
+      "size": 2409993,
+      "sha256": "5f061e4497de39d33160060e7137b718c2eb7e9d8ff1f9cfd780d6007bfe8b4c",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c32-s04.png",
+      "size": 2287822,
+      "sha256": "69acc2e1dfe55d95190fdfe2f5ea3e0c10c817aa6c9f8939abc7ced542293b61",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c32-s10.png",
+      "size": 2741182,
+      "sha256": "0ebe8d24c10a937ad8eb0ce2d7de44a94aaf05935f42cf90afb6b92db5143f96",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c32-s11.png",
+      "size": 2770398,
+      "sha256": "4e36105b2a2e42ef44622eef5d3fe1921ae9e9ccd91a45e8b91e043dec506eda",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c32-s12.png",
+      "size": 2554623,
+      "sha256": "0671631c4842f7aa8a8e87eee0cb623ac7762ded280ea8e5d3ad8dde9871dae3",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/cards/native/c32-s15.png",
+      "size": 2432097,
+      "sha256": "b6b5ffa02c5c20a264d3ef1d534831159b4cc80b76bd3a1cf59b7b0aafff1344",
+      "archive": "ta_kard-art-native-01.zip"
+    },
+    {
+      "path": "game/assets/desk-detailed-native.png",
+      "size": 1875305,
+      "sha256": "728721b7eb24c7877229b09370e9ccbf61a0a991ef167fc467cfba40425e4041",
+      "archive": "ta_kard-art-native-01.zip"
+    }
+  ],
+  "archives": [
+    {
+      "name": "ta_kard-art-4k-01.zip",
+      "size": 992553942,
+      "sha256": "20a345ff61ec641bd05781a73a36e9fab097b330a653420d964cb0ca0ea058b2"
+    },
+    {
+      "name": "ta_kard-art-4k-02.zip",
+      "size": 994989984,
+      "sha256": "83753569bbd8de6c3ce2dfd710806fd5064f66af4d7bfd744e3e1dfd02aa19b1"
+    },
+    {
+      "name": "ta_kard-art-4k-03.zip",
+      "size": 991780203,
+      "sha256": "e2564e2446bcc397b45c73802b8d188f55b4b68a5b644350c1e89590f9b089a4"
+    },
+    {
+      "name": "ta_kard-art-4k-04.zip",
+      "size": 990533562,
+      "sha256": "e3463a9e8dde48a7dbfbf46921d334fb1870fe46d8abf4cba044b4e1d7493bab"
+    },
+    {
+      "name": "ta_kard-art-4k-05.zip",
+      "size": 869939903,
+      "sha256": "6165bc1403e7f77ba0f4b8e937c3b8751f18c5c29b9fda253d6b60667394498d"
+    },
+    {
+      "name": "ta_kard-art-native-01.zip",
+      "size": 815022828,
+      "sha256": "4c56a1860362e53ea69585d084e5013f1e6f344dc9fda51b22db4cf00dbbda4c"
+    }
+  ]
+}

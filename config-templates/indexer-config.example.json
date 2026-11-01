@@ -1,0 +1,6 @@
+{
+  "rpc": "http://127.0.0.1:8545",
+  "api": "http://127.0.0.1:8787",
+  "token": "REPLACE_WITH_THE_SAME_RANDOM_INDEXER_TOKEN_AS_PRIVATE_CONFIG",
+  "contracts": ["YOUR_ERC1155_ADDRESS", "YOUR_ERC721_ADDRESS"]
+}

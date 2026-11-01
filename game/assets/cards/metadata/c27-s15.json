@@ -1,0 +1,39 @@
+{
+  "id": "c27-s15",
+  "characterId": 27,
+  "name": "卡缪",
+  "skin": 15,
+  "tier": "exquisite",
+  "revision": 3,
+  "expression": "alert unwavering determination, narrowed eyes and parted lips taking a focused breath",
+  "pairedExpression": "lightly amused thoughtful expression, warm sidelong eyes and small asymmetrical smile",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/camille.a26b2443.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/camille.81d81ef7.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/camille.a26b2443.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 65
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c27-s15.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c27-s15.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c27-s15.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

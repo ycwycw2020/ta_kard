@@ -1,0 +1,39 @@
+{
+  "id": "c30-s10",
+  "characterId": 30,
+  "name": "诀",
+  "skin": 10,
+  "tier": "fine",
+  "revision": 3,
+  "expression": "reserved interested appraisal, one gently raised brow and subtle relaxed mouth",
+  "pairedExpression": "sharp resolute intensity, knitted brows and slightly parted lips, eyes fixed far off-frame",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/lizhiyan.7ada7b83.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/lizhiyan.5e6e07c8.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/lizhiyan.7ada7b83.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 67
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c30-s10.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c30-s10.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c30-s10.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

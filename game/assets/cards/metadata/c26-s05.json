@@ -1,0 +1,69 @@
+{
+  "id": "c26-s05",
+  "characterId": 26,
+  "name": "庄方宜",
+  "skin": 5,
+  "tier": "normal",
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: stylized-concept. Asset type: single collectible character illustration, portrait 9:16, full bleed. Input image 1 is an OFFICIAL APPEARANCE REFERENCE for 庄方宜 / Zhuang Fangyi from Arknights Endfield. It is a reference, not an edit target. Preserve canonical identity: expressive red eyes, long black hair with red inner strands, two red horns, pointed ears, white-black sleeveless mechanical-trim top, long green skirt with black panels, black gloves, waist equipment, cyan floating cubes. Keep face and costume recognizable. No costume redesign. New composition, do not copy the reference pose. Anatomically natural hands with five fingers, clear charming expressive face, tasteful nonsexual portrayal. No typography, text, numbers, logo, watermark, border, collage or card UI. One character only, highest native resolution. Intended 2160x3840 after separately documented super-resolution. NORMAL tier: restrained warm gouache anime portrait, limited cream/olive/peach palette, medium closeup shoulders to waist. Character at a simple field break table holding a small plain tea cup with both hands, gentle amused smile and soft bright eyes, relaxed shoulders. Pale morning window, one cup saucer and unfocused plant, sparse background, tactile matte brush marks, clean face and costume. Everyday quiet scene, no elaborate architecture or large effects.",
+  "references": [
+    "source-reference/zhuangfy.png"
+  ],
+  "referenceUrls": [],
+  "generatedAt": null,
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c26-s05.png",
+    "sha256": "b7a59bc7157b3af392b6d04d8d33e21355262b58f41963a03d0af7087ddcd6ca"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c26-s05.png",
+    "sha256": "33e774d672218724193e3b76468bc04337b06c97d8c0c6305aebbf76ee4df268"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c26-s05.webp",
+    "sha256": "cca14c59672619684a5f58e5165c73c19aef025211a72e00834cf286fe35fba6"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "release": "20220424 / v0.2.5.0",
+    "source": "https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0",
+    "model": "realesrgan-x4plus-anime",
+    "scale": 4,
+    "neuralOutput": {
+      "width": 3764,
+      "height": 6688
+    },
+    "finish": "Lanczos3 to exact 2160x3840",
+    "native4K": false,
+    "elapsedSeconds": 66,
+    "executableSha256": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "modelSha256": {
+      "realesrgan-x4plus-anime.param": "2b8fb6e0ae4d2d85704ca08c119a2f5ea40add4f2ecd512eb7f4cd44b6127ed4",
+      "realesrgan-x4plus-anime.bin": "fe01c269cfd10cdef8e018ab66ebe750cf79c7af4d1f9c16c737e1295229bacc"
+    }
+  },
+  "status": "available",
+  "assetStatus": "available",
+  "processingFingerprint": "c2d801adcbdd7f1e2a6cb885a0622339248060a3ec01128975d83ad381314e86",
+  "processedAt": "2026-10-31T12:45:31.159Z",
+  "dynamicTier": "removed_in_v0.7.2",
+  "assetPathBase": "project",
+  "visualQA": {
+    "status": "approved",
+    "reviewedAt": "2026-10-31T13:30:18.473Z",
+    "reviewer": "Codex visual review / asset_delivery",
+    "notes": "暖色窗边双手持茶，手臂明确，红角/黑红发/绿裙身份一致。",
+    "registrySha256": "fe46924e76487a9aa7a60b4217916cb5d0f355fb7f6cd71df4e5fdc781d539f4"
+  },
+  "publication": {
+    "batch": "jue-zhuang-ancient-v2-20261031",
+    "source": "built-in image generation",
+    "fourthDynamicRarityAdded": false
+  }
+}

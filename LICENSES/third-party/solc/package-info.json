@@ -1,0 +1,10 @@
+{
+  "name": "solc",
+  "version": "0.8.30",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereum/solc-js.git"
+  },
+  "includedRuntimeBinary": false
+}

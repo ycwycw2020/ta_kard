@@ -1,0 +1,44 @@
+{
+  "id": "c13-s11",
+  "characterId": 13,
+  "name": "洁尔佩塔",
+  "skin": 11,
+  "tier": "fine",
+  "references": [
+    "source-reference/gilberta.png",
+    "source-reference/c13-s00.png"
+  ],
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/gilberta.92aa17d4.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/gilberta.724f3503.png"
+  ],
+  "prompt": "Use case: stylized-concept. Asset: ONE new collectible character-card illustration, portrait 9:16, single continuous full-bleed painting, highest available native resolution. Character: 洁尔佩塔 from Arknights: Endfield, for the unofficial fan game Talos / 塔卫牌局.\nInput image 1 is the canonical APPEARANCE reference. Input image 2 is an existing card for face and hair continuity ONLY. The canonical APPEARANCE and COSTUME in image 1 takes absolute precedence wherever the references conflict; do not borrow extra garments from image 2. Create a genuinely NEW scene, pose, expression and camera arrangement; do not copy either layout. Preserve hairstyle, face shape, species features, outfit layers, color identifiers, accessories and canonical equipment. Do not invent a different costume, weapon or extra animal ears.\nQuality tier: fine. Style: Refined luminous gouache and watercolor illustration with fine colored-pencil accents, sophisticated color harmony, delicate foliage and fabric textures, clear foreground-middle-distance layers and generous negative space. Richer environmental storytelling and painterly finish than the normal portrait cards. Not a flat cel-shaded bust and not dark oil-painted cinematic spectacle.\nComposition and action: a complete figure in a spacious asymmetrical environment, eye-level medium-long view; walking along a gently curving path, reaching naturally toward a small environmental detail.\nScene and palette: a pale turquoise and warm coral field-station garden after rain, layered grasses, wet stone, a restrained technological structure and distant hills. This is an original fan-art moment, not an assertion of an official story event. \nFacial acting: absorbed curiosity and gentle wonder; clear sideward gaze, slightly lifted brow and a restrained open or closed smile suited to the character. Character-specific personality reference: joyful surprised delight, lifted brows, open bright smile and curious gaze. Coordinate eyebrows, eyelids, pupils, cheeks and mouth so the expression is alive and individual. Do not paste the same smile on every card. \nNatural anatomy and hands, clean readable silhouette, harmonious proportions, detailed face with the sharpest local focus. Tasteful nonsexual framing. No lettering, symbols masquerading as text, signature, watermark, logo, card border or UI. Do not print rarity or resolution. This image will be separately super-resolved to 2160x3840, with original size preserved in metadata.",
+  "status": "approved",
+  "mode": "builtin_imagegen",
+  "nativePath": "source-reference/c13-s11.png",
+  "generatedAt": "2026-09-27T10:23:34.968916+00:00",
+  "sourceImage": "source-reference/exec-4aa5999e-618f-42f2-9a95-ec72cf364f80.png",
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "source-reference/c13-s11.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c13-s11.png"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 153
+  },
+  "visualQA": {
+    "approved": true,
+    "method": "Native image plus 4K contact-sheet review",
+    "checkedAt": "2026-09-27T10:36:03.862362+00:00",
+    "notes": "Identity, expression variety, anatomy, framing and tier composition checked."
+  }
+}

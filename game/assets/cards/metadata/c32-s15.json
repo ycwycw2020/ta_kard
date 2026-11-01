@@ -1,0 +1,39 @@
+{
+  "id": "c32-s15",
+  "characterId": 32,
+  "name": "噗切娜",
+  "skin": 15,
+  "tier": "exquisite",
+  "revision": 3,
+  "expression": "brave determined species-appropriate narrowed eyes and firm mouth, ears alert; never humanize the face",
+  "pairedExpression": "adorably curious wide eyes and slightly tilted head, small open species-appropriate mouth; preserve round furry nonhuman body",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/purrche.d6659019.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/purrche.bdb051d3.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/purrche.d6659019.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 66
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c32-s15.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c32-s15.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c32-s15.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

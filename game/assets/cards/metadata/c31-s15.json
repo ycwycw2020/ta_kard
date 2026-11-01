@@ -1,0 +1,39 @@
+{
+  "id": "c31-s15",
+  "characterId": 31,
+  "name": "提弗洛斯",
+  "skin": 15,
+  "tier": "exquisite",
+  "revision": 3,
+  "expression": "solemn fierce concentration through visible face and head angle, tense purposeful posture",
+  "pairedExpression": "soft intrigued expression and thoughtful head tilt; preserve visible facial features exactly, never invent hidden eyes",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/typhoea.c4a79f82.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 65
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c31-s15.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c31-s15.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c31-s15.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "ta-kard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "compile:battle": "node scripts/compile-battle.mjs",
+    "deploy:battle": "node scripts/deploy-battle.mjs",
+    "test:battle:rules": "node test/battle-rules.live.mjs",
+    "test:battle:live": "node test/battle-contract.live.mjs",
+    "start": "node server.mjs",
+    "indexer": "node indexer.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "ethers": "6.15.0",
+    "pg": "8.16.3",
+    "solc": "0.8.30",
+    "ws": "8.18.3"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "author": "杨诚伟",
+  "description": "塔卫牌 · Besu QBFT 以太坊卡牌课程项目",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ycwycw2020/ta_kard.git"
+  },
+  "homepage": "https://github.com/ycwycw2020/ta_kard",
+  "bugs": {
+    "url": "https://github.com/ycwycw2020/ta_kard/issues"
+  }
+}

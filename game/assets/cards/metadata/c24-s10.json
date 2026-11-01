@@ -1,0 +1,39 @@
+{
+  "id": "c24-s10",
+  "characterId": 24,
+  "name": "汤汤",
+  "skin": 10,
+  "tier": "fine",
+  "revision": 3,
+  "expression": "exuberant boastful laugh, bright eyes and raised cheeks",
+  "pairedExpression": "fierce loyal determination, brows angled and a bold closed grin with eyes locked on the route",
+  "referenceUrl": "https://web.hycdn.cn/endfield/official-v4/_next/static/media/tangtang.b5cd99e9.png",
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/tangtang.2602b587.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/tangtang.b5cd99e9.png"
+  ],
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 66
+  },
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c24-s10.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c24-s10.png"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c24-s10.webp"
+  },
+  "assetStatus": "available",
+  "dynamicTier": "removed_in_v0.7.2"
+}

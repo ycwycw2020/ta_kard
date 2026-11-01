@@ -1,0 +1,86 @@
+{
+  "id": "c26-s16",
+  "characterId": 26,
+  "name": "庄方宜",
+  "skin": 16,
+  "tier": "exquisite",
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Edit only the seated woman's POSE in this 庄方宜 card. Preserve the exquisite rainy Chinese pavilion background exactly: warm lantern, bamboo blind, lake, misty mountains and tiled village, table and folded fan. Keep her face, horns, black/red long hair, canonical white-black-green outfit and cyan floating cannon. New graceful relaxed seated pose: upright front-three-quarter torso slightly toward image-right, shoulders level and relaxed. Exactly two arms. Right arm on image-left drops naturally, forearm resting along lap, open gloved right hand lightly on her knee. Left arm on image-right extends softly outward, elbow naturally below forearm, straight wrist and open upward palm guiding the cyan floating cannon. Hands separate, five natural fingers each. Remove hand from cheek and do not cross forearms. Knees and green skirt drape toward image-right, pelvis and spine consistent. Pleasant subtle smile, soft natural breeze in loose hair and skirt edges. Preserve camera and background, portrait 9:16, no text or border, highest resolution.",
+  "references": [
+    "source-reference/zhuangfy.png"
+  ],
+  "referenceUrls": [],
+  "generatedAt": null,
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c26-s16.png",
+    "sha256": "0266b437056ce01327f1aff688eec45fbe8301c77f52502602aafe5f4608bcf0"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c26-s16.png",
+    "sha256": "8e9853029e4489d5a26e91e7ff88fb16e3732491d4c09bb64ce54cc9d1844eb9"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c26-s16.webp",
+    "sha256": "33fd4ebae974e11f6d9a9f0e9e13a3fa8306afdcb6a861094aa8710b1fca19b8"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "release": "20220424 / v0.2.5.0",
+    "source": "https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "neuralOutput": {
+      "width": 3764,
+      "height": 6688
+    },
+    "finish": "Lanczos3 to exact 2160x3840",
+    "native4K": false,
+    "elapsedSeconds": 183,
+    "executableSha256": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "modelSha256": {
+      "realesrgan-x4plus.param": "35330ececcea33b6c397a72548e788d5d53becee4734c50b7fada36e89f10a86",
+      "realesrgan-x4plus.bin": "713ee713b0353afaa27976f0563a64a5043bd70b9bd8936c2e26e25ebcdbcddf"
+    }
+  },
+  "status": "available",
+  "assetStatus": "available",
+  "processingFingerprint": "e6541a84deaf8249edcf0ef272f199d6d6dff5ccbe9f9c5d66b91417806422fd",
+  "processedAt": "2026-10-31T13:28:57.054Z",
+  "dynamicTier": "removed_in_v0.7.2",
+  "assetPathBase": "project",
+  "visualQA": {
+    "status": "approved",
+    "reviewedAt": "2026-10-31T13:46:19.182Z",
+    "reviewer": "Codex visual review / asset_delivery",
+    "notes": "雨夜古亭，姿态已修正：一手轻搭膝部，一手向侧上方托举浮游炮；双臂方向、骨盆与坐姿一致，闭嘴浅笑。",
+    "registrySha256": "fe46924e76487a9aa7a60b4217916cb5d0f355fb7f6cd71df4e5fdc781d539f4"
+  },
+  "publication": {
+    "batch": "jue-zhuang-ancient-v2-20261031",
+    "source": "built-in image generation",
+    "fourthDynamicRarityAdded": false
+  },
+  "animation": {
+    "type": "webgl-mesh",
+    "profileId": "c26-s16",
+    "texture": {
+      "path": "assets/cards/motion/c26-s16.webp",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "bd5e987ccfa1490aa3011b457033c77f4be28c0cf7a7ad82c08b9f885bcdf4b8"
+    },
+    "masterSha256": "8e9853029e4489d5a26e91e7ff88fb16e3732491d4c09bb64ce54cc9d1844eb9",
+    "breathing": true,
+    "naturalWind": true,
+    "calibration": "ancient-v2-s16-seated-pose-revision-visual-20261031",
+    "standaloneVideo": false,
+    "live2DCubismRig": false,
+    "rarityChanged": false
+  }
+}

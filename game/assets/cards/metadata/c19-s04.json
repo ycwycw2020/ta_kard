@@ -1,0 +1,44 @@
+{
+  "id": "c19-s04",
+  "characterId": 19,
+  "name": "赛希",
+  "skin": 4,
+  "tier": "normal",
+  "references": [
+    "source-reference/xaihi.png",
+    "source-reference/c19-s00.png"
+  ],
+  "referenceUrls": [
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/xaihi.43d608d9.png",
+    "https://web.hycdn.cn/endfield/official-v4/_next/static/media/xaihi.9ba3eb36.png"
+  ],
+  "prompt": "CRITICAL NEW POSE: standing upright in a three-quarter ready stance, head vertical, BOTH HANDS BELOW THE CHEST, one hand resting on equipment at the hip and the other naturally lowered. Do not sit, lean on a desk, touch the face, rest chin on hand, or copy a portrait pose from the reference. Firm alert expression with closed straight lips.\nUse case: stylized-concept. Asset: ONE new collectible character-card illustration, portrait 9:16, single continuous full-bleed painting, highest available native resolution. Character: 赛希 from Arknights: Endfield, for the unofficial fan game Talos / 塔卫牌局.\nInput image 1 is the canonical APPEARANCE reference. Input image 2 is an existing card for face and hair continuity ONLY. The canonical APPEARANCE and COSTUME in image 1 takes absolute precedence wherever the references conflict; do not borrow extra garments from image 2. Create a genuinely NEW scene, pose, expression and camera arrangement; do not copy either layout. Preserve hairstyle, face shape, species features, outfit layers, color identifiers, accessories and canonical equipment. Do not invent a different costume, weapon or extra animal ears.\nQuality tier: normal. Style: Clean precise 2D anime cel illustration with crisp expressive drawing, economical two-step shadows, restrained palette and a simple graphic background. Finished and attractive but deliberately modest in background detail and material rendering. No watercolor, no oil painting, no cinematic particles.\nComposition and action: three-quarter half-body portrait, body pivoted forward in a ready stance, canonical equipment resting safely; no extreme foreshortening.\nScene and palette: a restrained slate and muted vermilion preparation area, two broad architectural planes, slanting late light. This is an original fan-art moment, not an assertion of an official story event. \nFacial acting: alert resolve with a firm mouth and focused brows, no generic smile; let personality appear through the gaze and posture. Character-specific personality reference: absorbed curiosity, lips slightly parted in a quiet discovery and eyes wide behind any canonical eyewear. Coordinate eyebrows, eyelids, pupils, cheeks and mouth so the expression is alive and individual. Do not paste the same smile on every card. \nNatural anatomy and hands, clean readable silhouette, harmonious proportions, detailed face with the sharpest local focus. Tasteful nonsexual framing. No lettering, symbols masquerading as text, signature, watermark, logo, card border or UI. Do not print rarity or resolution. This image will be separately super-resolved to 2160x3840, with original size preserved in metadata.",
+  "status": "approved",
+  "mode": "builtin_imagegen",
+  "nativePath": "source-reference/c19-s04.png",
+  "generatedAt": "2026-09-27T11:12:01.707678+00:00",
+  "sourceImage": "source-reference/exec-bf1c8d03-cf26-42ab-8ce7-95e0b6e9fc53.png",
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "source-reference/c19-s04.png"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c19-s04.png"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus-anime",
+    "scale": 4,
+    "finish": "Lanczos3 to exact 2160x3840",
+    "elapsedSeconds": 50
+  },
+  "visualQA": {
+    "approved": true,
+    "method": "Native image plus 4K contact-sheet review",
+    "checkedAt": "2026-09-27T11:42:39.255942+00:00",
+    "notes": "Identity, expression variety, anatomy, framing and tier composition checked."
+  }
+}

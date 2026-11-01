@@ -1,0 +1,30 @@
+{
+  "asset": "desk-detailed",
+  "mode": "builtin_imagegen_edit",
+  "source": "user-provided desk edit target",
+  "native": {
+    "width": 1672,
+    "height": 941,
+    "path": "desk-detailed-native.png"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "width": 6688,
+    "height": 3764,
+    "upstream": "https://github.com/xinntao/Real-ESRGAN"
+  },
+  "final": {
+    "width": 3840,
+    "height": 2160,
+    "path": "desk-detailed-4k.png",
+    "resize": "Lanczos3 after neural 4x upscaling; center crop for exact 16:9"
+  },
+  "ui": {
+    "path": "desk-detailed-ui.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "prompt": "Use case: precise-object-edit. Asset type: 16:9 landscape card battle UI background. Input image 1 is the EDIT TARGET: preserve this exact overhead futuristic dark graphite executive desk, its camera, proportions, chair, green living wall, metal bevels, white edge lighting, overall room and material realism. Do not replace it with a map or a different command table. Add tasteful believable incidental desk details concentrated along the UPPER EDGE and OUTER CORNERS only: a small brushed-steel drink cup on a thin dark coaster near the upper-left terminal, two casually offset slim data cartridges and a small amber mineral specimen on a low sample holder nearby; at upper right near the existing folio add a silver technical pen, a partially tucked paper note with no legible text, and a small geometric metal desk ornament. Tiny recessed screws, subtle wear and fingerprint specularity add physical realism. Strengthen the exact vertical CENTRAL DIVIDER between the two large playing halves: a crisp slim inlaid warm brass line running centrally from top desk edge to lower edge, with small evenly spaced registration ticks and a restrained central hexagonal seam joint; dim ivory light in the line, no glaring laser glow. Keep both large left and right card placement surfaces calm, charcoal and EMPTY; no decorations intruding into these surfaces. No added UI, cards, characters, labels, letters, numbers, logos, watermark. Professionally art-directed AAA game environment, elegant and cohesive, rich tactile detail without clutter. Match the source exposure and colors. Output highest resolution landscape 16:9, suitable for 3840x2160 super-resolution finish."
+}

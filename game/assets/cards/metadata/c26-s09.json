@@ -1,0 +1,69 @@
+{
+  "id": "c26-s09",
+  "characterId": 26,
+  "name": "庄方宜",
+  "skin": 9,
+  "tier": "normal",
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: stylized-concept. Asset type: single collectible character illustration, portrait 9:16, full bleed. Input image 1 is an OFFICIAL APPEARANCE REFERENCE for 庄方宜 / Zhuang Fangyi from Arknights Endfield. It is a reference, not an edit target. Preserve canonical identity: expressive red eyes, long black hair with red inner strands, two red horns, pointed ears, white-black sleeveless mechanical-trim top, long green skirt with black panels, black gloves, waist equipment, cyan floating cubes. Keep face and costume recognizable. No costume redesign. New composition, do not copy the reference pose. Anatomically natural hands with five fingers, clear charming expressive face, tasteful nonsexual portrayal. No typography, text, numbers, logo, watermark, border, collage or card UI. One character only, highest native resolution. Intended 2160x3840 after separately documented super-resolution. NORMAL tier: crisp limited-palette anime traditional Chinese woodblock-print-inspired illustration, emerald and charcoal with small vermilion accents, simple cream background and one subtle circular painted jade moon. Slight low-angle half-body, left hand resting at hip and other hand presenting a floating cube. Expression determined with focused eyes and a subtle confident asymmetric smile. Strong angular composition, flat shadows and fine clean contours, deliberate big shapes; sparse graphic background, no letters, no elaborate scenery. Preserve face softness and exact costume identity. Art direction correction: ancient Chinese aesthetic in scenery and brushwork, no cyberpunk, no neon signs, no modern transit, skyscrapers, factories, holographic displays or industrial room. Her original costume and canonical floating cubic cannon devices remain faithful to the official reference; do not replace her weapons with swords, staffs, fans or fantasy redesigns.",
+  "references": [
+    "source-reference/zhuangfy.png"
+  ],
+  "referenceUrls": [],
+  "generatedAt": null,
+  "native": {
+    "width": 941,
+    "height": 1672,
+    "path": "assets/cards/native/c26-s09.png",
+    "sha256": "7eb88c93b47c12a4bb59b64542e71c0469e7ad15b9caae64181a9c5c6f5134f7"
+  },
+  "final": {
+    "width": 2160,
+    "height": 3840,
+    "path": "assets/cards/4k/c26-s09.png",
+    "sha256": "3c0b9049f8cd07e082e69bd07975ab947e225ecf6f98cc0e6eade9778dcbcc47"
+  },
+  "display": {
+    "width": 540,
+    "height": 960,
+    "path": "assets/cards/display/c26-s09.webp",
+    "sha256": "b4eb0ac1d993ff0ca9cdaaa2eea41b0c0d894aaf707e037e44438c33519b402b"
+  },
+  "superResolution": {
+    "tool": "Real-ESRGAN ncnn Vulkan",
+    "release": "20220424 / v0.2.5.0",
+    "source": "https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0",
+    "model": "realesrgan-x4plus-anime",
+    "scale": 4,
+    "neuralOutput": {
+      "width": 3764,
+      "height": 6688
+    },
+    "finish": "Lanczos3 to exact 2160x3840",
+    "native4K": false,
+    "elapsedSeconds": 69,
+    "executableSha256": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "modelSha256": {
+      "realesrgan-x4plus-anime.param": "2b8fb6e0ae4d2d85704ca08c119a2f5ea40add4f2ecd512eb7f4cd44b6127ed4",
+      "realesrgan-x4plus-anime.bin": "fe01c269cfd10cdef8e018ab66ebe750cf79c7af4d1f9c16c737e1295229bacc"
+    }
+  },
+  "status": "available",
+  "assetStatus": "available",
+  "processingFingerprint": "7113ca31b37bece761309d42e0371afbf69934da6334cc040e422b85f37a5048",
+  "processedAt": "2026-10-31T13:02:41.643Z",
+  "dynamicTier": "removed_in_v0.7.2",
+  "assetPathBase": "project",
+  "visualQA": {
+    "status": "approved",
+    "reviewedAt": "2026-10-31T13:30:18.627Z",
+    "reviewer": "Codex visual review / asset_delivery",
+    "notes": "宣纸水墨风，开放托举浮游炮的手势，自然斜向构图。",
+    "registrySha256": "fe46924e76487a9aa7a60b4217916cb5d0f355fb7f6cd71df4e5fdc781d539f4"
+  },
+  "publication": {
+    "batch": "jue-zhuang-ancient-v2-20261031",
+    "source": "built-in image generation",
+    "fourthDynamicRarityAdded": false
+  }
+}
